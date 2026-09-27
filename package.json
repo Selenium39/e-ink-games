@@ -12,7 +12,8 @@
     "gen:sitemap": "node scripts/gen-sitemap.mjs",
     "preview": "python3 -m http.server 3000 --directory out",
     "start": "next start",
-    "test": "vitest run"
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@marcomattes/epaper-components": "2.0.0",

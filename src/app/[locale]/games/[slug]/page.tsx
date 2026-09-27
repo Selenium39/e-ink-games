@@ -26,36 +26,12 @@ import JsonLd, { type JsonLdObject } from "@/components/seo/JsonLd";
 import { ENABLED_LOCALES, t, type Locale } from "@/lib/i18n";
 import { getGame, GAMES } from "@/lib/games.registry";
 import { absoluteUrl, alternatesFor } from "@/lib/seo";
+import { assertGameContent } from "@/content/games/assert";
 import type { DeviceStatus, GameContent } from "@/content/games/types";
 
 type Params = Promise<{ locale: string; slug: string }>;
 
 // ── content JSON 加载（webpack 模板串 context：构建期全静态求值，零手工列表）──
-
-/** 字段存在性校验（fail-fast：构建期失败优于运行期出错，规约 §0.5）。只读，不改写文案。 */
-function assertGameContent(slug: string, locale: string, raw: unknown): asserts raw is GameContent {
-  const c = raw as Partial<GameContent> | null;
-  const ok =
-    c !== null &&
-    typeof c === "object" &&
-    typeof c.h1 === "string" &&
-    typeof c.tagline === "string" &&
-    typeof c.meta?.title === "string" &&
-    typeof c.meta?.description === "string" &&
-    Array.isArray(c.howToPlay?.steps) && c.howToPlay.steps.length >= 4 &&
-    Array.isArray(c.deviceTable?.rows) && c.deviceTable.rows.length >= 5 &&
-    typeof c.whyEInk === "string" &&
-    Array.isArray(c.faq) && c.faq.length === 4 &&
-    typeof c.cta?.label === "string" &&
-    typeof c.cta?.href === "string" &&
-    typeof c.related?.category === "string" &&
-    Array.isArray(c.related?.relatedSlugs);
-  if (!ok) {
-    throw new Error(
-      `content/games/${slug}/${locale}.json 缺少必填字段（GameContent schema，见 src/content/games/types.ts）`,
-    );
-  }
-}
 
 /** en 为 source of truth 的浅回退：目标 locale 缺的顶层字段用 en 补（契约 §8.1） */
 async function loadContent(slug: string, locale: Locale): Promise<GameContent> {
