@@ -49,9 +49,10 @@ export const LOCALE_NAMES: Record<Locale, string> = {
 export const RTL_LOCALES: readonly string[] = ["ar"];
 
 // 实际产出静态路由的语言（generateStaticParams 由此驱动）。
-// 扩语言三步：补 messages/{locale}.ts → 补 content/games/*/{locale}.json 与
-// ui-words.json → 加入此数组（hreflang/sitemap 自动跟随）。
-export const ENABLED_LOCALES: readonly Locale[] = ["en", "zh"];
+// 2026-09-28 全量开启 16 语言：前置强制门已过——npm test（160 份 content
+// JSON 契约 + 16 份字典 parity + 10 款 ui-words 全覆盖）+ tsc 零错误；
+// hreflang/sitemap/generateStaticParams 全部由此数组自动跟随。
+export const ENABLED_LOCALES: readonly Locale[] = locales;
 
 export const DEFAULT_LOCALE: Locale = "en";
 
