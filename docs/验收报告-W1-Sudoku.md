@@ -137,11 +137,20 @@ src/content/games/demo-stub/{en.json, zh.json}                   # 2 个文案�
 
 ## 七、遗留清单（含建议时机）
 
+> **2026-09-27 更新：#1 已完成。** Cloudflare Pages 项目 `e-ink-games` 已创建并连接 GitHub 仓库
+> `Selenium39/e-ink-games`（生产分支 main，构建命令 `npm run build`、输出目录 `out`、
+> `NODE_VERSION=22`，Framework preset None），首次构建成功上线；
+> 自定义域名 `games.e-ink.me` 已绑定（Cloudflare 自动添加 CNAME）并于当日生效。
+> 线上实测（ego-browser + curl）：游戏可玩、JSON-LD 三件套齐备、og:image 挂载、
+> hreflang en/zh/x-default、sitemap 6 URL 分层正确、robots/llms/OG 图全部 200。
+> analytics 按设计未注入（环境变量未设置，零输出零请求）。
+> 部署后预览域：https://e-ink-games.pages.dev ；生产域：https://games.e-ink.me 。
+
 | # | 事项 | 建议时机 |
 |---|---|---|
-| 1 | **Cloudflare Pages 部署 + DNS**（用户操作；`out/` 静态产物已就绪，构建命令 `npm run build`、输出目录 `out`；`.env` 三变量在 Pages 控制台配置） | 立即——本报告完成后即可部署，是后续一切的前置 |
-| 2 | **真机 Kindle / BOOX 验证**（局部刷新、可玩性、降级路径；契约 §12 真机冒烟项） | 部署后一周内（W2 首批游戏上线前）——需公网可达 URL，本报告的桌面浏览器验证不能替代 |
-| 3 | **GSC 提交**（验证 games.e-ink.me → 提交 sitemap.xml） | DNS 生效后立即（部署同日可做；robots.txt/sitemap.xml 已就绪，提交即被拉取） |
+| 1 | ~~Cloudflare Pages 部署 + DNS~~ | ✅ 2026-09-27 完成（GitHub 集成 + 域名绑定当日生效） |
+| 2 | **真机 Kindle / BOOX 验证**（局部刷新、可玩性、降级路径；契约 §12 真机冒烟项） | 本周内（W2 首批游戏上线前）——线上已可访问，本报告的桌面浏览器验证不能替代 |
+| 3 | **GSC 提交**（验证 games.e-ink.me → 提交 sitemap.xml） | 立即可做（站点已生效；robots.txt/sitemap.xml 已上线，验证 DNS 归属后提交即被拉取） |
 | 4 | **e-ink.me 与 news.e-ink.me 反向互链**（家族站互链是外链冷启动的基座） | W2 内（news 站部署时同步加；games 侧 footer 家族条已就位） |
 | 5 | **其余语言文案补齐至 16 个**（当前 ENABLED_LOCALES=[en,zh]，候选 vi/hi；扩语言三步：补 messages 字典 → 加入数组 → 补各游戏 content） | W3（文案周，按实施方案排期；依 GSC 收录数据可调整优先语言） |
 | 6 | **eink.link / Reddit / Show HN 外链冷启动** | GSC 收录后 1–2 周（先有 ≥3 个游戏的内容深度再引流；Show HN 选美东工作日上午） |
