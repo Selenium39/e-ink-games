@@ -15,6 +15,14 @@
  * fillSymbol/clearSlot 走 machine.commit（入 undo 栈）；submitGuess 后**重建**
  * state machine（undo 栈清零），已提交行天然不可回退。
  *
+ * 本地化通道（2026-09 16 语言）：bundle 为全语言共享的静态 IIFE，游戏内
+ * 文案经 DOM 通道注入——页面 SSG 把 ui-words.json 对应语言节写进
+ * #game-root 的 data-egames-words 属性，mount 时与 words.en.ts 的
+ * EN_WORDS 浅合并（缺键英文兜底）；难度词同走词表（diffLabel）。
+ * 导流 CTA 走既有 DOM 通道：页面模板在 promo 位输出
+ * <a data-egames-cta href=…>{content.cta.label}</a>，mount 时读取覆盖；
+ * 检测不到时用英文兜底。
+ *
  * 商标红线：bundle 内一切文案（WORDS）不出现任何商标词。
  */
 import {
@@ -32,9 +40,11 @@ import {
   type GameState,
   type GuessEntry,
 } from './logic';
+import { diffLabel, mergeWords, readWords } from '../_engine/i18n';
 import { createState } from '../_engine/state';
 import type { StateMachine } from '../_engine/state';
 import { load, remove, save } from '../_engine/storage';
+import { EN_WORDS } from './words.en';
 
 /** 与 index.ts 的 SLUG 保持一致 */
 const SLUG = 'hidden-code';
@@ -62,24 +72,8 @@ const FALLBACK_CTA = {
   label: 'Enjoying the game? Turn any web article into an EPUB for your Kindle — e-ink.me',
 };
 
-/** 游戏内固定英文短词（本地化通道缺口沿 sudoku 裁决；商标红线：不用任何商标词） */
-const WORDS = {
-  round: 'ROUND',
-  check: 'Check',
-  undo: 'Undo',
-  newGame: 'New Game',
-  confirm: 'Start a new game? Current progress will be lost.',
-  ok: 'OK',
-  cancel: 'Cancel',
-  win: 'Code broken!',
-  lose: 'Out of rounds',
-  answer: 'THE CODE WAS',
-  wonLabel: 'WON',
-  avgLabel: 'AVG',
-  legendExact: 'right slot',
-  legendPartial: 'wrong slot',
-  progressSaved: 'Progress is saved automatically.',
-};
+/** 游戏内文案（本地化：mount 时以 data-egames-words 注入词覆盖，见文件头；商标红线：不用任何商标词） */
+let WORDS: Record<string, string> = EN_WORDS;
 
 // 私有 CSS（契约决策④）：运行时一次性注入，min 后 ≤2KB（§3.4）。
 // 无 animation/transition/hover（§10.2）；1-bit 状态：当前槽=inset 3px 粗框、
@@ -168,6 +162,7 @@ export function mount(root: HTMLElement): void {
   }
   root.dataset.mounted = '1';
   root.textContent = ''; // 清掉壳层占位/降级段落
+  WORDS = mergeWords(EN_WORDS, readWords(root)); // 本地化词表（缺键英文兜底）
 
   injectCss();
 
@@ -222,7 +217,7 @@ export function mount(root: HTMLElement): void {
     key.type = 'button';
     key.className = 'hcd-btn';
     key.setAttribute('data-diff', d);
-    key.textContent = d.charAt(0).toUpperCase() + d.slice(1);
+    key.textContent = diffLabel(WORDS, d);
     seg.appendChild(key);
     segKeys.push(key);
   }

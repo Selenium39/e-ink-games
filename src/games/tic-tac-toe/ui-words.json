@@ -1,0 +1,24 @@
+{
+  "zh": {
+    "modeAi": "人机对战",
+    "mode2p": "双人对战",
+    "easy": "简单",
+    "hard": "困难",
+    "you": "你",
+    "computer": "电脑",
+    "player1": "玩家一",
+    "player2": "玩家二",
+    "yourMove": "轮到你了",
+    "xToMove": "轮到 X 落子",
+    "oToMove": "轮到 O 落子",
+    "youWin": "你赢了！",
+    "computerWins": "电脑赢了！",
+    "xWins": "X 获胜！",
+    "oWins": "O 获胜！",
+    "draw": "平局！",
+    "undo": "撤销",
+    "newGame": "新游戏",
+    "record": "战绩",
+    "progressSaved": "进度和战绩会保存在本设备。"
+  }
+}

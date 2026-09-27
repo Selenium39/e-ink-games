@@ -1,0 +1,22 @@
+{
+  "zh": {
+    "daily": "每日",
+    "practice": "练习",
+    "enter": "确认",
+    "del": "删除",
+    "notEnough": "字母不够",
+    "notInList": "不在词表里",
+    "win": "猜对了！",
+    "lost": "次数用完",
+    "theWordWas": "单词是",
+    "shareHint": "长按下方方框选中并复制你的成绩：",
+    "practiceNote": "练习局——不影响每日连胜。",
+    "played": "已玩",
+    "won": "获胜",
+    "streak": "连胜",
+    "best": "最佳",
+    "tomorrow": "明天揭晓新单词。",
+    "saved": "今日进度已保存在你的设备上。",
+    "standard": "标准"
+  }
+}

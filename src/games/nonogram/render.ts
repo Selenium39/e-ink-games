@@ -10,9 +10,13 @@
  * 与 build-games.mjs 的 API 黑名单断言冲突，故 UI 全部自绘 vanilla DOM，
  * 视觉遵循 epaper 印刷美学（--ink-* token、1-bit 反转、无动画无 hover）。
  *
- * 本地化通道缺口（同 sudoku 裁决）：游戏 bundle 为全语言共享静态 IIFE，
- * 界面固定英文短词（数织社区通用），导流 CTA 走页面 promo 位
- * <a data-egames-cta> 的 DOM 通道，检测不到时用英文兜底。
+ * 本地化通道（2026-09 16 语言）：bundle 为全语言共享的静态 IIFE，游戏内
+ * 文案经 DOM 通道注入——页面 SSG 把 ui-words.json 对应语言节写进
+ * #game-root 的 data-egames-words 属性，mount 时与 words.en.ts 的
+ * EN_WORDS 浅合并（缺键英文兜底）；难度词同走词表（diffLabel）。
+ * 导流 CTA 走既有 DOM 通道：页面模板在 promo 位输出
+ * <a data-egames-cta href=…>{content.cta.label}</a>，mount 时读取覆盖；
+ * 检测不到时用英文兜底。
  */
 import {
   cycleCell,
@@ -25,9 +29,11 @@ import {
   type Difficulty,
   type GameState,
 } from './logic';
+import { diffLabel, mergeWords, readWords } from '../_engine/i18n';
 import { createState } from '../_engine/state';
 import { load, remove, save } from '../_engine/storage';
 import { seedFromDate } from '../_engine/rng';
+import { EN_WORDS } from './words.en';
 
 /** 与 index.ts 的 SLUG 保持一致 */
 const SLUG = 'nonogram';
@@ -56,19 +62,8 @@ const FALLBACK_CTA = {
   label: 'Enjoying the game? Turn any web article into an EPUB for your Kindle — e-ink.me',
 };
 
-/** 游戏内固定英文短词（本地化通道缺口，见文件头说明；UI 禁 "Picross" 商标词） */
-const WORDS = {
-  confirm: 'Start a new puzzle? Current progress will be lost.',
-  ok: 'OK',
-  cancel: 'Cancel',
-  undo: 'Undo',
-  newGame: 'New Puzzle',
-  daily: 'Daily',
-  solved: 'Picture complete!',
-  timeLabel: 'TIME',
-  filledLabel: 'FILLED',
-  progressSaved: 'Progress is saved automatically.',
-};
+/** 游戏内文案（本地化：mount 时以 data-egames-words 注入词覆盖，见文件头；UI 禁 "Picross" 商标词） */
+let WORDS: Record<string, string> = EN_WORDS;
 
 // 私有 CSS（契约决策④）：运行时一次性注入；无 animation/transition/hover
 // （§10.2）；1-bit 状态：填充=黑底反转、排除=× 符号、完成线提示=黑底反转、
@@ -174,6 +169,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
   }
   root.dataset.mounted = '1';
   root.textContent = ''; // 清掉壳层占位/降级段落
+  WORDS = mergeWords(EN_WORDS, readWords(root)); // 本地化词表（缺键英文兜底）
 
   injectCss();
 
@@ -231,7 +227,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
     key.type = 'button';
     key.className = 'ng-b';
     key.setAttribute('data-diff', d);
-    key.textContent = d.charAt(0).toUpperCase() + d.slice(1);
+    key.textContent = diffLabel(WORDS, d);
     seg.appendChild(key);
     segKeys.push(key);
   }
@@ -546,7 +542,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
         save(SLUG, key, { sec: seconds, difficulty: s.difficulty });
       }
     }
-    const label = s.seed !== null ? WORDS.daily : s.difficulty.charAt(0).toUpperCase() + s.difficulty.slice(1);
+    const label = s.seed !== null ? WORDS.daily : diffLabel(WORDS, s.difficulty);
     resultStats.textContent = label + ' · ' + s.size + '×' + s.size + ' · ' + fmtTime(seconds) + bestNote;
     const cta = resolveCta();
     resultCta.setAttribute('href', cta.href);

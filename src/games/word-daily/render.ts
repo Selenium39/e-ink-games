@@ -9,9 +9,13 @@
  * 与 §10.8 黑名单结构性冲突（详见 sudoku/render.ts 头注与打样报告）。
  * 视觉遵循 epaper 印刷美学：--ink-* token、1-bit 反转、粗细边框分级、无动画无 hover。
  *
- * 本地化通道缺口（同 sudoku 打样裁决）：bundle 为全语言共享静态 IIFE，游戏内
- * 固定英文短词内联 WORDS 常量；导流 CTA 走页面 promo 位 <a data-egames-cta>
- * DOM 通道，检测不到用英文兜底。
+ * 本地化通道（2026-09 16 语言）：bundle 为全语言共享的静态 IIFE，游戏内
+ * 文案经 DOM 通道注入——页面 SSG 把 ui-words.json 对应语言节写进
+ * #game-root 的 data-egames-words 属性，mount 时与 words.en.ts 的
+ * EN_WORDS 浅合并（缺键英文兜底）。
+ * 导流 CTA 走既有 DOM 通道：页面模板在 promo 位输出
+ * <a data-egames-cta href=…>{content.cta.label}</a>，mount 时读取覆盖；
+ * 检测不到时用英文兜底。
  *
  * 统计口径（任务规格「Practice 不计入 daily 与 streak」的落实）：stats 键仅由
  * daily 局驱动——Practice 局不写 played/wins，也不触碰 streak（避免与
@@ -31,8 +35,10 @@ import {
   submitGuess,
   type GameState,
 } from "./logic";
+import { mergeWords, readWords } from "../_engine/i18n";
 import { createState } from "../_engine/state";
 import { load, save } from "../_engine/storage";
+import { EN_WORDS } from "./words.en";
 
 /** 与 index.ts 的 SLUG 保持一致 */
 const SLUG = "word-daily";
@@ -56,26 +62,8 @@ const FALLBACK_CTA = {
   label: "Enjoying the game? Turn any web article into an EPUB for your Kindle — e-ink.me",
 };
 
-/** 游戏内固定英文短词（本地化通道缺口，见文件头；商标红线：不含受限词） */
-const WORDS = {
-  daily: "Daily",
-  practice: "Practice",
-  enter: "Enter",
-  del: "Del",
-  notEnough: "Not enough letters",
-  notInList: "Not in the word list",
-  win: "You got it!",
-  lost: "Out of tries",
-  theWordWas: "The word was",
-  shareHint: "Long-press the box below to select and copy your result:",
-  practiceNote: "Practice round — your daily streak is unaffected.",
-  played: "Played",
-  won: "Won",
-  streak: "Streak",
-  best: "Best",
-  tomorrow: "A new word arrives tomorrow.",
-  saved: "Today's progress is saved on your device.",
-};
+/** 游戏内文案（本地化：mount 时以 data-egames-words 注入词覆盖，见文件头；商标红线：不含受限词） */
+let WORDS: Record<string, string> = EN_WORDS;
 
 // 私有 CSS（契约决策④）：运行时一次性 <style> 注入，min 后 ≤2KB（类名/变量别名精简）。
 // 硬约束（§10.2/§10.5）：无 animation/transition/hover；1-bit 三态：
@@ -158,6 +146,7 @@ export function mount(root: HTMLElement): void {
 
   root.dataset.mounted = "1";
   root.textContent = ""; // 清掉壳层占位/降级段落（挂载一次性动作，非渲染路径）
+  WORDS = mergeWords(EN_WORDS, readWords(root)); // 本地化词表（缺键英文兜底）
 
   injectCss();
 

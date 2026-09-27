@@ -1,0 +1,22 @@
+{
+  "zh": {
+    "round": "轮次",
+    "check": "检查",
+    "undo": "撤销",
+    "newGame": "新游戏",
+    "confirm": "开始新游戏？当前进度将丢失。",
+    "ok": "确定",
+    "cancel": "取消",
+    "win": "密码已破译！",
+    "lose": "轮次用尽",
+    "answer": "密码是",
+    "wonLabel": "胜局",
+    "avgLabel": "平均",
+    "legendExact": "位置正确",
+    "legendPartial": "位置不对",
+    "progressSaved": "进度会自动保存。",
+    "easy": "简单",
+    "medium": "中等",
+    "hard": "困难"
+  }
+}

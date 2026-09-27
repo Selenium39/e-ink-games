@@ -18,9 +18,13 @@
  *   14×14 在 600px 宽 ≈42px/格，略低于 44px 触控标准——d-pad 即规格书要求的
  *   补偿通道（报告已说明）。
  *
- * 本地化通道缺口（沿 sudoku 打样裁决）：游戏 bundle 为全语言共享静态 IIFE，
- * content JSON 的 locale 文案无构建期注入通道——游戏内固定英文短词，导流 CTA
- * 走 DOM 通道（页面模板 promo 位 <a data-egames-cta>），检测不到用英文兜底。
+ * 本地化通道（2026-09 16 语言）：bundle 为全语言共享的静态 IIFE，游戏内
+ * 文案经 DOM 通道注入——页面 SSG 把 ui-words.json 对应语言节写进
+ * #game-root 的 data-egames-words 属性，mount 时与 words.en.ts 的
+ * EN_WORDS 浅合并（缺键英文兜底）；难度词同走词表（diffLabel）。
+ * 导流 CTA 走既有 DOM 通道：页面模板在 promo 位输出
+ * <a data-egames-cta href=…>{content.cta.label}</a>，mount 时读取覆盖；
+ * 检测不到时用英文兜底。
  */
 import {
   deserialize,
@@ -31,8 +35,10 @@ import {
   type Difficulty,
   type GameState,
 } from "./logic";
+import { diffLabel, mergeWords, readWords } from "../_engine/i18n";
 import { createState } from "../_engine/state";
 import { load, remove, save } from "../_engine/storage";
+import { EN_WORDS } from "./words.en";
 
 /** 与 index.ts 的 SLUG 保持一致 */
 const SLUG = "word-search";
@@ -58,18 +64,8 @@ const FALLBACK_CTA = {
   label: "Enjoying the game? Turn any web article into an EPUB for your Kindle — e-ink.me",
 };
 
-/** 游戏内固定英文短词（本地化通道缺口，见文件头说明） */
-const WORDS = {
-  confirm: "Start a new puzzle? Words found so far will be lost.",
-  ok: "OK",
-  cancel: "Cancel",
-  newGame: "New Puzzle",
-  solved: "All words found!",
-  timeLabel: "TIME",
-  foundLabel: "FOUND",
-  themeLabel: "THEME",
-  progressSaved: "Progress is saved automatically.",
-};
+/** 游戏内文案（本地化：mount 时以 data-egames-words 注入词覆盖，见文件头） */
+let WORDS: Record<string, string> = EN_WORDS;
 
 // 私有 CSS（契约决策④）：运行时一次性注入；无 animation/transition/hover
 // （§10.2）；1-bit 状态（§10.5）：已找到=黑底白字反转、选词起点=inset 3px 粗框、
@@ -128,10 +124,6 @@ function fmtTime(total: number): string {
   return h > 0 ? h + ":" + pad2(m) + ":" + pad2(s) : pad2(m) + ":" + pad2(s);
 }
 
-function capitalize(s: string): string {
-  return s.charAt(0).toUpperCase() + s.slice(1);
-}
-
 function loadStats(): StatsPayload {
   const s = load<StatsPayload>(SLUG, "stats");
   if (
@@ -176,6 +168,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
   }
   root.dataset.mounted = "1";
   root.textContent = ""; // 清掉壳层占位/降级段落
+  WORDS = mergeWords(EN_WORDS, readWords(root)); // 本地化词表（缺键英文兜底）
 
   injectCss();
 
@@ -231,7 +224,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
     key.type = "button";
     key.className = "wsr-btn";
     key.setAttribute("data-diff", d);
-    key.textContent = capitalize(d);
+    key.textContent = diffLabel(WORDS, d);
     seg.appendChild(key);
     segKeys.push(key);
   }
@@ -511,7 +504,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
     save(SLUG, "stats", st);
     const best = st.best[s.difficulty];
     resultStats.textContent =
-      capitalize(s.difficulty) + " · " + s.theme + " · " + fmtTime(seconds) +
+      diffLabel(WORDS, s.difficulty) + " · " + s.theme + " · " + fmtTime(seconds) +
       " · Best " + fmtTime(best);
     const cta = resolveCta();
     resultCta.setAttribute("href", cta.href);

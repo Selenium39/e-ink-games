@@ -10,8 +10,13 @@
  * vanilla DOM（视觉遵循 epaper 印刷美学：--ink-* token、3px 粗线、1-bit
  * 反转、无动画无 hover）。模式/难度切换为 e-segmented 语义等价物。
  *
- * 本地化通道缺口（同 sudoku 裁决）：游戏内固定英文短词（WORDS 常量）；
- * 导流 CTA 走 DOM 通道：页面模板 promo 位输出 <a data-egames-cta>。
+ * 本地化通道（2026-09 16 语言）：bundle 为全语言共享的静态 IIFE，游戏内
+ * 文案经 DOM 通道注入——页面 SSG 把 ui-words.json 对应语言节写进
+ * #game-root 的 data-egames-words 属性，mount 时与 words.en.ts 的
+ * EN_WORDS 浅合并（缺键英文兜底）；难度词同走词表（diffLabel）。
+ * 导流 CTA 走既有 DOM 通道：页面模板在 promo 位输出
+ * <a data-egames-cta href=…>{content.cta.label}</a>，mount 时读取覆盖；
+ * 检测不到时用英文兜底。
  *
  * 1-bit 状态表达（§10.5）：
  * - X/O 落子 = 内联 SVG 描边图形（stroke=currentColor）
@@ -29,8 +34,10 @@ import {
   type GameState,
   type Mode,
 } from "./logic";
+import { diffLabel, mergeWords, readWords } from "../_engine/i18n";
 import { createState } from "../_engine/state";
 import { load, remove, save } from "../_engine/storage";
+import { EN_WORDS } from "./words.en";
 
 /** 与 index.ts 的 SLUG 保持一致 */
 const SLUG = "tic-tac-toe";
@@ -56,29 +63,8 @@ const FALLBACK_CTA = {
   label: "Enjoying the game? Turn any web article into an EPUB for your Kindle — e-ink.me",
 };
 
-/** 游戏内固定英文短词（本地化通道缺口，见文件头说明） */
-const WORDS = {
-  modeAi: "Vs Computer",
-  mode2p: "2 Players",
-  easy: "Easy",
-  hard: "Hard",
-  you: "You",
-  computer: "Computer",
-  player1: "Player 1",
-  player2: "Player 2",
-  yourMove: "Your move",
-  xToMove: "X to move",
-  oToMove: "O to move",
-  youWin: "You win!",
-  computerWins: "Computer wins",
-  xWins: "X wins!",
-  oWins: "O wins!",
-  draw: "Draw",
-  undo: "Undo",
-  newGame: "New Game",
-  record: "RECORD",
-  progressSaved: "Progress and record are saved on this device.",
-};
+/** 游戏内文案（本地化：mount 时以 data-egames-words 注入词覆盖，见文件头） */
+let WORDS: Record<string, string> = EN_WORDS;
 
 // 私有 CSS（契约决策④）：运行时一次性注入；无 animation/transition/hover
 // （§10.2）；颜色只用 --ink-* token（基础行带字面量回退锚点，其余依赖站点
@@ -178,6 +164,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
   }
   root.dataset.mounted = "1";
   root.textContent = ""; // 清掉壳层占位/降级段落
+  WORDS = mergeWords(EN_WORDS, readWords(root)); // 本地化词表（缺键英文兜底）
 
   injectCss();
 
@@ -238,14 +225,13 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
   diffSeg.className = "ttt-seg";
   diffSeg.setAttribute("role", "group");
   const diffKeys: Record<string, HTMLButtonElement> = {};
-  const diffLabels: Record<Difficulty, string> = { easy: WORDS.easy, hard: WORDS.hard };
   for (let i = 0; i < DIFFICULTIES.length; i++) {
     const d = DIFFICULTIES[i];
     const key = document.createElement("button");
     key.type = "button";
     key.className = "ttt-btn";
     key.setAttribute("data-diff", d);
-    key.textContent = diffLabels[d];
+    key.textContent = diffLabel(WORDS, d);
     diffSeg.appendChild(key);
     diffKeys[d] = key;
   }
@@ -430,7 +416,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
     remove(SLUG, "save1"); // 完局清档（下次进入开新局；sudoku 先例）
     resultTitle.textContent = stateLabel(s);
     resultStats.textContent =
-      (s.mode === "ai" ? diffLabels[s.difficulty] + " · " : "") +
+      (s.mode === "ai" ? diffLabel(WORDS, s.difficulty) + " · " : "") +
       WORDS.record + " " + stats.w + "W · " + stats.l + "L · " + stats.d + "D";
     const cta = resolveCta();
     resultCta.setAttribute("href", cta.href);

@@ -1,0 +1,18 @@
+{
+  "zh": {
+    "wrong": "错误",
+    "wins": "胜场",
+    "category": "类别",
+    "confirm": "开始新游戏？当前进度将丢失。",
+    "ok": "确定",
+    "cancel": "取消",
+    "newGame": "新游戏",
+    "youWin": "你赢了！",
+    "youLost": "你输了！",
+    "theWordWas": "单词是",
+    "progressSaved": "进度会自动保存。",
+    "easy": "简单",
+    "medium": "中等",
+    "hard": "困难"
+  }
+}

@@ -13,8 +13,12 @@
  * 本步合并结果格 = 黑底白字反转标记一轮；下一次有效移动由 logic 的
  * spawnedAt / mergedAt 天然覆盖清除。禁任何 transition/animation。
  *
- * 本地化通道缺口（同 sudoku）：bundle 为全语言共享静态 IIFE，游戏内固定
- * 英文短词（WORDS，2048 社区通用），导流 CTA 走 DOM 通道 data-egames-cta。
+ * 本地化通道（2026-09 16 语言）：bundle 为全语言共享的静态 IIFE，游戏内
+ * 文案经 DOM 通道注入——页面 SSG 把 ui-words.json 对应语言节写进
+ * #game-root 的 data-egames-words 属性，mount 时与 words.en.ts 的
+ * EN_WORDS 浅合并（缺键英文兜底）。导流 CTA 走既有 DOM 通道：页面模板
+ * 在 promo 位输出 <a data-egames-cta href=…>{content.cta.label}</a>，
+ * mount 时读取覆盖；检测不到时用英文兜底。
  */
 import {
   deserialize,
@@ -24,10 +28,12 @@ import {
   type Dir,
   type GameState,
 } from "./logic";
+import { mergeWords, readWords } from "../_engine/i18n";
 import { createRng } from "../_engine/rng";
 import type { Rng } from "../_engine/rng";
 import { createState } from "../_engine/state";
 import { load, remove, save } from "../_engine/storage";
+import { EN_WORDS } from "./words.en";
 
 /** 与 index.ts 的 SLUG 保持一致 */
 const SLUG = "2048";
@@ -55,27 +61,8 @@ const FALLBACK_CTA = {
   label: "Enjoying the game? Turn any web article into an EPUB for your Kindle — e-ink.me",
 };
 
-/** 游戏内固定英文短词（本地化通道缺口，见文件头说明） */
-const WORDS = {
-  timeLabel: "TIME",
-  scoreLabel: "SCORE",
-  bestLabel: "BEST",
-  up: "Up",
-  down: "Down",
-  left: "Left",
-  right: "Right",
-  undo: "Undo",
-  newGame: "New Game",
-  keepGoing: "Keep going",
-  winTitle: "2048! You win!",
-  overTitle: "Game over",
-  finalScore: "Final score",
-  confirm: "Start a new game? Current progress will be lost.",
-  ok: "OK",
-  cancel: "Cancel",
-  hint: "Arrow keys or swipe to move. New tiles are framed; merged tiles flip black for one turn.",
-  progressSaved: "Progress is saved automatically.",
-};
+/** 游戏内文案（本地化：mount 时以 data-egames-words 注入词覆盖，见文件头） */
+let WORDS: Record<string, string> = EN_WORDS;
 
 // 私有 CSS（契约决策④）：运行时一次性注入；无 animation/transition/hover（§10.2）。
 // 1-bit 状态（§10.5）：新块=inset 3px 粗框、合并=黑底白字反转；颜色只用
@@ -162,6 +149,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
   }
   root.dataset.mounted = "1";
   root.textContent = ""; // 清掉壳层占位/降级段落
+  WORDS = mergeWords(EN_WORDS, readWords(root)); // 本地化词表（缺键英文兜底）
 
   injectCss();
 

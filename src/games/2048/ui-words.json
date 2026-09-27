@@ -1,0 +1,23 @@
+{
+  "zh": {
+    "timeLabel": "用时",
+    "scoreLabel": "得分",
+    "bestLabel": "最佳",
+    "up": "上",
+    "down": "下",
+    "left": "左",
+    "right": "右",
+    "undo": "撤销",
+    "newGame": "新游戏",
+    "keepGoing": "继续",
+    "winTitle": "2048！你赢了！",
+    "overTitle": "游戏结束",
+    "finalScore": "最终得分",
+    "confirm": "开始新游戏？当前进度将丢失。",
+    "ok": "确定",
+    "cancel": "取消",
+    "hint": "方向键或滑动来移动。新块以粗框标记，合并块黑底反转一轮。",
+    "progressSaved": "进度会自动保存。",
+    "standard": "标准"
+  }
+}

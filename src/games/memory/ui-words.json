@@ -1,0 +1,18 @@
+{
+  "zh": {
+    "confirm": "开始新游戏？当前进度将丢失。",
+    "ok": "确定",
+    "cancel": "取消",
+    "newGame": "新游戏",
+    "solved": "全部对子已找出！",
+    "timeLabel": "用时",
+    "movesLabel": "步数",
+    "pairsLabel": "对子",
+    "bestLabel": "最佳",
+    "newBest": "该难度新纪录！",
+    "progressSaved": "进度会自动保存。",
+    "easy": "简单",
+    "medium": "中等",
+    "hard": "困难"
+  }
+}

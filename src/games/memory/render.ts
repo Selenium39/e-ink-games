@@ -10,9 +10,13 @@
  * ElementInternals 在老 Kindle WebKit 上运行时抛错——故本游戏 UI 全部自绘
  * vanilla DOM（视觉遵循 epaper 印刷美学：--ink-* token、1-bit 反转、无动画无 hover）。
  *
- * 本地化通道缺口（沿用 sudoku 打样裁决）：游戏 bundle 为全语言共享静态 IIFE，
- * 游戏内固定英文短词（WORDS 常量）；导流 CTA 走 DOM 通道
- * （页面模板 promo 位 <a data-egames-cta>，mount 时读取覆盖，缺省英文兜底）。
+ * 本地化通道（2026-09 16 语言）：bundle 为全语言共享的静态 IIFE，游戏内
+ * 文案经 DOM 通道注入——页面 SSG 把 ui-words.json 对应语言节写进
+ * #game-root 的 data-egames-words 属性，mount 时与 words.en.ts 的
+ * EN_WORDS 浅合并（缺键英文兜底）；难度词同走词表（diffLabel）。
+ * 导流 CTA 走既有 DOM 通道：页面模板在 promo 位输出
+ * <a data-egames-cta href=…>{content.cta.label}</a>，mount 时读取覆盖；
+ * 检测不到时用英文兜底。
  *
  * 翻牌时序：logic 判定两张不匹配后牌保持 CARD_UP 挂起，render 层 setTimeout
  * 800ms 后调 logic.flipBack 翻回（禁 CSS transition/animation，§10.2）；挂起期间
@@ -34,8 +38,10 @@ import {
   type Difficulty,
   type GameState,
 } from "./logic";
+import { diffLabel, mergeWords, readWords } from "../_engine/i18n";
 import { createState } from "../_engine/state";
 import { load, remove, save } from "../_engine/storage";
+import { EN_WORDS } from "./words.en";
 
 /** 与 index.ts 的 SLUG 保持一致 */
 const SLUG = "memory";
@@ -71,20 +77,8 @@ const FALLBACK_CTA = {
   label: "Enjoying the game? Turn any web article into an EPUB for your Kindle — e-ink.me",
 };
 
-/** 游戏内固定英文短词（本地化通道缺口，见文件头说明） */
-const WORDS = {
-  confirm: "Start a new game? Current progress will be lost.",
-  ok: "OK",
-  cancel: "Cancel",
-  newGame: "New Game",
-  solved: "All pairs found!",
-  timeLabel: "TIME",
-  movesLabel: "MOVES",
-  pairsLabel: "PAIRS",
-  bestLabel: "Best on", // 后接难度名，如 "Best on Easy"
-  newBest: "New personal best on this difficulty!",
-  progressSaved: "Progress is saved automatically.",
-};
+/** 游戏内文案（本地化：mount 时以 data-egames-words 注入词覆盖，见文件头） */
+let WORDS: Record<string, string> = EN_WORDS;
 
 // 私有 CSS（契约决策④）：运行时一次性注入；无 animation/transition/hover（§10.2）。
 // 1-bit 状态（§10.5 + 任务规格）：牌背=细边框+中点、翻开=黑底白字反转、
@@ -141,10 +135,6 @@ function fmtTime(total: number): string {
   return h > 0 ? h + ":" + pad2(m) + ":" + pad2(s) : pad2(m) + ":" + pad2(s);
 }
 
-function cap(s: string): string {
-  return s.charAt(0).toUpperCase() + s.slice(1);
-}
-
 // 模块级可清理资源：幂等重挂载（契约 §3.3.3）时先释放上一份。
 let activeTimer: ReturnType<typeof setInterval> | null = null;
 let activeVisHandler: (() => void) | null = null;
@@ -182,6 +172,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
   }
   root.dataset.mounted = "1";
   root.textContent = ""; // 清掉壳层占位/降级段落
+  WORDS = mergeWords(EN_WORDS, readWords(root)); // 本地化词表（缺键英文兜底）
 
   injectCss();
 
@@ -230,7 +221,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
     key.type = "button";
     key.className = "mem-btn";
     key.setAttribute("data-diff", d);
-    key.textContent = cap(d);
+    key.textContent = diffLabel(WORDS, d);
     seg.appendChild(key);
     segKeys.push(key);
   }
@@ -425,7 +416,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
     stopTimer();
     remove(SLUG, "save1"); // 完局清档（下次进入开新局）
     resultStats.textContent =
-      cap(s.difficulty) + " · " + s.moves + " " + WORDS.movesLabel.toLowerCase() + " · " + fmtTime(seconds);
+      diffLabel(WORDS, s.difficulty) + " · " + s.moves + " " + WORDS.movesLabel.toLowerCase() + " · " + fmtTime(seconds);
 
     // stats：按难度分别记录（结构 {easy:{...},medium:{...},hard:{...}}，key=stats）
     let stats: StatsPayload = {};
@@ -446,7 +437,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
     const best = stats[s.difficulty]!;
     resultBest.textContent = isBest
       ? WORDS.newBest
-      : WORDS.bestLabel + " " + cap(s.difficulty) + ": " + best.bestMoves + " " +
+      : WORDS.bestLabel + " " + diffLabel(WORDS, s.difficulty) + ": " + best.bestMoves + " " +
         WORDS.movesLabel.toLowerCase() + " · " + fmtTime(best.bestSec);
     const cta = resolveCta();
     resultCta.setAttribute("href", cta.href);

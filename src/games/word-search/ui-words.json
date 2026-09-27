@@ -1,0 +1,16 @@
+{
+  "zh": {
+    "confirm": "开始新游戏？当前进度将丢失。",
+    "ok": "确定",
+    "cancel": "取消",
+    "newGame": "新游戏",
+    "solved": "全部找到！",
+    "timeLabel": "用时",
+    "foundLabel": "找到",
+    "themeLabel": "主题",
+    "progressSaved": "进度会自动保存。",
+    "easy": "简单",
+    "medium": "中等",
+    "hard": "困难"
+  }
+}
