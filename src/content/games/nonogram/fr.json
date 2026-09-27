@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Nonogram pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+    "description": "Joue à des nonograms gratuits dans le navigateur de ta Kindle, BOOX ou Kobo. Sans téléchargement ni installation — des grilles logiques, faites pour l'e-ink."
+  },
+  "h1": "Nonogram pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+  "tagline": "Les puzzles d'images logiques classiques, directement dans le navigateur de ta Kindle Paperwhite, Scribe ou BOOX — pas d'application à installer, rien à télécharger : ouvre la page et remplis des cases.",
+  "howToPlay": {
+    "steps": [
+      "Choisis une grille, ou prends le Quotidien. Facile est une grille 5×5, Moyen 10×10 et Difficile 15×15 — chaque puzzle est généré à la volée et garanti résoluble par pure logique. Le bouton Quotidien sert chaque jour un puzzle-image 10×10 partagé : tous les joueurs du monde reçoivent la même graine, pour comparer ta progression sans compte.",
+      "Lis les indices. Les chiffres le long des bords gauche et supérieur décrivent les blocs de cases pleines de chaque ligne et colonne. Une ligne marquée « 3 1 » cache un bloc de trois, au moins un espace, puis une case pleine isolée — l'ordre est fixe, ce sont les espaces qui font le puzzle.",
+      "Remplis et marque les cases. Sur écran tactile, touche une case pour la faire passer par trois états : vide, pleine, barrée. Les croix (×) sont tes preuves pour les cases qui doivent rester vides. Au clavier, les flèches déplacent le curseur — indispensable sur la grille Difficile 15×15, où les cases sont plus petites qu'un doigt — et Entrée fait défiler les états, X bascule la croix, Retour arrière efface.",
+      "Surveille les indices qui se retournent. Quand les cases pleines d'une ligne ou d'une colonne correspondent exactement à son indice, celui-ci s'inverse en blanc sur noir — confirmation gratuite que la ligne est terminée. Aucune alerte de coup faux en chemin : comme sur papier, l'image elle-même est le seul juge.",
+      "Travaille la logique, jamais au hasard. Lignes complètes, blocs collés aux bords et chevauchements de blocs depuis les deux directions ouvrent l'image pas à pas. Annuler revient sur tes marques une à une, le chronomètre intégré suit ta session, et la progression se sauvegarde automatiquement si tu fermes le navigateur en pleine image.",
+      "Achève l'image. Le puzzle est résolu quand chaque ligne et chaque colonne correspond à ses indices — chaque grille ayant exactement une solution, l'image cachée symétrique émerge case après case au fil de tes déductions, une révérence façon Picross qui sied à un écran façon papier."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 et suivants)",
+        "status": "yes",
+        "note": "Le navigateur intégré fait tourner le jeu complet ; nécessite le firmware 5.13.7 ou plus récent."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "L'écran de 10,2 pouces affiche même la grille Difficile 15×15 à une taille confortable."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Même moteur de navigateur que les Paperwhite récents — le jeu reste en noir et blanc par conception."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma et similaires)",
+        "status": "yes",
+        "note": "Navigateur Chromium complet, l'expérience e-ink la plus fluide ; les touches de page physiques déplacent le curseur sur les modèles qui en ont."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage et similaires)",
+        "status": "limited",
+        "note": "Le navigateur intégré est ancien et peut ne pas faire tourner la grille sur tous les modèles ni toutes les versions de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Pas d'application navigateur officielle ; les solutions tierces exigent de débrider la tablette."
+      },
+      {
+        "device": "Kindle plus anciens (navigateur expérimental)",
+        "status": "no",
+        "note": "Les navigateurs expérimentaux d'avant 2016 ne prennent pas en charge le JavaScript moderne — cette page reste lisible, mais le jeu ne démarre pas."
+      }
+    ]
+  },
+  "whyEInk": "Le nonogram est un puzzle calme et statique, et l'e-ink un écran calme et statique — un couple évident. Rien ici ne clignote, ne s'anime ni ne se repeint derrière ta grille ; seule la case que tu touches est redessinée. La grille se lit comme du papier millimétré imprimé, confortable en plein jour sur de longues sessions, à un coût batterie quasi nul.",
+  "faq": [
+    {
+      "q": "Est-ce vraiment gratuit ?",
+      "a": "Oui. Chaque puzzle — y compris le Quotidien — est entièrement gratuit, sans compte, sans paywall et sans public. Le site fait partie de la famille E-Ink.me et vit aux côtés des outils gratuits pour liseuses du site principal : rien à acheter, aucune inscription."
+    },
+    {
+      "q": "Est-ce que ça marche sur ma Kindle Paperwhite ?",
+      "a": "Si ta Paperwhite est un modèle 2021 ou ultérieur avec le firmware 5.13.7 ou plus récent, oui — ouvre le navigateur intégré, tape l'adresse du site et remplis des cases. Les Paperwhite plus anciennes, avec le premier navigateur expérimental, peuvent afficher cette page en texte simple, mais pas faire tourner la grille elle-même."
+    },
+    {
+      "q": "Dois-je débrider ma Kindle ?",
+      "a": "Non. Le jeu tourne entièrement dans le navigateur web intégré de ta Kindle. Pas d'application à installer, pas de manipulation, aucun risque pour la garantie — ouvrir une page web est une action tout à fait ordinaire pour une Kindle. Si ton appareil sait charger une page web, il sait lancer ce jeu."
+    },
+    {
+      "q": "Puis-je jouer hors ligne ?",
+      "a": "Il te faut une connexion la première fois que tu ouvres la page, car le site est livré comme une page web classique et non comme une application téléchargeable. Une fois chargée, la grille tourne localement sur ton appareil — mais les navigateurs des liseuses ne sont pas conçus pour un usage hors ligne : prévois d'être connecté quand tu commences."
+    }
+  ],
+  "cta": {
+    "label": "Image résolue ? Transforme n'importe quel article web en EPUB et lis-le sur ta Kindle — outils gratuits sur e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "logic",
+    "relatedSlugs": [
+      "2048",
+      "hidden-code",
+      "minesweeper",
+      "sudoku"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Hangman für Kindle & E-Ink – kostenlos, ohne Download",
+    "description": "Spiele kostenlos Galgenmännchen im Browser auf Kindle, BOOX oder Kobo. Kein Download, keine Installation – ein klassisches schwarz-weißes Wortspiel für E-Ink-Bildschirme."
+  },
+  "h1": "Hangman für Kindle & E-Ink – kostenlos, ohne Download",
+  "tagline": "Das klassische Galgenmännchen-Spiel, direkt im Browser deines Kindle Paperwhite, Scribe oder BOOX – rate das Wort Buchstabe für Buchstabe, ohne Download und ohne Installation.",
+  "howToPlay": {
+    "steps": [
+      "Wähle einen Schwierigkeitsgrad. Leicht zieht häufige Wörter mit vier bis sechs Buchstaben und zeigt dir die Kategorie – Tier, Essen, Ort und mehr – als ersten Hinweis. Mittel steigt auf sechs- bis achtbuchstabige Wörter ohne Hinweis, und Schwer bringt seltene neun- bis zwölfbuchstabige Wörter, die jeden Wortschatz auf die Probe stellen.",
+      "Lies den Galgen ab. Jede Runde beginnt mit einem leeren Rahmen und sechs freien Fehlversuchen. Jeder Fehlgriff zeichnet ein weiteres Teil der Strichfigur – Kopf, Körper, Arme, dann Beine –, sodass du auf einen Blick siehst, wie nah du am Verlieren bist.",
+      "Rate Buchstaben per Touch. Tippe auf die A–Z-Bildschirmtastatur; jede Taste ist für E-Reader-Touchscreens dimensioniert. Ein richtiger Buchstabe springt sofort in sattes Schwarz-Weiß um und füllt jede passende Lücke auf einmal aus, ein falscher bekommt einen gestrichelten Rahmen und bleibt gesperrt.",
+      "Oder nutze eine physische Tastatur. Hat dein Gerät Blättertasten oder eine gekoppelte Tastatur, drücke einfach direkt A–Z – das Spiel lauscht im Hintergrund auf Tastendrücke, und Großbuchstaben werden akzeptiert und als Kleinbuchstaben gewertet.",
+      "Beobachte die Lücken. Das gesuchte Wort erscheint als Reihe unterstrichener Felder; jeder Treffer zeigt den Buchstaben an jeder Position an, an der er vorkommt. Ein bereits geratener Buchstabe ändert nichts – jeder Tipp zählt.",
+      "Gewinne oder lerne. Decke jeden Buchstaben vor dem sechsten Fehlversuch auf, um die Runde zu gewinnen; wird die Figur vollendet, endet das Spiel, und das komplette Wort wird angezeigt, damit du nie ohne Antwort dastehst. Deine Siege und Spiele werden pro Schwierigkeitsgrad getrennt gezählt.",
+      "Spiele erneut. Tippe auf Neues Spiel für ein frisches Wort, oder wechsle oben den Schwierigkeitsgrad – der Wechsel fragt nur nach Bestätigung, wenn bereits eine Runde läuft, und dein Brett wird automatisch gespeichert, wenn du die Seite mitten im Wort schließt."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (ab 2021)",
+        "status": "yes",
+        "note": "Der eingebaute Browser läuft das komplette Spiel; benötigt Firmware 5.13.7 oder neuer. Die Buchstabentasten lassen sich auf dem 6,8-Zoll-Display bequem antippen."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Das 10,2-Zoll-Display zeigt Galgen, Wortlücken und alle 26 Buchstabentasten ohne Scrollen."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Gleiche Browser-Engine wie neuere Paperwhites – das Spiel bleibt von Haus aus schwarz-weiß."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma und ähnliche)",
+        "status": "yes",
+        "note": "Voller Chromium-Browser, das flüssigste E-Ink-Erlebnis; zum Raten funktioniert eine gekoppelte Tastatur ebenso wie der Touchscreen."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage und ähnliche)",
+        "status": "limited",
+        "note": "Der eingebaute Browser ist veraltet – je nach Modell und Firmware-Version startet das Spiel eventuell nicht."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Keine offizielle Browser-App; Drittanbieter-Lösungen erfordern einen Jailbreak des Tablets."
+      },
+      {
+        "device": "Ältere Kindles (experimenteller Browser)",
+        "status": "no",
+        "note": "Experimentelle Browser vor 2016 können kein modernes JavaScript – diese Seite bleibt lesbar, aber das Spiel startet nicht."
+      }
+    ]
+  },
+  "whyEInk": "Galgenmännchen ist im Kern ein Stift-und-Papier-Spiel, und E-Ink behandelt es genau so: Der Galgen wird Strich für Strich neu gezeichnet, die Taste, die du antippst, ist die einzige, die sich ändert, und hinter dem Rätsel flackert oder animiert nichts. Bei Tageslicht liest sich das Display wie bedrucktes Papier – schonend für Augen und Akku.",
+  "faq": [
+    {
+      "q": "Ist das wirklich kostenlos?",
+      "a": "Ja. Jede Runde ist kostenlos spielbar – ohne Konto, ohne Paywall und ohne Werbung. Die Seite gehört zur E-Ink.me-Familie und wird zusammen mit den kostenlosen E-Reader-Tools der Hauptseite betrieben: Es gibt nichts zu kaufen, keinen Grund zur Anmeldung und kein Limit, wie viele Wörter du raten kannst."
+    },
+    {
+      "q": "Läuft es auf meinem Kindle Paperwhite?",
+      "a": "Wenn dein Paperwhite von 2021 oder neuer ist und Firmware 5.13.7 oder höher hat: ja – öffne den eingebauten Browser, gib die Adresse ein und fang an zu raten. BOOX und neuere Kindle wie Scribe und Colorsoft funktionieren auf dieselbe Weise. Ältere Kindle mit dem frühen experimentellen Browser können diese Seite als Text lesen, aber das Spiel läuft auf ihnen nicht."
+    },
+    {
+      "q": "Muss ich meinen Kindle jailbreaken?",
+      "a": "Nein. Das Spiel läuft vollständig im eingebauten Web-Browser deines E-Readers. Es gibt keine App zu sideloaden, keinen Hack anzuwenden und keine Garantie-Sorgen – eine Webseite zu öffnen ist für einen modernen Kindle eine ganz gewöhnliche Sache. Wenn dein Gerät diese Seite laden kann, kann es auch den Galgen laden."
+    },
+    {
+      "q": "Kann ich offline spielen?",
+      "a": "Beim ersten Öffnen der Seite brauchst du eine Internetverbindung, weil sie als normale Webseite ausgeliefert wird und nicht als herunterladbare App. Nach dem Laden läuft alles Raten lokal auf deinem Gerät – aber E-Reader-Browser sind nicht für die Offline-Nutzung gebaut, sei also verbunden, wenn du eine Sitzung startest."
+    }
+  ],
+  "cta": {
+    "label": "Spaß am Spiel? Verwandle jeden Webartikel in ein EPUB und lies ihn auf deinem Kindle – kostenlose Tools auf e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "word",
+    "relatedSlugs": [
+      "hidden-code",
+      "word-daily",
+      "word-search"
+    ]
+  }
+}

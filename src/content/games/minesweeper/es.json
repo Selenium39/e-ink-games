@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Minesweeper para Kindle y E-Ink — gratis, sin descargas",
+    "description": "Juega gratis al Minesweeper en el navegador de tu Kindle, BOOX o Kobo. Sin descargas ni instalaciones: la caza de minas clásica, construida para pantallas e-ink en blanco y negro."
+  },
+  "h1": "Minesweeper para Kindle y E-Ink — gratis, sin descargas",
+  "tagline": "El clásico Minesweeper que funciona directamente en el navegador de tu Kindle Paperwhite, Scribe o BOOX — sin aplicaciones que instalar, sin descargas: abre la página y empieza a cavar.",
+  "howToPlay": {
+    "steps": [
+      "Elige un tablero. Fácil es una cuadrícula de 9×9 con 10 minas, Medio de 11×11 con 24, y Difícil de 13×13 con 40. Los tableros grandes premian el escaneo paciente por encima del toque rápido.",
+      "Cava la primera casilla. Tu toque inicial siempre es seguro — las minas solo se colocan después, y la casilla que tocas junto con sus ocho vecinas quedan libres de minas, así que el primer movimiento nunca puede explotar.",
+      "Lee los números. Cada dígito cuenta las minas de las ocho casillas que lo rodean. Una casilla vacía no toca ninguna mina, así que el juego te abre regiones enteras vacías de un solo toque, y solo trabajas los bordes numerados.",
+      "Marca las minas sospechosas. Cambia al modo Banderas y toca una casilla para marcarla; una bandera bloquea los toques accidentales, y el contador sobre el tablero muestra las minas restantes — el total menos tus banderas. Toca la misma casilla otra vez para quitar una bandera.",
+      "Acelera con el acorde. En modo Cavar, toca un número descubierto cuando las banderas a su alrededor coinciden con el dígito: todas las demás casillas vecinas se abren a la vez. Es el clásico atajo de dos toques para jugadores seguros, y aquí funciona por completo.",
+      "Juega con teclas. Las flechas mueven el cursor, Enter o Espacio cava (o acorde sobre un número descubierto), y F marca la casilla con bandera — práctico en e-readers con teclado conectado o cuando un toque queda demasiado lejos.",
+      "Gánale al reloj. El cronómetro arranca con tu primer movimiento y se pausa mientras la página está en segundo plano. Despeja todas las casillas seguras para ganar — las minas restantes se marcan con bandera por ti — y tu progreso se guarda automáticamente si te vas."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 y posteriores)",
+        "status": "yes",
+        "note": "El navegador integrado ejecuta el juego completo; requiere firmware 5.13.7 o más reciente."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "La pantalla de 10,2 pulgadas muestra incluso el tablero Difícil de 13×13 a tamaño completo y de sobra."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "El mismo motor de navegador que los Paperwhite recientes — el juego se mantiene en blanco y negro por diseño."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma y similares)",
+        "status": "yes",
+        "note": "Navegador Chromium completo, la experiencia e-ink más fluida; los atajos de teclado funcionan con un teclado emparejado."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage y similares)",
+        "status": "limited",
+        "note": "El navegador integrado está anticuado y puede que no ejecute el juego en todos los modelos o versiones de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No tiene aplicación de navegador oficial; las opciones de terceros exigen hacer jailbreak a la tablet."
+      },
+      {
+        "device": "Kindle antiguos (navegador experimental)",
+        "status": "no",
+        "note": "Los navegadores experimentales anteriores a 2016 no pueden ejecutar JavaScript moderno — esta página se puede leer, pero el juego no arranca."
+      }
+    ]
+  },
+  "whyEInk": "Minesweeper es un juego tranquilo, y la tinta electrónica es una pantalla tranquila. Aquí nada se anima, destella ni se refresca detrás de tu dedo — solo se redibuja la casilla que tocas, como una actualización parcial rápida. La cuadrícula fija en blanco y negro se lee como una página de acertijos impresa a la luz del día, y las sesiones largas apenas tocan la batería.",
+  "faq": [
+    {
+      "q": "¿De verdad es gratis?",
+      "a": "Sí, completamente. Todos los tamaños de tablero son gratis, sin cuenta, sin muros de pago y sin anuncios. El sitio pertenece a la familia E-Ink.me y funciona junto a las herramientas gratuitas para e-readers del sitio principal, así que no hay nada que comprar ni nada que registrar."
+    },
+    {
+      "q": "¿Funciona en mi Kindle Paperwhite?",
+      "a": "Si tu Paperwhite es un modelo de 2021 o posterior con firmware 5.13.7 o más reciente, sí — abre el navegador integrado, escribe la dirección del sitio y empieza a cavar. Los Paperwhite antiguos con el primer navegador experimental pueden mostrar esta página como texto, pero no ejecutar el juego."
+    },
+    {
+      "q": "¿Tengo que hacer jailbreak a mi Kindle?",
+      "a": "No. El juego funciona por completo en el navegador web integrado de tu Kindle. No hay aplicación que instalar, ningún truco que aplicar ni riesgo para la garantía — abrir una página web es algo habitual para un Kindle. Si el dispositivo puede cargar una página, puede jugar."
+    },
+    {
+      "q": "¿Puedo jugar sin conexión?",
+      "a": "Necesitas conexión a internet la primera vez que abres la página, porque el sitio se entrega como una página web normal y no como una aplicación descargable. Una vez cargado, el juego se ejecuta localmente en tu dispositivo — pero los navegadores de los e-readers no están hechos para uso sin conexión, así que cuenta con estar conectado al empezar."
+    }
+  ],
+  "cta": {
+    "label": "¿Disfrutando Minesweeper? Convierte cualquier artículo web en un EPUB y léelo en tu Kindle — herramientas gratis en e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "memory",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Hidden Code pour Kindle & liseuses e-ink — Jeu de logique gratuit",
+    "description": "Casse des codes secrets gratuitement dans le navigateur de ta Kindle, BOOX ou Kobo. Perce le code caché de symboles — sans téléchargement, fait pour les écrans e-ink."
+  },
+  "h1": "Hidden Code pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+  "tagline": "Perce un code caché de formes et de symboles directement dans le navigateur de ta Kindle Paperwhite, Scribe ou BOOX — pas d'application, pas de téléchargement, juste de la déduction en noir et blanc pur.",
+  "howToPlay": {
+    "steps": [
+      "Choisis une difficulté. Facile cache un code de 4 symboles tiré de 5 formes et te donne 10 tours, Moyen porte le réservoir à 6 formes en 8 tours, et Difficile étire le code à 5 emplacements. Plus de formes, c'est beaucoup plus de codes possibles à démêler.",
+      "Remplis la rangée courante. Touche un emplacement, puis une forme du clavier de symboles — ou appuie sur les touches 1 à 6 d'un clavier physique. Les flèches déplacent le curseur entre les emplacements et Retour arrière efface : les joueurs au clavier seul sont pleinement couverts.",
+      "Valide ta proposition. Appuie sur Entrée ou sur le bouton Vérifier une fois chaque emplacement rempli. La rangée se verrouille dans l'historique et ne peut plus être modifiée ensuite — chaque proposition est un indice définitif.",
+      "Lis le retour. Chaque rangée validée gagne des points pleins pour les formes correctes et bien placées, et des points creux pour les formes présentes dans le code mais au mauvais emplacement. Les points ne révèlent jamais à quel emplacement ils se rapportent, et les formes absentes du code ne gagnent rien.",
+      "Déduis et affine. Croise tes rangées : une forme qui ne gagne aucun point nulle part est éliminée, tandis qu'une forme répétée peut rapporter plusieurs points d'un coup. Sers-toi d'Annuler pour revenir sur ta rangée non validée avant de l'engager.",
+      "Gagne ou apprends. Cracks le code — chaque emplacement correct — avant l'épuisement des tours et la victoire est tienne ; à court de tours, le code caché est révélé pour que tu voies à quel point ta dernière proposition était proche.",
+      "Garde ton record. Victoires et nombre moyen de tours pour gagner sont comptés sur ton appareil, et une partie en cours se sauvegarde automatiquement — ferme le navigateur en plein code et reprends exactement où tu t'étais arrêté."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 et suivants)",
+        "status": "yes",
+        "note": "Le navigateur intégré fait tourner le jeu complet ; nécessite le firmware 5.13.7 ou plus récent."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Le grand écran affiche tout ton historique de propositions sans faire défiler, un toucher par symbole."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Même moteur de navigateur que les Paperwhite récents — le jeu est en noir et blanc pur par conception."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma et similaires)",
+        "status": "yes",
+        "note": "Navigateur Chromium complet, l'expérience e-ink la plus fluide ; les touches 1 à 6 saisissent les symboles sur les claviers raccordés."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage et similaires)",
+        "status": "limited",
+        "note": "Le navigateur intégré est ancien et peut ne pas faire tourner le jeu sur tous les modèles ni toutes les versions de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Pas d'application navigateur officielle ; les solutions tierces exigent de débrider la tablette."
+      },
+      {
+        "device": "Kindle plus anciens (navigateur expérimental)",
+        "status": "no",
+        "note": "Les navigateurs expérimentaux d'avant 2016 ne prennent pas en charge le JavaScript moderne — cette page reste lisible, mais le jeu ne démarre pas."
+      }
+    ]
+  },
+  "whyEInk": "Le cassage de code est une réflexion calme et tour par tour, et l'e-ink est l'écran calme et façon page qu'il mérite. Rien ici ne clignote, ne s'anime ni ne se rafraîchit derrière tes rangées — seul l'emplacement que tu touches est redessiné. Lis la grille comme une fiche de puzzle imprimée, en plein jour, à un coût batterie quasi nul.",
+  "faq": [
+    {
+      "q": "Est-ce vraiment gratuit ?",
+      "a": "Oui. Chaque partie est entièrement gratuite, sans compte, sans paywall et sans public. Le site fait partie de la famille E-Ink.me et vit aux côtés des outils gratuits pour liseuses du site principal — rien à acheter, aucune inscription."
+    },
+    {
+      "q": "Est-ce que ça marche sur ma Kindle Paperwhite ?",
+      "a": "Si ta Paperwhite est un modèle 2021 ou ultérieur avec le firmware 5.13.7 ou plus récent, oui — ouvre le navigateur intégré, tape l'adresse du site et joue. Les Paperwhite plus anciennes, avec le premier navigateur expérimental, peuvent afficher cette page en texte simple, mais pas faire tourner le jeu lui-même."
+    },
+    {
+      "q": "Dois-je débrider ma Kindle ?",
+      "a": "Non. Le jeu tourne entièrement dans le navigateur web intégré de ta Kindle. Pas d'application à installer, pas de manipulation, aucun risque pour la garantie — ouvrir une page web est une action tout à fait ordinaire pour une Kindle. Si ton appareil sait charger une page web, il sait jouer."
+    },
+    {
+      "q": "Puis-je jouer hors ligne ?",
+      "a": "Il te faut une connexion la première fois que tu ouvres la page, car le site est livré comme une page web classique et non comme une application téléchargeable. Une fois chargé, le jeu tourne localement sur ton appareil — mais les navigateurs des liseuses ne sont pas conçus pour un usage hors ligne : prévois d'être connecté quand tu commences."
+    }
+  ],
+  "cta": {
+    "label": "Code cracké ? Transforme n'importe quel article web en EPUB et lis-le sur ta Kindle — outils gratuits sur e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "logic",
+    "relatedSlugs": [
+      "hangman",
+      "minesweeper",
+      "nonogram",
+      "word-daily"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Word Daily per Kindle e lettori e-ink — gratis, senza download",
+    "description": "Gioca a un gioco di parole quotidiano gratis nel browser su Kindle, BOOX o Kobo. Un nuovo enigma di cinque lettere ogni giorno — nessun download, fatto per gli schermi e-ink."
+  },
+  "h1": "Word Daily per Kindle e lettori e-ink — gratis, senza download",
+  "tagline": "Un gioco di parole quotidiano in stile Wordle che gira direttamente nel browser del tuo Kindle, BOOX o Kobo — una parola di cinque lettere al giorno, la stessa parola per tutti i giocatori, disegnata in puro bianco e nero.",
+  "howToPlay": {
+    "steps": [
+      "Indovina la parola di oggi, di cinque lettere. Ogni giocatore riceve la stessa parola ogni giorno — l'enigma è legato alla data, non al tuo dispositivo, così puoi confrontare i risultati con gli amici. Hai sei tentativi, e una nuova parola arriva domani.",
+      "Digita il tuo primo tentativo. Tocca la tastiera QWERTY a schermo con un dito o una penna, oppure digita su una tastiera fisica se il tuo e-reader ne ha una o se una tastiera è collegata — tasti hardware, Invio e Backspace funzionano tutti accanto alla tastiera touch.",
+      "Leggi il feedback. Dopo ogni tentativo le caselle rispondono in puro bianco e nero: una casella nera piena significa che la lettera sta nel punto giusto, una casella dal bordo spesso significa che la lettera è nella parola ma altrove, e una casella dal bordo sottile significa che non è affatto nella parola.",
+      "Osserva la cronologia sulla tastiera. Ogni tasto a schermo porta gli stessi tre contrassegni per le lettere che hai già provato, così a colpo d'occhio sai quali lettere sono al loro posto, quali sopravvivono altrove e quali sono vicoli ciechi.",
+      "Attenzione alle lettere ripetute. La parola nascosta può contenere la stessa lettera due volte; il feedback conta ogni copia con cura, quindi un bordo spesso non promette mai più copie di quante la parola ne contenga davvero.",
+      "Gioca round di allenamento illimitati. Finita la parola del giorno e voglia di altro? Passa alla modalità Allenamento per una nuova parola casuale in qualsiasi momento — i round di allenamento non toccano mai il tuo risultato quotidiano, la tua serie di vittorie o le tue statistiche.",
+      "Condividi e torna. Quando l'enigma finisce, appare una griglia di risultati in testo semplice — tieni premuto per selezionarla e copiarla dove vuoi. I tuoi progressi quotidiani, la serie di vittorie e le statistiche vengono salvati sul tuo dispositivo automaticamente."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (dal 2021 in poi)",
+        "status": "yes",
+        "note": "Il browser integrato esegue il gioco completo; richiede firmware 5.13.7 o successivo."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Il grande display mostra l'intero tabellone di lettere e la tastiera senza alcuno scorrimento."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Stesso motore browser dei Paperwhite recenti — il gioco resta in bianco e nero per scelta progettuale."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma e simili)",
+        "status": "yes",
+        "note": "Browser Chromium completo, l'esperienza e-ink più fluida; digitare su una tastiera collegata è immediato."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage e simili)",
+        "status": "limited",
+        "note": "Il browser integrato è datato e potrebbe non eseguire il gioco su ogni modello o versione del firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Nessuna app browser ufficiale; le alternative di terze parti richiedono il jailbreak del tablet."
+      },
+      {
+        "device": "Kindle più vecchi (browser sperimentale)",
+        "status": "no",
+        "note": "I browser sperimentali precedenti al 2016 non eseguono JavaScript moderno — questa pagina resta leggibile, ma il gioco non si avvia."
+      }
+    ]
+  },
+  "whyEInk": "I giochi di parole sono testo, e l'e-ink rende il testo magnificamente. Questo gioco ridisegna solo le caselle che cambiano — niente animazioni, niente lampeggi, niente aloni grigi — così il tabellone si legge come una pagina stampata con qualsiasi luce. Il formato una volta al giorno si addice perfettamente agli e-reader: una parola, un minuto tranquillo di riflessione, e uno schermo che non risplende mai.",
+  "faq": [
+    {
+      "q": "È davvero gratis?",
+      "a": "Sì. La parola quotidiana e i round di allenamento illimitati sono completamente gratuiti, senza account, senza pubblicità e senza paywall. Il sito fa parte della famiglia di strumenti gratuiti per e-reader E-Ink.me, quindi non c'è niente da comprare e niente per cui registrarsi — apri la pagina e gioca."
+    },
+    {
+      "q": "Funziona sul mio Kindle Paperwhite?",
+      "a": "Su modelli Paperwhite, Scribe e Colorsoft dal 2021 in poi con firmware 5.13.7 o più recente, sì — il browser integrato esegue l'intero gioco. I Kindle più vecchi con il primo browser sperimentale possono leggere questa pagina come semplice testo, ma l'enigma non si avvia su di loro."
+    },
+    {
+      "q": "Devo fare il jailbreak del Kindle?",
+      "a": "No. Il gioco gira interamente nel browser che il tuo Kindle ha di serie. Non c'è nessuna app da installare, nessun file da caricare lateralmente e nessuna modifica di alcun tipo — se il tuo dispositivo può aprire una comune pagina web, può giocare a Word Daily."
+    },
+    {
+      "q": "Posso giocare offline?",
+      "a": "Ti serve una connessione la prima volta che la pagina si carica, perché il sito viene fornito come una normale pagina web e non come un'app da scaricare. Una volta caricata, ogni tentativo gira sul dispositivo stesso e la tua serie viene salvata in locale — ma metti in conto di essere online quando inizi."
+    }
+  ],
+  "cta": {
+    "label": "Hai risolto la parola del giorno? Trasforma qualsiasi articolo web in un EPUB e leggilo sul tuo Kindle — strumenti gratuiti su e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "daily",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-search"
+    ]
+  }
+}

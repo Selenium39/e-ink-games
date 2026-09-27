@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "2048 para Kindle y E-Ink — gratis, sin descargas",
+    "description": "Juega gratis al 2048 en el navegador de tu Kindle, BOOX o Kobo. Sin descargas ni instalaciones: el clásico de fusionar fichas, pensado para pantallas e-ink en blanco y negro."
+  },
+  "h1": "2048 para Kindle y E-Ink — gratis, sin descargas",
+  "tagline": "Desliza y fusiona fichas numeradas hasta llegar al 2048 — directamente en el navegador de tu Kindle Paperwhite, Scribe o BOOX, sin descargar ni instalar nada.",
+  "howToPlay": {
+    "steps": [
+      "Empieza con dos fichas. Cada partida abre con una cuadrícula de 4×4 que contiene solo dos fichas numeradas — un 2 o un 4 — y cada movimiento que haces añade una ficha nueva al tablero, así que la cuadrícula se va llenando a medida que juegas.",
+      "Mueve todo el tablero. En una pantalla táctil, desliza el dedo en cualquier dirección — izquierda, derecha, arriba o abajo — y todas las fichas se desplazan hasta donde puedan. También puedes tocar los botones de flecha bajo la cuadrícula, o pulsar las teclas de flecha si tu dispositivo tiene botones físicos de paso de página o un teclado emparejado.",
+      "Fusiona fichas iguales. Cuando dos fichas con el mismo número chocan, se unen en una ficha de valor doble: dos 2 forman un 4, dos 4 forman un 8, y así sucesivamente. Cada ficha solo puede fusionarse una vez por movimiento, así que una fila de 2-2-2-2 se convierte en dos 4, no en un 8. Cada fusión suma su nuevo valor a tu puntuación.",
+      "Lee la respuesta de la pantalla. En lugar de animaciones de deslizamiento, una ficha recién colocada se marca con un marco negro grueso durante un turno, y las fichas que acaban de fusionarse se invierten a blanco sobre negro — en una pantalla tipo papel ves exactamente qué cambió, sin movimiento ni parpadeo.",
+      "Corrige los errores. Un toque en Deshacer retrocede el tablero un movimiento, restaurando la posición, la puntuación y la ficha que te había tocado, así que un deslizamiento fallido nunca te cuesta la partida.",
+      "Apunta al 2048. Construye potencias de dos manteniendo tus fichas más grandes pegadas a una esquina. En cuanto aparezca una ficha 2048, habrás ganado — el juego te ofrece un tablero nuevo o seguir jugando hacia el 4096 y más allá.",
+      "Atento al final. La partida termina cuando la cuadrícula está llena y ninguna ficha vecina coincide, de modo que no queda ningún movimiento posible. Tu puntuación actual, tu mejor marca en el dispositivo y un cronómetro de sesión se muestran siempre sobre el tablero, y el progreso se guarda automáticamente si cierras el navegador a mitad de partida."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 y posteriores)",
+        "status": "yes",
+        "note": "Los movimientos con deslizamiento funcionan bien en la pantalla táctil; requiere firmware 5.13.7 o más reciente."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "La gran pantalla de 10,2 pulgadas muestra la cuadrícula 4×4 en un tamaño cómodo, un deslizamiento por movimiento."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "El mismo motor de navegador que los Paperwhite recientes — el juego es en blanco y negro por diseño."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma y similares)",
+        "status": "yes",
+        "note": "Navegador Chromium completo, la experiencia e-ink más fluida; las teclas de flecha funcionan en modelos con botones de página."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage y similares)",
+        "status": "limited",
+        "note": "El navegador integrado está anticuado y puede que no ejecute el juego en todos los modelos o versiones de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No tiene aplicación de navegador oficial; las opciones de terceros exigen hacer jailbreak a la tablet."
+      },
+      {
+        "device": "Kindle antiguos (navegador experimental)",
+        "status": "no",
+        "note": "Los navegadores experimentales anteriores a 2016 no pueden ejecutar JavaScript moderno — esta página se puede leer, pero el juego no arranca."
+      }
+    ]
+  },
+  "whyEInk": "El 2048 suele ser un juego de animaciones de deslizamiento, y las pantallas e-ink no animan — así que esta versión sustituye el movimiento por marcas de imprenta: las fichas nuevas llevan un marco grueso durante un turno y las fusiones se invierten de negro a blanco. Solo se redibujan las fichas que cambiaron, así el tablero se lee como papel y la batería apenas lo nota.",
+  "faq": [
+    {
+      "q": "¿De verdad es gratis?",
+      "a": "Sí. El juego es gratis, sin cuenta, sin muros de pago y sin anuncios. El sitio forma parte de la familia E-Ink.me y funciona junto a las herramientas gratuitas para e-readers del sitio principal, así que no hay nada que comprar, nada que desbloquear ni nada que registrar."
+    },
+    {
+      "q": "¿Funciona en mi Kindle Paperwhite?",
+      "a": "Si tu Paperwhite es un modelo de 2021 o posterior con firmware 5.13.7 o más reciente, sí — abre el navegador integrado, escribe la dirección del sitio y desliza para jugar. Los Paperwhite antiguos con el primer navegador experimental pueden leer esta página como texto, pero no pueden ejecutar el juego."
+    },
+    {
+      "q": "¿Tengo que hacer jailbreak a mi Kindle?",
+      "a": "No. El juego funciona por completo en el navegador web integrado de tu Kindle. No hay ninguna aplicación que instalar, ningún truco que aplicar ni garantía en riesgo — cargar una página web es algo habitual para un Kindle. Si el dispositivo puede abrir un sitio web, puede jugar."
+    },
+    {
+      "q": "¿Puedo jugar sin conexión?",
+      "a": "Necesitas conexión la primera vez que se carga la página, porque el juego se entrega como una página web normal y no como una aplicación de tienda. Una vez cargado, cada movimiento se ejecuta localmente en el dispositivo — pero los navegadores de los e-readers no están pensados para uso sin conexión, así que asegúrate de tener conexión al empezar una partida."
+    }
+  ],
+  "cta": {
+    "label": "¿Llegaste al 2048? Convierte cualquier artículo web en un EPUB y léelo en tu Kindle — herramientas gratis en e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "memory",
+      "minesweeper",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

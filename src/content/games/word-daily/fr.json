@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Word Daily pour Kindle & liseuses e-ink — Jeu de mots quotidien gratuit",
+    "description": "Un jeu de mots quotidien gratuit dans le navigateur de ta Kindle, BOOX ou Kobo. Un nouveau mot de cinq lettres chaque jour — sans téléchargement, fait pour les écrans e-ink."
+  },
+  "h1": "Word Daily pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+  "tagline": "Un jeu de mots quotidien façon Wordle, directement dans le navigateur de ta Kindle, BOOX ou Kobo — un mot de cinq lettres par jour, le même pour tous les joueurs, dessiné en noir et blanc pur.",
+  "howToPlay": {
+    "steps": [
+      "Devine le mot de cinq lettres du jour. Tous les joueurs reçoivent le même mot chaque jour — le puzzle est lié à la date, pas à ton appareil, pour comparer tes résultats avec tes amis. Tu as six essais, et un nouveau mot arrive demain.",
+      "Tape ta première proposition. Touche le clavier QWERTY à l'écran avec un doigt ou un stylet, ou tape sur un clavier physique si ta liseuse en a un ou qu'un clavier est associé — touches physiques, Entrée et Retour arrière fonctionnent tous aux côtés du clavier tactile.",
+      "Lis le retour. Après chaque proposition, les tuiles répondent en noir et blanc pur : une tuile noire pleine signifie que la lettre est à la bonne place, une tuile au contour gras que la lettre est dans le mot mais ailleurs, et une tuile au contour fin que la lettre n'est pas dans le mot.",
+      "Surveille l'historique du clavier. Chaque touche à l'écran porte les trois mêmes marques pour les lettres déjà essayées : tu sais d'un coup d'œil quelles lettres sont placées, lesquelles survivent ailleurs, et lesquelles sont des impasses.",
+      "Attention aux lettres répétées. Le mot caché peut contenir deux fois la même lettre ; le retour compte chaque exemplaire avec soin — un contour gras ne promet jamais plus de copies que le mot n'en contient réellement.",
+      "Joue sans limite en entraînement. Terminé le mot du jour et il te reste de l'appétit ? Passe en mode Entraînement pour un mot aléatoire frais à tout moment — les parties d'entraînement ne touchent jamais ton résultat du jour, ta série de victoires ni tes statistiques.",
+      "Partage et reviens. Quand le puzzle s'achève, une grille de résultats en texte brut apparaît — appui long pour la sélectionner et la copier où tu veux. Ta progression du jour, ta série et tes statistiques sont sauvegardées automatiquement sur ton appareil."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 et suivants)",
+        "status": "yes",
+        "note": "Le navigateur intégré fait tourner le jeu complet ; nécessite le firmware 5.13.7 ou plus récent."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Le grand écran affiche toute la grille de lettres et le clavier sans faire défiler."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Même moteur de navigateur que les Paperwhite récents — le jeu reste en noir et blanc par conception."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma et similaires)",
+        "status": "yes",
+        "note": "Navigateur Chromium complet, l'expérience e-ink la plus fluide ; la frappe sur un clavier associé semble instantanée."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage et similaires)",
+        "status": "limited",
+        "note": "Le navigateur intégré est ancien et peut ne pas faire tourner le jeu sur tous les modèles ni toutes les versions de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Pas d'application navigateur officielle ; les solutions tierces exigent de débrider la tablette."
+      },
+      {
+        "device": "Kindle plus anciens (navigateur expérimental)",
+        "status": "no",
+        "note": "Les navigateurs expérimentaux d'avant 2016 ne prennent pas en charge le JavaScript moderne — cette page reste lisible, mais le jeu ne démarre pas."
+      }
+    ]
+  },
+  "whyEInk": "Les jeux de mots sont du texte, et l'e-ink rend le texte magnifiquement. Ce jeu ne redessine que les tuiles qui changent — pas d'animations, pas de clignotement, pas de halos gris — : la grille se lit comme une page imprimée, sous n'importe quelle lumière. Le format un mot par jour sied parfaitement aux liseuses : un mot, une minute de réflexion tranquille, et un écran qui ne te renvoie jamais de lueur.",
+  "faq": [
+    {
+      "q": "Est-ce vraiment gratuit ?",
+      "a": "Oui. Le mot quotidien et les parties d'entraînement illimitées sont entièrement gratuits, sans compte, sans public et sans paywall. Le site appartient à la famille E-Ink.me des outils gratuits pour liseuses : rien à acheter, aucune inscription — ouvre la page et joue."
+    },
+    {
+      "q": "Est-ce que ça marche sur ma Kindle Paperwhite ?",
+      "a": "Sur les modèles Paperwhite, Scribe et Colorsoft de 2021 ou plus récents, avec le firmware 5.13.7 ou plus récent, oui — le navigateur intégré fait tourner tout le jeu. Les Kindle plus anciennes, avec le premier navigateur expérimental, peuvent lire cette page en texte simple, mais la grille elle-même ne démarrera pas dessus."
+    },
+    {
+      "q": "Dois-je débrider ma Kindle ?",
+      "a": "Non. Le jeu tourne entièrement dans le navigateur que ta Kindle embarque déjà. Pas d'application à installer, pas de fichier à transférer, aucune modification d'aucune sorte — si ton appareil sait ouvrir une page web ordinaire, il sait jouer à Word Daily."
+    },
+    {
+      "q": "Puis-je jouer hors ligne ?",
+      "a": "Il te faut une connexion au premier chargement de la page, car le site est livré comme une page web classique et non comme une application téléchargeable. Une fois chargé, chaque proposition tourne sur l'appareil lui-même et ta série est conservée localement — mais prévois d'être en ligne au moment de commencer."
+    }
+  ],
+  "cta": {
+    "label": "Mot du jour trouvé ? Transforme n'importe quel article web en EPUB et lis-le sur ta Kindle — outils gratuits sur e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "daily",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-search"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Juega al Sudoku para Kindle y E-Ink — gratis, sin descargas",
+    "description": "Juega gratis al Sudoku en el navegador de tu Kindle, BOOX o Kobo. Sin descargas ni instalaciones: puzles en blanco y negro hechos para pantallas e-ink."
+  },
+  "h1": "Sudoku para Kindle y E-Ink — gratis, sin descargas",
+  "tagline": "El clásico Sudoku 9×9 que funciona directamente en el navegador de tu Kindle Paperwhite, Scribe o BOOX — sin aplicaciones que instalar, sin descargas: abre la página y juega.",
+  "howToPlay": {
+    "steps": [
+      "Elige la dificultad. Fácil, Medio, Difícil o Experto — el generador construye cada vez una cuadrícula nueva con exactamente una solución. Los tableros más fáciles te dan unos cuarenta números ya puestos; Experto deja poco más de veinte, así que cada colocación hay que ganársela con lógica.",
+      "Selecciona una celda. Toca o haz clic en cualquier casilla en pantalla táctil, o mueve el cursor resaltado con las flechas si tu dispositivo tiene botones físicos de página o un teclado emparejado.",
+      "Introduce un número. Usa el panel numérico en pantalla o pulsa la tecla correspondiente para los dígitos 1–9. Un dígito que incumpla la regla de fila, columna o bloque del Sudoku se marca al instante con una celda invertida en blanco y negro, así los errores se ven a simple vista en una pantalla e-ink.",
+      "Anota candidatos a lápiz. Activa el modo notas para apuntar dígitos candidatos pequeños en las esquinas de una celda antes de confirmar — el mismo hábito que el Sudoku con lápiz y papel, y casi imprescindible en los tableros Difícil y Experto.",
+      "Corrige los errores con limpieza. Borra una entrada con la goma y usa Deshacer para retroceder por tus movimientos recientes de uno en uno, en lugar de reconstruir todo el tablero.",
+      "Sigue tu sesión. Un cronómetro integrado cuenta hacia arriba mientras juegas, y tu tablero se va guardando en la mayoría de dispositivos — cierra el navegador a media partida y retómala donde la dejaste.",
+      "Termina la cuadrícula. El puzle se resuelve cuando cada fila, cada columna y cada bloque 3×3 contiene los dígitos 1–9 exactamente una vez. Como cada puzle tiene una única solución, la deducción paciente — nunca adivinar — siempre basta."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 y posteriores)",
+        "status": "yes",
+        "note": "El navegador integrado ejecuta el juego completo; requiere firmware 5.13.7 o más reciente."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "La pantalla de 10,2 pulgadas muestra las 81 celdas en un tamaño cómodo, un toque por celda."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "El mismo motor de navegador que los Paperwhite recientes — el juego se mantiene en blanco y negro por diseño."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma y similares)",
+        "status": "yes",
+        "note": "Navegador Chromium completo, la experiencia e-ink más fluida; las teclas físicas de página mueven el cursor en los modelos que las tienen."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage y similares)",
+        "status": "limited",
+        "note": "El navegador integrado está anticuado y puede que no ejecute el puzle en todos los modelos o versiones de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No tiene aplicación de navegador oficial; las opciones de terceros exigen hacer jailbreak a la tablet."
+      },
+      {
+        "device": "Kindle antiguos (navegador experimental)",
+        "status": "no",
+        "note": "Los navegadores experimentales anteriores a 2016 no pueden ejecutar JavaScript moderno — esta página se puede leer, pero el juego no arranca."
+      }
+    ]
+  },
+  "whyEInk": "El Sudoku es un puzle estático y la tinta electrónica es una pantalla estática, así que aquí nada parpadea, se anima ni se refresca detrás de tu cuadrícula. Solo se redibuja la celda que tocas. La pantalla se comporta como papel impreso — cómoda para sesiones largas a la luz del día y con un coste de batería esencialmente nulo.",
+  "faq": [
+    {
+      "q": "¿De verdad es gratis?",
+      "a": "Sí. Cada puzle es gratis, sin cuenta, sin muros de pago y sin anuncios. El sitio forma parte de la familia E-Ink.me y se mantiene junto a las herramientas gratuitas para e-readers del sitio principal, así que no hay nada que comprar ni nada que registrar."
+    },
+    {
+      "q": "¿Funciona en mi Kindle Paperwhite?",
+      "a": "Si tu Paperwhite es un modelo de 2021 o posterior con firmware 5.13.7 o más reciente, sí — abre el navegador integrado, escribe la dirección del sitio y empieza a jugar. Los Paperwhite antiguos con el primer navegador experimental pueden mostrar esta página como texto, pero no ejecutar el puzle."
+    },
+    {
+      "q": "¿Tengo que hacer jailbreak a mi Kindle?",
+      "a": "No. El juego funciona por completo en el navegador web integrado de tu Kindle. No hay aplicación que instalar, ningún truco que aplicar ni garantía de la que preocuparse — abrir un sitio web es algo habitual para un Kindle. Si tu dispositivo puede cargar una página web, puede cargar este juego."
+    },
+    {
+      "q": "¿Puedo jugar sin conexión?",
+      "a": "Necesitas conexión a internet la primera vez que abres la página, porque el sitio se entrega como una página web normal y no como una aplicación descargable. Una vez cargado, el puzle se ejecuta localmente en tu dispositivo — pero los navegadores de los e-readers no están hechos para uso sin conexión, así que cuenta con estar conectado al empezar."
+    }
+  ],
+  "cta": {
+    "label": "¿Disfrutando el Sudoku? Convierte cualquier artículo web en un EPUB y léelo en tu Kindle — herramientas gratis en e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "memory",
+      "minesweeper",
+      "nonogram"
+    ]
+  }
+}

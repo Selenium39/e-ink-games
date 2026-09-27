@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Minesweeper pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+    "description": "Joue au Minesweeper gratuitement dans le navigateur de ta Kindle, BOOX ou Kobo. Sans téléchargement ni installation — le démineur classique, pensé pour l'e-ink."
+  },
+  "h1": "Minesweeper pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+  "tagline": "Le Minesweeper (démineur) classique qui tourne directement dans le navigateur de ta Kindle Paperwhite, Scribe ou BOOX — rien à installer, rien à télécharger : ouvre la page et creuse.",
+  "howToPlay": {
+    "steps": [
+      "Choisis un plateau. Facile est une grille 9×9 avec 10 mines, Moyen 11×11 avec 24, et Difficile 13×13 avec 40. Les grands plateaux récompensent le scan patient plus que le toucher rapide.",
+      "Creuse la première case. Ton premier toucher est toujours sûr — les mines ne sont plantées qu'après lui, et la case atteinte plus ses huit voisines restent exemptes de mines : un coup d'ouverture ne peut jamais exploser.",
+      "Lis les chiffres. Chaque digit compte les mines dans les huit cases qui l'entourent. Une case vide ne touche aucune mine : le jeu ouvre pour toi des régions entières en un seul toucher, et tu ne travailles que les bordures numérotées.",
+      "Drape les mines suspectes. Passe en mode Drapeau et touche une case pour la marquer ; un drapeau bloque les touchers accidentels, et le compteur au-dessus de la grille montre les mines restantes — le total moins tes drapeaux. Touche à nouveau la même case pour retirer un drapeau.",
+      "Accélère avec l'accord. En mode Creuser, touche un chiffre ouvert quand les drapeaux autour de lui correspondent au digit : tous les autres voisins s'ouvrent d'un coup. C'est le raccourci classique en deux touchers des joueurs sûrs d'eux, et il est pleinement pris en charge ici.",
+      "Joue aux touches. Les flèches déplacent le curseur, Entrée ou Espace creuse (ou joue l'accord sur un chiffre ouvert), et F drape la case — pratique sur les liseuses avec un clavier raccordé ou quand un toucher est trop loin.",
+      "Bats le chrono. Le chronomètre démarre à ton premier coup et se met en pause quand la page passe en arrière-plan. Dégage toutes les cases sûres pour gagner — les mines restantes sont marquées d'un drapeau pour toi — et ta progression est sauvegardée automatiquement si tu t'en vas."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 et suivants)",
+        "status": "yes",
+        "note": "Le navigateur intégré fait tourner le jeu complet ; nécessite le firmware 5.13.7 ou plus récent."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "L'écran de 10,2 pouces affiche même le plateau Difficile 13×13 en pleine taille, avec de la marge."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Même moteur de navigateur que les Paperwhite récents — le jeu reste en noir et blanc par conception."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma et similaires)",
+        "status": "yes",
+        "note": "Navigateur Chromium complet, l'expérience e-ink la plus fluide ; les raccourcis clavier fonctionnent avec un clavier associé."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage et similaires)",
+        "status": "limited",
+        "note": "Le navigateur intégré est ancien et peut ne pas faire tourner le jeu sur tous les modèles ni toutes les versions de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Pas d'application navigateur officielle ; les solutions tierces exigent de débrider la tablette."
+      },
+      {
+        "device": "Kindle plus anciens (navigateur expérimental)",
+        "status": "no",
+        "note": "Les navigateurs expérimentaux d'avant 2016 ne prennent pas en charge le JavaScript moderne — cette page reste lisible, mais le jeu ne démarre pas."
+      }
+    ]
+  },
+  "whyEInk": "Le démineur est un jeu silencieux, et l'e-ink un écran silencieux. Rien ici ne s'anime, ne clignote ni ne se rafraîchit derrière ton doigt — seule la case que tu touches est redessinée, en mise à jour partielle rapide. La grille fixe en noir et blanc se lit comme une page de puzzle imprimée en plein jour, et les longues sessions touchent à peine la batterie.",
+  "faq": [
+    {
+      "q": "Est-ce vraiment gratuit ?",
+      "a": "Oui — complètement. Chaque taille de plateau est gratuite, sans compte, sans paywall et sans public. Le site appartient à la famille E-Ink.me et vit aux côtés des outils gratuits pour liseuses du site principal : rien à acheter, aucune inscription."
+    },
+    {
+      "q": "Est-ce que ça marche sur ma Kindle Paperwhite ?",
+      "a": "Si ta Paperwhite est un modèle 2021 ou ultérieur avec le firmware 5.13.7 ou plus récent, oui — ouvre le navigateur intégré, tape l'adresse du site et creuse. Les Paperwhite plus anciennes, avec le premier navigateur expérimental, peuvent afficher cette page en texte simple, mais pas faire tourner le jeu lui-même."
+    },
+    {
+      "q": "Dois-je débrider ma Kindle ?",
+      "a": "Non. Le jeu tourne entièrement dans le navigateur web intégré de ta Kindle. Pas d'application à installer, pas de manipulation, aucun risque pour la garantie — ouvrir une page web est une action tout à fait ordinaire pour une Kindle. Si l'appareil sait charger une page, il sait lancer ce jeu."
+    },
+    {
+      "q": "Puis-je jouer hors ligne ?",
+      "a": "Il te faut une connexion la première fois que tu ouvres la page, car le site est livré comme une page web classique et non comme une application téléchargeable. Une fois chargé, le jeu tourne localement sur ton appareil — mais les navigateurs des liseuses ne sont pas conçus pour un usage hors ligne : prévois d'être connecté quand tu commences."
+    }
+  ],
+  "cta": {
+    "label": "Le démineur te plaît ? Transforme n'importe quel article web en EPUB et lis-le sur ta Kindle — outils gratuits sur e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "memory",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

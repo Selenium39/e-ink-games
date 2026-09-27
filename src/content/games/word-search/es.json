@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Word Search para Kindle y E-Ink — gratis, sin descargas",
+    "description": "Juega gratis a sopas de letras en el navegador de tu Kindle, BOOX o Kobo. Sin descargas: cuadrículas de letras grandes en blanco y negro, hechas para pantallas e-ink."
+  },
+  "h1": "Word Search para Kindle y E-Ink — gratis, sin descargas",
+  "tagline": "La clásica sopa de letras que funciona directamente en el navegador de tu Kindle Paperwhite, Scribe o BOOX — elige un tema, caza las palabras ocultas en la cuadrícula de letras, sin nada que descargar.",
+  "howToPlay": {
+    "steps": [
+      "Elige la dificultad. Fácil esconde seis palabras en una cuadrícula de 10×10, Medio ocho en 12×12, y Difícil diez en 14×14. Cada ronda además lanza un tema al azar — Animales, Comida, Naturaleza, Tecnología o Espacio — así cada puzle se siente nuevo.",
+      "Escanea la cuadrícula de letras y elige un objetivo de la lista. Las palabras se esconden en ocho direcciones: en horizontal, en vertical y por ambas diagonales, y también pueden leerse al revés.",
+      "Selecciona una palabra. En pantalla táctil, toca la primera letra y luego la última letra de esa palabra — vale cualquier extremo. Al acertar, las letras se invierten a blanco sobre negro y la palabra queda tachada en la lista.",
+      "O juega con teclas. Las flechas mueven un cursor por la cuadrícula, Enter marca el inicio y el final de una palabra, y Escape cancela una selección pendiente — práctico en la cuadrícula Difícil de 14×14, donde las celdas quedan muy juntas.",
+      "Vigila el reloj. Un cronómetro corre mientras juegas, y tu progreso se guarda automáticamente — cierra el navegador a media partida y retoma la misma ronda más tarde.",
+      "Termina la ronda. El puzle se completa cuando se han encontrado todas las palabras de la lista; tu tiempo y tu mejor marca por dificultad se conservan en el dispositivo.",
+      "Empieza de nuevo. Cambia la dificultad o pulsa Puzle nuevo para un tema fresco y una cuadrícula completamente distinta — no hay dos rondas iguales."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 y posteriores)",
+        "status": "yes",
+        "note": "El navegador integrado ejecuta el juego completo; requiere firmware 5.13.7 o más reciente."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "La pantalla de 10,2 pulgadas muestra incluso la densa cuadrícula Difícil de 14×14 con comodidad — toca para seleccionar palabras."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "El mismo motor de navegador que los Paperwhite recientes; el juego es en blanco y negro por diseño, así que no se pierde nada."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma y similares)",
+        "status": "yes",
+        "note": "Navegador Chromium completo, la experiencia e-ink más fluida; las teclas físicas de página mueven el cursor en los modelos que las tienen."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage y similares)",
+        "status": "limited",
+        "note": "El navegador integrado está anticuado y puede que no ejecute el puzle en todos los modelos o versiones de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No tiene aplicación de navegador oficial; las opciones de terceros exigen hacer jailbreak a la tablet."
+      },
+      {
+        "device": "Kindle antiguos (navegador experimental)",
+        "status": "no",
+        "note": "Los navegadores experimentales anteriores a 2016 no pueden ejecutar JavaScript moderno — esta página se puede leer, pero el juego no arranca."
+      }
+    ]
+  },
+  "whyEInk": "La sopa de letras es un juego tranquilo y paciente, y la tinta electrónica es una pantalla tranquila y paciente. Aquí nada parpadea, se anima ni se repinta detrás de tus letras — solo se redibuja la celda que tocas, como tinta secándose sobre papel. La gran cuadrícula de letras se mantiene nítida a plena luz del día con un coste de batería esencialmente nulo.",
+  "faq": [
+    {
+      "q": "¿De verdad es gratis?",
+      "a": "Sí. Cada puzle es gratis, sin cuenta, sin muros de pago y sin anuncios. El sitio forma parte de la familia E-Ink.me y funciona junto a las herramientas gratuitas para e-readers del sitio principal — no hay nada que comprar ni nada que registrar."
+    },
+    {
+      "q": "¿Funciona en mi Kindle Paperwhite?",
+      "a": "Si tu Paperwhite es un modelo de 2021 o posterior con firmware 5.13.7 o más reciente, sí — abre el navegador integrado, escribe la dirección del sitio y empieza a jugar. Los Paperwhite antiguos con el primer navegador experimental pueden leer esta página como texto, pero el puzle no funcionará."
+    },
+    {
+      "q": "¿Tengo que hacer jailbreak a mi Kindle?",
+      "a": "No. El juego funciona por completo en el navegador web integrado de tu Kindle. No hay aplicación que instalar, ningún truco que aplicar ni garantía de la que preocuparse — abrir una página web es algo habitual para un Kindle. Si puede cargar una página, puede cargar este puzle."
+    },
+    {
+      "q": "¿Puedo jugar sin conexión?",
+      "a": "Necesitas conexión a internet la primera vez que abres la página, porque el sitio llega como una página web normal y no como una aplicación descargable. Una vez cargado, el puzle se ejecuta localmente en tu dispositivo — pero los navegadores de los e-readers no están pensados para uso sin conexión, así que permanece conectado al empezar una ronda."
+    }
+  ],
+  "cta": {
+    "label": "¿Encontraste todas las palabras? Convierte cualquier artículo web en un EPUB y léelo en tu Kindle — herramientas gratis en e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "word",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-daily"
+    ]
+  }
+}

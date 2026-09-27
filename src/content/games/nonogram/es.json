@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Juega al Nonogram para Kindle y E-Ink — gratis, sin descargas",
+    "description": "Juega gratis a nonogramas en el navegador de tu Kindle, BOOX o Kobo. Sin descargas ni instalaciones: cuadrículas de lógica en blanco y negro hechas para pantallas e-ink."
+  },
+  "h1": "Nonogram para Kindle y E-Ink — gratis, sin descargas",
+  "tagline": "Los clásicos puzles de lógica con imágenes que funcionan directamente en el navegador de tu Kindle Paperwhite, Scribe o BOOX — sin aplicaciones que instalar, sin descargas: abre la página y empieza a rellenar casillas.",
+  "howToPlay": {
+    "steps": [
+      "Elige tablero o toma el Diario. Fácil es una cuadrícula de 5×5, Medio de 10×10 y Difícil de 15×15 — cada puzle se genera nuevo y está garantizado resoluble con pura lógica. El botón Diario reparte cada día un puzle de imagen 10×10 compartido: todo jugador del mundo recibe la misma semilla, así que podéis comparar progreso sin cuenta.",
+      "Lee las pistas. Los números de los bordes izquierdo y superior describen las series de casillas rellenas de cada fila y columna. Una fila marcada \"3 1\" esconde un bloque de tres, al menos un hueco, y luego una sola casilla rellena — el orden es fijo, los huecos son el puzle.",
+      "Rellena y marca casillas. En pantalla táctil, toca una casilla para alternar entre tres estados: vacía, rellena y tachada. Las equis (×) son tus marcas de prueba para las casillas que deben quedar vacías. Con teclado, las flechas mueven el cursor — esencial en el tablero Difícil de 15×15, donde las casillas son más pequeñas que la yema del dedo — y Enter alterna, X cambia la cruz y Retroceso borra.",
+      "Mira cómo se invierten las pistas. Cuando las casillas rellenas de una fila o columna coinciden exactamente con su pista, esa pista se invierte a blanco sobre negro — confirmación gratuita de que la línea está terminada. No hay avisos de movimientos erróneos por el camino; como en los nonogramas de papel, la propia imagen es el único juez.",
+      "Trabaja la lógica, nunca las suposiciones. Las líneas completas, los bloques en los bordes y las series que se solapan desde ambas direcciones abren la imagen paso a paso. Deshacer retrocede por tus marcas una a una, el cronómetro integrado lleva tu sesión y el progreso se guarda automáticamente si cierras el navegador a media imagen.",
+      "Completa la imagen. El puzle se resuelve cuando cada fila y columna coincide con sus pistas — como cada tablero tiene exactamente una solución, la imagen oculta y simétrica emerge casilla a casilla a medida que la deduces, una recompensa estilo Picross que le va perfecta a una pantalla tipo papel."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 y posteriores)",
+        "status": "yes",
+        "note": "El navegador integrado ejecuta el juego completo; requiere firmware 5.13.7 o más reciente."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "La pantalla de 10,2 pulgadas muestra incluso la cuadrícula Difícil de 15×15 en un tamaño cómodo."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "El mismo motor de navegador que los Paperwhite recientes — el juego se mantiene en blanco y negro por diseño."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma y similares)",
+        "status": "yes",
+        "note": "Navegador Chromium completo, la experiencia e-ink más fluida; las teclas físicas de página mueven el cursor en los modelos que las tienen."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage y similares)",
+        "status": "limited",
+        "note": "El navegador integrado está anticuado y puede que no ejecute el puzle en todos los modelos o versiones de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No tiene aplicación de navegador oficial; las opciones de terceros exigen hacer jailbreak a la tablet."
+      },
+      {
+        "device": "Kindle antiguos (navegador experimental)",
+        "status": "no",
+        "note": "Los navegadores experimentales anteriores a 2016 no pueden ejecutar JavaScript moderno — esta página se puede leer, pero el juego no arranca."
+      }
+    ]
+  },
+  "whyEInk": "El nonograma es un puzle tranquilo y estático, y la tinta electrónica es una pantalla tranquila y estática — una pareja natural. Aquí nada parpadea, se anima ni se repinta detrás de tu cuadrícula; solo se redibuja la casilla que tocas. El tablero se lee como papel cuadriculado impreso, cómodo a la luz del día en sesiones largas y con un coste de batería casi nulo.",
+  "faq": [
+    {
+      "q": "¿De verdad es gratis?",
+      "a": "Sí. Cada puzle — incluido el Diario — es gratis, sin cuenta, sin muros de pago y sin anuncios. El sitio forma parte de la familia E-Ink.me y se mantiene junto a las herramientas gratuitas para e-readers del sitio principal, así que no hay nada que comprar ni nada que registrar."
+    },
+    {
+      "q": "¿Funciona en mi Kindle Paperwhite?",
+      "a": "Si tu Paperwhite es un modelo de 2021 o posterior con firmware 5.13.7 o más reciente, sí — abre el navegador integrado, escribe la dirección del sitio y empieza a rellenar casillas. Los Paperwhite antiguos con el primer navegador experimental pueden mostrar esta página como texto, pero no ejecutar el puzle."
+    },
+    {
+      "q": "¿Tengo que hacer jailbreak a mi Kindle?",
+      "a": "No. El juego funciona por completo en el navegador web integrado de tu Kindle. No hay aplicación que instalar, ningún truco que aplicar ni garantía de la que preocuparse — abrir un sitio web es algo habitual para un Kindle. Si tu dispositivo puede cargar una página web, puede cargar este juego."
+    },
+    {
+      "q": "¿Puedo jugar sin conexión?",
+      "a": "Necesitas conexión a internet la primera vez que abres la página, porque el sitio se entrega como una página web normal y no como una aplicación descargable. Una vez cargado, el puzle se ejecuta localmente en tu dispositivo — pero los navegadores de los e-readers no están hechos para uso sin conexión, así que cuenta con estar conectado al empezar."
+    }
+  ],
+  "cta": {
+    "label": "¿Resolviste la imagen? Convierte cualquier artículo web en un EPUB y léelo en tu Kindle — herramientas gratis en e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "logic",
+    "relatedSlugs": [
+      "2048",
+      "hidden-code",
+      "minesweeper",
+      "sudoku"
+    ]
+  }
+}

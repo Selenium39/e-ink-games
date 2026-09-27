@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Hidden Code per Kindle e lettori e-ink — gioco di logica gratis",
+    "description": "Gioca gratis a rompicapi di decifrazione nel browser su Kindle, BOOX o Kobo. Scopri il codice nascosto di simboli — senza download, fatto per gli schermi e-ink."
+  },
+  "h1": "Hidden Code per Kindle e lettori e-ink — gratis, senza download",
+  "tagline": "Decifra un codice nascosto di forme e simboli direttamente nel browser del tuo Kindle Paperwhite, Scribe o BOOX — niente app, niente download, solo deduzione in bianco e nero.",
+  "howToPlay": {
+    "steps": [
+      "Scegli la difficoltà. Facile nasconde un codice di 4 simboli estratto da 5 forme e ti dà 10 round, Medio porta il gruppo a 6 forme in 8 round, e Difficile allunga il codice a 5 slot. Più forme significano molti più codici possibili da ragionare.",
+      "Riempi la riga corrente. Tocca uno slot, poi una forma sul tastierino dei simboli — oppure premi i tasti da 1 a 6 su una tastiera fisica. Le frecce si muovono tra gli slot e Backspace cancella, quindi chi gioca da sola tastiera è pienamente coperto.",
+      "Invia il tuo tentativo. Premi Invio o il pulsante Controlla quando ogni slot è pieno. La riga si blocca nella cronologia e non può più essere modificata — ogni tentativo è un indizio permanente.",
+      "Leggi il feedback. Ogni riga inviata guadagna punti pieni per le forme corrette e al posto giusto, e punti vuoti per le forme presenti nel codice ma nello slot sbagliato. I punti non rivelano mai a quale slot si riferiscono, e le forme assenti dal codice non prendono nulla.",
+      "Deduci e affina. Incrocia le tue righe: una forma che non prende nessun punto da nessuna parte è esclusa, mentre una forma ripetuta può prendere più punti in una volta. Usa Annulla per tornare indietro nella riga non ancora inviata prima di impegnarti.",
+      "Vinci o impara. Spezza il codice — ogni slot corretto — prima che i round finiscano e la vittoria è tua; se resti a secco, il codice nascosto viene rivelato così vedi quanto ci eri andato vicino con l'ultimo tentativo.",
+      "Conserva il tuo record. Vittorie e round medi per vincere vengono contati sul tuo dispositivo, e una partita in corso si salva da sola — chiudi il browser a metà codice e riprendi esattamente da dove ti eri fermato."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (dal 2021 in poi)",
+        "status": "yes",
+        "note": "Il browser integrato esegue il gioco completo; richiede firmware 5.13.7 o successivo."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "L'ampio schermo mostra tutta la cronologia dei tentativi senza scorrere, un tocco per simbolo."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Stesso motore browser dei Paperwhite recenti — il gioco è in bianco e nero puro per scelta progettuale."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma e simili)",
+        "status": "yes",
+        "note": "Browser Chromium completo, l'esperienza e-ink più fluida; i tasti numerici 1-6 inseriscono i simboli sulle tastiere collegate."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage e simili)",
+        "status": "limited",
+        "note": "Il browser integrato è datato e potrebbe non eseguire il gioco su ogni modello o versione del firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Nessuna app browser ufficiale; le alternative di terze parti richiedono il jailbreak del tablet."
+      },
+      {
+        "device": "Kindle più vecchi (browser sperimentale)",
+        "status": "no",
+        "note": "I browser sperimentali precedenti al 2016 non eseguono JavaScript moderno — questa pagina resta leggibile, ma il gioco non si avvia."
+      }
+    ]
+  },
+  "whyEInk": "Decifrare codici è riflessione quieta e a turni, e l'e-ink è lo schermo silenzioso e simile a una pagina che merita. Qui niente lampeggia, si anima o si aggiorna dietro le tue righe — si ridisegna solo lo slot che tocchi. Leggi la tavola come un foglio di rompicapi stampato alla luce del giorno, a un costo per la batteria quasi zero.",
+  "faq": [
+    {
+      "q": "È davvero gratis?",
+      "a": "Sì. Ogni partita è gratuita, senza account, senza paywall e senza pubblicità. Il sito fa parte della famiglia E-Ink.me ed è mantenuto insieme agli strumenti gratuiti per e-reader del sito principale — non c'è niente da comprare e niente per cui registrarsi."
+    },
+    {
+      "q": "Funziona sul mio Kindle Paperwhite?",
+      "a": "Se il tuo Paperwhite è un modello del 2021 o successivo con firmware 5.13.7 o più recente, sì — apri il browser integrato, digita l'indirizzo del sito e inizia a giocare. I Paperwhite più vecchi con il primo browser sperimentale possono mostrare questa pagina come semplice testo, ma non possono eseguire il gioco."
+    },
+    {
+      "q": "Devo fare il jailbreak del Kindle?",
+      "a": "No. Il gioco gira interamente nel browser web integrato del tuo Kindle. Non c'è nessuna app da caricare lateralmente, nessun hack da applicare e nessuna garanzia di cui preoccuparsi — aprire un sito web è una cosa ordinaria per un Kindle. Se il tuo dispositivo può caricare una pagina web, può giocare."
+    },
+    {
+      "q": "Posso giocare offline?",
+      "a": "Ti serve una connessione a internet la prima volta che apri la pagina, perché il sito viene fornito come una normale pagina web e non come un'app da scaricare. Una volta caricato, il gioco gira in locale sul tuo dispositivo — ma i browser degli e-reader non sono pensati per l'uso offline, quindi metti in conto di essere connesso quando inizi."
+    }
+  ],
+  "cta": {
+    "label": "Codice spezzato? Trasforma qualsiasi articolo web in un EPUB e leggilo sul tuo Kindle — strumenti gratuiti su e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "logic",
+    "relatedSlugs": [
+      "hangman",
+      "minesweeper",
+      "nonogram",
+      "word-daily"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Hangman para Kindle e E-Ink — grátis, sem downloads",
+    "description": "Jogue Hangman grátis no navegador do seu Kindle, BOOX ou Kobo. Sem download nem instalação: o clássico jogo de palavras em preto e branco, feito para telas e-ink."
+  },
+  "h1": "Hangman para Kindle e E-Ink — grátis, sem downloads",
+  "tagline": "O clássico Hangman que roda direto no navegador do seu Kindle Paperwhite, Scribe ou BOOX — adivinhe a palavra letra por letra, sem baixar nem instalar nada.",
+  "howToPlay": {
+    "steps": [
+      "Escolha uma dificuldade. Fácil sorteia palavras comuns de quatro a seis letras e mostra a categoria — animal, comida, lugar e mais — como pista inicial. Médio passa a palavras de seis a oito letras sem pista, e Difícil distribui palavras raras de nove a doze letras que vão testar qualquer vocabulário.",
+      "Leia a forca. Cada rodada começa com o quadro vazio e seis erros de margem. Cada erro desenha uma parte a mais do boneco — cabeça, corpo, braços e depois pernas — então você vê de relance o quão perto está de perder.",
+      "Adivinhe letras pelo toque. Toque no teclado A–Z na tela; cada tecla tem o tamanho certo para as telas sensíveis ao toque dos e-readers. Uma letra correta fica sólida em preto e branco e preenche de uma vez todos os espaços correspondentes, enquanto uma errada recebe borda tracejada e fica travada.",
+      "Ou use um teclado físico. Se o seu dispositivo tem teclas de virar página ou um teclado pareado, basta pressionar A–Z diretamente — o jogo escuta as teclas em segundo plano e aceita maiúsculas, tratando-as como minúsculas.",
+      "Fique de olho nos espaços. A palavra alvo aparece como uma fileira de espaços sublinhados; cada acerto revela essa letra em todas as posições em que ela ocorre. Tentar uma letra que você já usou não muda nada, então cada toque conta.",
+      "Venha ou aprenda. Revele todas as letras antes do sexto erro para vencer a rodada; se o boneco for completado, a partida termina e a palavra inteira é mostrada, para que você nunca vá embora sem a resposta. Suas vitórias e o total de partidas são contados separadamente em cada dificuldade.",
+      "Jogue de novo. Toque em Novo jogo para uma palavra nova, ou mude a dificuldade no topo — a troca pede confirmação apenas quando há uma rodada em andamento, e seu tabuleiro é salvo automaticamente se você fechar a página no meio da palavra."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 e posteriores)",
+        "status": "yes",
+        "note": "O navegador integrado executa o jogo completo; requer firmware 5.13.7 ou mais recente. As teclas de letras são confortáveis de tocar na tela de 6,8 polegadas."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "A tela de 10,2 polegadas mostra a forca, os espaços da palavra e as 26 teclas sem rolar a página."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "O mesmo motor de navegador dos Paperwhite recentes — o jogo se mantém em preto e branco por design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma e similares)",
+        "status": "yes",
+        "note": "Navegador Chromium completo, a experiência e-ink mais fluida; um teclado pareado ou a tela sensível ao toque servem para adivinhar."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage e similares)",
+        "status": "limited",
+        "note": "O navegador integrado é antigo e pode não executar o jogo em todos os modelos ou versões de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Não tem aplicativo de navegador oficial; as opções de terceiros exigem fazer jailbreak no tablet."
+      },
+      {
+        "device": "Kindles antigos (navegador experimental)",
+        "status": "no",
+        "note": "Os navegadores experimentais anteriores a 2016 não conseguem executar JavaScript moderno — esta página continua legível, mas o jogo não inicia."
+      }
+    ]
+  },
+  "whyEInk": "O Hangman é, em essência, um jogo de lápis e papel, e a tinta eletrônica o trata assim: a forca é redesenhada traço a traço, a letra que você toca é a única tecla que muda, e nada cintila nem anima atrás do quebra-cabeça. A tela se lê como papel impresso à luz do dia — leve para os olhos e para a bateria.",
+  "faq": [
+    {
+      "q": "É grátis mesmo?",
+      "a": "Sim. Cada rodada é grátis, sem conta, sem paywall e sem anúncios. O site faz parte da família E-Ink.me e é mantido junto com as ferramentas gratuitas para e-readers do site principal, então não há nada para comprar, nada para registrar e nenhum limite de palavras para adivinhar."
+    },
+    {
+      "q": "Funciona no meu Kindle Paperwhite?",
+      "a": "Se o seu Paperwhite é um modelo de 2021 ou posterior com firmware 5.13.7 ou mais recente, sim — abra o navegador integrado, digite o endereço do site e comece a adivinhar. Os BOOX e os Kindles recentes como o Scribe e o Colorsoft funcionam da mesma forma. Os Kindles antigos com o primeiro navegador experimental conseguem ler esta página como texto, mas não executar o jogo."
+    },
+    {
+      "q": "Preciso fazer jailbreak no meu Kindle?",
+      "a": "Não. O jogo funciona inteiramente no navegador web integrado do seu e-reader. Não há aplicativo para instalar, nenhum truque para aplicar nem garantia com que se preocupar — abrir um site é algo comum para um Kindle moderno. Se o seu dispositivo consegue carregar esta página, consegue carregar a forca."
+    },
+    {
+      "q": "Posso jogar offline?",
+      "a": "Você precisa de conexão com a internet na primeira vez em que abrir a página, porque o site é entregue como uma página web comum e não como um aplicativo para baixar. Depois de carregada, toda a adivinhação roda localmente no seu dispositivo — mas os navegadores de e-readers não são feitos para uso offline, então conte com estar conectado ao começar."
+    }
+  ],
+  "cta": {
+    "label": "Gostando do jogo? Transforme qualquer artigo da web em um EPUB e leia no seu Kindle — ferramentas grátis em e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "word",
+    "relatedSlugs": [
+      "hidden-code",
+      "word-daily",
+      "word-search"
+    ]
+  }
+}

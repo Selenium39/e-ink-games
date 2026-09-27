@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Memory Pairs pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+    "description": "Joue au Memory Pairs gratuitement dans le navigateur de ta Kindle, BOOX ou Kobo. Sans téléchargement ni installation — le jeu de paires classique, fait pour les écrans e-ink."
+  },
+  "h1": "Memory Pairs pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+  "tagline": "Le grand classique du jeu de mémoire par paires, rebâti en noir et blanc pur pour Kindle Paperwhite, Scribe, BOOX et les autres liseuses — ouvre la page et joue.",
+  "howToPlay": {
+    "steps": [
+      "Choisis une taille de plateau. Facile dispose 12 cartes (6 paires) sur une grille de quatre colonnes, Moyen distribue 16 cartes (8 paires), et Difficile remplit un plateau 6×4 de 24 cartes (12 paires). Chaque manche mélange une disposition neuve à partir de douze symboles distincts : mémoriser le plateau d'hier ne sert jamais.",
+      "Retourne deux cartes. Touche n'importe quelle carte face cachée sur un écran tactile et son symbole apparaît en noir et blanc inversé ; touche ensuite une seconde carte. Si ton appareil a des touches physiques ou un clavier associé, déplace le surlignage en pointillés avec les flèches et appuie sur Entrée ou Espace pour retourner.",
+      "Regarde le verdict. Une paire qui correspond reste face visible et reçoit un cadre épais — elle est verrouillée pour de bon. Une paire ratée reste affichée environ une seconde pour que tu mémorises les deux positions, puis les deux cartes se retournent d'elles-mêmes.",
+      "Joue à ton rythme. Pendant qu'une erreur est affichée, le plateau ignore discrètement une troisième touche : impossible de rater une paire en cliquant trop vite — fais une pause, regarde, et prépare ton prochain retournement.",
+      "Suis ta session. Un chronomètre et un compteur de coups tournent au-dessus du plateau ; un coup, c'est retourner deux cartes, gagnées ou non, et un compteur de paires montre combien de paires du plateau tu as déjà verrouillées.",
+      "Reviens quand tu veux. La progression est sauvegardée automatiquement sur la plupart des appareils — ferme le navigateur en pleine partie et la même disposition, le même nombre de coups et le même temps écoulé t'attendront à ton retour.",
+      "Vide le plateau. La manche s'achève quand toutes les paires ont été trouvées ; ton meilleur nombre de coups et ton temps record sont conservés séparément pour chaque difficulté — tu as toujours un record personnel à battre."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 et suivants)",
+        "status": "yes",
+        "note": "Le navigateur intégré fait tourner le jeu complet ; nécessite le firmware 5.13.7 ou plus récent."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "L'écran de 10,2 pouces affiche même le plateau Difficile de 24 cartes en grand format, un toucher par carte."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Même moteur de navigateur que les Paperwhite récents — le jeu est délibérément en noir et blanc."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma et similaires)",
+        "status": "yes",
+        "note": "Navigateur Chromium complet avec réponse tactile instantanée, la façon la plus fluide de jouer."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage et similaires)",
+        "status": "limited",
+        "note": "Le navigateur intégré est ancien et peut ne pas faire tourner le jeu sur tous les modèles ni toutes les versions de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Pas d'application navigateur officielle ; les solutions tierces exigent de débrider la tablette."
+      },
+      {
+        "device": "Kindle plus anciens (navigateur expérimental)",
+        "status": "no",
+        "note": "Les navigateurs expérimentaux d'avant 2016 ne prennent pas en charge le JavaScript moderne — cette page reste lisible, mais le jeu ne démarre pas."
+      }
+    ]
+  },
+  "whyEInk": "Le memory est un jeu d'images fixes, et l'e-ink est un écran fait pour les images fixes. Une carte ne change que quand tu la retournes — pas d'animations, pas de rafraîchissement automatique, pas de scintillement derrière le plateau. L'écran se lit comme une table de cartes imprimée, confortable à scruter toute une session en plein jour, à un coût batterie quasi nul.",
+  "faq": [
+    {
+      "q": "Est-ce vraiment gratuit ?",
+      "a": "Oui. Chaque plateau est entièrement gratuit, sans compte, sans paywall et sans public. Le site appartient à la famille E-Ink.me et est maintenu aux côtés des outils gratuits pour liseuses du site principal : rien à acheter, aucune inscription — ouvre la page et commence à retourner."
+    },
+    {
+      "q": "Est-ce que ça marche sur ma Kindle Paperwhite ?",
+      "a": "Si ta Paperwhite est un modèle 2021 ou ultérieur avec le firmware 5.13.7 ou plus récent, oui — ouvre le navigateur intégré, tape l'adresse du site et les cartes sont prêtes. Les Paperwhite plus anciennes, avec le premier navigateur expérimental, peuvent encore lire cette page en texte simple, mais pas faire tourner le jeu lui-même."
+    },
+    {
+      "q": "Dois-je débrider ma Kindle ?",
+      "a": "Non. Le jeu tourne entièrement dans le navigateur web intégré de ta Kindle. Pas d'application à installer, pas de manipulation, aucun risque pour la garantie — charger une page web est une action tout à fait ordinaire pour une Kindle. Si l'appareil sait ouvrir un site web, il sait lancer ce jeu."
+    },
+    {
+      "q": "Puis-je jouer hors ligne ?",
+      "a": "Il te faut une connexion la première fois que tu ouvres la page, car le site est livré comme une page web classique et non comme une application de boutique. Une fois chargé, tout tourne localement sur ton appareil — mais les navigateurs des liseuses ne sont pas conçus pour un usage hors ligne : prévois d'être connecté quand tu commences."
+    }
+  ],
+  "cta": {
+    "label": "Memory Pairs te plaît ? Transforme n'importe quel article web en EPUB et lis-le sur ta Kindle — outils gratuits sur e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "minesweeper",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

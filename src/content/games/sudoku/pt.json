@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Jogue Sudoku para Kindle e E-Ink — grátis, sem download",
+    "description": "Jogue Sudoku grátis no navegador do seu Kindle, BOOX ou Kobo. Sem download nem instalação: quebra-cabeças em preto e branco feitos para telas e-ink."
+  },
+  "h1": "Sudoku para Kindle e E-Ink — grátis, sem download",
+  "tagline": "Sudoku clássico 9×9 que roda direto no navegador do seu Kindle Paperwhite, Scribe ou BOOX — sem aplicativo para instalar, nada para baixar, basta abrir a página e jogar.",
+  "howToPlay": {
+    "steps": [
+      "Escolha uma dificuldade. Fácil, Médio, Difícil ou Especialista — o gerador monta uma grade nova com exatamente uma solução a cada vez. Tabuleiros fáceis entregam cerca de quarenta números dados; o Especialista deixa pouco mais de vinte, então cada colocação precisa ser conquistada pela lógica.",
+      "Selecione uma célula. Toque em qualquer quadrado em uma tela sensível ao toque, ou mova o cursor destacado com as teclas de seta se o seu dispositivo tiver botões físicos de página ou um teclado pareado.",
+      "Digite um número. Use o teclado numérico na tela ou pressione a tecla correspondente aos dígitos de 1 a 9. Um dígito que quebra a regra de linha, coluna ou bloco do Sudoku é sinalizado de imediato com uma célula invertida em preto e branco, então os caminhos errados ficam óbvios em uma tela e-ink.",
+      "Anote candidatos a lápis. Ative o modo de notas para anotar dígitos candidatos pequenos nos cantos de uma célula antes de confirmar — o mesmo hábito do Sudoku em papel, e quase essencial nos tabuleiros Difícil e Especialista.",
+      "Corrija erros com limpeza. Apague uma entrada com a borracha, e use Desfazer para voltar pelos seus movimentos recentes um a um em vez de reconstruir o tabuleiro inteiro.",
+      "Acompanhe a sessão. Um cronômetro integrado conta o tempo enquanto você joga, e seu tabuleiro é salvo conforme você avança na maioria dos dispositivos — feche o navegador no meio do quebra-cabeça e retome de onde parou.",
+      "Termine a grade. O quebra-cabeça está resolvido quando cada linha, cada coluna e cada bloco 3×3 contém os dígitos de 1 a 9 exatamente uma vez. Como cada quebra-cabeça tem uma única solução, a dedução paciente — nunca o chute — é sempre suficiente."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 e posteriores)",
+        "status": "yes",
+        "note": "O navegador integrado executa o jogo completo; requer firmware 5.13.7 ou mais recente."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "A tela de 10,2 polegadas mostra as 81 células em um tamanho confortável, um toque por célula."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "O mesmo motor de navegador dos Paperwhite recentes — o jogo se mantém em preto e branco por design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma e similares)",
+        "status": "yes",
+        "note": "Navegador Chromium completo, a experiência e-ink mais fluida; as teclas físicas de página movem o cursor nos modelos que as têm."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage e similares)",
+        "status": "limited",
+        "note": "O navegador integrado é antigo e pode não executar o quebra-cabeça em todos os modelos ou versões de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Não tem aplicativo de navegador oficial; as opções de terceiros exigem fazer jailbreak no tablet."
+      },
+      {
+        "device": "Kindles antigos (navegador experimental)",
+        "status": "no",
+        "note": "Os navegadores experimentais anteriores a 2016 não conseguem executar JavaScript moderno — esta página continua legível, mas o jogo não inicia."
+      }
+    ]
+  },
+  "whyEInk": "O Sudoku é um quebra-cabeça estático e a e-ink é uma tela estática, então nada aqui pisca, anima ou atualiza atrás da sua grade. Só a célula que você toca é redesenhada. A tela se comporta como papel impresso — confortável para sessões longas à luz do dia, com custo de bateria essencialmente zero.",
+  "faq": [
+    {
+      "q": "É grátis mesmo?",
+      "a": "Sim. Cada quebra-cabeça é grátis, sem conta, sem paywall e sem anúncios. O site faz parte da família E-Ink.me e é mantido junto com as ferramentas gratuitas para e-readers do site principal, então não há nada para comprar nem nada para registrar."
+    },
+    {
+      "q": "Funciona no meu Kindle Paperwhite?",
+      "a": "Se o seu Paperwhite é um modelo de 2021 ou posterior com firmware 5.13.7 ou mais recente, sim — abra o navegador integrado, digite o endereço do site e comece a jogar. Os Paperwhite antigos com o primeiro navegador experimental conseguem exibir esta página como texto simples, mas não conseguem executar o quebra-cabeça."
+    },
+    {
+      "q": "Preciso fazer jailbreak no meu Kindle?",
+      "a": "Não. O jogo funciona inteiramente no navegador web integrado do seu Kindle. Não há aplicativo para instalar, nenhum truque para aplicar nem garantia com que se preocupar — abrir um site é algo comum para um Kindle. Se o seu dispositivo consegue carregar uma página web, ele consegue carregar este jogo."
+    },
+    {
+      "q": "Posso jogar offline?",
+      "a": "Você precisa de conexão com a internet na primeira vez em que abrir a página, porque o site é entregue como uma página web comum e não como um aplicativo para baixar. Depois de carregada, o quebra-cabeça roda localmente no seu dispositivo — mas os navegadores de e-readers não são feitos para uso offline, então conte com estar conectado ao começar."
+    }
+  ],
+  "cta": {
+    "label": "Gostando do Sudoku? Transforme qualquer artigo da web em um EPUB e leia no seu Kindle — ferramentas grátis em e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "memory",
+      "minesweeper",
+      "nonogram"
+    ]
+  }
+}

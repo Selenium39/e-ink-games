@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Hidden Code para Kindle e E-Ink — jogo de lógica grátis",
+    "description": "Resolva quebra-cabeças de decifrar códigos grátis no navegador do seu Kindle, BOOX ou Kobo. Descubra o código oculto de símbolos — sem download, feito para telas e-ink."
+  },
+  "h1": "Hidden Code para Kindle e E-Ink — grátis, sem download",
+  "tagline": "Decifre um código oculto de formas e símbolos direto no navegador do seu Kindle Paperwhite, Scribe ou BOOX — sem aplicativo, sem download, só dedução em preto e branco.",
+  "howToPlay": {
+    "steps": [
+      "Escolha uma dificuldade. Fácil esconde um código de 4 símbolos entre 5 formas e dá 10 rodadas, Médio amplia o conjunto para 6 formas em 8 rodadas, e Difícil estende o código para 5 posições. Mais formas significam muito mais códigos possíveis para raciocinar.",
+      "Preencha a fileira atual. Toque em uma posição e depois em uma forma no teclado de símbolos — ou pressione as teclas de 1 a 6 em um teclado físico. As setas movem entre as posições e o Backspace apaga, então quem joga só com teclado está totalmente coberto.",
+      "Envie seu palpite. Pressione Enter ou o botão Verificar quando todas as posições estiverem preenchidas. A fileira trava na lista de histórico e não pode mais ser editada — cada palpite é uma pista permanente.",
+      "Leia o retorno. Cada fileira enviada rende pontos sólidos para as formas corretas na posição certa, e pontos vazios para as formas que existem no código mas estão na posição errada. Os pontos nunca revelam a qual posição pertencem, e formas ausentes do código não rendem nada.",
+      "Deduza e refine. Cruze suas fileiras: uma forma que não rende ponto nenhum está fora, enquanto uma forma repetida pode render vários pontos de uma vez. Use Desfazer para voltar pela sua fileira ainda não enviada antes de confirmá-la.",
+      "Venha ou aprenda. Decifre o código — todas as posições corretas — antes que as rodadas acabem e a vitória é sua; se a margem acabar, o código oculto é revelado para você ver o quão perto seu último palpite chegou.",
+      "Guarde seu recorde. Vitórias e média de rodadas até a vitória são contabilizadas no seu dispositivo, e um jogo em andamento é salvo automaticamente — feche o navegador no meio do código e retome exatamente de onde parou."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 e posteriores)",
+        "status": "yes",
+        "note": "O navegador integrado executa o jogo completo; requer firmware 5.13.7 ou mais recente."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "A grande tela mostra todo o seu histórico de palpites sem rolar a página, um toque por símbolo."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "O mesmo motor de navegador dos Paperwhite recentes — o jogo é preto e branco puro por design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma e similares)",
+        "status": "yes",
+        "note": "Navegador Chromium completo, a experiência e-ink mais fluida; as teclas numéricas de 1 a 6 inserem símbolos em teclados conectados."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage e similares)",
+        "status": "limited",
+        "note": "O navegador integrado é antigo e pode não executar o jogo em todos os modelos ou versões de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Não tem aplicativo de navegador oficial; as opções de terceiros exigem fazer jailbreak no tablet."
+      },
+      {
+        "device": "Kindles antigos (navegador experimental)",
+        "status": "no",
+        "note": "Os navegadores experimentais anteriores a 2016 não conseguem executar JavaScript moderno — esta página continua legível, mas o jogo não inicia."
+      }
+    ]
+  },
+  "whyEInk": "Decifrar códigos é um pensar quieto e por turnos, e a e-ink é a tela silenciosa e semelhante a páginas que isso merece. Aqui nada pisca, anima ou atualiza atrás das suas fileiras — só a posição que você toca é redesenhada. Leia o tabuleiro como uma folha de quebra-cabeça impressa à luz do dia, com custo de bateria quase zero.",
+  "faq": [
+    {
+      "q": "É grátis mesmo?",
+      "a": "Sim. Cada partida é grátis, sem conta, sem paywall e sem anúncios. O site faz parte da família E-Ink.me e é mantido junto com as ferramentas gratuitas para e-readers do site principal — nada para comprar e nada para registrar."
+    },
+    {
+      "q": "Funciona no meu Kindle Paperwhite?",
+      "a": "Se o seu Paperwhite é um modelo de 2021 ou posterior com firmware 5.13.7 ou mais recente, sim — abra o navegador integrado, digite o endereço do site e comece a jogar. Os Paperwhite antigos com o primeiro navegador experimental conseguem exibir esta página como texto simples, mas não conseguem executar o jogo."
+    },
+    {
+      "q": "Preciso fazer jailbreak no meu Kindle?",
+      "a": "Não. O jogo funciona inteiramente no navegador web integrado do seu Kindle. Não há aplicativo para instalar, nenhum truque para aplicar nem garantia com que se preocupar — abrir um site é algo comum para um Kindle. Se o seu dispositivo consegue carregar uma página web, ele consegue jogar."
+    },
+    {
+      "q": "Posso jogar offline?",
+      "a": "Você precisa de conexão com a internet na primeira vez em que abrir a página, porque o site é entregue como uma página web comum e não como um aplicativo para baixar. Depois de carregada, o jogo roda localmente no seu dispositivo — mas os navegadores de e-readers não são feitos para uso offline, então conte com estar conectado ao começar."
+    }
+  ],
+  "cta": {
+    "label": "Decifrou o código? Transforme qualquer artigo da web em um EPUB e leia no seu Kindle — ferramentas grátis em e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "logic",
+    "relatedSlugs": [
+      "hangman",
+      "minesweeper",
+      "nonogram",
+      "word-daily"
+    ]
+  }
+}

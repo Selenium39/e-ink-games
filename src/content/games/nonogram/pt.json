@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Jogue Nonogram para Kindle e E-Ink — grátis, sem download",
+    "description": "Resolva nonogramas grátis no navegador do seu Kindle, BOOX ou Kobo. Sem download nem instalação: grades de lógica em preto e branco feitas para telas e-ink."
+  },
+  "h1": "Nonogram para Kindle e E-Ink — grátis, sem download",
+  "tagline": "Quebra-cabeças clássicos de lógica de imagem que rodam direto no navegador do seu Kindle Paperwhite, Scribe ou BOOX — sem aplicativo para instalar, nada para baixar, basta abrir a página e começar a preencher quadrados.",
+  "howToPlay": {
+    "steps": [
+      "Escolha um tabuleiro, ou aceite o Diário. Fácil é uma grade 5×5, Médio 10×10 e Difícil 15×15 — cada quebra-cabeça é gerado novo e garantidamente solúvel por pura lógica. O botão Diário distribui um quebra-cabeça de imagem 10×10 compartilhado a cada dia: todos os jogadores do mundo recebem a mesma semente, então você pode comparar o progresso sem uma conta.",
+      "Leia as pistas. Os números ao longo das bordas esquerda e superior descrevem as sequências de quadrados preenchidos em cada linha e coluna. Uma linha marcada \"3 1\" esconde um bloco de três, pelo menos um vão, e depois uma única célula preenchida — a ordem é fixa, os vãos são o quebra-cabeça.",
+      "Preencha e marque quadrados. Em uma tela sensível ao toque, toque em um quadrado para alterná-lo entre três estados: vazio, preenchido e riscado. As cruzes (×) são suas marcas de prova para os quadrados que devem ficar vazios. Com teclado, as setas movem o cursor — essencial no tabuleiro Difícil de 15×15, onde os quadrados são menores que a ponta de um dedo — e Enter alterna, X marca uma cruz, Backspace limpa.",
+      "Veja as pistas inverterem. Quando os quadrados preenchidos de uma linha ou coluna correspondem exatamente à pista dela, essa pista inverte para branco sobre preto — uma confirmação grátis de que a linha está pronta. Não há avisos de movimento errado no caminho; como nos nonogramas de papel, a própria imagem é a única juíza.",
+      "Trabalhe a lógica, nunca o chute. Linhas completas, blocos na borda e sequências que se sobrepõem nos dois sentidos abrem a imagem passo a passo. Desfazer recua suas marcas uma a uma, o cronômetro integrado acompanha a sessão, e o progresso é salvo automaticamente se você fechar o navegador no meio da imagem.",
+      "Complete a imagem. O quebra-cabeça está resolvido quando cada linha e coluna corresponde às pistas — como cada tabuleiro tem exatamente uma solução, a imagem oculta simétrica emerge célula a célula conforme você a deduz, uma recompensa estilo Picross que combina com uma tela com aspecto de papel."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 e posteriores)",
+        "status": "yes",
+        "note": "O navegador integrado executa o jogo completo; requer firmware 5.13.7 ou mais recente."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "A tela de 10,2 polegadas mostra até a grade Difícil de 15×15 em um tamanho confortável."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "O mesmo motor de navegador dos Paperwhite recentes — o jogo se mantém em preto e branco por design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma e similares)",
+        "status": "yes",
+        "note": "Navegador Chromium completo, a experiência e-ink mais fluida; as teclas físicas de página movem o cursor nos modelos que as têm."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage e similares)",
+        "status": "limited",
+        "note": "O navegador integrado é antigo e pode não executar o quebra-cabeça em todos os modelos ou versões de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Não tem aplicativo de navegador oficial; as opções de terceiros exigem fazer jailbreak no tablet."
+      },
+      {
+        "device": "Kindles antigos (navegador experimental)",
+        "status": "no",
+        "note": "Os navegadores experimentais anteriores a 2016 não conseguem executar JavaScript moderno — esta página continua legível, mas o jogo não inicia."
+      }
+    ]
+  },
+  "whyEInk": "Um nonograma é um quebra-cabeça quieto e estático, e a e-ink é uma tela quieta e estática — um par natural. Aqui nada pisca, anima ou repinta atrás da sua grade; só o quadrado que você toca é redesenhado. O tabuleiro se lê como papel milimetrado impresso, confortável à luz do dia por sessões longas, com custo de bateria quase zero.",
+  "faq": [
+    {
+      "q": "É grátis mesmo?",
+      "a": "Sim. Cada quebra-cabeça — incluindo o Diário — é grátis, sem conta, sem paywall e sem anúncios. O site faz parte da família E-Ink.me e é mantido junto com as ferramentas gratuitas para e-readers do site principal, então não há nada para comprar nem nada para registrar."
+    },
+    {
+      "q": "Funciona no meu Kindle Paperwhite?",
+      "a": "Se o seu Paperwhite é um modelo de 2021 ou posterior com firmware 5.13.7 ou mais recente, sim — abra o navegador integrado, digite o endereço do site e comece a preencher quadrados. Os Paperwhite antigos com o primeiro navegador experimental conseguem exibir esta página como texto simples, mas não conseguem executar o quebra-cabeça."
+    },
+    {
+      "q": "Preciso fazer jailbreak no meu Kindle?",
+      "a": "Não. O jogo funciona inteiramente no navegador web integrado do seu Kindle. Não há aplicativo para instalar, nenhum truque para aplicar nem garantia com que se preocupar — abrir um site é algo comum para um Kindle. Se o seu dispositivo consegue carregar uma página web, ele consegue carregar este jogo."
+    },
+    {
+      "q": "Posso jogar offline?",
+      "a": "Você precisa de conexão com a internet na primeira vez em que abrir a página, porque o site é entregue como uma página web comum e não como um aplicativo para baixar. Depois de carregada, o quebra-cabeça roda localmente no seu dispositivo — mas os navegadores de e-readers não são feitos para uso offline, então conte com estar conectado ao começar."
+    }
+  ],
+  "cta": {
+    "label": "Resolveu a imagem? Transforme qualquer artigo da web em um EPUB e leia no seu Kindle — ferramentas grátis em e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "logic",
+    "relatedSlugs": [
+      "2048",
+      "hidden-code",
+      "minesweeper",
+      "sudoku"
+    ]
+  }
+}

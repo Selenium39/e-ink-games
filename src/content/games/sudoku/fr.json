@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Sudoku pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+    "description": "Joue au Sudoku gratuitement dans le navigateur de ta Kindle, BOOX ou Kobo. Sans téléchargement ni installation — des grilles en noir et blanc pensées pour les écrans e-ink."
+  },
+  "h1": "Sudoku pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+  "tagline": "Le Sudoku classique en 9×9 qui tourne directement dans le navigateur de ta Kindle Paperwhite, Scribe ou BOOX — pas d'application à installer, rien à télécharger : ouvre la page et joue.",
+  "howToPlay": {
+    "steps": [
+      "Choisis une difficulté. Facile, Moyen, Difficile ou Expert — le générateur construit à chaque partie une grille neuve qui admet exactement une solution. Les grilles faciles te donnent une quarantaine de chiffres ; Expert n'en laisse qu'un peu plus de vingt : chaque placement doit se gagner par la logique.",
+      "Sélectionne une case. Touche (ou clique) n'importe quelle case sur un écran tactile, ou déplace le curseur surligné avec les flèches si ton appareil a des boutons de page physiques ou un clavier associé.",
+      "Saisis un chiffre. Utilise le pavé numérique à l'écran ou appuie sur la touche correspondante pour les chiffres 1 à 9. Un chiffre qui enfreint la règle de ligne, de colonne ou de bloc du Sudoku est signalé à l'instant par une case inversée noir et blanc : les erreurs se voient d'emblée sur un écran e-ink.",
+      "Note tes candidats au crayon. Active le mode notes pour inscrire de petits chiffres candidats dans les coins d'une case avant de te décider — le même réflexe que le Sudoku papier, et quasiment indispensable en Difficile et Expert.",
+      "Corrige proprement tes erreurs. Efface une saisie avec la gomme, et sert-toi d'Annuler pour revenir sur tes derniers coups un par un au lieu de reconstruire toute la grille.",
+      "Suis ta session. Un chronomètre intégré tourne pendant que tu joues, et ta grille est sauvegardée au fil de la partie sur la plupart des appareils — ferme le navigateur en pleine grille et reprends exactement où tu t'étais arrêté.",
+      "Termine la grille. Le puzzle est résolu quand chaque ligne, chaque colonne et chaque bloc 3×3 contient les chiffres 1 à 9 exactement une fois. Chaque grille n'ayant qu'une solution unique, la déduction patiente — jamais le hasard — suffit toujours."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 et suivants)",
+        "status": "yes",
+        "note": "Le navigateur intégré fait tourner le jeu complet ; nécessite le firmware 5.13.7 ou plus récent."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "L'écran de 10,2 pouces affiche les 81 cases à une taille confortable, un toucher par case."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Même moteur de navigateur que les Paperwhite récents — le jeu reste en noir et blanc par conception."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma et similaires)",
+        "status": "yes",
+        "note": "Navigateur Chromium complet, l'expérience e-ink la plus fluide ; les touches de page physiques déplacent le curseur sur les modèles qui en ont."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage et similaires)",
+        "status": "limited",
+        "note": "Le navigateur intégré est ancien et peut ne pas faire tourner la grille sur tous les modèles ni toutes les versions de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Pas d'application navigateur officielle ; les solutions tierces exigent de débrider la tablette."
+      },
+      {
+        "device": "Kindle plus anciens (navigateur expérimental)",
+        "status": "no",
+        "note": "Les navigateurs expérimentaux d'avant 2016 ne prennent pas en charge le JavaScript moderne — cette page reste lisible, mais le jeu ne démarre pas."
+      }
+    ]
+  },
+  "whyEInk": "Le Sudoku est un puzzle statique et l'e-ink un écran statique : rien ici ne clignote, ne s'anime ni ne se rafraîchit derrière ta grille. Seule la case que tu touches est redessinée. L'écran se comporte comme du papier imprimé — confortable pour les longues sessions en plein jour, à un coût batterie quasi nul.",
+  "faq": [
+    {
+      "q": "Est-ce vraiment gratuit ?",
+      "a": "Oui. Chaque grille est entièrement gratuite, sans compte, sans paywall et sans public. Le site fait partie de la famille E-Ink.me et vit aux côtés des outils gratuits pour liseuses du site principal : rien à acheter, rien à débloquer, aucune inscription."
+    },
+    {
+      "q": "Est-ce que ça marche sur ma Kindle Paperwhite ?",
+      "a": "Si ta Paperwhite est un modèle 2021 ou ultérieur avec le firmware 5.13.7 ou plus récent, oui — ouvre le navigateur intégré, tape l'adresse du site et joue. Les Paperwhite plus anciennes, avec le premier navigateur expérimental, peuvent afficher cette page en texte simple, mais pas faire tourner la grille elle-même."
+    },
+    {
+      "q": "Dois-je débrider ma Kindle ?",
+      "a": "Non. Le jeu tourne entièrement dans le navigateur web intégré de ta Kindle. Pas d'application à installer, pas de manipulation, aucun risque pour la garantie — ouvrir une page web est une action tout à fait ordinaire pour une Kindle. Si ton appareil sait charger une page web, il sait lancer ce jeu."
+    },
+    {
+      "q": "Puis-je jouer hors ligne ?",
+      "a": "Il te faut une connexion la première fois que tu ouvres la page, car le site est livré comme une page web classique et non comme une application téléchargeable. Une fois chargée, la grille tourne localement sur ton appareil — mais les navigateurs des liseuses ne sont pas conçus pour un usage hors ligne : prévois d'être connecté quand tu commences."
+    }
+  ],
+  "cta": {
+    "label": "Le Sudoku te plaît ? Transforme n'importe quel article web en EPUB et lis-le sur ta Kindle — outils gratuits sur e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "memory",
+      "minesweeper",
+      "nonogram"
+    ]
+  }
+}

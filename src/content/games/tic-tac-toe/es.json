@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Tic-Tac-Toe para Kindle y E-Ink — gratis, sin descargas",
+    "description": "Juega gratis al Tic-Tac-Toe en el navegador de tu Kindle, BOOX o Kobo. Sin descargas: enfréntate a una IA imbatible o juega por turnos en una misma pantalla e-ink."
+  },
+  "h1": "Tic-Tac-Toe para Kindle y E-Ink — gratis, sin descargas",
+  "tagline": "El clásico tres en raya que funciona directamente en el navegador de tu Kindle Paperwhite, Scribe o BOOX — juega contra una computadora imbatible o contra un amigo en una misma pantalla, sin nada que descargar.",
+  "howToPlay": {
+    "steps": [
+      "Elige a tu rival. Juega contra la computadora, o cambia a 2 jugadores y comparte una sola pantalla — X y O se turnan en el mismo dispositivo, al estilo de pasar y jugar.",
+      "Elige la dificultad. Fácil sigue cometiendo errores que puedes castigar; Difícil juega una estrategia minimax impecable y no se le puede ganar jamás — lo mejor que cualquiera puede hacer contra él es forzar tablas.",
+      "Haz un movimiento. Siempre juegas con X y mueves primero. Toca o haz clic en cualquier casilla vacía en pantalla táctil, o pulsa una tecla numérica: las teclas del 1 al 9 se corresponden con la cuadrícula desde arriba a la izquierda hasta abajo a la derecha.",
+      "Navega con el teclado. Las flechas mueven un cursor de marco grueso casilla a casilla; pulsa Enter o Espacio para soltar tu pieza en él. Retroceso o U deshace un movimiento.",
+      "Conoce el objetivo. Alinea tres de tus marcas en una fila, una columna o una diagonal. La línea ganadora se destaca al instante con un resaltado invertido en blanco y negro sobre sus tres casillas.",
+      "Corrige los errores. Contra la computadora, un Deshacer retrocede tanto tu movimiento como la respuesta de la máquina, devolviendo el tablero a tu turno; en modo de dos jugadores retira un solo movimiento.",
+      "Sigue el marcador. Tus victorias, derrotas y tablas contra la computadora se cuentan en este dispositivo y se muestran junto al tablero — comprueba cuánto aguantas sosteniendo tablas contra un rival perfecto."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 y posteriores)",
+        "status": "yes",
+        "note": "El navegador integrado ejecuta el juego completo; requiere firmware 5.13.7 o más reciente."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "La pantalla de 10,2 pulgadas hace que las nueve casillas sean enormes y cómodas de tocar con una sola mano."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "El mismo motor de navegador que los Paperwhite recientes — el juego se mantiene en blanco y negro por diseño."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma y similares)",
+        "status": "yes",
+        "note": "Navegador Chromium completo, la experiencia e-ink más fluida; las teclas de paso de página o un teclado emparejado mueven el cursor."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage y similares)",
+        "status": "limited",
+        "note": "El navegador integrado está anticuado y puede que no ejecute el juego en todos los modelos o versiones de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No tiene aplicación de navegador oficial; las opciones de terceros exigen hacer jailbreak a la tablet."
+      },
+      {
+        "device": "Kindle antiguos (navegador experimental)",
+        "status": "no",
+        "note": "Los navegadores experimentales anteriores a 2016 no pueden ejecutar JavaScript moderno — esta página se puede leer, pero el juego no arranca."
+      }
+    ]
+  },
+  "whyEInk": "El tres en raya son nueve casillas y dos marcas, y la tinta electrónica solo redibuja la casilla que tocas. Sin parpadeos, sin animaciones, sin refrescos ocultos tras el tablero — solo trazos negros nítidos sobre blanco papel. La cuadrícula se lee perfectamente a plena luz del día y apenas toca la batería, así que una partida rápida nunca se convierte en una pausa para cargar.",
+  "faq": [
+    {
+      "q": "¿De verdad es gratis?",
+      "a": "Sí. Cada partida es gratis, sin cuenta, sin muros de pago y sin anuncios. El sitio pertenece a la familia E-Ink.me y se mantiene junto a las herramientas gratuitas para e-readers del sitio principal, así que no hay nada que comprar ni nada que registrar."
+    },
+    {
+      "q": "¿Funciona en mi Kindle?",
+      "a": "Si tienes un Kindle de 2021 o posterior — Paperwhite, Scribe o Colorsoft — con firmware 5.13.7 o más reciente, sí. Abre el navegador integrado y carga esta página. Los Kindle antiguos con el primer navegador experimental pueden mostrar esta página como texto, pero el juego en sí no arrancará."
+    },
+    {
+      "q": "¿Tengo que hacer jailbreak a mi Kindle?",
+      "a": "No. El juego funciona por completo en el navegador web que tu Kindle ya trae de fábrica. No hay aplicación que instalar ni ningún truco que aplicar — si el dispositivo puede abrir una página web, puede jugar. Tu garantía no cambia en nada."
+    },
+    {
+      "q": "¿Puedo jugar sin conexión?",
+      "a": "Necesitas conexión a internet la primera vez que se carga la página, porque el sitio se entrega como una página web normal y no como una aplicación descargable. Una vez cargado, el juego se ejecuta en el propio dispositivo, y tu tablero y tu récord de victorias se guardan localmente entre visitas."
+    }
+  ],
+  "cta": {
+    "label": "¿Disfrutando la partida? Convierte cualquier artículo web en un EPUB y léelo en tu Kindle — herramientas gratis en e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "board",
+    "relatedSlugs": [
+      "2048",
+      "hidden-code",
+      "minesweeper"
+    ]
+  }
+}

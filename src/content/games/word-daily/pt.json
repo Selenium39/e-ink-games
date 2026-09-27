@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Word Daily para Kindle e E-Ink — jogo diário de palavras grátis",
+    "description": "Jogue um jogo diário de palavras grátis no navegador do seu Kindle, BOOX ou Kobo. Um quebra-cabeça novo de cinco letras por dia — sem download, feito para telas e-ink."
+  },
+  "h1": "Word Daily para Kindle e E-Ink — grátis, sem download",
+  "tagline": "Um jogo diário de palavras estilo Wordle que roda direto no navegador do seu Kindle, BOOX ou Kobo — uma palavra de cinco letras por dia, a mesma para todos os jogadores, desenhada em preto e branco puro.",
+  "howToPlay": {
+    "steps": [
+      "Adivinhe a palavra de cinco letras de hoje. Todos os jogadores recebem a mesma palavra a cada dia — o quebra-cabeça está ligado à data, não ao seu dispositivo, então você pode comparar resultados com amigos. Você tem seis tentativas, e uma palavra nova chega amanhã.",
+      "Digite seu primeiro palpite. Toque no teclado QWERTY na tela com o dedo ou uma caneta stylus, ou digite em um teclado físico se o seu e-reader tiver um ou um teclado estiver pareado — teclas físicas, Enter e Backspace funcionam junto com o teclado de toque.",
+      "Leia o retorno. Depois de cada palpite, as peças respondem em preto e branco puro: uma peça preta sólida significa que a letra está no lugar certo, uma peça com contorno grosso significa que a letra está na palavra mas em outro lugar, e uma peça com contorno fino significa que ela não está na palavra.",
+      "Acompanhe o histórico do teclado. Cada tecla na tela carrega as mesmas três marcas para as letras que você já tentou, então de relance você sabe quais letras estão posicionadas, quais sobrevivem em outro lugar e quais são becos sem saída.",
+      "Cuidado com letras repetidas. A palavra oculta pode conter a mesma letra duas vezes; o retorno conta cada cópia com cuidado, então um contorno grosso nunca promete mais cópias do que a palavra realmente tem.",
+      "Jogue rodadas de treino ilimitadas. Terminou a palavra do dia e quer mais? Mude para o modo Treino para uma palavra aleatória nova a qualquer momento — as rodadas de treino nunca tocam no seu resultado diário, na sua sequência de vitórias ou nas suas estatísticas.",
+      "Compartilhe e volte. Quando o quebra-cabeça termina, uma grade de resultados em texto simples aparece — segure para selecionar e copiar para onde quiser. Seu progresso diário, sequência e estatísticas são salvos no seu dispositivo automaticamente."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 e posteriores)",
+        "status": "yes",
+        "note": "O navegador integrado executa o jogo completo; requer firmware 5.13.7 ou mais recente."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "A grande tela mostra todo o quadro de letras e o teclado sem rolar a página."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "O mesmo motor de navegador dos Paperwhite recentes — o jogo se mantém em preto e branco por design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma e similares)",
+        "status": "yes",
+        "note": "Navegador Chromium completo, a experiência e-ink mais fluida; digitar em um teclado pareado parece instantâneo."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage e similares)",
+        "status": "limited",
+        "note": "O navegador integrado é antigo e pode não executar o jogo em todos os modelos ou versões de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Não tem aplicativo de navegador oficial; as opções de terceiros exigem fazer jailbreak no tablet."
+      },
+      {
+        "device": "Kindles antigos (navegador experimental)",
+        "status": "no",
+        "note": "Os navegadores experimentais anteriores a 2016 não conseguem executar JavaScript moderno — esta página continua legível, mas o jogo não inicia."
+      }
+    ]
+  },
+  "whyEInk": "Quebra-cabeças de palavras são texto, e a e-ink renderiza texto lindamente. Este jogo redesenha só as peças que mudam — sem animações, sem flashes, sem halos cinza — então o tabuleiro se lê como uma página impressa em qualquer luz. O formato de uma vez por dia combina perfeitamente com e-readers: uma palavra, um minuto tranquilo de pensamento, e uma tela que nunca brilha de volta.",
+  "faq": [
+    {
+      "q": "É grátis mesmo?",
+      "a": "Sim. A palavra do dia e as rodadas de treino ilimitadas são completamente grátis, sem conta, sem anúncios e sem paywall. O site pertence à família de ferramentas gratuitas para e-readers E-Ink.me, então não há nada para comprar nem nada para registrar — basta abrir a página e jogar."
+    },
+    {
+      "q": "Funciona no meu Kindle Paperwhite?",
+      "a": "Em modelos Paperwhite, Scribe e Colorsoft de 2021 em diante com firmware 5.13.7 ou mais recente, sim — o navegador integrado executa o jogo inteiro. Os Kindles antigos com o primeiro navegador experimental conseguem ler esta página como texto simples, mas o quebra-cabeça em si não inicia neles."
+    },
+    {
+      "q": "Preciso fazer jailbreak no meu Kindle?",
+      "a": "Não. O jogo funciona inteiramente dentro do navegador que o seu Kindle já traz de fábrica. Não há aplicativo para instalar, nenhum arquivo para copiar à força e nenhuma modificação de qualquer tipo — se o seu dispositivo consegue abrir uma página web comum, ele consegue jogar o Word Daily."
+    },
+    {
+      "q": "Posso jogar offline?",
+      "a": "Você precisa de conexão na primeira vez em que a página carrega, porque o site é entregue como uma página web comum e não como um aplicativo para baixar. Depois de carregada, cada palpite roda no próprio dispositivo e sua sequência fica armazenada localmente — mas planeje estar online ao começar."
+    }
+  ],
+  "cta": {
+    "label": "Resolveu a palavra do dia? Transforme qualquer artigo da web em um EPUB e leia no seu Kindle — ferramentas grátis em e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "daily",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-search"
+    ]
+  }
+}

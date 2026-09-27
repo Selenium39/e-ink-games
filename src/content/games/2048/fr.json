@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "2048 pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+    "description": "Joue à 2048 gratuitement dans le navigateur de ta Kindle, BOOX ou Kobo. Sans téléchargement ni installation — la fusion de tuiles classique, pensée pour l'e-ink."
+  },
+  "h1": "2048 pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+  "tagline": "Fais glisser et fusionne les tuiles numérotées jusqu'à atteindre 2048 — directement dans le navigateur de ta Kindle Paperwhite, Scribe ou BOOX, sans rien télécharger ni installer.",
+  "howToPlay": {
+    "steps": [
+      "Démarre avec deux tuiles. Chaque partie s'ouvre sur une grille 4×4 qui ne contient que deux tuiles numérotées — un 2 ou un 4 — et chaque coup que tu joues fait apparaître une nouvelle tuile : la grille se remplit donc au fil de la partie.",
+      "Déplace toute la grille. Sur écran tactile, balaye n'importe où sur la grille — à gauche, à droite, en haut ou en bas — et toutes les tuiles glissent aussi loin que possible dans cette direction. Tu peux aussi toucher les boutons fléchés sous la grille, ou appuyer sur les flèches si ton appareil a des boutons de page physiques ou un clavier associé.",
+      "Fusionne les tuiles égales. Quand deux tuiles affichant le même nombre se rencontrent, elles fusionnent en une tuile valant le double : deux 2 font un 4, deux 4 font un 8, et ainsi de suite. Chaque tuile ne peut fusionner qu'une fois par coup : une rangée 2-2-2-2 donne donc deux 4, pas un 8. Chaque fusion ajoute sa nouvelle valeur à ton score.",
+      "Lis le retour e-ink. À la place d'animations de glissement, une tuile tout juste apparue porte un cadre noir épais pendant un tour, et les tuiles qui viennent de fusionner passent en blanc sur noir — sur un écran façon papier, tu vois exactement ce qui a changé, sans aucun mouvement ni scintillement.",
+      "Annule tes erreurs. Un toucher sur Annuler fait reculer la grille d'un coup, en restaurant la position, le score et la tuile qui t'était servie : un glissement raté ne te coûte jamais la partie.",
+      "Vise 2048. Monte les puissances de deux en gardant tes plus grosses tuiles plaquées dans un coin. Dès qu'une tuile 2048 apparaît, c'est gagné — le jeu te propose une nouvelle grille ou de continuer vers 4096 et au-delà.",
+      "Surveille la fin. La partie est terminée quand la grille est pleine et qu'aucune tuile voisine ne peut fusionner. Ton score courant, ton record sur l'appareil et un chronomètre de session restent affichés au-dessus de la grille, et la progression est sauvegardée automatiquement si tu fermes le navigateur en pleine course."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 et suivants)",
+        "status": "yes",
+        "note": "Les mouvements par balayage fonctionnent bien sur l'écran tactile ; nécessite le firmware 5.13.7 ou plus récent."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Le grand écran de 10,2 pouces affiche la grille 4×4 à une taille confortable, un balayage par coup."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Même moteur de navigateur que les Paperwhite récents — le jeu est en noir et blanc par conception."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma et similaires)",
+        "status": "yes",
+        "note": "Navigateur Chromium complet, l'expérience e-ink la plus fluide ; les flèches fonctionnent sur les modèles à boutons de page."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage et similaires)",
+        "status": "limited",
+        "note": "Le navigateur intégré est ancien et peut ne pas faire tourner le jeu sur tous les modèles ni toutes les versions de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Pas d'application navigateur officielle ; les solutions tierces exigent de débrider la tablette."
+      },
+      {
+        "device": "Kindle plus anciens (navigateur expérimental)",
+        "status": "no",
+        "note": "Les navigateurs expérimentaux d'avant 2016 ne prennent pas en charge le JavaScript moderne — cette page reste lisible, mais le jeu ne démarre pas."
+      }
+    ]
+  },
+  "whyEInk": "2048 est d'ordinaire un jeu d'animations glissées, et les écrans e-ink n'animent pas — cette version remplace donc le mouvement par des marques façon impression : les nouvelles tuiles portent un cadre épais pendant un tour, et les fusions passent du noir au blanc. Seules les tuiles qui ont changé sont redessinées : la grille se lit comme du papier, et la batterie ne s'en aperçoit presque pas.",
+  "faq": [
+    {
+      "q": "Est-ce vraiment gratuit ?",
+      "a": "Oui. Le jeu est entièrement gratuit, sans compte, sans paywall et sans public. Le site fait partie de la famille E-Ink.me et vit aux côtés des outils gratuits pour liseuses du site principal : rien à acheter, rien à débloquer, aucune inscription."
+    },
+    {
+      "q": "Est-ce que ça marche sur ma Kindle Paperwhite ?",
+      "a": "Si ta Paperwhite est un modèle 2021 ou ultérieur avec le firmware 5.13.7 ou plus récent, oui — ouvre le navigateur intégré, tape l'adresse du site et joue d'un balayage. Les Paperwhite plus anciennes, avec le premier navigateur expérimental, peuvent encore lire cette page en texte, mais pas faire tourner le jeu lui-même."
+    },
+    {
+      "q": "Dois-je débrider ma Kindle ?",
+      "a": "Non. Le jeu tourne entièrement dans le navigateur web intégré de ta Kindle. Pas d'application à installer, pas de manipulation, aucune garantie en jeu — charger une page web est une action tout à fait ordinaire pour une Kindle. Si l'appareil sait ouvrir un site, il sait y jouer."
+    },
+    {
+      "q": "Puis-je jouer hors ligne ?",
+      "a": "Il te faut une connexion au premier chargement de la page, car le jeu est livré comme une page web classique et non comme une application de boutique. Une fois chargé, chaque coup tourne localement sur l'appareil — mais les navigateurs des liseuses ne sont pas conçus pour un usage hors ligne : sois connecté quand tu lances une partie."
+    }
+  ],
+  "cta": {
+    "label": "2048 atteint ? Transforme n'importe quel article web en EPUB et lis-le sur ta Kindle — outils gratuits sur e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "memory",
+      "minesweeper",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

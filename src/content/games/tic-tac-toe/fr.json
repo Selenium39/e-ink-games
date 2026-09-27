@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Tic-Tac-Toe pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+    "description": "Joue au Tic-Tac-Toe (morpion) gratuitement dans le navigateur de ta Kindle, BOOX ou Kobo. Sans téléchargement — affronte une IA imbattable ou joue à deux sur un écran e-ink."
+  },
+  "h1": "Tic-Tac-Toe pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+  "tagline": "Le trois-en-ligne classique qui tourne directement dans le navigateur de ta Kindle Paperwhite, Scribe ou BOOX — affronte un ordinateur imbattable ou un ami sur le même écran, sans rien télécharger.",
+  "howToPlay": {
+    "steps": [
+      "Choisis ton adversaire. Joue contre l'ordinateur, ou passe en 2 joueurs et partagez un écran — X et O jouent à tour de rôle sur le même appareil, façon jeu de table.",
+      "Choisis une difficulté. Facile fait encore des erreurs que tu peux punir ; Difficile joue une stratégie minimax impeccable et ne peut jamais être battu — le mieux que quiconque puisse faire contre lui est d'arracher le nul.",
+      "Joue un coup. Tu es toujours X et tu commences. Touche (ou clique) n'importe quelle case vide sur écran tactile, ou appuie sur une touche de chiffre : les touches 1 à 9 correspondent à la grille de haut-gauche à bas-droite.",
+      "Navigue au clavier. Les flèches déplacent un curseur à cadre gras case par case ; appuie sur Entrée ou Espace pour y poser ton pion. Retour arrière ou U annule un coup.",
+      "Connais l'objectif. Aligne trois de tes marques en ligne, colonne ou diagonale. La ligne gagnante est signalée à l'instant par un surlignage inversé noir et blanc sur ses trois cases.",
+      "Annule tes erreurs. Contre l'ordinateur, un Annuler fait reculer d'un coup ton coup et la réponse de la machine, en ramenant la grille à ton tour ; en mode deux joueurs, il retire un seul coup.",
+      "Suis le score. Tes victoires, défaites et nuls contre l'ordinateur sont comptés sur cet appareil et affichés à côté de la grille — vois combien de temps tu tiens un adversaire parfait en échec."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 et suivants)",
+        "status": "yes",
+        "note": "Le navigateur intégré fait tourner le jeu complet ; nécessite le firmware 5.13.7 ou plus récent."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "L'écran de 10,2 pouces rend les neuf cases énormes et confortables à toucher d'une seule main."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Même moteur de navigateur que les Paperwhite récents — le jeu reste en noir et blanc par conception."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma et similaires)",
+        "status": "yes",
+        "note": "Navigateur Chromium complet, l'expérience e-ink la plus fluide ; touches de page ou clavier associé pilotent le curseur."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage et similaires)",
+        "status": "limited",
+        "note": "Le navigateur intégré est ancien et peut ne pas faire tourner le jeu sur tous les modèles ni toutes les versions de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Pas d'application navigateur officielle ; les solutions tierces exigent de débrider la tablette."
+      },
+      {
+        "device": "Kindle plus anciens (navigateur expérimental)",
+        "status": "no",
+        "note": "Les navigateurs expérimentaux d'avant 2016 ne prennent pas en charge le JavaScript moderne — cette page reste lisible, mais le jeu ne démarre pas."
+      }
+    ]
+  },
+  "whyEInk": "Le morpion, c'est neuf cases et deux marques, et l'e-ink ne redessine que la case que tu touches. Pas de clignotement, pas d'animation, pas de rafraîchissement caché derrière la grille — juste des traits noirs nets sur blanc papier. La grille se lit parfaitement en plein soleil et touche à peine la batterie : une partie rapide ne devient jamais une pause recharge.",
+  "faq": [
+    {
+      "q": "Est-ce vraiment gratuit ?",
+      "a": "Oui. Chaque partie est entièrement gratuite, sans compte, sans paywall et sans public. Le site appartient à la famille E-Ink.me et vit aux côtés des outils gratuits pour liseuses du site principal : rien à acheter, aucune inscription."
+    },
+    {
+      "q": "Est-ce que ça marche sur ma Kindle ?",
+      "a": "Si tu as une Kindle de 2021 ou plus récente — Paperwhite, Scribe ou Colorsoft — avec le firmware 5.13.7 ou plus récent, oui. Ouvre le navigateur intégré et charge cette page. Les Kindle plus anciennes, avec le premier navigateur expérimental, peuvent afficher cette page en texte, mais le jeu lui-même ne démarrera pas."
+    },
+    {
+      "q": "Dois-je débrider ma Kindle ?",
+      "a": "Non. Le jeu tourne entièrement dans le navigateur web que ta Kindle embarque déjà. Pas d'application à installer, pas de manipulation — si l'appareil sait ouvrir une page web, il sait jouer. Ta garantie ne change en rien."
+    },
+    {
+      "q": "Puis-je jouer hors ligne ?",
+      "a": "Il te faut une connexion au premier chargement de cette page, car le site est livré comme une page web ordinaire et non comme une application téléchargeable. Une fois chargé, le jeu tourne sur l'appareil lui-même, et ta grille comme ton palmarès sont conservés localement d'une visite à l'autre."
+    }
+  ],
+  "cta": {
+    "label": "La partie te plaît ? Transforme n'importe quel article web en EPUB et lis-le sur ta Kindle — outils gratuits sur e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "board",
+    "relatedSlugs": [
+      "2048",
+      "hidden-code",
+      "minesweeper"
+    ]
+  }
+}

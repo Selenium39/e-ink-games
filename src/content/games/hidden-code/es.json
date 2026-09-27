@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Hidden Code para Kindle y E-Ink — juego de lógica gratis",
+    "description": "Juega gratis a romper códigos en el navegador de tu Kindle, BOOX o Kobo. Descifra el código oculto de símbolos — sin descargas, hecho para pantallas e-ink."
+  },
+  "h1": "Hidden Code para Kindle y E-Ink — gratis, sin descargas",
+  "tagline": "Descifra un código oculto de formas y símbolos directamente en el navegador de tu Kindle Paperwhite, Scribe o BOOX — sin aplicación, sin descargas, pura deducción en blanco y negro.",
+  "howToPlay": {
+    "steps": [
+      "Elige una dificultad. Fácil oculta un código de 4 símbolos tomado de 5 formas y te da 10 rondas, Medio amplía el conjunto a 6 formas en 8 rondas, y Difícil estira el código a 5 casillas. Más formas significan muchos más códigos posibles que razonar.",
+      "Rellena la fila actual. Toca una casilla y luego una forma en el teclado de símbolos — o pulsa las teclas 1 a 6 en un teclado físico. Las flechas mueven entre casillas y Retroceso borra, así que quien juega solo con teclado está cubierto por completo.",
+      "Envía tu intento. Pulsa Enter o el botón Comprobar cuando todas las casillas estén llenas. La fila queda fijada en el historial y no se puede editar después — cada intento es una pista permanente.",
+      "Lee la respuesta. Cada fila enviada gana puntos sólidos por las formas correctas y en la casilla adecuada, y puntos huecos por las formas que están en el código pero en la casilla equivocada. Los puntos nunca revelan a qué casilla pertenecen, y las formas ausentes del código no ganan nada.",
+      "Deduce y afina. Cruza tus filas: una forma que no gana ningún punto está descartada, mientras que una forma repetida puede ganar varios puntos a la vez. Usa Deshacer para retroceder por tu fila no enviada antes de confirmarla.",
+      "Gana o aprende. Rompe el código — todas las casillas correctas — antes de que se agoten las rondas y la victoria es tuya; si se agotan, se revela el código oculto para que veas lo cerca que estuvo tu último intento.",
+      "Conserva tu récord. Las victorias y las rondas medias hasta ganar se registran en tu dispositivo, y una partida en curso se guarda automáticamente — cierra el navegador a medio código y retómala exactamente donde la dejaste."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 y posteriores)",
+        "status": "yes",
+        "note": "El navegador integrado ejecuta el juego completo; requiere firmware 5.13.7 o más reciente."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "La pantalla grande muestra todo tu historial de intentos sin hacer scroll, un toque por símbolo."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "El mismo motor de navegador que los Paperwhite recientes — el juego es blanco y negro puro por diseño."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma y similares)",
+        "status": "yes",
+        "note": "Navegador Chromium completo, la experiencia e-ink más fluida; las teclas numéricas 1-6 introducen símbolos en teclados conectados."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage y similares)",
+        "status": "limited",
+        "note": "El navegador integrado está anticuado y puede que no ejecute el juego en todos los modelos o versiones de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No tiene aplicación de navegador oficial; las opciones de terceros exigen hacer jailbreak a la tablet."
+      },
+      {
+        "device": "Kindle antiguos (navegador experimental)",
+        "status": "no",
+        "note": "Los navegadores experimentales anteriores a 2016 no pueden ejecutar JavaScript moderno — esta página se puede leer, pero el juego no arranca."
+      }
+    ]
+  },
+  "whyEInk": "Romper códigos es pensar en silencio, por turnos, y la tinta electrónica es la pantalla silenciosa y tipo página que merece. Aquí nada parpadea, se anima ni se refresca detrás de tus filas — solo se redibuja la casilla que tocas. Lee el tablero como una hoja de acertijos impresa a la luz del día, con un coste de batería casi nulo.",
+  "faq": [
+    {
+      "q": "¿De verdad es gratis?",
+      "a": "Sí. Cada partida es gratis, sin cuenta, sin muros de pago y sin anuncios. El sitio forma parte de la familia E-Ink.me y se mantiene junto a las herramientas gratuitas para e-readers del sitio principal — nada que comprar y nada que registrar."
+    },
+    {
+      "q": "¿Funciona en mi Kindle Paperwhite?",
+      "a": "Si tu Paperwhite es un modelo de 2021 o posterior con firmware 5.13.7 o más reciente, sí — abre el navegador integrado, escribe la dirección del sitio y empieza a jugar. Los Paperwhite antiguos con el primer navegador experimental pueden mostrar esta página como texto, pero no pueden ejecutar el juego."
+    },
+    {
+      "q": "¿Tengo que hacer jailbreak a mi Kindle?",
+      "a": "No. El juego funciona por completo en el navegador web integrado de tu Kindle. No hay aplicación que instalar, ningún truco que aplicar ni garantía de la que preocuparse — abrir un sitio web es algo habitual para un Kindle. Si tu dispositivo puede cargar una página web, puede jugar."
+    },
+    {
+      "q": "¿Puedo jugar sin conexión?",
+      "a": "Necesitas conexión a internet la primera vez que abres la página, porque el sitio se entrega como una página web normal y no como una aplicación descargable. Una vez cargado, el juego se ejecuta localmente en tu dispositivo — pero los navegadores de los e-readers no están hechos para uso sin conexión, así que cuenta con estar conectado al empezar."
+    }
+  ],
+  "cta": {
+    "label": "¿Descifraste el código? Convierte cualquier artículo web en un EPUB y léelo en tu Kindle — herramientas gratis en e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "logic",
+    "relatedSlugs": [
+      "hangman",
+      "minesweeper",
+      "nonogram",
+      "word-daily"
+    ]
+  }
+}

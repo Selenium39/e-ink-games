@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Word Search für Kindle & E-Ink – kostenlos, ohne Download",
+    "description": "Spiele kostenlos Wortsuchrätsel im Browser auf Kindle, BOOX oder Kobo. Kein Download, keine Installation – große schwarz-weiße Buchstabengitter für E-Ink-Bildschirme."
+  },
+  "h1": "Word Search für Kindle & E-Ink – kostenlos, ohne Download",
+  "tagline": "Klassische Wortsuche, direkt im Browser deines Kindle Paperwhite, Scribe oder BOOX – wähle ein Thema und jage die versteckten Wörter im Buchstabengitter. Nichts herunterzuladen.",
+  "howToPlay": {
+    "steps": [
+      "Wähle einen Schwierigkeitsgrad. Leicht versteckt sechs Wörter in einem 10×10-Gitter, Mittel acht Wörter in 12×12 und Schwer zehn Wörter in 14×14. Jede Runde würfelt außerdem ein zufälliges Thema – Tiere, Essen, Natur, Technologie oder Weltraum –, damit sich jedes Rätsel frisch anfühlt.",
+      "Scanne das Buchstabengitter und wähle aus der Wortliste ein Ziel aus. Wörter verstecken sich in acht Richtungen: waagerecht, senkrecht und entlang beider Diagonalen – und gelesen werden können sie auch rückwärts.",
+      "Wähle ein Wort aus. Tippe auf dem Touchscreen den ersten Buchstaben an, dann den letzten Buchstaben des Wortes – beide Enden funktionieren. Bei einem Treffer kippen die Buchstaben zu Weiß-auf-Schwarz, und das Wort wird in der Liste durchgestrichen.",
+      "Spiele stattdessen mit Tasten. Pfeiltasten bewegen einen Cursor übers Gitter, Enter markiert den Anfang und das Ende eines Wortes, und Escape bricht eine laufende Auswahl ab – praktisch auf dem 14×14-Gitter von Schwer, wo die Zellen eng beieinander sitzen.",
+      "Behalte die Uhr im Auge. Ein Timer läuft, während du spielst, und dein Fortschritt speichert sich automatisch – schließe den Browser mitten im Rätsel und nimm dieselbe Runde später wieder auf.",
+      "Beende die Runde. Vollständig ist das Rätsel, wenn jedes Wort der Liste gefunden ist; deine Zeit und deine Bestleistung pro Schwierigkeitsgrad bleiben auf dem Gerät gespeichert.",
+      "Fang neu an. Wechsle den Schwierigkeitsgrad oder drücke Neues Rätsel für ein frisches Thema und ein brandneues Gitter – keine zwei Runden sehen gleich aus."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (ab 2021)",
+        "status": "yes",
+        "note": "Der eingebaute Browser läuft das komplette Spiel; benötigt Firmware 5.13.7 oder neuer."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Das 10,2-Zoll-Display zeigt selbst das dichte 14×14-Gitter von Schwer bequem – Wörter per Tipp auswählen."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Gleiche Browser-Engine wie neuere Paperwhites; das Spiel ist von Haus aus schwarz-weiß – es geht nichts verloren."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma und ähnliche)",
+        "status": "yes",
+        "note": "Voller Chromium-Browser, das flüssigste E-Ink-Erlebnis; physische Blättertasten bewegen auf Modellen, die sie haben, den Cursor."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage und ähnliche)",
+        "status": "limited",
+        "note": "Der eingebaute Browser ist veraltet – je nach Modell und Firmware-Version startet das Rätsel eventuell nicht."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Keine offizielle Browser-App; Drittanbieter-Lösungen erfordern einen Jailbreak des Tablets."
+      },
+      {
+        "device": "Ältere Kindles (experimenteller Browser)",
+        "status": "no",
+        "note": "Experimentelle Browser vor 2016 können kein modernes JavaScript – diese Seite bleibt lesbar, aber das Spiel startet nicht."
+      }
+    ]
+  },
+  "whyEInk": "Wortsuche ist ein ruhiges, geduldiges Spiel, und E-Ink ist ein ruhiger, geduldiger Bildschirm. Nichts hier blinkt, animiert sich oder zeichnet sich hinter deinen Buchstaben neu – nur die Zelle, die du berührst, wird aktualisiert, wie Tinte, die auf Papier trocknet. Das große Buchstabengitter bleibt im direkten Tageslicht gestochen scharf, bei praktisch null Akkuverbrauch.",
+  "faq": [
+    {
+      "q": "Ist das wirklich kostenlos?",
+      "a": "Ja. Jedes Rätsel ist kostenlos spielbar – ohne Konto, ohne Paywall und ohne Werbung. Die Seite gehört zur E-Ink.me-Familie und läuft neben den kostenlosen E-Reader-Tools der Hauptseite: nichts zu kaufen und kein Grund zur Anmeldung."
+    },
+    {
+      "q": "Läuft es auf meinem Kindle Paperwhite?",
+      "a": "Wenn dein Paperwhite von 2021 oder neuer ist und Firmware 5.13.7 oder höher hat: ja – öffne den eingebauten Browser, gib die Adresse der Seite ein und leg los. Ältere Paperwhites mit dem frühen experimentellen Browser können diese Seite als Text lesen, aber das Rätsel selbst läuft auf ihnen nicht."
+    },
+    {
+      "q": "Muss ich meinen Kindle jailbreaken?",
+      "a": "Nein. Das Spiel läuft vollständig im eingebauten Web-Browser deines Kindle. Es gibt keine App zu sideloaden, keinen Hack anzuwenden und keine Garantie-Sorgen – eine Webseite zu öffnen ist für einen Kindle eine ganz gewöhnliche Sache. Wenn er eine Seite laden kann, kann er dieses Rätsel laden."
+    },
+    {
+      "q": "Kann ich offline spielen?",
+      "a": "Beim ersten Öffnen der Seite brauchst du eine Internetverbindung, weil sie als normale Webseite ankommt und nicht als herunterladbare App. Nach dem Laden läuft das Rätsel lokal auf deinem Gerät – aber E-Reader-Browser sind nicht für die Offline-Nutzung gedacht, sei also verbunden, wenn du eine Runde startest."
+    }
+  ],
+  "cta": {
+    "label": "Alle Wörter gefunden? Verwandle jeden Webartikel in ein EPUB und lies ihn auf deinem Kindle – kostenlose Tools auf e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "word",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-daily"
+    ]
+  }
+}

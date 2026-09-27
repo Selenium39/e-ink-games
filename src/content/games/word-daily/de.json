@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Word Daily für Kindle & E-Ink – kostenloses tägliches Wortspiel",
+    "description": "Spiele ein kostenloses tägliches Wortspiel im Browser deines Kindle, BOOX oder Kobo. Ein neues Fünf-Buchstaben-Rätsel pro Tag – kein Download, gemacht für E-Ink-Bildschirme."
+  },
+  "h1": "Word Daily für Kindle & E-Ink – kostenlos, ohne Download",
+  "tagline": "Ein tägliches Wortspiel nach Wordle-Art, direkt im Browser deines Kindle, BOOX oder Kobo – ein Fünf-Buchstaben-Wort pro Tag, dasselbe Wort für alle Spieler, in reinem Schwarz-Weiß gezeichnet.",
+  "howToPlay": {
+    "steps": [
+      "Rate das Fünf-Buchstaben-Wort des Tages. Alle Spieler bekommen jeden Tag dasselbe Wort – das Rätsel hängt am Datum, nicht an deinem Gerät, sodass du Ergebnisse mit Freunden vergleichen kannst. Du hast sechs Versuche, und morgen kommt ein neues Wort.",
+      "Tippe deinen ersten Versuch. Tippe mit Finger oder Stift auf die QWERTY-Tastatur auf dem Bildschirm, oder tippe auf eine physische Tastatur, wenn dein E-Reader eine hat oder eine gekoppelt ist – Hardware-Tasten, Enter und Rücktaste funktionieren alle neben der Touch-Tastatur.",
+      "Lies das Feedback. Nach jedem Versuch antworten die Kacheln in reinem Schwarz-Weiß: Eine voll schwarze Kachel heißt, der Buchstabe sitzt am richtigen Platz; eine fett umrandete Kachel heißt, der Buchstabe ist im Wort, aber an einem anderen Platz; eine dünn umrandete Kachel heißt, er ist gar nicht im Wort.",
+      "Beobachte die Tastatur-Historie. Jede Bildschirmtaste trägt dieselben drei Zeichen für Buchstaben, die du schon versucht hast – du siehst auf einen Blick, welche Buchstaben platziert sind, welche anderswo überleben und welche Sackgassen sind.",
+      "Achte auf doppelte Buchstaben. Das gesuchte Wort kann denselben Buchstaben zweimal enthalten; das Feedback zählt jedes Exemplar sauber mit – eine fette Umrandung verspricht also nie mehr Exemplare, als das Wort tatsächlich enthält.",
+      "Spiele unbegrenzt Übungsrunden. Tageswort gelöst und Lust auf mehr? Wechsle jederzeit in den Übungsmodus für ein frisches Zufallswort – Übungsrunden berühren dein Tagesergebnis, deine Siegesserie und deine Statistik nie.",
+      "Teile und komm wieder. Endet das Rätsel, erscheint ein Ergebnis-Raster als Klartext – lange drücken zum Auswählen, dann kopieren, wohin du magst. Dein Tagesfortschritt, deine Serie und deine Statistik werden automatisch auf deinem Gerät gespeichert."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (ab 2021)",
+        "status": "yes",
+        "note": "Der eingebaute Browser läuft das komplette Spiel; benötigt Firmware 5.13.7 oder neuer."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Das große Display zeigt das komplette Buchstabenbrett und die Tastatur ohne Scrollen."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Gleiche Browser-Engine wie neuere Paperwhites – das Spiel bleibt von Haus aus schwarz-weiß."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma und ähnliche)",
+        "status": "yes",
+        "note": "Voller Chromium-Browser, das flüssigste E-Ink-Erlebnis; Tippen auf einer gekoppelten Tastatur fühlt sich unmittelbar an."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage und ähnliche)",
+        "status": "limited",
+        "note": "Der eingebaute Browser ist veraltet – je nach Modell und Firmware-Version startet das Spiel eventuell nicht."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Keine offizielle Browser-App; Drittanbieter-Lösungen erfordern einen Jailbreak des Tablets."
+      },
+      {
+        "device": "Ältere Kindles (experimenteller Browser)",
+        "status": "no",
+        "note": "Experimentelle Browser vor 2016 können kein modernes JavaScript – diese Seite bleibt lesbar, aber das Spiel startet nicht."
+      }
+    ]
+  },
+  "whyEInk": "Worträtsel sind Text, und E-Ink rendert Text wunderschön. Dieses Spiel zeichnet nur die Kacheln neu, die sich ändern – keine Animationen, kein Geflimmer, keine grauen Schlieren –, sodass sich das Brett bei jedem Licht liest wie eine gedruckte Seite. Das Einmal-pro-Tag-Format passt perfekt zu E-Readern: ein Wort, eine ruhige Minute Nachdenken und ein Bildschirm, der nie zurückleuchtet.",
+  "faq": [
+    {
+      "q": "Ist das wirklich kostenlos?",
+      "a": "Ja. Das Tageswort und unbegrenzte Übungsrunden sind komplett kostenlos – ohne Konto, ohne Werbung und ohne Paywall. Die Seite gehört zur E-Ink.me-Familie kostenloser E-Reader-Tools: nichts zu kaufen und kein Grund zur Anmeldung – einfach die Seite öffnen und spielen."
+    },
+    {
+      "q": "Läuft es auf meinem Kindle Paperwhite?",
+      "a": "Auf Paperwhite-, Scribe- und Colorsoft-Modellen ab 2021 mit Firmware 5.13.7 oder neuer: ja – der eingebaute Browser läuft das komplette Spiel. Ältere Kindle mit dem frühen experimentellen Browser können diese Seite als reinen Text lesen, aber das Rätsel selbst startet auf ihnen nicht."
+    },
+    {
+      "q": "Muss ich meinen Kindle jailbreaken?",
+      "a": "Nein. Das Spiel läuft vollständig im Browser, den dein Kindle ohnehin mitbringt. Es gibt keine App zu installieren, keine Datei zu sideloaden und keinerlei Modifikation – wenn dein Gerät eine gewöhnliche Webseite öffnen kann, kann es Word Daily spielen."
+    },
+    {
+      "q": "Kann ich offline spielen?",
+      "a": "Beim ersten Laden der Seite brauchst du eine Verbindung, weil sie als normale Webseite ausgeliefert wird und nicht als herunterladbare App. Danach läuft jeder Versuch auf dem Gerät selbst, und deine Serie wird lokal gespeichert – aber sei online, wenn du startest."
+    }
+  ],
+  "cta": {
+    "label": "Tageswort gelöst? Verwandle jeden Webartikel in ein EPUB und lies ihn auf deinem Kindle – kostenlose Tools auf e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "daily",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-search"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "2048 voor Kindle & E-Ink – gratis, geen download",
+    "description": "Speel gratis 2048 in je browser op Kindle-, BOOX- of Kobo-e-readers. Geen download, geen installatie – klassiek tegelschuiven, afgestemd op zwart-wit e-inkschermen."
+  },
+  "h1": "2048 voor Kindle & E-Ink – gratis, geen download",
+  "tagline": "Schuif en voeg genummerde tegels samen tot ze oplopen naar 2048 – rechtstreeks in de browser van je Kindle Paperwhite, Scribe of BOOX, zonder te downloaden of installeren.",
+  "howToPlay": {
+    "steps": [
+      "Begin met twee tegels. Elk spel opent op een raster van 4×4 met slechts twee genummerde tegels – een 2 of een 4 – en bij elke zet valt er één nieuwe tegel op het bord, dus het raster loopt langzaam vol terwijl je speelt.",
+      "Beweeg het hele bord. Op een touchscreen swipe je ergens over het bord – naar links, rechts, boven of onder – en schuift elke tegel zo ver mogelijk die kant op. Je kunt ook op de pijlknoppen onder het raster tikken, of op de pijltjestoetsen drukken als je apparaat fysieke bladertoetsen of een gekoppeld toetsenbord heeft.",
+      "Voeg gelijke tegels samen. Als twee tegels met hetzelfde getal botsen, versmelten ze tot één tegel van dubbele waarde: twee 2-en worden een 4, twee 4-en een 8, enzovoort. Elke tegel kan per zet maar één keer samensmelten, dus een rij 2-2-2-2 wordt twee 4-en, geen 8. Elke samenvoeging telt de nieuwe waarde op bij je score.",
+      "Lees de e-ink-feedback. In plaats van schuifanimaties krijgt een zojuist gevallen tegel één beurt lang een dik zwart kader, en samengevoegde tegels keren om naar wit-op-zwart – op een papierachtig scherm zie je precies wat er veranderde, zonder beweging of flikkering.",
+      "Maak fouten ongedaan. Eén tik op Ongedaan maken zet het bord één zet terug en herstelt de stand, de score en de tegel die je kreeg – één verkeerde swipe kost je dus nooit de hele partij.",
+      "Streef naar 2048. Bouw machten van twee op door je grootste tegels stevig in één hoek te houden. Zodra er een 2048-tegel verschijnt, heb je gewonnen – het spel biedt een nieuw bord aan of laat je doorspelen richting 4096 en verder.",
+      "Pas op voor het einde. Het spel is voorbij als het raster vol is en geen twee aangrenzende tegels gelijk zijn, zodat geen enkele zet meer mogelijk is. Je huidige score, je beste score voor dit apparaat en een sessietimer staan altijd boven het bord, en je voortgang wordt automatisch opgeslagen als je de browser sluit midden in een partij."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (vanaf 2021)",
+        "status": "yes",
+        "note": "Swipes werken goed op het touchscreen; heeft firmware 5.13.7 of nieuwer nodig."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Het grote 10,2-inch-scherm toont het raster van 4×4 op aangename grootte – één swipe per zet."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Dezelfde browser-engine als recente Paperwhites – het spel is van huis uit zwart-wit."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma en vergelijkbare)",
+        "status": "yes",
+        "note": "Volledige Chromium-browser, de soepelste e-ink-ervaring; de pijltjestoetsen werken op modellen met bladertoetsen."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage en vergelijkbare)",
+        "status": "limited",
+        "note": "De ingebouwde browser is gedateerd en draait het spel mogelijk niet op elk model of elke firmwareversie."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Geen officiële browser-app; oplossingen van derden vereisen een jailbreak van de tablet."
+      },
+      {
+        "device": "Oudere Kindles (experimentele browser)",
+        "status": "no",
+        "note": "Experimentele browsers van vóór 2016 kunnen geen modern JavaScript aan – deze pagina blijft leesbaar, maar het spel start niet."
+      }
+    ]
+  },
+  "whyEInk": "2048 draait normaal om schuifanimaties, en e-inkschermen animeren niet – dus deze versie vervangt beweging door drukwerkachtige markeringen: nieuwe tegels dragen één beurt lang een dik kader en samenvoegingen keren van zwart naar wit. Alleen de tegels die veranderden worden opnieuw getekend, dus het bord leest als papier en de batterij merkt er nauwelijks iets van.",
+  "faq": [
+    {
+      "q": "Is het echt gratis?",
+      "a": "Ja. Het spel is gratis te spelen, zonder account, zonder betaalmuur en zonder advertenties. De site maakt deel uit van de E-Ink.me-familie en draait naast de gratis e-reader-tools van de hoofdsite: niets te kopen, niets te ontgrendelen en niets om je voor te registreren."
+    },
+    {
+      "q": "Werkt het op mijn Kindle Paperwhite?",
+      "a": "Als je Paperwhite van 2021 of nieuwer is en firmware 5.13.7 of hoger heeft: ja – open de ingebouwde browser, typ het adres van de site in en swipe om te spelen. Oudere Paperwhites met de vroege experimentele browser kunnen deze pagina nog als tekst lezen, maar het spel zelf draait er niet op."
+    },
+    {
+      "q": "Moet ik mijn Kindle jailbreaken?",
+      "a": "Nee. Het spel draait volledig in de ingebouwde webbrowser van je Kindle. Er is geen app te sideloaden, geen truc toe te passen en geen garantie in gevaar – een webpagina laden is voor een Kindle een heel gewone bezigheid. Als het apparaat een website kan openen, kan het spelen."
+    },
+    {
+      "q": "Kan ik offline spelen?",
+      "a": "De eerste keer dat de pagina laadt heb je een verbinding nodig, omdat het spel als gewone webpagina wordt geleverd en niet als app uit een winkel. Eenmaal geladen wordt elke zet lokaal op het apparaat uitgevoerd – maar e-readerbrowsers zijn niet ontworpen voor offline gebruik, dus wees verbonden als je een partij begint."
+    }
+  ],
+  "cta": {
+    "label": "2048 bereikt? Zet elk webartikel om in een EPUB en lees het op je Kindle – gratis tools op e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "memory",
+      "minesweeper",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

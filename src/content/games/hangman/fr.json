@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Hangman pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+    "description": "Joue à Hangman gratuitement dans le navigateur de ta Kindle, BOOX ou Kobo. Sans téléchargement ni installation — le pendu classique en noir et blanc, fait pour l'e-ink."
+  },
+  "h1": "Hangman pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+  "tagline": "Le pendu classique qui tourne directement dans le navigateur de ta Kindle Paperwhite, Scribe ou BOOX — devine le mot une lettre à la fois, sans rien télécharger ni installer.",
+  "howToPlay": {
+    "steps": [
+      "Choisis une difficulté. Facile tire des mots courants de quatre à six lettres et t'annonce la catégorie — animal, nourriture, lieu, etc. — comme premier indice. Moyen passe à des mots de six à huit lettres sans indice, et Difficile sert des mots rares de neuf à douze lettres qui mettront à l'épreuve n'importe quel vocabulaire.",
+      "Lis la potence. Chaque manche démarre avec une potence vide et six erreurs de marge. Chaque lettre ratée dessine une partie de plus du bonhomme — tête, corps, bras, puis jambes — : tu vois d'un coup d'œil à quel point tu approches de la défaite.",
+      "Devine les lettres au toucher. Tape sur le clavier A à Z à l'écran ; chaque touche est dimensionnée pour les écrans tactiles des liseuses. Une lettre juste passe en noir et blanc plein et remplit d'un coup tous les espaces correspondants ; une lettre fausse reçoit un cadre pointillé et se verrouille.",
+      "Ou utilise un clavier physique. Si ton appareil a des touches de tourne-page ou un clavier associé, appuie directement sur A à Z — le jeu écoute les frappes en arrière-plan, et les majuscules sont acceptées puis traitées comme des minuscules.",
+      "Surveille les espaces. Le mot à trouver s'affiche comme une rangée de cases soulignées ; chaque lettre juste se révèle dans toutes les positions où elle figure. Réessayer une lettre déjà proposée ne change rien : chaque toucher compte.",
+      "Gagne ou apprends. Révèle toutes les lettres avant la sixième erreur pour gagner la manche ; si le bonhomme est complet, la partie s'arrête et le mot entier s'affiche — tu ne repars jamais sans la réponse. Tes victoires et tes parties sont comptées séparément pour chaque difficulté.",
+      "Rejoue. Touche Nouvelle partie pour un mot frais, ou change de difficulté en haut — le changement ne demande confirmation que si une manche est en cours, et ta grille est sauvegardée automatiquement si tu fermes la page en plein mot."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 et suivants)",
+        "status": "yes",
+        "note": "Le navigateur intégré fait tourner le jeu complet ; nécessite le firmware 5.13.7 ou plus récent. Les touches de lettres se tapent confortablement sur l'écran de 6,8 pouces."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "L'écran de 10,2 pouces affiche la potence, les cases du mot et les 26 touches de lettres sans faire défiler."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Même moteur de navigateur que les Paperwhite récents — le jeu reste en noir et blanc par conception."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma et similaires)",
+        "status": "yes",
+        "note": "Navigateur Chromium complet, l'expérience e-ink la plus fluide ; clavier associé ou écran tactile, les deux fonctionnent pour deviner."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage et similaires)",
+        "status": "limited",
+        "note": "Le navigateur intégré est ancien et peut ne pas faire tourner le jeu sur tous les modèles ni toutes les versions de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Pas d'application navigateur officielle ; les solutions tierces exigent de débrider la tablette."
+      },
+      {
+        "device": "Kindle plus anciens (navigateur expérimental)",
+        "status": "no",
+        "note": "Les navigateurs expérimentaux d'avant 2016 ne prennent pas en charge le JavaScript moderne — cette page reste lisible, mais le jeu ne démarre pas."
+      }
+    ]
+  },
+  "whyEInk": "Le pendu est au fond un jeu de papier et crayon, et l'e-ink le traite comme tel : la potence se redessine trait par trait, la lettre que tu touches est la seule touche qui change, et rien ne scintille ni ne s'anime derrière le puzzle. L'écran se lit comme du papier imprimé en plein jour — un confort pour les yeux comme pour la batterie.",
+  "faq": [
+    {
+      "q": "Est-ce vraiment gratuit ?",
+      "a": "Oui. Chaque manche est entièrement gratuite, sans compte, sans paywall et sans public. Le site fait partie de la famille E-Ink.me et vit aux côtés des outils gratuits pour liseuses du site principal : rien à acheter, aucune inscription, et aucune limite au nombre de mots à deviner."
+    },
+    {
+      "q": "Est-ce que ça marche sur ma Kindle Paperwhite ?",
+      "a": "Si ta Paperwhite est un modèle 2021 ou ultérieur avec le firmware 5.13.7 ou plus récent, oui — ouvre le navigateur intégré, tape l'adresse du site et commence à deviner. Les BOOX et les Kindle récentes comme la Scribe et la Colorsoft fonctionnent de la même façon. Les Kindle plus anciennes, avec le premier navigateur expérimental, peuvent lire cette page en texte mais pas faire tourner le jeu."
+    },
+    {
+      "q": "Dois-je débrider ma Kindle ?",
+      "a": "Non. Le jeu tourne entièrement dans le navigateur web intégré de ta liseuse. Pas d'application à installer, pas de manipulation, aucun risque pour la garantie — ouvrir un site web est une action tout à fait ordinaire pour une Kindle moderne. Si ton appareil sait charger cette page, il sait afficher la potence."
+    },
+    {
+      "q": "Puis-je jouer hors ligne ?",
+      "a": "Il te faut une connexion la première fois que tu ouvres la page, car le site est livré comme une page web classique et non comme une application téléchargeable. Une fois chargé, tout le jeu de devinettes tourne localement sur ton appareil — mais les navigateurs des liseuses ne sont pas conçus pour un usage hors ligne : prévois d'être connecté quand tu commences."
+    }
+  ],
+  "cta": {
+    "label": "Le jeu te plaît ? Transforme n'importe quel article web en EPUB et lis-le sur ta Kindle — outils gratuits sur e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "word",
+    "relatedSlugs": [
+      "hidden-code",
+      "word-daily",
+      "word-search"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Minesweeper für Kindle & E-Ink – kostenlos, ohne Download",
+    "description": "Spiele kostenlos Minesweeper im Browser auf Kindle, BOOX oder Kobo. Kein Download, keine Installation – klassisches Minensuchen für schwarz-weiße E-Ink-Bildschirme."
+  },
+  "h1": "Minesweeper für Kindle & E-Ink – kostenlos, ohne Download",
+  "tagline": "Klassisches Minesweeper, direkt im Browser deines Kindle Paperwhite, Scribe oder BOOX – keine App zu installieren, nichts herunterzuladen. Öffne einfach die Seite und geh auf Minensuche.",
+  "howToPlay": {
+    "steps": [
+      "Wähle ein Brett. Leicht ist ein 9×9-Raster mit 10 Minen, Mittel 11×11 mit 24, Schwer 13×13 mit 40. Größere Bretter belohnen geduldiges Absuchen statt schnelles Tippen.",
+      "Grabe das erste Feld an. Dein Eröffnungs-Tipp ist immer sicher – Minen werden erst danach verteilt, und das angetippte Feld samt aller acht Nachbarn bleibt minenfrei. Der Eröffnungszug kann also nie hochgehen.",
+      "Lies die Zahlen. Jede Ziffer zählt die Minen in den acht Feldern um sich herum. Ein leeres Feld berührt keine Mine, deshalb öffnet das Spiel ganze leere Bereiche in einem Zug für dich – abarbeiten musst du nur die nummerierten Kanten.",
+      "Markiere verdächtige Minen. Wechsle in den Flaggen-Modus und tippe ein Feld an, um es zu markieren; eine Flagge blockiert versehentliche Tipps, und der Zähler über dem Brett zeigt die verbleibenden Minen – Gesamtzahl minus deine Flaggen. Nochmal antippen entfernt die Flagge wieder.",
+      "Nutze den Kombi-Griff für Tempo. Im Grab-Modus: Tippe eine offene Zahl an, wenn die Flaggen um sie herum zur Ziffer passen – alle anderen Nachbarn öffnen sich auf einmal. Das ist der klassische Zwei-Tipp-Shortcut für selbstbewusste Spieler, und er wird hier vollständig unterstützt.",
+      "Spiele mit Tasten. Pfeiltasten bewegen den Cursor, Enter oder die Leertaste gräbt (oder löst eine offene Zahl aus), und F setzt eine Flagge auf das Feld – praktisch an E-Readern mit angeschlossener Tastatur oder wenn ein Tipp gerade zu weit weg wäre.",
+      "Schlag die Uhr. Der Timer startet mit deinem ersten Zug und pausiert, während die Seite im Hintergrund liegt. Räume jedes sichere Feld frei, um zu gewinnen – die verbleibenden Minen werden für dich markiert – und dein Fortschritt speichert sich automatisch, wenn du gehst."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (ab 2021)",
+        "status": "yes",
+        "note": "Der eingebaute Browser läuft das komplette Spiel; benötigt Firmware 5.13.7 oder neuer."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Das 10,2-Zoll-Display zeigt selbst das 13×13-Brett von Schwer in voller Größe, mit Platz nach allen Seiten."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Gleiche Browser-Engine wie neuere Paperwhites – das Spiel bleibt von Haus aus schwarz-weiß."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma und ähnliche)",
+        "status": "yes",
+        "note": "Voller Chromium-Browser, das flüssigste E-Ink-Erlebnis; Tastenkürzel funktionieren mit einer gekoppelten Tastatur."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage und ähnliche)",
+        "status": "limited",
+        "note": "Der eingebaute Browser ist veraltet – je nach Modell und Firmware-Version startet das Spiel eventuell nicht."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Keine offizielle Browser-App; Drittanbieter-Lösungen erfordern einen Jailbreak des Tablets."
+      },
+      {
+        "device": "Ältere Kindles (experimenteller Browser)",
+        "status": "no",
+        "note": "Experimentelle Browser vor 2016 können kein modernes JavaScript – diese Seite bleibt lesbar, aber das Spiel startet nicht."
+      }
+    ]
+  },
+  "whyEInk": "Minesweeper ist ein ruhiges Spiel, und E-Ink ist ein ruhiger Bildschirm. Nichts hier animiert sich, blinkt oder aktualisiert sich hinter deinem Finger – nur das Feld, das du berührst, wird als schnelles Teil-Update neu gezeichnet. Das feste Schwarz-Weiß-Raster liest sich bei Tageslicht wie eine gedruckte Rätselseite, und lange Sitzungen fassen den Akku kaum an.",
+  "faq": [
+    {
+      "q": "Ist das wirklich kostenlos?",
+      "a": "Ja – komplett. Jede Brettgröße ist kostenlos spielbar, ohne Konto, ohne Paywall und ohne Werbung. Die Seite gehört zur E-Ink.me-Familie und läuft neben den kostenlosen E-Reader-Tools der Hauptseite: nichts zu kaufen und kein Grund zur Anmeldung."
+    },
+    {
+      "q": "Läuft es auf meinem Kindle Paperwhite?",
+      "a": "Wenn dein Paperwhite von 2021 oder neuer ist und Firmware 5.13.7 oder höher hat: ja – öffne den eingebauten Browser, gib die Adresse der Seite ein und leg los. Ältere Paperwhites mit dem frühen experimentellen Browser können diese Seite als reinen Text anzeigen, aber das Spiel selbst läuft auf ihnen nicht."
+    },
+    {
+      "q": "Muss ich meinen Kindle jailbreaken?",
+      "a": "Nein. Das Spiel läuft vollständig im eingebauten Web-Browser deines Kindle. Es gibt keine App zu sideloaden, keinen Hack anzuwenden und kein Garantierisiko – eine Webseite zu öffnen ist für einen Kindle eine ganz gewöhnliche Sache. Wenn das Gerät eine Seite laden kann, kann es dieses Spiel spielen."
+    },
+    {
+      "q": "Kann ich offline spielen?",
+      "a": "Beim ersten Öffnen der Seite brauchst du eine Internetverbindung, weil sie als normale Webseite ausgeliefert wird und nicht als herunterladbare App. Nach dem Laden läuft das Spiel lokal auf deinem Gerät – aber E-Reader-Browser sind nicht für die Offline-Nutzung gebaut, sei also verbunden, wenn du startest."
+    }
+  ],
+  "cta": {
+    "label": "Spaß an Minesweeper? Verwandle jeden Webartikel in ein EPUB und lies ihn auf deinem Kindle – kostenlose Tools auf e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "memory",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

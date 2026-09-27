@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Word Search pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+    "description": "Joue aux mots mêlés gratuitement dans le navigateur de ta Kindle, BOOX ou Kobo. Sans téléchargement ni installation — de grandes grilles de lettres, faites pour l'e-ink."
+  },
+  "h1": "Word Search pour Kindle & liseuses e-ink — Gratuit, sans téléchargement",
+  "tagline": "Le Word Search (mots mêlés) classique qui tourne directement dans le navigateur de ta Kindle Paperwhite, Scribe ou BOOX — choisis un thème, traque les mots cachés dans la grille, sans rien télécharger.",
+  "howToPlay": {
+    "steps": [
+      "Choisis une difficulté. Facile cache six mots dans une grille 10×10, Moyen huit mots en 12×12, et Difficile dix mots en 14×14. Chaque manche tire aussi un thème au hasard — Animaux, Nourriture, Nature, Technologie ou Espace — pour que chaque puzzle semble neuf.",
+      "Scanne la grille de lettres et choisis une cible dans la liste de mots. Les mots se cachent dans huit directions : horizontalement, verticalement et sur les deux diagonales, et ils peuvent aussi se lire à l'envers.",
+      "Sélectionne un mot. Sur écran tactile, touche la première lettre, puis la dernière lettre du mot — n'importe quelle extrémité fonctionne. En cas de réussite, les lettres passent en blanc sur noir et le mot est barré dans la liste.",
+      "Joue plutôt aux touches. Les flèches déplacent un curseur dans la grille, Entrée marque le début et la fin d'un mot, et Échap annule une sélection en cours — bien pratique sur la grille Difficile 14×14, où les cases se serrent.",
+      "Surveille le chrono. Un chronomètre tourne pendant que tu joues, et ta progression est sauvegardée automatiquement — ferme le navigateur en plein puzzle et retrouve la même manche plus tard.",
+      "Termine la manche. Le puzzle est complet quand chaque mot de la liste a été trouvé ; ton temps et ton record par difficulté sont conservés sur l'appareil.",
+      "Recommence. Change de difficulté ou touche Nouveau puzzle pour un thème frais et une grille toute neuve — aucune manche ne ressemble à une autre."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 et suivants)",
+        "status": "yes",
+        "note": "Le navigateur intégré fait tourner le jeu complet ; nécessite le firmware 5.13.7 ou plus récent."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "L'écran de 10,2 pouces affiche confortablement même la grille dense Difficile 14×14 — touche pour sélectionner les mots."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Même moteur de navigateur que les Paperwhite récents ; le jeu est en noir et blanc par conception, rien ne se perd."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma et similaires)",
+        "status": "yes",
+        "note": "Navigateur Chromium complet, l'expérience e-ink la plus fluide ; les touches de page physiques déplacent le curseur sur les modèles qui en ont."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage et similaires)",
+        "status": "limited",
+        "note": "Le navigateur intégré est ancien et peut ne pas faire tourner la grille sur tous les modèles ni toutes les versions de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Pas d'application navigateur officielle ; les solutions tierces exigent de débrider la tablette."
+      },
+      {
+        "device": "Kindle plus anciens (navigateur expérimental)",
+        "status": "no",
+        "note": "Les navigateurs expérimentaux d'avant 2016 ne prennent pas en charge le JavaScript moderne — cette page reste lisible, mais le jeu ne démarre pas."
+      }
+    ]
+  },
+  "whyEInk": "Les mots mêlés sont un jeu calme et patient, et l'e-ink un écran calme et patient. Rien ici ne clignote, ne s'anime ni ne se repeint derrière tes lettres — seule la case que tu touches est redessinée, comme une encre qui sèche sur le papier. La grande grille de lettres reste nette en plein jour, à un coût batterie quasi nul.",
+  "faq": [
+    {
+      "q": "Est-ce vraiment gratuit ?",
+      "a": "Oui. Chaque puzzle est entièrement gratuit, sans compte, sans paywall et sans public. Le site fait partie de la famille E-Ink.me et vit aux côtés des outils gratuits pour liseuses du site principal — rien à acheter, aucune inscription."
+    },
+    {
+      "q": "Est-ce que ça marche sur ma Kindle Paperwhite ?",
+      "a": "Si ta Paperwhite est un modèle 2021 ou ultérieur avec le firmware 5.13.7 ou plus récent, oui — ouvre le navigateur intégré, tape l'adresse du site et joue. Les Paperwhite plus anciennes, avec le premier navigateur expérimental, peuvent lire cette page en texte, mais la grille elle-même ne tournera pas."
+    },
+    {
+      "q": "Dois-je débrider ma Kindle ?",
+      "a": "Non. Le jeu tourne entièrement dans le navigateur web intégré de ta Kindle. Pas d'application à installer, pas de manipulation, aucun risque pour la garantie — ouvrir une page web est une action tout à fait ordinaire pour une Kindle. Si elle sait charger une page, elle sait charger cette grille."
+    },
+    {
+      "q": "Puis-je jouer hors ligne ?",
+      "a": "Il te faut une connexion la première fois que tu ouvres la page, car le site arrive comme une page web classique et non comme une application téléchargeable. Une fois chargée, la grille tourne localement sur ton appareil — mais les navigateurs des liseuses ne sont pas conçus pour un usage hors ligne : sois connecté quand tu lances une manche."
+    }
+  ],
+  "cta": {
+    "label": "Tous les mots trouvés ? Transforme n'importe quel article web en EPUB et lis-le sur ta Kindle — outils gratuits sur e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "word",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-daily"
+    ]
+  }
+}

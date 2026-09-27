@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Sudoku voor Kindle & E-Ink – gratis, geen download",
+    "description": "Speel gratis sudoku in je browser op Kindle, BOOX of Kobo. Geen download, geen installatie – zwart-witpuzzels gemaakt voor e-inkschermen."
+  },
+  "h1": "Sudoku voor Kindle & E-Ink – gratis, geen download",
+  "tagline": "Klassieke 9×9-sudoku die rechtstreeks draait in de browser van je Kindle Paperwhite, Scribe of BOOX – geen app te installeren, niets te downloaden: open gewoon de pagina en speel.",
+  "howToPlay": {
+    "steps": [
+      "Kies een moeilijkheidsgraad. Makkelijk, Gemiddeld, Moeilijk of Expert – de generator bouwt elke keer een vers raster met precies één oplossing. De makkelijkste borden geven je zo'n veertig cijfers als start; Expert laat er nauwelijks meer dan twintig staan, zodat elke plaatsing met logica verdiend moet worden.",
+      "Kies een vak. Tik of klik op een touchscreen op een willekeurig vakje, of beweeg de gemarkeerde cursor met de pijltjestoetsen als je apparaat fysieke bladertoetsen of een gekoppeld toetsenbord heeft.",
+      "Vul een cijfer in. Gebruik het cijferblok op het scherm of druk op de bijbehorende toets voor de cijfers 1–9. Een cijfer dat de rij-, kolom- of blokregel van sudoku overtreedt, wordt meteen gemarkeerd met een geïnverteerd zwart-witvak – verkeerde zetten vallen op een e-inkscherm dus direct op.",
+      "Noteer kandidaten. Zet de notitie-modus aan om kleine kandidaatcijfers in de hoeken van een vak te krabbelen voordat je beslist – precies zoals met potlood en papier, en op de borden van Moeilijk en Expert vrijwel onmisbaar.",
+      "Corrigeer fouten netjes. Wis een invoer met de gum en gebruik Ongedaan maken om je laatste zetten één voor één terug te lopen in plaats van het hele bord opnieuw op te bouwen.",
+      "Volg je sessie. Een ingebouwde timer telt mee terwijl je speelt, en je bord wordt op de meeste apparaten doorlopend opgeslagen – sluit de browser midden in de puzzel en ga verder waar je gebleven was.",
+      "Maak het raster af. De puzzel is opgelost zodra elke rij, elke kolom en elk 3×3-blok de cijfers 1–9 precies één keer bevat. Omdat elke puzzel één unieke oplossing heeft, is geduldig redeneren altijd genoeg – gissen is nooit nodig."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (vanaf 2021)",
+        "status": "yes",
+        "note": "De ingebouwde browser draait het volledige spel; heeft firmware 5.13.7 of nieuwer nodig."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Het 10,2-inch-scherm toont alle 81 vakken op aangename grootte – één tik per vak."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Dezelfde browser-engine als recente Paperwhites – het spel blijft van huis uit zwart-wit."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma en vergelijkbare)",
+        "status": "yes",
+        "note": "Volledige Chromium-browser, de soepelste e-ink-ervaring; fysieke bladertoetsen bewegen de cursor op modellen die ze hebben."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage en vergelijkbare)",
+        "status": "limited",
+        "note": "De ingebouwde browser is gedateerd – afhankelijk van model en firmwareversie start de puzzel mogelijk niet."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Geen officiële browser-app; oplossingen van derden vereisen een jailbreak van de tablet."
+      },
+      {
+        "device": "Oudere Kindles (experimentele browser)",
+        "status": "no",
+        "note": "Experimentele browsers van vóór 2016 kunnen geen modern JavaScript aan – deze pagina blijft leesbaar, maar het spel start niet."
+      }
+    ]
+  },
+  "whyEInk": "Sudoku is een stille puzzel en e-ink een stil scherm – niets hier flikkert, animeert of ververst achter je raster. Alleen het vak dat je aanraakt wordt opnieuw getekend. Het scherm gedraagt zich als bedrukt papier: comfortabel voor lange sessies bij daglicht, tegen vrijwel nul batterijverbruik.",
+  "faq": [
+    {
+      "q": "Is het echt gratis?",
+      "a": "Ja. Elke puzzel is gratis te spelen – zonder account, zonder betaalmuur en zonder advertenties. De site maakt deel uit van de E-Ink.me-familie en draait naast de gratis e-reader-tools van de hoofdsite: niets te kopen en geen reden om je te registreren."
+    },
+    {
+      "q": "Werkt het op mijn Kindle Paperwhite?",
+      "a": "Als je Paperwhite van 2021 of nieuwer is en firmware 5.13.7 of hoger heeft: ja – open de ingebouwde browser, typ het adres van de site in en ga los. Oudere Paperwhites met de vroege experimentele browser kunnen deze pagina als platte tekst tonen, maar de puzzel zelf draait er niet op."
+    },
+    {
+      "q": "Moet ik mijn Kindle jailbreaken?",
+      "a": "Nee. Het spel draait volledig in de ingebouwde webbrowser van je Kindle. Er is geen app te sideloaden, geen truc toe te passen en geen garantie om je zorgen over te maken – een website openen is voor een Kindle een heel gewone bezigheid. Als je apparaat een webpagina kan laden, kan het dit spel laden."
+    },
+    {
+      "q": "Kan ik offline spelen?",
+      "a": "Bij het eerste openen van de pagina heb je internetverbinding nodig, omdat de site als gewone webpagina wordt geleverd en niet als downloadbare app. Na het laden draait de puzzel lokaal op je apparaat – maar e-readerbrowsers zijn niet gebouwd voor offline gebruik, dus zorg dat je verbonden bent wanneer je start."
+    }
+  ],
+  "cta": {
+    "label": "Geniet je van sudoku? Zet elk webartikel om in een EPUB en lees het op je Kindle – gratis tools op e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "memory",
+      "minesweeper",
+      "nonogram"
+    ]
+  }
+}

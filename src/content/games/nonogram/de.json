@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Nonogram für Kindle & E-Ink – kostenlos, ohne Download",
+    "description": "Spiele kostenlos Nonogram-Rätsel im Browser auf Kindle, BOOX oder Kobo. Kein Download, keine Installation – schwarz-weiße Logikgitter, gemacht für E-Ink-Bildschirme."
+  },
+  "h1": "Nonogram für Kindle & E-Ink – kostenlos, ohne Download",
+  "tagline": "Klassische Bild-Logikrätsel, direkt im Browser deines Kindle Paperwhite, Scribe oder BOOX – keine App zu installieren, nichts herunterzuladen. Öffne die Seite und fang an, Felder auszufüllen.",
+  "howToPlay": {
+    "steps": [
+      "Wähle ein Brett – oder nimm das Tägliche. Leicht ist ein 5×5-Raster, Mittel 10×10 und Schwer 15×15 – jedes Rätsel wird frisch generiert und ist garantiert rein durch Logik lösbar. Die Tages-Ausgabe gibt jeden Tag ein gemeinsames 10×10-Bildrätsel aus: Spieler weltweit bekommen denselben Startwert, sodass ihr euren Fortschritt ohne Konto vergleichen könnt.",
+      "Lies die Hinweise. Die Zahlen am linken und oberen Rand beschreiben die Blöcke gefüllter Felder in jeder Zeile und Spalte. Eine Zeile mit „3 1“ verbirgt einen Block aus dreien, mindestens eine Lücke, dann ein einzelnes gefülltes Feld – die Reihenfolge steht fest, die Lücken sind das Rätsel.",
+      "Fülle und markiere Felder. Tippe auf dem Touchscreen ein Feld an, um es durch drei Zustände zu schalten: leer, gefüllt, durchgestrichen. Kreuze (×) sind deine Beweiszeichen für Felder, die leer bleiben müssen. Mit der Tastatur wandert der Cursor per Pfeiltasten – unverzichtbar auf dem 15×15-Brett von Schwer, wo Felder kleiner als eine Fingerspitze sind –, Enter schaltet den Zustand, X setzt oder entfernt ein Kreuz, die Rücktaste löscht.",
+      "Beobachte die Hinweise beim Umkippen. Stimmen die gefüllten Felder einer Zeile oder Spalte exakt mit ihrem Hinweis überein, kippt dieser Hinweis zu Weiß-auf-Schwarz – eine kostenlose Bestätigung, dass die Linie fertig ist. Warnungen vor falschen Zügen gibt es unterwegs keine; wie beim Rätseln auf Papier ist das Bild selbst der einzige Schiedsrichter.",
+      "Arbeite die Logik, rate nie. Volle Linien, Randblöcke und von beiden Richtungen überlappende Blöcke knacken das Bild Schritt für Schritt auf. Rückgängig nimmt deine Markierungen einzeln zurück, der eingebaute Timer verfolgt deine Sitzung, und der Fortschritt speichert sich automatisch, wenn du den Browser mitten im Bild schließt.",
+      "Vervollständige das Bild. Gelöst ist das Rätsel, wenn jede Zeile und jede Spalte zu ihren Hinweisen passt – da jedes Brett genau eine Lösung hat, entsteht das symmetrische, verborgene Bild Zelle für Zelle unter deiner Deduktion: ein Picross-artiger Moment, der zu einem papierähnlichen Bildschirm passt."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (ab 2021)",
+        "status": "yes",
+        "note": "Der eingebaute Browser läuft das komplette Spiel; benötigt Firmware 5.13.7 oder neuer."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Das 10,2-Zoll-Display zeigt selbst das 15×15-Raster von Schwer in angenehmer Größe."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Gleiche Browser-Engine wie neuere Paperwhites – das Spiel bleibt von Haus aus schwarz-weiß."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma und ähnliche)",
+        "status": "yes",
+        "note": "Voller Chromium-Browser, das flüssigste E-Ink-Erlebnis; physische Blättertasten bewegen auf Modellen, die sie haben, den Cursor."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage und ähnliche)",
+        "status": "limited",
+        "note": "Der eingebaute Browser ist veraltet – je nach Modell und Firmware-Version startet das Rätsel eventuell nicht."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Keine offizielle Browser-App; Drittanbieter-Lösungen erfordern einen Jailbreak des Tablets."
+      },
+      {
+        "device": "Ältere Kindles (experimenteller Browser)",
+        "status": "no",
+        "note": "Experimentelle Browser vor 2016 können kein modernes JavaScript – diese Seite bleibt lesbar, aber das Spiel startet nicht."
+      }
+    ]
+  },
+  "whyEInk": "Ein Nonogram ist ein ruhiges, statisches Rätsel, und E-Ink ist ein ruhiger, statischer Bildschirm – ein natürliches Paar. Nichts hier blinkt, animiert sich oder zeichnet sich hinter deinem Raster neu; nur das Feld, das du berührst, wird aktualisiert. Das Brett liest sich wie gedrucktes Millimeterpapier, bequem bei Tageslicht über lange Sitzungen, bei nahezu null Akkuverbrauch.",
+  "faq": [
+    {
+      "q": "Ist das wirklich kostenlos?",
+      "a": "Ja. Jedes Rätsel – das Tägliche eingeschlossen – ist kostenlos spielbar, ohne Konto, ohne Paywall und ohne Werbung. Die Seite gehört zur E-Ink.me-Familie und wird neben den kostenlosen E-Reader-Tools der Hauptseite betrieben: nichts zu kaufen und kein Grund zur Anmeldung."
+    },
+    {
+      "q": "Läuft es auf meinem Kindle Paperwhite?",
+      "a": "Wenn dein Paperwhite von 2021 oder neuer ist und Firmware 5.13.7 oder höher hat: ja – öffne den eingebauten Browser, gib die Adresse der Seite ein und fang an, Felder auszufüllen. Ältere Paperwhites mit dem frühen experimentellen Browser können diese Seite als reinen Text anzeigen, aber das Rätsel selbst läuft auf ihnen nicht."
+    },
+    {
+      "q": "Muss ich meinen Kindle jailbreaken?",
+      "a": "Nein. Das Spiel läuft vollständig im eingebauten Web-Browser deines Kindle. Es gibt keine App zu sideloaden, keinen Hack anzuwenden und keine Garantie-Sorgen – eine Webseite zu öffnen ist für einen Kindle eine ganz gewöhnliche Sache. Wenn dein Gerät eine Webseite laden kann, kann es dieses Spiel laden."
+    },
+    {
+      "q": "Kann ich offline spielen?",
+      "a": "Beim ersten Öffnen der Seite brauchst du eine Internetverbindung, weil sie als normale Webseite ausgeliefert wird und nicht als herunterladbare App. Nach dem Laden läuft das Rätsel lokal auf deinem Gerät – aber E-Reader-Browser sind nicht für die Offline-Nutzung gebaut, sei also verbunden, wenn du startest."
+    }
+  ],
+  "cta": {
+    "label": "Bild gelöst? Verwandle jeden Webartikel in ein EPUB und lies ihn auf deinem Kindle – kostenlose Tools auf e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "logic",
+    "relatedSlugs": [
+      "2048",
+      "hidden-code",
+      "minesweeper",
+      "sudoku"
+    ]
+  }
+}

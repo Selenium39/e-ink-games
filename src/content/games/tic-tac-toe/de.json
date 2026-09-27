@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Tic-Tac-Toe für Kindle & E-Ink – kostenlos, ohne Download",
+    "description": "Spiele kostenlos Tic-Tac-Toe im Browser auf Kindle, BOOX oder Kobo. Kein Download, keine Installation – gegen eine unschlagbare KI oder zu zweit am selben Bildschirm."
+  },
+  "h1": "Tic-Tac-Toe für Kindle & E-Ink – kostenlos, ohne Download",
+  "tagline": "Klassisches Drei-Gewinnt, direkt im Browser deines Kindle Paperwhite, Scribe oder BOOX – spiele gegen einen unschlagbaren Computer oder gegen einen Freund auf einem Bildschirm, ohne etwas herunterzuladen.",
+  "howToPlay": {
+    "steps": [
+      "Wähle deinen Gegner. Spiele gegen den Computer oder stell auf 2 Spieler um und teilt euch einen Bildschirm – X und O ziehen abwechselnd auf demselben Gerät, im Hot-Seat-Wechsel.",
+      "Wähle einen Schwierigkeitsgrad. Leicht macht noch Fehler, die du bestrafen kannst; Schwer spielt eine tadellose Minimax-Strategie und ist nie zu schlagen – das Beste, was irgendwer dagegen erreichen kann, ist ein Remis zu erzwingen.",
+      "Mach einen Zug. Du spielst immer X und ziehst zuerst. Tippe oder klicke auf einem Touchscreen ein leeres Quadrat an, oder drücke eine Zahlentaste: Die Tasten 1 bis 9 liegen auf dem Raster von oben links bis unten rechts.",
+      "Navigiere per Tastatur. Pfeiltasten bewegen einen fett umrandeten Cursor Quadrat für Quadrat; drücke Enter oder die Leertaste, um deinen Stein darauf zu setzen. Die Rücktaste oder U nimmt einen Zug zurück.",
+      "Kenne das Ziel. Bringe drei deiner Zeichen in eine Zeile, eine Spalte oder eine Diagonale. Die Gewinnlinie wird sofort mit einer invertierten Schwarz-Weiß-Markierung über ihre drei Quadrate gelegt.",
+      "Mach Fehler rückgängig. Gegen den Computer nimmt ein Klick auf Rückgängig deinen Zug und die Antwort des Computers zusammen zurück und bringt das Brett wieder an deinen Zug; im Zwei-Spieler-Modus nimmt er einen einzelnen Zug zurück.",
+      "Verfolge die Bilanz. Deine Siege, Niederlagen und Remis gegen den Computer werden auf diesem Gerät gezählt und neben dem Brett angezeigt – sieh zu, wie lange du einen perfekten Gegner auf ein Remis halten kannst."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (ab 2021)",
+        "status": "yes",
+        "note": "Der eingebaute Browser läuft das komplette Spiel; benötigt Firmware 5.13.7 oder neuer."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Das 10,2-Zoll-Display macht die neun Quadrate riesig und bequem mit einer Hand tippbar."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Gleiche Browser-Engine wie neuere Paperwhites – das Spiel bleibt von Haus aus schwarz-weiß."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma und ähnliche)",
+        "status": "yes",
+        "note": "Voller Chromium-Browser, das flüssigste E-Ink-Erlebnis; Blättertasten oder eine gekoppelte Tastatur steuern den Cursor."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage und ähnliche)",
+        "status": "limited",
+        "note": "Der eingebaute Browser ist veraltet – je nach Modell und Firmware-Version startet das Spiel eventuell nicht."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Keine offizielle Browser-App; Drittanbieter-Lösungen erfordern einen Jailbreak des Tablets."
+      },
+      {
+        "device": "Ältere Kindles (experimenteller Browser)",
+        "status": "no",
+        "note": "Experimentelle Browser vor 2016 können kein modernes JavaScript – diese Seite bleibt lesbar, aber das Spiel startet nicht."
+      }
+    ]
+  },
+  "whyEInk": "Tic-Tac-Toe sind neun Quadrate und zwei Zeichen, und E-Ink zeichnet nur das Quadrat neu, das du berührst. Kein Blinken, keine Animation, kein Refresh hinter dem Brett – nur knappe schwarze Striche auf Papier-Weiß. Das Raster bleibt im direkten Tageslicht perfekt lesbar und fasst den Akku kaum an: Ein schnelles Match wird so nie zur Lade-Pause.",
+  "faq": [
+    {
+      "q": "Ist das wirklich kostenlos?",
+      "a": "Ja. Jedes Spiel ist kostenlos, ohne Konto, ohne Paywall und ohne Werbung. Die Seite gehört zur E-Ink.me-Familie und wird neben den kostenlosen E-Reader-Tools der Hauptseite betrieben: nichts zu kaufen und kein Grund zur Anmeldung."
+    },
+    {
+      "q": "Läuft es auf meinem Kindle?",
+      "a": "Wenn du einen Kindle ab 2021 hast – Paperwhite, Scribe oder Colorsoft – mit Firmware 5.13.7 oder neuer: ja. Öffne den eingebauten Browser und lade diese Seite. Ältere Kindle mit dem frühen experimentellen Browser können diese Seite als Text anzeigen, aber das Spiel selbst startet auf ihnen nicht."
+    },
+    {
+      "q": "Muss ich meinen Kindle jailbreaken?",
+      "a": "Nein. Das Spiel läuft vollständig im Web-Browser, den dein Kindle ohnehin mitbringt. Es gibt keine App zu sideloaden und keinen Hack anzuwenden – wenn das Gerät eine Webseite öffnen kann, kann es spielen. An deiner Garantie ändert sich nichts."
+    },
+    {
+      "q": "Kann ich offline spielen?",
+      "a": "Beim ersten Laden dieser Seite brauchst du eine Internetverbindung, weil sie als gewöhnliche Webseite ausgeliefert wird und nicht als herunterladbare App. Danach läuft das Spiel auf dem Gerät selbst, und dein Brett und deine Siegbilanz werden zwischen den Besuchen lokal gespeichert."
+    }
+  ],
+  "cta": {
+    "label": "Spaß am Match? Verwandle jeden Webartikel in ein EPUB und lies ihn auf deinem Kindle – kostenlose Tools auf e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "board",
+    "relatedSlugs": [
+      "2048",
+      "hidden-code",
+      "minesweeper"
+    ]
+  }
+}

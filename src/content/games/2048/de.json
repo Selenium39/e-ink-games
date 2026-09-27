@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "2048 für Kindle & E-Ink – kostenlos, ohne Download",
+    "description": "Spiele 2048 kostenlos im Browser auf Kindle, BOOX oder Kobo. Kein Download, keine Installation – das klassische Kachel-Puzzlespiel, abgestimmt auf schwarz-weiße E-Ink-Bildschirme."
+  },
+  "h1": "2048 für Kindle & E-Ink – kostenlos, ohne Download",
+  "tagline": "Wische nummerierte Kacheln über das Brett und verschmelze sie, bis 2048 erscheint – direkt im Browser deines Kindle Paperwhite, Scribe oder BOOX-Readers. Nichts herunterzuladen, nichts zu installieren.",
+  "howToPlay": {
+    "steps": [
+      "Starte mit zwei Kacheln. Jede Partie beginnt auf einem 4×4-Raster mit nur zwei nummerierten Kacheln – einer 2 oder einer 4 – und mit jedem Zug fällt eine neue Kachel aufs Brett, sodass das Raster beim Spielen immer voller wird.",
+      "Bewege das ganze Brett. Auf einem Touchscreen wische irgendwo über das Brett – nach links, rechts, oben oder unten – und jede Kachel rutscht so weit in diese Richtung, wie sie kann. Alternativ tippe auf die Pfeil-Buttons unter dem Raster oder drücke die Pfeiltasten, wenn dein Gerät physische Blättertasten oder eine gekoppelte Tastatur hat.",
+      "Verschmelze gleiche Kacheln. Treffen zwei Kacheln mit derselben Zahl aufeinander, verschmelzen sie zu einer Kachel mit doppeltem Wert: Zwei 2er werden eine 4, zwei 4er eine 8 und so weiter. Jede Kachel kann pro Zug nur einmal verschmelzen – aus einer Reihe 2-2-2-2 werden also zwei 4er, keine 8. Jede Verschmelzung addiert ihren neuen Wert auf deinen Punktestand.",
+      "Lies das E-Ink-Feedback. Statt Gleit-Animationen trägt eine frisch gefallene Kachel einen Zug lang einen dicken schwarzen Rahmen, und gerade verschmolzene Kacheln kippen zu Weiß-auf-Schwarz – auf einem papierähnlichen Display siehst du ohne jede Bewegung oder Flackern genau, was sich geändert hat.",
+      "Mach Fehler rückgängig. Ein Tipp auf Rückgängig setzt das Brett einen Zug zurück – Position, Punktestand und die gezogene Kachel werden wiederhergestellt. Ein Fehlwisch kostet dich so nie die Partie.",
+      "Ziele auf 2048. Baue Zweierpotenzen auf, indem du deine größte Kachel in einer Ecke festhältst. Sobald eine 2048-Kachel erscheint, hast du gewonnen – das Spiel bietet ein neues Brett an oder lässt dich in Richtung 4096 und darüber hinaus weiterspielen.",
+      "Erkenne das Ende. Das Spiel ist vorbei, wenn das Raster voll ist und keine zwei benachbarten Kacheln übereinstimmen, also kein Zug mehr möglich ist. Dein aktueller Punktestand, dein Bestwert auf dem Gerät und ein Sitzungstimer stehen immer über dem Brett, und der Fortschritt wird automatisch gespeichert, wenn du den Browser mitten in einem Lauf schließt."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (ab 2021)",
+        "status": "yes",
+        "note": "Wischbewegungen funktionieren auf dem Touchscreen gut; benötigt Firmware 5.13.7 oder neuer."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Der große 10,2-Zoll-Bildschirm zeigt das 4×4-Raster in angenehmer Größe – ein Wisch pro Zug."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Gleiche Browser-Engine wie neuere Paperwhites – das Spiel ist von Haus aus schwarz-weiß."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma und ähnliche)",
+        "status": "yes",
+        "note": "Voller Chromium-Browser, das flüssigste E-Ink-Erlebnis; Pfeiltasten funktionieren auf Modellen mit Blättertasten."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage und ähnliche)",
+        "status": "limited",
+        "note": "Der eingebaute Browser ist veraltet – je nach Modell und Firmware-Version startet das Spiel eventuell nicht."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Keine offizielle Browser-App; Drittanbieter-Lösungen erfordern einen Jailbreak des Tablets."
+      },
+      {
+        "device": "Ältere Kindles (experimenteller Browser)",
+        "status": "no",
+        "note": "Experimentelle Browser vor 2016 können kein modernes JavaScript – diese Seite bleibt lesbar, aber das Spiel startet nicht."
+      }
+    ]
+  },
+  "whyEInk": "2048 ist normalerweise ein Spiel gleitender Animationen, und E-Ink-Bildschirme animieren nicht – deshalb ersetzt diese Version Bewegung durch Markierungen im Druckstil: Neue Kacheln tragen einen Zug lang einen dicken Rahmen, Verschmelzungen kippen von Schwarz auf Weiß. Nur die geänderten Kacheln werden neu gezeichnet, das Brett liest sich wie Papier, und der Akku merkt es kaum.",
+  "faq": [
+    {
+      "q": "Ist das wirklich kostenlos?",
+      "a": "Ja. Das Spiel ist komplett kostenlos – ohne Konto, ohne Paywall und ohne Werbung. Die Seite gehört zur E-Ink.me-Familie und wird zusammen mit den kostenlosen E-Reader-Tools der Hauptseite betrieben: Es gibt nichts zu kaufen, nichts freizuschalten und keinen Grund, sich anzumelden."
+    },
+    {
+      "q": "Läuft es auf meinem Kindle Paperwhite?",
+      "a": "Wenn dein Paperwhite von 2021 oder neuer ist und Firmware 5.13.7 oder höher hat: ja – öffne den eingebauten Browser, gib die Adresse der Seite ein und wische los. Ältere Paperwhites mit dem frühen experimentellen Browser können diese Seite noch als Text lesen, aber das Spiel selbst läuft auf ihnen nicht."
+    },
+    {
+      "q": "Muss ich meinen Kindle jailbreaken?",
+      "a": "Nein. Das Spiel läuft vollständig im eingebauten Web-Browser deines Kindle. Es gibt keine App zu sideloaden, keinen Hack anzuwenden und keine Garantie aufs Spiel zu setzen – eine Webseite zu laden ist für einen Kindle eine ganz gewöhnliche Sache. Wenn das Gerät eine Webseite öffnen kann, kann es dieses Spiel spielen."
+    },
+    {
+      "q": "Kann ich offline spielen?",
+      "a": "Beim ersten Laden der Seite brauchst du eine Verbindung, weil das Spiel als normale Webseite ausgeliefert wird und nicht als Store-App. Danach läuft jeder Zug lokal auf dem Gerät – aber E-Reader-Browser sind nicht für die Offline-Nutzung gedacht, sei also verbunden, wenn du einen Lauf startest."
+    }
+  ],
+  "cta": {
+    "label": "2048 erreicht? Verwandle jeden Webartikel in ein EPUB und lies ihn auf deinem Kindle – kostenlose Tools auf e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "memory",
+      "minesweeper",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

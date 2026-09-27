@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Memory Pairs für Kindle & E-Ink – kostenlos, ohne Download",
+    "description": "Spiele kostenlos Memory Pairs im Browser auf Kindle, BOOX oder Kobo. Kein Download, keine Installation – ein klassisches Merkspiel, gemacht für E-Ink-Bildschirme."
+  },
+  "h1": "Memory Pairs für Kindle & E-Ink – kostenlos, ohne Download",
+  "tagline": "Das klassische Karten-Merkspiel in reinem Schwarz-Weiß, neu gebaut für Kindle Paperwhite, Scribe, BOOX und andere E-Reader – einfach die Seite öffnen und losspielen.",
+  "howToPlay": {
+    "steps": [
+      "Wähle eine Brettgröße. Leicht legt 12 Karten (6 Paare) in ein Raster mit vier Spalten, Mittel gibt 16 Karten (8 Paare), und Schwer füllt ein 6×4-Brett mit 24 Karten (12 Paaren). Jede Runde mischt ein frisches Layout aus zwölf verschiedenen Symbolen – das Brett von gestern auswendig zu lernen bringt also nie etwas.",
+      "Drehe zwei Karten um. Tippe auf dem Touchscreen eine verdeckte Karte an, und ihr Symbol erscheint invertiert in Schwarz-Weiß; tippe dann auf eine zweite Karte. Hat dein Gerät physische Tasten oder eine gekoppelte Tastatur, bewege die gestrichelte Markierung mit den Pfeiltasten und drücke Enter oder die Leertaste zum Umdrehen.",
+      "Erkenne das Urteil. Ein passendes Paar bleibt offen liegen und bekommt einen dicken Rahmen – es ist für immer gesichert. Ein Fehlgriff bleibt etwa eine Sekunde sichtbar, damit du dir beide Positionen einprägen kannst, dann drehen sich die beiden Karten von selbst zurück.",
+      "Spiele in deinem Tempo. Während ein Fehlgriff angezeigt wird, ignoriert das Brett still einen dritten Tipp – du kannst ein Paar also nicht durch zu schnelles Tippen vermasseln. Pause machen, schauen, den nächsten Griff planen.",
+      "Verfolge deine Sitzung. Ein Timer und ein Zugzähler laufen über dem Brett; ein Zug bedeutet zwei aufgedeckte Karten, passend oder nicht, und ein Paarzähler zeigt, wie viele der Brettpaare du bereits gesichert hast.",
+      "Komm jederzeit wieder. Der Fortschritt wird auf den meisten Geräten automatisch gespeichert – schließe den Browser mitten im Spiel, und dasselbe Layout, derselbe Zugzähler und dieselbe verstrichene Zeit warten bei deiner Rückkehr auf dich.",
+      "Räume das Brett leer. Die Runde endet, wenn jedes Paar gefunden ist; deine beste Zugzahl und deine schnellste Zeit werden pro Schwierigkeitsgrad getrennt gemerkt – du hast also immer einen persönlichen Rekord zu schlagen."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (ab 2021)",
+        "status": "yes",
+        "note": "Der eingebaute Browser läuft das komplette Spiel; benötigt Firmware 5.13.7 oder neuer."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Das 10,2-Zoll-Display zeigt selbst das 24-Karten-Brett von Schwer in großzügiger Größe – ein Tipp pro Karte."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Gleiche Browser-Engine wie neuere Paperwhites – das Spiel ist bewusst schwarz-weiß gehalten."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma und ähnliche)",
+        "status": "yes",
+        "note": "Voller Chromium-Browser mit sofortiger Touch-Reaktion – die flüssigste Art zu spielen."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage und ähnliche)",
+        "status": "limited",
+        "note": "Der eingebaute Browser ist veraltet – je nach Modell und Firmware-Version startet das Spiel eventuell nicht."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Keine offizielle Browser-App; Drittanbieter-Lösungen erfordern einen Jailbreak des Tablets."
+      },
+      {
+        "device": "Ältere Kindles (experimenteller Browser)",
+        "status": "no",
+        "note": "Experimentelle Browser vor 2016 können kein modernes JavaScript – diese Seite bleibt lesbar, aber das Spiel startet nicht."
+      }
+    ]
+  },
+  "whyEInk": "Memory ist ein Spiel statischer Bilder, und E-Ink ist ein Bildschirm, gebaut für statische Bilder. Eine Karte ändert sich nur, wenn du sie umdrehst – keine Animationen, kein Auto-Refresh, kein Flackern hinter dem Brett. Das Display liest sich wie ein gedruckter Kartentisch, bequem über eine ganze Sitzung bei Tageslicht, bei nahezu null Akkuverbrauch.",
+  "faq": [
+    {
+      "q": "Ist das wirklich kostenlos?",
+      "a": "Ja. Jedes Brett ist kostenlos spielbar – ohne Konto, ohne Paywall und ohne Werbung. Die Seite gehört zur E-Ink.me-Familie und wird neben den kostenlosen E-Reader-Tools der Hauptseite gepflegt: nichts zu kaufen und kein Grund zur Anmeldung – einfach die Seite öffnen und Karten umdrehen."
+    },
+    {
+      "q": "Läuft es auf meinem Kindle Paperwhite?",
+      "a": "Wenn dein Paperwhite von 2021 oder neuer ist und Firmware 5.13.7 oder höher hat: ja – öffne den eingebauten Browser, gib die Adresse der Seite ein, und die Karten liegen bereit. Ältere Paperwhites mit dem frühen experimentellen Browser können diese Seite als reinen Text lesen, aber das Spiel selbst läuft auf ihnen nicht."
+    },
+    {
+      "q": "Muss ich meinen Kindle jailbreaken?",
+      "a": "Nein. Das Spiel läuft vollständig im eingebauten Web-Browser deines Kindle. Es gibt keine App zu sideloaden, keinen Hack anzuwenden und keine Garantie-Sorgen – eine Webseite zu laden ist für einen Kindle eine ganz gewöhnliche Sache. Wenn das Gerät eine Webseite öffnen kann, kann es dieses Spiel spielen."
+    },
+    {
+      "q": "Kann ich offline spielen?",
+      "a": "Beim ersten Öffnen der Seite brauchst du eine Internetverbindung, weil sie als normale Webseite ausgeliefert wird und nicht als Store-App. Nach dem Laden läuft alles lokal auf deinem Gerät – aber E-Reader-Browser sind nicht für die Offline-Nutzung gedacht, sei also verbunden, wenn du eine Sitzung startest."
+    }
+  ],
+  "cta": {
+    "label": "Spaß an Memory Pairs? Verwandle jeden Webartikel in ein EPUB und lies ihn auf deinem Kindle – kostenlose Tools auf e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "minesweeper",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

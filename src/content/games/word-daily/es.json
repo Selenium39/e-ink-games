@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Word Daily para Kindle y E-Ink — juego de palabras diario gratis",
+    "description": "Juega gratis al juego de palabras diario en el navegador de tu Kindle, BOOX o Kobo. Un puzle nuevo de cinco letras cada día — sin descargas, hecho para pantallas e-ink."
+  },
+  "h1": "Word Daily para Kindle y E-Ink — gratis, sin descargas",
+  "tagline": "Un juego de palabras diario estilo Wordle que funciona directamente en el navegador de tu Kindle, BOOX o Kobo — una palabra de cinco letras al día, la misma para todos los jugadores, dibujada en blanco y negro puro.",
+  "howToPlay": {
+    "steps": [
+      "Adivina la palabra de cinco letras de hoy. Cada día todos los jugadores reciben la misma palabra — el puzle está ligado a la fecha, no a tu dispositivo, así que puedes comparar resultados con tus amigos. Tienes seis intentos, y mañana llega una palabra nueva.",
+      "Escribe tu primer intento. Toca el teclado QWERTY en pantalla con el dedo o el lápiz, o escribe en un teclado físico si tu e-reader tiene uno o hay uno emparejado — las teclas físicas, Enter y Retroceso funcionan junto al teclado táctil.",
+      "Lee la respuesta. Tras cada intento, las fichas responden en blanco y negro puro: una ficha negra sólida significa que la letra está en el lugar correcto, una ficha con contorno grueso que la letra está en la palabra pero en otro sitio, y una con contorno fino que no está en la palabra.",
+      "Vigila el historial del teclado. Cada tecla en pantalla lleva las mismas tres marcas para las letras que ya has probado, así que de un vistazo sabes qué letras están colocadas, cuáles sobreviven en otro sitio y cuáles son callejones sin salida.",
+      "Cuida las letras repetidas. La palabra oculta puede contener dos veces la misma letra; la respuesta cuenta cada copia con cuidado, así que un contorno grueso nunca promete más copias de las que la palabra tiene en realidad.",
+      "Juega rondas de práctica ilimitadas. ¿Terminaste con la palabra del día y quieres más? Cambia al modo Práctica para una palabra aleatoria nueva en cualquier momento — las rondas de práctica nunca tocan tu resultado diario, tu racha de victorias ni tus estadísticas.",
+      "Comparte y vuelve. Cuando termina el puzle, aparece una cuadrícula de resultados en texto plano — mantén pulsado para seleccionarla y copiarla donde quieras. Tu progreso diario, tu racha y tus estadísticas se guardan automáticamente en tu dispositivo."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 y posteriores)",
+        "status": "yes",
+        "note": "El navegador integrado ejecuta el juego completo; requiere firmware 5.13.7 o más reciente."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "La pantalla grande muestra todo el tablero de letras y el teclado sin hacer scroll."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "El mismo motor de navegador que los Paperwhite recientes — el juego se mantiene en blanco y negro por diseño."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma y similares)",
+        "status": "yes",
+        "note": "Navegador Chromium completo, la experiencia e-ink más fluida; escribir en un teclado emparejado se siente instantáneo."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage y similares)",
+        "status": "limited",
+        "note": "El navegador integrado está anticuado y puede que no ejecute el juego en todos los modelos o versiones de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No tiene aplicación de navegador oficial; las opciones de terceros exigen hacer jailbreak a la tablet."
+      },
+      {
+        "device": "Kindle antiguos (navegador experimental)",
+        "status": "no",
+        "note": "Los navegadores experimentales anteriores a 2016 no pueden ejecutar JavaScript moderno — esta página se puede leer, pero el juego no arranca."
+      }
+    ]
+  },
+  "whyEInk": "Los puzles de palabras son texto, y la tinta electrónica renderiza el texto de forma impecable. Este juego solo redibuja las fichas que cambian — sin animaciones, sin destellos, sin halos grises — así el tablero se lee como una página impresa con cualquier luz. El formato de una vez al día encaja perfecto con los e-readers: una palabra, un minuto tranquilo de pensamiento y una pantalla que nunca responde con brillo.",
+  "faq": [
+    {
+      "q": "¿De verdad es gratis?",
+      "a": "Sí. La palabra diaria y las rondas de práctica ilimitadas son completamente gratis, sin cuenta, sin anuncios y sin muros de pago. El sitio pertenece a la familia E-Ink.me de herramientas gratuitas para e-readers, así que no hay nada que comprar ni nada que registrar — solo abre la página y juega."
+    },
+    {
+      "q": "¿Funciona en mi Kindle Paperwhite?",
+      "a": "En los modelos Paperwhite, Scribe y Colorsoft de 2021 en adelante con firmware 5.13.7 o más reciente, sí — el navegador integrado ejecuta el juego completo. Los Kindle antiguos con el primer navegador experimental pueden leer esta página como texto, pero el puzle no arrancará en ellos."
+    },
+    {
+      "q": "¿Tengo que hacer jailbreak a mi Kindle?",
+      "a": "No. El juego funciona por completo dentro del navegador que tu Kindle ya trae de fábrica. No hay aplicación que instalar, ningún archivo que cargar ni modificación alguna — si tu dispositivo puede abrir una página web normal, puede jugar a Word Daily."
+    },
+    {
+      "q": "¿Puedo jugar sin conexión?",
+      "a": "Necesitas conexión la primera vez que se carga la página, porque el sitio se entrega como una página web normal y no como una aplicación descargable. Una vez cargada, cada intento se ejecuta en el propio dispositivo y tu racha se guarda localmente — pero planifica estar en línea al empezar."
+    }
+  ],
+  "cta": {
+    "label": "¿Resolviste la palabra del día? Convierte cualquier artículo web en un EPUB y léelo en tu Kindle — herramientas gratis en e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "daily",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-search"
+    ]
+  }
+}

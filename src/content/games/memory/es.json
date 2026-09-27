@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Memory Pairs para Kindle y E-Ink — gratis, sin descargas",
+    "description": "Juega gratis a Memory Pairs en el navegador de tu Kindle, BOOX o Kobo. Sin descargas ni instalaciones: el clásico juego de parejas, hecho para pantallas e-ink."
+  },
+  "h1": "Memory Pairs para Kindle y E-Ink — gratis, sin descargas",
+  "tagline": "El clásico juego de memoria de encontrar parejas, recreado en blanco y negro puro para Kindle Paperwhite, Scribe, BOOX y otros e-readers — solo abre la página y juega.",
+  "howToPlay": {
+    "steps": [
+      "Elige el tamaño del tablero. Fácil dispone 12 cartas (6 parejas) en una cuadrícula de cuatro columnas, Medio reparte 16 cartas (8 parejas) y Difícil llena un tablero de 6×4 con 24 cartas (12 parejas). Cada ronda baraja una disposición nueva a partir de doce símbolos distintos, así que memorizar el tablero de ayer nunca sirve.",
+      "Voltea dos cartas. Toca cualquier carta boca abajo en una pantalla táctil y su símbolo aparece invertido en blanco y negro; luego toca una segunda carta. Si tu dispositivo tiene teclas físicas o un teclado emparejado, mueve el resaltado discontinuo con las flechas y pulsa Enter o Espacio para voltear.",
+      "Observa el veredicto. Una pareja correcta queda boca arriba y se marca con un marco grueso — queda fijada para siempre. Un fallo permanece visible alrededor de un segundo para que memorices ambas posiciones, y luego las dos cartas se voltean solas.",
+      "Juega a tu ritmo. Mientras se muestra un fallo, el tablero ignora silenciosamente un tercer toque, así que no hay forma de estropear una pareja por hacer clic demasiado rápido — pausa, mira y planifica tu próxima jugada.",
+      "Sigue tu sesión. Un cronómetro y un contador de jugadas corren sobre el tablero; una jugada significa voltear dos cartas, aciertes o no, y un contador de parejas muestra cuántas has fijado ya.",
+      "Vuelve cuando quieras. El progreso se guarda automáticamente en la mayoría de dispositivos — cierra el navegador a media partida y la misma disposición, el número de jugadas y el tiempo transcurrido te estarán esperando al volver.",
+      "Limpia el tablero. La ronda termina cuando se han encontrado todas las parejas; tu mejor número de jugadas y tu tiempo más rápido se recuerdan por separado en cada dificultad, así que siempre tienes un récord personal que batir."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 y posteriores)",
+        "status": "yes",
+        "note": "El navegador integrado ejecuta el juego completo; requiere firmware 5.13.7 o más reciente."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "La pantalla de 10,2 pulgadas muestra incluso el tablero Difícil de 24 cartas en un tamaño generoso, un toque por carta."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "El mismo motor de navegador que los Paperwhite recientes — el juego es deliberadamente en blanco y negro."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma y similares)",
+        "status": "yes",
+        "note": "Navegador Chromium completo con respuesta táctil instantánea, la forma más fluida de jugar."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage y similares)",
+        "status": "limited",
+        "note": "El navegador integrado está anticuado y puede que no ejecute el juego en todos los modelos o versiones de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No tiene aplicación de navegador oficial; las opciones de terceros exigen hacer jailbreak a la tablet."
+      },
+      {
+        "device": "Kindle antiguos (navegador experimental)",
+        "status": "no",
+        "note": "Los navegadores experimentales anteriores a 2016 no pueden ejecutar JavaScript moderno — esta página se puede leer, pero el juego no arranca."
+      }
+    ]
+  },
+  "whyEInk": "Memory es un juego de imágenes estáticas, y la tinta electrónica es una pantalla hecha para imágenes estáticas. Una carta solo cambia cuando la volteas — sin animaciones, sin auto-refresco, sin parpadeos detrás del tablero. La pantalla se lee como un tablero de cartas impreso, cómoda de estudiar una sesión entera a la luz del día y con un coste de batería casi nulo.",
+  "faq": [
+    {
+      "q": "¿De verdad es gratis?",
+      "a": "Sí. Cada tablero es gratis, sin cuenta, sin muros de pago y sin anuncios. El sitio pertenece a la familia E-Ink.me y se mantiene junto a las herramientas gratuitas para e-readers del sitio principal, así que no hay nada que comprar ni nada que registrar — solo abre la página y empieza a voltear."
+    },
+    {
+      "q": "¿Funciona en mi Kindle Paperwhite?",
+      "a": "Si tu Paperwhite es un modelo de 2021 o posterior con firmware 5.13.7 o más reciente, sí — abre el navegador integrado, escribe la dirección del sitio y las cartas están listas. Los Paperwhite antiguos con el primer navegador experimental pueden leer esta página como texto, pero no ejecutar el juego."
+    },
+    {
+      "q": "¿Tengo que hacer jailbreak a mi Kindle?",
+      "a": "No. El juego funciona por completo en el navegador web integrado de tu Kindle. No hay aplicación que instalar, ningún truco que aplicar ni garantía de la que preocuparse — cargar una página web es algo habitual para un Kindle. Si el dispositivo puede abrir un sitio web, puede jugar."
+    },
+    {
+      "q": "¿Puedo jugar sin conexión?",
+      "a": "Necesitas conexión a internet la primera vez que abres la página, porque el sitio se entrega como una página web normal y no como una aplicación de tienda. Una vez cargado, todo se ejecuta localmente en tu dispositivo — pero los navegadores de los e-readers no están pensados para uso sin conexión, así que cuenta con estar conectado al empezar."
+    }
+  ],
+  "cta": {
+    "label": "¿Disfrutando Memory Pairs? Convierte cualquier artículo web en un EPUB y léelo en tu Kindle — herramientas gratis en e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "minesweeper",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

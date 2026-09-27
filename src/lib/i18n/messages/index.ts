@@ -6,5 +6,20 @@ import type { Locale } from "../config";
 import type { Messages } from "./en";
 import en from "./en";
 import zh from "./zh";
+import de from "./de";
+import es from "./es";
+import fr from "./fr";
+import it from "./it";
+import pt from "./pt";
+import ja from "./ja";
 
-export const dictionaries: Partial<Record<Locale, Messages>> = { en, zh };
+export const dictionaries: Partial<Record<Locale, Messages>> = {
+  en,
+  zh,
+  de,
+  es,
+  fr,
+  it,
+  pt,
+  ja,
+};

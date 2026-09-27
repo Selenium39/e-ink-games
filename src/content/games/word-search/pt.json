@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Word Search para Kindle e E-Ink — grátis, sem downloads",
+    "description": "Jogue caça-palavras grátis no navegador do seu Kindle, BOOX ou Kobo. Sem download nem instalação: grades grandes de letras em preto e branco feitas para telas e-ink."
+  },
+  "h1": "Word Search para Kindle e E-Ink — grátis, sem downloads",
+  "tagline": "Caça-palavras clássico que roda direto no navegador do seu Kindle Paperwhite, Scribe ou BOOX — escolha um tema, cace as palavras escondidas na grade de letras, nada para baixar.",
+  "howToPlay": {
+    "steps": [
+      "Escolha uma dificuldade. Fácil esconde seis palavras em uma grade 10×10, Médio oito palavras em 12×12, e Difícil dez palavras em 14×14. Cada rodada também sorteia um tema aleatório — Animais, Comida, Natureza, Tecnologia ou Espaço — então cada quebra-cabeça parece novo.",
+      "Varra a grade de letras e escolha um alvo na lista de palavras. As palavras se escondem em oito direções: na horizontal, na vertical e nas duas diagonais, e também podem ser lidas de trás para frente.",
+      "Selecione uma palavra. Em uma tela sensível ao toque, toque na primeira letra e depois na última letra da palavra — qualquer uma das pontas funciona. Em um acerto, as letras invertem para branco sobre preto e a palavra é riscada na lista.",
+      "Jogue com teclas. As teclas de seta movem um cursor pela grade, Enter marca o início e o fim de uma palavra, e Escape cancela uma seleção pendente — útil na grade Difícil de 14×14, onde as células ficam próximas.",
+      "Fique de olho no relógio. Um cronômetro corre enquanto você joga, e seu progresso é salvo automaticamente — feche o navegador no meio do quebra-cabeça e retome a mesma rodada depois.",
+      "Termine a rodada. O quebra-cabeça está completo quando todas as palavras da lista foram encontradas; seu tempo e o recorde por dificuldade ficam guardados no dispositivo.",
+      "Comece de novo. Mude a dificuldade ou toque em Novo quebra-cabeça para um tema novo e uma grade totalmente nova — não há duas rodadas iguais."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 e posteriores)",
+        "status": "yes",
+        "note": "O navegador integrado executa o jogo completo; requer firmware 5.13.7 ou mais recente."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "A tela de 10,2 polegadas mostra com conforto até a grade Difícil de 14×14, densa — toque para selecionar palavras."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "O mesmo motor de navegador dos Paperwhite recentes; o jogo é preto e branco por design, então nada se perde."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma e similares)",
+        "status": "yes",
+        "note": "Navegador Chromium completo, a experiência e-ink mais fluida; as teclas físicas de página movem o cursor nos modelos que as têm."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage e similares)",
+        "status": "limited",
+        "note": "O navegador integrado é antigo e pode não executar o quebra-cabeça em todos os modelos ou versões de firmware."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Não tem aplicativo de navegador oficial; as opções de terceiros exigem fazer jailbreak no tablet."
+      },
+      {
+        "device": "Kindles antigos (navegador experimental)",
+        "status": "no",
+        "note": "Os navegadores experimentais anteriores a 2016 não conseguem executar JavaScript moderno — esta página continua legível, mas o jogo não inicia."
+      }
+    ]
+  },
+  "whyEInk": "Caça-palavras é um jogo quieto e paciente, e a e-ink é uma tela quieta e paciente. Nada aqui pisca, anima ou repinta atrás das suas letras — só a célula que você toca é redesenhada, como tinta secando no papel. A grade grande de letras permanece nítida à luz direta do dia, com custo de bateria essencialmente zero.",
+  "faq": [
+    {
+      "q": "É grátis mesmo?",
+      "a": "Sim. Cada quebra-cabeça é grátis, sem conta, sem paywall e sem anúncios. O site faz parte da família E-Ink.me e funciona junto com as ferramentas gratuitas para e-readers do site principal — não há nada para comprar nem nada para registrar."
+    },
+    {
+      "q": "Funciona no meu Kindle Paperwhite?",
+      "a": "Se o seu Paperwhite é um modelo de 2021 ou posterior com firmware 5.13.7 ou mais recente, sim — abra o navegador integrado, digite o endereço do site e comece a jogar. Os Paperwhite antigos com o primeiro navegador experimental conseguem ler esta página como texto, mas o quebra-cabeça em si não roda."
+    },
+    {
+      "q": "Preciso fazer jailbreak no meu Kindle?",
+      "a": "Não. O jogo funciona inteiramente no navegador web integrado do seu Kindle. Não há aplicativo para instalar, nenhum truque para aplicar nem garantia com que se preocupar — abrir uma página web é algo comum para um Kindle. Se ele consegue carregar uma página, consegue carregar este quebra-cabeça."
+    },
+    {
+      "q": "Posso jogar offline?",
+      "a": "Você precisa de conexão com a internet na primeira vez em que abrir a página, porque ela chega como uma página web comum e não como um aplicativo para baixar. Depois de carregada, o quebra-cabeça roda localmente no seu dispositivo — mas os navegadores de e-readers não são projetados para uso offline, então fique conectado ao começar uma rodada."
+    }
+  ],
+  "cta": {
+    "label": "Encontrou todas as palavras? Transforme qualquer artigo da web em um EPUB e leia no seu Kindle — ferramentas grátis em e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "word",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-daily"
+    ]
+  }
+}
