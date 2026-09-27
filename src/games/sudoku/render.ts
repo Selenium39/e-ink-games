@@ -15,11 +15,13 @@
  * （视觉严格遵循 epaper 印刷美学：--ink-* token、3px 粗线、1-bit 反转、
  * 无动画无 hover），冲突与两条修复路径已在任务报告上报框架侧裁决。
  *
- * 本地化通道缺口（打样裁决）：游戏 bundle 为全语言共享的静态 IIFE，
- * content JSON 的 locale 文案无构建期注入通道。游戏内固定英文短词
- * （数独社区通用），导流 CTA 走 DOM 通道：页面模板在 promo 位输出
+ * 本地化通道（2026-09 16 语言）：bundle 为全语言共享的静态 IIFE，游戏内
+ * 文案经 DOM 通道注入——页面 SSG 把 ui-words.json 对应语言节写进
+ * #game-root 的 data-egames-words 属性，mount 时与 words.en.ts 的
+ * EN_WORDS 浅合并（缺键英文兜底）；难度词同走词表（diffLabel）。
+ * 导流 CTA 走既有 DOM 通道：页面模板在 promo 位输出
  * <a data-egames-cta href=…>{content.cta.label}</a>，mount 时读取覆盖；
- * 检测不到时用英文兜底。确认条/结果面板标题同属该缺口，报告中已列。
+ * 检测不到时用英文兜底。
  */
 import {
   applyMove,
@@ -33,8 +35,10 @@ import {
   type Difficulty,
   type GameState,
 } from "./logic";
+import { diffLabel, mergeWords, readWords } from "../_engine/i18n";
 import { createState } from "../_engine/state";
 import { load, remove, save } from "../_engine/storage";
+import { EN_WORDS } from "./words.en";
 
 /** 与 index.ts 的 SLUG 保持一致 */
 const SLUG = "sudoku";
@@ -53,20 +57,8 @@ const FALLBACK_CTA = {
   label: "Enjoying the game? Turn any web article into an EPUB for your Kindle — e-ink.me",
 };
 
-/** 游戏内固定英文短词（本地化通道缺口，见文件头说明） */
-const WORDS = {
-  confirm: "Start a new game? Current progress will be lost.",
-  ok: "OK",
-  cancel: "Cancel",
-  notes: "Notes",
-  erase: "Erase",
-  undo: "Undo",
-  newGame: "New Game",
-  solved: "Solved!",
-  timeLabel: "TIME",
-  errLabel: "ERR",
-  progressSaved: "Progress is saved automatically.",
-};
+/** 游戏内文案（本地化：mount 时以 data-egames-words 注入词覆盖，见文件头） */
+let WORDS: Record<string, string> = EN_WORDS;
 
 // 私有 CSS（契约决策④）：运行时一次性注入；无 animation/transition/hover
 // （§10.2），1-bit 状态：选中=inset 3px 粗框、错误=黑底白字反转、given=粗体
@@ -172,6 +164,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
   }
   root.dataset.mounted = "1";
   root.textContent = ""; // 清掉壳层占位/降级段落
+  WORDS = mergeWords(EN_WORDS, readWords(root)); // 本地化词表（缺键英文兜底）
 
   injectCss();
 
@@ -220,7 +213,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
     key.type = "button";
     key.className = "sdk-btn";
     key.setAttribute("data-diff", d);
-    key.textContent = d.charAt(0).toUpperCase() + d.slice(1);
+    key.textContent = diffLabel(WORDS, d);
     seg.appendChild(key);
     segKeys.push(key);
   }
@@ -476,8 +469,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
     solved = true;
     stopTimer();
     remove(SLUG, "save1"); // 完局清档（下次进入开新局）
-    resultStats.textContent =
-      s.difficulty.charAt(0).toUpperCase() + s.difficulty.slice(1) + " · " + fmtTime(seconds);
+    resultStats.textContent = diffLabel(WORDS, s.difficulty) + " · " + fmtTime(seconds);
     const cta = resolveCta();
     resultCta.setAttribute("href", cta.href);
     resultCta.textContent = cta.label;

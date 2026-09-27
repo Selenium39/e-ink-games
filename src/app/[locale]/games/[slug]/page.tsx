@@ -70,6 +70,23 @@ async function loadContent(slug: string, locale: Locale): Promise<GameContent> {
   return { ...enMod.default, ...localized } as GameContent;
 }
 
+/** 引擎 UI 词表（2026-09 16 语言通道）：words.en.ts（英文单一来源）+
+ *  ui-words.json 当前语言节，SSG 期合并后经 GameShell 的 data-egames-words
+ *  注入；bundle mount 时读取并与内置 EN_WORDS 再合并（幂等兜底）。 */
+async function loadUiWords(
+  slug: string,
+  locale: Locale,
+): Promise<Record<string, string>> {
+  const enMod = (await import(`@/games/${slug}/words.en`)) as {
+    EN_WORDS: Record<string, string>;
+  };
+  const ui = (await import(`@/games/${slug}/ui-words.json`)) as {
+    default: Record<string, Record<string, string>>;
+  };
+  const localized = locale === "en" ? undefined : ui.default[locale];
+  return { ...enMod.EN_WORDS, ...(localized ?? {}) };
+}
+
 // ── 模板公共词：全部经 t() 取自 lib/i18n 的 games.common 命名空间 ──
 //（原文件内 TEMPLATE_WORDS/CATEGORY_LABEL/STATUS_WORD 的 en/zh 映射已收编，
 // 16 语言扩容后所有语种共享同一管道；缺键时 t() 回退 en）
@@ -137,6 +154,7 @@ export default async function GamePage({ params }: { params: Params }) {
   if (!game) notFound();
 
   const content = await loadContent(slug, locale);
+  const uiWords = await loadUiWords(slug, locale);
   const path = `/${locale}/games/${slug}/`;
   const canonical = absoluteUrl(path);
 
@@ -220,13 +238,15 @@ export default async function GamePage({ params }: { params: Params }) {
           </p>
         }
       >
-        {/* 壳层文案本地化（games.common 命名空间，16 语言管道） */}
+        {/* 壳层文案本地化（games.common 命名空间，16 语言管道）+
+            引擎词表注入（data-egames-words，游戏内按钮/状态词跟随语言） */}
         <GameShell
           slug={slug}
           loading={t(locale, "games.common.shellLoading")}
           error={t(locale, "games.common.shellError")}
           fallback={t(locale, "games.common.shellFallback")}
           noscript={t(locale, "games.common.shellNoscript")}
+          words={uiWords}
         />
       </GameFrame>
 

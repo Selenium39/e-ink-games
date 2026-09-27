@@ -1,0 +1,19 @@
+{
+  "zh": {
+    "confirm": "开始新游戏？当前进度将丢失。",
+    "ok": "确定",
+    "cancel": "取消",
+    "notes": "笔记",
+    "erase": "擦除",
+    "undo": "撤销",
+    "newGame": "新游戏",
+    "solved": "完成！",
+    "timeLabel": "用时",
+    "errLabel": "错误",
+    "progressSaved": "进度会自动保存。",
+    "easy": "简单",
+    "medium": "中等",
+    "hard": "困难",
+    "expert": "专家"
+  }
+}

@@ -1,12 +1,18 @@
 // 复制我为新游戏：渲染层（契约 §6）。
 // 职责：DOM patch、最小脏区更新、交互绑定。只 import ./logic 与 _engine/*，
 // 禁止 import react / next / innerHTML 全量重绘（§10.4）。
+// 用户可见文案一律走 words.en.ts 词表（本地化通道，见该文件头注释）。
 import { CELL_COUNT, click, newGame, TARGET, type TemplateState } from "./logic";
+import { mergeWords, readWords } from "../_engine/i18n";
 import { createState } from "../_engine/state";
 import { load, save } from "../_engine/storage";
+import { EN_WORDS } from "./words.en";
 
 /** 与 index.ts 的 SLUG 保持一致（复制模板后全局替换 "_template"） */
 const SLUG = "_template";
+
+/** 游戏内文案（本地化：mount 时以 data-egames-words 注入词覆盖） */
+let WORDS: Record<string, string> = EN_WORDS;
 
 // 私有 CSS（契约决策④）：运行时一次性注入，不出 css 文件、少一个请求。
 // 硬约束（§10.2/§10.5）：无 animation/transition/hover；1-bit 状态
@@ -42,6 +48,7 @@ export function mount(root: HTMLElement): void {
   }
   root.dataset.mounted = "1";
   root.textContent = ""; // 清掉壳层占位段落
+  WORDS = mergeWords(EN_WORDS, readWords(root)); // 本地化词表（缺键英文兜底）
 
   injectCss();
 
@@ -73,7 +80,7 @@ export function mount(root: HTMLElement): void {
   const undoBtn = document.createElement("button");
   undoBtn.type = "button";
   undoBtn.className = "gtpl-undo";
-  undoBtn.textContent = "Undo";
+  undoBtn.textContent = WORDS.undo;
   const hint = document.createElement("span");
   hint.className = "gtpl-hint";
   tools.appendChild(undoBtn);
@@ -90,10 +97,10 @@ export function mount(root: HTMLElement): void {
       if (cells[i].textContent !== text) cells[i].textContent = text; // 仅变更格落盘（EPDC 局部刷新）
       cells[i].classList.toggle("is-done", s.counts[i] >= TARGET);
     }
-    const statusText = s.done ? "Done! All cells lit." : "Click cells to count up.";
+    const statusText = s.done ? WORDS.done : WORDS.hint;
     if (status.textContent !== statusText) status.textContent = statusText;
     undoBtn.disabled = !machine.canUndo();
-    hint.textContent = "Progress is saved automatically.";
+    hint.textContent = WORDS.progressSaved;
   }
 
   // ── 交互（§6：click + keydown 按需绑定；禁 Pointer Events）──

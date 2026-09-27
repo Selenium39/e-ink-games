@@ -1,10 +1,16 @@
 'use client';
 
-// 游戏壳（契约 §7.1）：站点唯一 'use client' 游戏组件。职责仅三项——
+// 游戏壳（契约 §7.1）：站点唯一 'use client' 游戏组件。职责仅四项——
 //   1. 输出 <div id="game-root" data-game=… data-fallback=…>（含 noscript + 加载占位段落）；
 //   2. 注入 <script defer src="/games/{slug}.js">；
-//   3. SSG 时 data-fallback 取当前语言文案。
+//   3. SSG 时 data-fallback 取当前语言文案；
+//   4. SSG 时 data-egames-words 注入当前语言的引擎 UI 词表
+//      （words.en.ts + ui-words.json 合并结果；bundle mount 时读取，
+//      缺键英文兜底——2026-09 16 语言通道）。
 // 禁止承载 SEO 正文（契约 §7.3 双向禁令）；交互控件归游戏 render.ts（决策⑦）。
+//
+// #game-root 恒 dir="ltr"：盘面是坐标语义 grid（数独 9×9、2048 方向键），
+// RTL 语言（ar）页面上游戏区不镜像；页面正文 RTL 由 layout 的 <html dir> 决定。
 //
 // 加载状态语义（2026-09 修复线上间歇性"浏览器过老"误报）：
 // 占位段默认显示中性的"加载中"——bundle 挂载成功即被清掉（mount 首行
@@ -26,6 +32,8 @@ export interface GameShellProps {
   loading?: string;
   /** bundle 加载/执行失败（超时探测）时的提示文案。缺省英文。 */
   error?: string;
+  /** 引擎 UI 词表（当前 locale；页面 SSG 从 words.en.ts + ui-words.json 合并）。 */
+  words?: Record<string, string>;
 }
 
 const DEFAULT_FALLBACK = 'This game needs a newer browser.';
@@ -40,9 +48,17 @@ export default function GameShell({
   noscript = DEFAULT_NOSCRIPT,
   loading = DEFAULT_LOADING,
   error = DEFAULT_ERROR,
+  words,
 }: GameShellProps) {
   return (
-    <div id="game-root" data-game={slug} data-fallback={fallback} data-load-error={error}>
+    <div
+      id="game-root"
+      data-game={slug}
+      data-fallback={fallback}
+      data-load-error={error}
+      data-egames-words={words ? JSON.stringify(words) : undefined}
+      dir="ltr"
+    >
       <noscript>
         <p>{noscript}</p>
       </noscript>
