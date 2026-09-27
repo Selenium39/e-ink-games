@@ -141,6 +141,51 @@ html {
   text-transform: uppercase;
 }
 
+/* ── 语言切换器：<details> 零 JS 开合（无动画/零 JS 哲学）─────────
+   展开列表为文档流内块（非 absolute）：老墨水屏浏览器无定位/层叠边界
+   问题，展开时在 flex-wrap 的 header 里下推内容而非覆盖。 */
+
+.site-lang {
+  font-family: var(--ink-mono);
+  font-size: var(--ink-text-label);
+  font-weight: 700;
+  letter-spacing: var(--ink-tracking-wide);
+}
+
+.site-lang summary {
+  cursor: pointer;
+  list-style: none; /* 去 UA 默认三角，改用 ::after 指示符 */
+}
+.site-lang summary::-webkit-details-marker {
+  display: none;
+}
+.site-lang summary::after {
+  content: " ▾";
+}
+.site-lang[open] summary::after {
+  content: " ▴";
+}
+
+.site-lang ul {
+  list-style: none;
+  margin: var(--ink-space-3) 0 0;
+  padding: var(--ink-space-3) var(--ink-space-4);
+  border: var(--ink-border-width) solid var(--ink-fg);
+  background: var(--ink-bg);
+  display: grid;
+  gap: var(--ink-space-2);
+  min-width: max-content;
+}
+
+.site-lang a {
+  color: var(--ink-fg);
+  text-decoration: none;
+}
+/* 当前语言以实心圆点标记（aria-current 同步给辅助技术） */
+.site-lang a[aria-current]::before {
+  content: "● ";
+}
+
 /* ── 区块分隔：粗细线对比（报纸层级感）──────────────────────── */
 /* 3px 粗线用 .ink-rule.ink-rule--thick（库），普通细线用 .ink-rule。
  * 区块之间至少留一段呼吸间距： */

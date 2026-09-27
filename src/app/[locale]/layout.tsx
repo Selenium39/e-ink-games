@@ -1,16 +1,20 @@
-// 语言段布局：文档壳（<html lang>）+ 站点 chrome（header/footer）。
+// 语言段布局：文档壳（<html lang/dir>）+ 站点 chrome（header/footer）。
 //
-// 静态导出：generateStaticParams 只产出 ENABLED_LOCALES（en、zh），
-// 扩语言时只需改 src/lib/i18n/config.ts 的 ENABLED_LOCALES 并补字典。
+// 静态导出：generateStaticParams 只产出 ENABLED_LOCALES，
+// 扩语言时只需改 src/lib/i18n/config.ts 的 ENABLED_LOCALES 并补字典
+// 与 content JSON（详见 config.ts 文件头注释）。
 // root layout（src/app/layout.tsx）是 pass-through，html/body 在此提供，
-// 以便 <html lang> 跟随语言。
+// 以便 <html lang> 跟随语言；RTL 语言（ar）同时输出 dir="rtl"
+//（游戏区由 GameShell 恒定 dir="ltr"，盘面坐标语义不受镜像影响）。
 
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Analytics from "@/components/Analytics";
+import LanguageMenu from "@/components/LanguageMenu";
 import {
   ENABLED_LOCALES,
+  RTL_LOCALES,
   SITE_URL,
   t,
   type Locale,
@@ -63,7 +67,7 @@ export default async function LocaleLayout({
   const loc = locale as Locale;
 
   return (
-    <html lang={loc}>
+    <html lang={loc} dir={RTL_LOCALES.includes(loc) ? "rtl" : "ltr"}>
       <body>
         <div className="ink-page">
           <a className="site-skip" href="#main-content">
@@ -86,6 +90,7 @@ export default async function LocaleLayout({
                 {t(loc, "site.chrome.nav.about")}
               </Link>
             </nav>
+            <LanguageMenu locale={loc} />
           </header>
 
           <main id="main-content">{children}</main>
