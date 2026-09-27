@@ -34,11 +34,14 @@ export default function LanguageMenu({ locale }: { locale: Locale }) {
           </li>
         ))}
       </ul>
-      {/* 同路径换语言（纯 ES5 同步脚本；路径无语言前缀时不改写，保持默认） */}
+      {/* 同路径换语言（纯 ES5；路径无语言前缀时不改写，保持默认）。
+          执行时机：内联同步脚本会在 React 水合前跑、随后水合重建子树把
+          href 恢复成 SSR 默认值——故延迟到水合后执行，且 rAF+load 双触发
+          幂等（改写是纯 setAttribute，重复执行无害，同 GameShell 探测模式） */}
       <script
         dangerouslySetInnerHTML={{
           __html:
-            '(function(){var d=document.getElementById("site-lang");if(!d)return;var p=location.pathname,m=p.match(/^\\/[a-z]{2}(?:-[A-Za-z]{2})?\\//);if(!m)return;var r=p.slice(m[0].length),a=d.getElementsByTagName("a");for(var i=0;i<a.length;i++){var l=a[i].getAttribute("hreflang");if(l)a[i].setAttribute("href","/"+l+"/"+r)}})()',
+            '(function(){function rw(){var d=document.getElementById("site-lang");if(!d)return;var p=location.pathname,m=p.match(/^\\/[a-z]{2}(?:-[A-Za-z]{2})?\\//);if(!m)return;var r=p.slice(m[0].length),a=d.getElementsByTagName("a");for(var i=0;i<a.length;i++){var l=a[i].getAttribute("hreflang");if(l&&a[i].getAttribute("href")!=="/"+l+"/"+r)a[i].setAttribute("href","/"+l+"/"+r)}}setTimeout(rw,100);if(document.readyState!=="loading"){window.addEventListener("load",rw)}else{document.addEventListener("DOMContentLoaded",rw)}})()',
         }}
       />
     </details>
