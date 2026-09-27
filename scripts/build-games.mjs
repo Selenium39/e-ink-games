@@ -213,7 +213,16 @@ for (const meta of metas) {
     continue;
   }
 
-  const code = readFileSync(outfile, "utf8");
+  // 幂等 guard（客户端路由修复配套，2026-09）：慢网直开时 SSR defer script
+  // 与 GameShell useEffect 补注入的 async script 可能双到达执行。bundle 顶层
+  // 以 window.EGames[slug] 已注册为标记拦截二次执行——防 MutationObserver
+  // 累积挂载（boot 每次执行都会 new 一个、永不 disconnect）与 mount 双开局。
+  // 特性检测失败的老浏览器路径不受影响：注册发生在检测之后，guard 不拦，
+  // 二次执行只是幂等地重写一次降级文案。ES5 兼容，gzip 约 +40B。
+  const iife = readFileSync(outfile, "utf8");
+  const code = `!function(){var g=window.EGames;if(g&&g[${JSON.stringify(slug)}])return;${iife}}()`;
+  writeFileSync(outfile, code);
+
   const gz = gzipSync(Buffer.from(code, "utf8"), { level: 9 });
 
   if (gz.length > GZIP_LIMIT_BYTES) {

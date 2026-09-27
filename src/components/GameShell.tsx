@@ -1,5 +1,7 @@
 'use client';
 
+import { useEffect } from "react";
+
 // 游戏壳（契约 §7.1）：站点唯一 'use client' 游戏组件。职责仅四项——
 //   1. 输出 <div id="game-root" data-game=… data-fallback=…>（含 noscript + 加载占位段落）；
 //   2. 注入 <script defer src="/games/{slug}.js">；
@@ -18,6 +20,22 @@
 //   - bundle 已执行但特性检测失败（§3.2）：bundle 自行用 data-fallback 整段替换；
 //   - bundle 根本没执行（弱网/CDN 抖动/被拦截，defer script 无重试）：
 //     下方 inline 探测 8s 后把占位段改写为 data-load-error 文案。
+//
+// 客户端路由挂载通道（2026-09 修复"站内导航进游戏页永远 loading"）：
+// React 客户端渲染插入的 <script> 不会被浏览器执行（react.dev/reference/
+// react-dom/components/script：仅 async script 受 React 加载管理）——SSG HTML
+// 里的 defer script 只在整页加载时执行，站内 Link 导航到达的页面里它是死 DOM，
+// 游戏 bundle 从未被请求，占位段永远停在"加载中"（线上实测复现）。故本组件
+// useEffect 补一条指令式通道，与 SSR defer 双轨并存：
+//   - bundle 未执行（window.EGames[slug] 缺席）且占位仍在：createElement
+//     注入 async script（.src 属性赋值的动态 script 必执行），onerror 时把
+//     占位段改写为 data-load-error 文案（客户端导航场景 inline 探测同样
+//     是死脚本，由本通道接管失败反馈）；
+//   - bundle 已执行过（再次客户端导航回本页，React 重建了占位子树）：
+//     直接调用注册表里的幂等 mount 重挂（§3.3.3）；
+//   - SSR defer 已先行完成挂载（占位已被清）：什么都不做。
+// 双轨并发的双执行（慢网直开：defer 在途时本通道又注入一份）由 bundle 顶层
+// 幂等 guard 拦截（scripts/build-games.mjs 统一包裹）。
 
 export interface GameShellProps {
   slug: string;
@@ -50,6 +68,36 @@ export default function GameShell({
   error = DEFAULT_ERROR,
   words,
 }: GameShellProps) {
+  // 指令式挂载通道：见文件头"客户端路由挂载通道"。依赖数组仅 slug
+  //（SSG 页面 locale 变化 = 不同 URL 的整页加载，不产生同组件重挂）。
+  useEffect(() => {
+    const root = document.getElementById("game-root");
+    if (!root || root.getAttribute("data-game") !== slug) return;
+
+    const entry = window.EGames?.[slug];
+    if (entry) {
+      // bundle 已执行过：再次客户端导航回本页，React 重建的占位子树
+      // 需幂等重挂（mount 自带全新开局 + 存档恢复语义）
+      if (root.querySelector("p[data-game-loading]")) entry.mount(root);
+      return;
+    }
+    // 占位已被清 = SSR defer 通道已完成挂载（或 MO 重挂在途），不介入
+    if (!root.querySelector("p[data-game-loading]")) return;
+
+    // bundle 从未执行（客户端导航到达 / SSR defer 尚在途中）：
+    // 指令式注入。.src 属性赋值的动态 script 浏览器必执行
+    const script = document.createElement("script");
+    script.src = `/games/${slug}.js`;
+    script.async = true;
+    script.onerror = () => {
+      const placeholder = root.querySelector("p[data-game-loading]");
+      if (placeholder) {
+        placeholder.textContent = root.getAttribute("data-load-error") || DEFAULT_ERROR;
+      }
+    };
+    document.body.appendChild(script);
+  }, [slug]);
+
   return (
     <div
       id="game-root"
