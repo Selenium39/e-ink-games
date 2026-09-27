@@ -1,0 +1,12 @@
+{
+  "slug": "nonogram",
+  "title": "Nonogram",
+  "category": "logic",
+  "difficulties": ["easy", "medium", "hard"],
+  "engineFeatures": ["grid", "undo", "timer"],
+  "seeded": true,
+  "seo": {
+    "keywordsHint": ["nonogram for kindle", "nonogram online free"],
+    "videoGameGenre": "Logic"
+  }
+}

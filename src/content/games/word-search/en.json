@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Word Search for Kindle & E-Ink — Free, No Download",
+    "description": "Play free word search puzzles in your browser on Kindle, BOOX or Kobo. No download, no install — big black-and-white letter grids made for e-ink screens."
+  },
+  "h1": "Word Search for Kindle & E-Ink — Free, No Download",
+  "tagline": "Classic word search that runs right in your Kindle Paperwhite, Scribe or BOOX browser — pick a theme, hunt the hidden words in the letter grid, nothing to download.",
+  "howToPlay": {
+    "steps": [
+      "Pick a difficulty. Easy hides six words in a 10×10 grid, Medium eight words in 12×12, and Hard ten words in 14×14. Every round also rolls a random theme — Animals, Food, Nature, Technology or Space — so each puzzle feels fresh.",
+      "Scan the letter grid and pick a target from the word list. Words hide in eight directions: across, down and along both diagonals, and they can read backwards too.",
+      "Select a word. On a touch screen, tap the first letter, then tap the last letter of that word — either end works. On a hit, the letters flip to white-on-black and the word is struck through the list.",
+      "Play with keys instead. Arrow keys move a cursor around the grid, Enter marks the start and the end of a word, and Escape cancels a pending selection — handy on Hard's 14×14 grid, where cells sit close together.",
+      "Watch the clock. A timer runs while you play, and your progress is saved automatically — close the browser mid-puzzle and pick the same round up later.",
+      "Finish the round. The puzzle is complete when every word on the list has been found; your time and per-difficulty best are kept on the device.",
+      "Start over. Switch difficulty or hit New Puzzle for a fresh theme and a brand-new grid — no two rounds look alike."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 and later)",
+        "status": "yes",
+        "note": "The built-in browser runs the full game; needs firmware 5.13.7 or newer."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "The 10.2-inch screen shows even the dense 14×14 Hard grid comfortably — tap to select words."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Same browser engine as recent Paperwhites; the game is black-and-white by design, so nothing is lost."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma and similar)",
+        "status": "yes",
+        "note": "Full Chromium browser, the smoothest e-ink experience; physical page keys move the cursor on models that have them."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage and similar)",
+        "status": "limited",
+        "note": "The built-in browser is dated and may not run the puzzle on every model or firmware version."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No official browser app; third-party options require jailbreaking the tablet."
+      },
+      {
+        "device": "Older Kindles (experimental browser)",
+        "status": "no",
+        "note": "Pre-2016 experimental browsers can't run modern JavaScript — this page stays readable, but the game won't start."
+      }
+    ]
+  },
+  "whyEInk": "Word search is a quiet, patient game and e-ink is a quiet, patient screen. Nothing here blinks, animates or repaints behind your letters — only the cell you touch redraws, like ink drying on paper. The big letter grid stays crisp in direct daylight at essentially zero battery cost.",
+  "faq": [
+    {
+      "q": "Is it really free?",
+      "a": "Yes. Every puzzle is free to play with no account, no paywall and no ads. The site is part of the E-Ink.me family and runs alongside the free e-reader tools on the main site — there is nothing to buy and nothing to sign up for."
+    },
+    {
+      "q": "Does it work on my Kindle Paperwhite?",
+      "a": "If your Paperwhite is a 2021 or later model on firmware 5.13.7 or newer, yes — open the built-in browser, type in the site address and start playing. Older Paperwhites with the early experimental browser can read this page as text, but the puzzle itself will not run."
+    },
+    {
+      "q": "Do I need to jailbreak my Kindle?",
+      "a": "No. The game runs entirely in your Kindle's built-in web browser. There is no app to sideload, no hack to apply and no warranty to worry about — opening a web page is an ordinary thing for a Kindle to do. If it can load a page, it can load this puzzle."
+    },
+    {
+      "q": "Can I play offline?",
+      "a": "You need an internet connection the first time you open the page, because the site arrives as a normal web page rather than a downloadable app. Once loaded, the puzzle runs locally on your device — but e-reader browsers are not designed for offline use, so stay connected when you start a round."
+    }
+  ],
+  "cta": {
+    "label": "Found every word? Turn any web article into an EPUB and read it on your Kindle — free tools at e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "word",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-daily"
+    ]
+  }
+}

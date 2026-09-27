@@ -1,0 +1,12 @@
+{
+  "slug": "hangman",
+  "title": "Hangman",
+  "category": "word",
+  "difficulties": ["easy", "medium", "hard"],
+  "engineFeatures": ["keypad"],
+  "seeded": false,
+  "seo": {
+    "keywordsHint": ["hangman for kindle", "hangman word game"],
+    "videoGameGenre": "Word"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "minesweeper",
+  "title": "Minesweeper",
+  "category": "puzzle",
+  "difficulties": ["easy", "medium", "hard"],
+  "engineFeatures": ["grid", "timer"],
+  "seeded": false,
+  "seo": {
+    "keywordsHint": ["minesweeper for kindle", "e ink minesweeper"],
+    "videoGameGenre": "Puzzle"
+  }
+}

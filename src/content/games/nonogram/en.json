@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Play Nonogram for Kindle & E-Ink — Free, No Download",
+    "description": "Play free nonogram puzzles in your browser on Kindle, BOOX or Kobo. No download, no install — black-and-white logic grids made for e-ink screens."
+  },
+  "h1": "Nonogram for Kindle & E-Ink — Free, No Download",
+  "tagline": "Classic picture-logic puzzles that run right in your Kindle Paperwhite, Scribe or BOOX browser — no app to install, nothing to download, just open the page and start filling squares.",
+  "howToPlay": {
+    "steps": [
+      "Pick a board, or take the Daily. Easy is a 5×5 grid, Medium 10×10 and Hard 15×15 — every puzzle is generated fresh and guaranteed solvable by pure logic. The Daily button deals one shared 10×10 picture puzzle each day: every player worldwide gets the same seed, so you can compare progress without an account.",
+      "Read the clues. The numbers along the left and top edges describe the runs of filled squares in each row and column. A row marked \"3 1\" hides a block of three, at least one gap, then a single filled cell — the order is fixed, the gaps are the puzzle.",
+      "Fill and mark squares. On a touch screen, tap a square to cycle it through three states: empty, filled, and crossed out. Crosses (×) are your proof marks for squares that must stay empty. With a keyboard, arrow keys walk the cursor — essential on the 15×15 Hard board, where squares sit smaller than a fingertip — and Enter cycles, X toggles a cross, Backspace clears.",
+      "Watch the clues flip. When a row or column's filled squares match its clue exactly, that clue inverts to white-on-black — free confirmation the line is finished. There are no wrong-move warnings along the way; like paper nonograms, the picture itself is the only judge.",
+      "Work the logic, never guesses. Full lines, edge blocks and runs overlapping from both directions crack the picture open step by step. Undo steps back through your marks one at a time, the built-in timer tracks your session, and progress is saved automatically if you close the browser mid-picture.",
+      "Complete the picture. The puzzle is solved when every row and column matches its clues — since each board has exactly one solution, the symmetric hidden image emerges cell by cell as you deduce it, a Picross-style payoff that suits a paper-like screen."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 and later)",
+        "status": "yes",
+        "note": "The built-in browser runs the full game; needs firmware 5.13.7 or newer."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "The 10.2-inch screen shows even the 15×15 Hard grid at a comfortable size."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Same browser engine as recent Paperwhites — the game stays black-and-white by design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma and similar)",
+        "status": "yes",
+        "note": "Full Chromium browser, the smoothest e-ink experience; physical page keys move the cursor on models that have them."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage and similar)",
+        "status": "limited",
+        "note": "The built-in browser is dated and may not run the puzzle on every model or firmware version."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No official browser app; third-party options require jailbreaking the tablet."
+      },
+      {
+        "device": "Older Kindles (experimental browser)",
+        "status": "no",
+        "note": "Pre-2016 experimental browsers can't run modern JavaScript — this page stays readable, but the game won't start."
+      }
+    ]
+  },
+  "whyEInk": "A nonogram is a quiet, static puzzle and e-ink is a quiet, static screen — a natural pair. Nothing here blinks, animates or repaints behind your grid; only the square you touch redraws. The board reads like printed graph paper, comfortable in daylight through long sessions, at near-zero battery cost.",
+  "faq": [
+    {
+      "q": "Is it really free?",
+      "a": "Yes. Every puzzle — including the Daily — is free to play with no account, no paywall and no ads. The site is part of the E-Ink.me family and is kept running alongside the free e-reader tools on the main site, so there is nothing to buy and nothing to sign up for."
+    },
+    {
+      "q": "Does it work on my Kindle Paperwhite?",
+      "a": "If your Paperwhite is a 2021 or later model on firmware 5.13.7 or newer, yes — open the built-in browser, type in the site address and start filling squares. Older Paperwhites with the early experimental browser can display this page as plain text, but they cannot run the puzzle itself."
+    },
+    {
+      "q": "Do I need to jailbreak my Kindle?",
+      "a": "No. The game runs entirely in your Kindle's built-in web browser. There is no app to sideload, no hack to apply and no warranty to worry about — opening a website is an ordinary thing for a Kindle to do. If your device can load a web page, it can load this game."
+    },
+    {
+      "q": "Can I play offline?",
+      "a": "You need an internet connection the first time you open the page, because the site is delivered as a normal web page rather than a downloadable app. After it loads, the puzzle runs locally on your device — but e-reader browsers are not built for offline use, so plan on being connected when you start."
+    }
+  ],
+  "cta": {
+    "label": "Solved the picture? Turn any web article into an EPUB and read it on your Kindle — free tools at e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "logic",
+    "relatedSlugs": [
+      "2048",
+      "hidden-code",
+      "minesweeper",
+      "sudoku"
+    ]
+  }
+}

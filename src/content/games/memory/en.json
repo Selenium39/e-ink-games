@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Memory Pairs for Kindle & E-Ink — Free, No Download",
+    "description": "Play free Memory Pairs in your browser on Kindle, BOOX or Kobo. No download, no install — a classic matching game made for e-ink screens."
+  },
+  "h1": "Memory Pairs for Kindle & E-Ink — Free, No Download",
+  "tagline": "The classic card-matching memory game, rebuilt in pure black and white for Kindle Paperwhite, Scribe, BOOX and other e-readers — just open the page and play.",
+  "howToPlay": {
+    "steps": [
+      "Pick a board size. Easy lays out 12 cards (6 pairs) in a four-column grid, Medium deals 16 cards (8 pairs), and Hard fills a 6×4 board with 24 cards (12 pairs). Every round shuffles a fresh layout from twelve distinct symbols, so memorizing yesterday's board never helps.",
+      "Flip two cards. Tap any face-down card on a touch screen and its symbol appears in inverted black-and-white; then tap a second card. If your device has physical keys or a paired keyboard, move the dashed highlight with the arrow keys and press Enter or Space to flip.",
+      "Watch the verdict. A matching pair stays face-up and is marked with a thick frame — it is locked in for good. A mismatch stays visible for about a second so you can memorize both positions, then the two cards flip back on their own.",
+      "Play at your own pace. While a mismatch is on display the board quietly ignores a third tap, so there is no way to fumble a pair by clicking too fast — pause, look, and plan your next flip.",
+      "Track your session. A timer and a move counter run above the board; one move means flipping two cards, matched or not, and a pair counter shows how many of the board's pairs you have already locked in.",
+      "Come back anytime. Progress is saved automatically on most devices — close the browser mid-game and the same layout, move count and elapsed time will be waiting when you return.",
+      "Clear the board. The round ends when every pair has been found; your best move count and fastest time are remembered separately for each difficulty, so you always have a personal record to beat."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 and later)",
+        "status": "yes",
+        "note": "The built-in browser runs the full game; needs firmware 5.13.7 or newer."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "The 10.2-inch screen shows even the 24-card Hard board at a generous size, one tap per card."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Same browser engine as recent Paperwhites — the game is deliberately black-and-white."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma and similar)",
+        "status": "yes",
+        "note": "Full Chromium browser with instant touch response, the smoothest way to play."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage and similar)",
+        "status": "limited",
+        "note": "The built-in browser is dated and may not run the game on every model or firmware version."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No official browser app; third-party options require jailbreaking the tablet."
+      },
+      {
+        "device": "Older Kindles (experimental browser)",
+        "status": "no",
+        "note": "Pre-2016 experimental browsers can't run modern JavaScript — this page stays readable, but the game won't start."
+      }
+    ]
+  },
+  "whyEInk": "Memory is a game of static images, and e-ink is a screen built for static images. A card changes only when you flip it — no animations, no auto-refresh, no flicker behind the board. The display reads like a printed card table, comfortable to study for a whole session in daylight at near-zero battery cost.",
+  "faq": [
+    {
+      "q": "Is it really free?",
+      "a": "Yes. Every board is free to play with no account, no paywall and no ads. The site belongs to the E-Ink.me family and is maintained alongside the free e-reader tools on the main site, so there is nothing to buy and nothing to sign up for — just open the page and start flipping."
+    },
+    {
+      "q": "Does it work on my Kindle Paperwhite?",
+      "a": "If your Paperwhite is a 2021 or later model on firmware 5.13.7 or newer, yes — open the built-in browser, type in the site address and the cards are ready. Older Paperwhites with the early experimental browser can still read this page as plain text, but they cannot run the game itself."
+    },
+    {
+      "q": "Do I need to jailbreak my Kindle?",
+      "a": "No. The game runs entirely in your Kindle's built-in web browser. There is no app to sideload, no hack to apply and no warranty to worry about — loading a web page is an ordinary thing for a Kindle to do. If the device can open a website, it can play this game."
+    },
+    {
+      "q": "Can I play offline?",
+      "a": "You need an internet connection the first time you open the page, because the site is delivered as a normal web page rather than a store app. Once it has loaded, everything runs locally on your device — but e-reader browsers are not designed for offline use, so plan on being connected when you start a session."
+    }
+  ],
+  "cta": {
+    "label": "Enjoying Memory Pairs? Turn any web article into an EPUB and read it on your Kindle — free tools at e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "minesweeper",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

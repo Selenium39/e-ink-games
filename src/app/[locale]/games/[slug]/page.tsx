@@ -15,7 +15,7 @@
 // 本地化缺口（打样裁决，报告已列）：i18n messages 尚无 games.common 公共词表
 //（规约 §8.1 预留位），本页的区块标题/表头/状态展示词暂以 TEMPLATE_WORDS
 //（en/zh 映射）承载；games.common 就位后逐项替换为 t() 调用。GameShell 的
-// 降级/noscript 文案同理暂用其内置英文兜底。
+// 加载/失败/降级/noscript 四词已同在此表（shell* 前缀）传入。
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -101,6 +101,21 @@ const TEMPLATE_WORDS = {
     zh: "这个分类下的更多游戏正在陆续上线——目录会一款一款长大。现在可以先看看已经能在浏览器里玩的全部游戏。",
   },
   browseAll: { en: "Browse all games", zh: "浏览全部游戏" },
+  // GameShell 壳层四词（加载状态语义拆分见 GameShell.tsx 文件头注释）：
+  // 占位=加载中；加载失败=刷新重试；浏览器过老仅由 bundle 特性检测失败时写入
+  shellLoading: { en: "Loading…", zh: "加载中…" },
+  shellError: {
+    en: "Failed to load the game — please refresh to retry.",
+    zh: "游戏加载失败——请刷新页面重试。",
+  },
+  shellFallback: {
+    en: "This game needs a newer browser.",
+    zh: "此游戏需要较新的浏览器才能运行。",
+  },
+  shellNoscript: {
+    en: "This game runs entirely in your browser — please enable JavaScript to play.",
+    zh: "本游戏完全在浏览器中运行——请启用 JavaScript 后游玩。",
+  },
 } as const;
 
 function word(
@@ -253,7 +268,14 @@ export default async function GamePage({ params }: { params: Params }) {
           </p>
         }
       >
-        <GameShell slug={slug} />
+        {/* 壳层文案本地化（TEMPLATE_WORDS 承载，games.common 就位后换 t()） */}
+        <GameShell
+          slug={slug}
+          loading={word(locale, TEMPLATE_WORDS.shellLoading)}
+          error={word(locale, TEMPLATE_WORDS.shellError)}
+          fallback={word(locale, TEMPLATE_WORDS.shellFallback)}
+          noscript={word(locale, TEMPLATE_WORDS.shellNoscript)}
+        />
       </GameFrame>
 
       {/* ③ How to play（结构化步骤） */}

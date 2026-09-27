@@ -80,6 +80,11 @@
   },
   "related": {
     "category": "puzzle",
-    "relatedSlugs": []
+    "relatedSlugs": [
+      "2048",
+      "memory",
+      "minesweeper",
+      "nonogram"
+    ]
   }
 }

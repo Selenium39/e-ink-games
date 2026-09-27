@@ -1,0 +1,12 @@
+{
+  "slug": "memory",
+  "title": "Memory Pairs",
+  "category": "puzzle",
+  "difficulties": ["easy", "medium", "hard"],
+  "engineFeatures": ["grid", "timer"],
+  "seeded": false,
+  "seo": {
+    "keywordsHint": ["memory game for kindle", "memory pairs game"],
+    "videoGameGenre": "Puzzle"
+  }
+}

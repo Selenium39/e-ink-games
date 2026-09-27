@@ -1,0 +1,12 @@
+{
+  "slug": "2048",
+  "title": "2048",
+  "category": "puzzle",
+  "difficulties": ["standard"],
+  "engineFeatures": ["grid", "undo", "timer"],
+  "seeded": false,
+  "seo": {
+    "keywordsHint": ["2048 for kindle", "e ink 2048"],
+    "videoGameGenre": "Puzzle"
+  }
+}

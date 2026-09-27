@@ -7,6 +7,137 @@ import type { GameCategory, GameMeta } from "../content/games/types";
 /** 按 slug 字母序（构建期已排序） */
 export const GAMES: readonly GameMeta[] = [
   {
+    "slug": "2048",
+    "title": "2048",
+    "category": "puzzle",
+    "difficulties": [
+      "standard"
+    ],
+    "engineFeatures": [
+      "grid",
+      "undo",
+      "timer"
+    ],
+    "seeded": false,
+    "seo": {
+      "keywordsHint": [
+        "2048 for kindle",
+        "e ink 2048"
+      ],
+      "videoGameGenre": "Puzzle"
+    }
+  },
+  {
+    "slug": "hangman",
+    "title": "Hangman",
+    "category": "word",
+    "difficulties": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "engineFeatures": [
+      "keypad"
+    ],
+    "seeded": false,
+    "seo": {
+      "keywordsHint": [
+        "hangman for kindle",
+        "hangman word game"
+      ],
+      "videoGameGenre": "Word"
+    }
+  },
+  {
+    "slug": "hidden-code",
+    "title": "Hidden Code",
+    "category": "logic",
+    "difficulties": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "engineFeatures": [
+      "keypad",
+      "undo"
+    ],
+    "seeded": false,
+    "seo": {
+      "keywordsHint": [
+        "code breaking game",
+        "logic game for kindle"
+      ],
+      "videoGameGenre": "Logic"
+    }
+  },
+  {
+    "slug": "memory",
+    "title": "Memory Pairs",
+    "category": "puzzle",
+    "difficulties": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "engineFeatures": [
+      "grid",
+      "timer"
+    ],
+    "seeded": false,
+    "seo": {
+      "keywordsHint": [
+        "memory game for kindle",
+        "memory pairs game"
+      ],
+      "videoGameGenre": "Puzzle"
+    }
+  },
+  {
+    "slug": "minesweeper",
+    "title": "Minesweeper",
+    "category": "puzzle",
+    "difficulties": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "engineFeatures": [
+      "grid",
+      "timer"
+    ],
+    "seeded": false,
+    "seo": {
+      "keywordsHint": [
+        "minesweeper for kindle",
+        "e ink minesweeper"
+      ],
+      "videoGameGenre": "Puzzle"
+    }
+  },
+  {
+    "slug": "nonogram",
+    "title": "Nonogram",
+    "category": "logic",
+    "difficulties": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "engineFeatures": [
+      "grid",
+      "undo",
+      "timer"
+    ],
+    "seeded": true,
+    "seo": {
+      "keywordsHint": [
+        "nonogram for kindle",
+        "nonogram online free"
+      ],
+      "videoGameGenre": "Logic"
+    }
+  },
+  {
     "slug": "sudoku",
     "title": "Sudoku",
     "category": "puzzle",
@@ -30,6 +161,69 @@ export const GAMES: readonly GameMeta[] = [
         "e ink sudoku"
       ],
       "videoGameGenre": "Puzzle"
+    }
+  },
+  {
+    "slug": "tic-tac-toe",
+    "title": "Tic-Tac-Toe",
+    "category": "board",
+    "difficulties": [
+      "easy",
+      "hard"
+    ],
+    "engineFeatures": [
+      "grid",
+      "undo"
+    ],
+    "seeded": false,
+    "seo": {
+      "keywordsHint": [
+        "tic tac toe for kindle",
+        "tic tac toe online free"
+      ],
+      "videoGameGenre": "Board"
+    }
+  },
+  {
+    "slug": "word-daily",
+    "title": "Word Daily",
+    "category": "daily",
+    "difficulties": [
+      "standard"
+    ],
+    "engineFeatures": [
+      "keypad",
+      "daily"
+    ],
+    "seeded": true,
+    "seo": {
+      "keywordsHint": [
+        "daily word game",
+        "word game for kindle"
+      ],
+      "videoGameGenre": "Word"
+    }
+  },
+  {
+    "slug": "word-search",
+    "title": "Word Search",
+    "category": "word",
+    "difficulties": [
+      "easy",
+      "medium",
+      "hard"
+    ],
+    "engineFeatures": [
+      "grid",
+      "timer"
+    ],
+    "seeded": false,
+    "seo": {
+      "keywordsHint": [
+        "word search for kindle",
+        "word search online free"
+      ],
+      "videoGameGenre": "Word"
     }
   }
 ];

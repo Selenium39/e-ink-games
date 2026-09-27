@@ -1,0 +1,12 @@
+{
+  "slug": "word-daily",
+  "title": "Word Daily",
+  "category": "daily",
+  "difficulties": ["standard"],
+  "engineFeatures": ["keypad", "daily"],
+  "seeded": true,
+  "seo": {
+    "keywordsHint": ["daily word game", "word game for kindle"],
+    "videoGameGenre": "Word"
+  }
+}

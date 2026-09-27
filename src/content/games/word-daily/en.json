@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Word Daily for Kindle & E-Ink — Free Daily Word Game",
+    "description": "Play a free daily word game in your Kindle, BOOX or Kobo browser. One new five-letter puzzle every day — no download, no install, made for e-ink screens."
+  },
+  "h1": "Word Daily for Kindle & E-Ink — Free, No Download",
+  "tagline": "A Wordle-style daily word game that runs right in the browser of your Kindle, BOOX or Kobo — one five-letter word a day, the same word for every player, drawn in pure black and white.",
+  "howToPlay": {
+    "steps": [
+      "Guess today's five-letter word. Every player gets the same word each day — the puzzle is tied to the date, not to your device, so you can compare results with friends. You have six tries, and a new word arrives tomorrow.",
+      "Type your first guess. Tap the on-screen QWERTY keyboard with a finger or stylus, or type on a physical keyboard if your e-reader has one or a keyboard is paired — hardware keys, Enter and Backspace all work alongside the touch keyboard.",
+      "Read the feedback. After each guess the tiles answer in pure black and white: a solid black tile means the letter sits in the right spot, a bold outlined tile means the letter is in the word but somewhere else, and a thin outlined tile means it is not in the word at all.",
+      "Watch the keyboard history. Every on-screen key carries the same three marks for letters you have already tried, so at a glance you know which letters are placed, which survive elsewhere, and which are dead ends.",
+      "Mind repeated letters. The hidden word may contain the same letter twice; the feedback counts each copy carefully, so a bold outline never promises more copies than the word actually holds.",
+      "Play unlimited practice rounds. Done with the daily word and hungry for more? Switch to Practice mode for a fresh random word at any time — practice rounds never touch your daily result, win streak or statistics.",
+      "Share and come back. When the puzzle ends, a plain-text result grid appears — long-press to select and copy it anywhere you like. Your daily progress, streak and statistics are saved on your device automatically."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 and later)",
+        "status": "yes",
+        "note": "The built-in browser runs the full game; needs firmware 5.13.7 or newer."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "The large display shows the whole letter board and keyboard with no scrolling."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Same browser engine as recent Paperwhites — the game stays black-and-white by design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma and similar)",
+        "status": "yes",
+        "note": "Full Chromium browser, the smoothest e-ink experience; typing on a paired keyboard feels instant."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage and similar)",
+        "status": "limited",
+        "note": "The built-in browser is dated and may not run the game on every model or firmware version."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No official browser app; third-party options require jailbreaking the tablet."
+      },
+      {
+        "device": "Older Kindles (experimental browser)",
+        "status": "no",
+        "note": "Pre-2016 experimental browsers can't run modern JavaScript — this page stays readable, but the game won't start."
+      }
+    ]
+  },
+  "whyEInk": "Word puzzles are text, and e-ink renders text beautifully. This game redraws only the tiles that change — no animations, no flashing, no gray halos — so the board reads like a printed page in any light. The once-a-day format fits e-readers perfectly: one word, a quiet minute of thought, and a screen that never glows back.",
+  "faq": [
+    {
+      "q": "Is it really free?",
+      "a": "Yes. The daily word and unlimited practice rounds are completely free, with no account, no ads and no paywall. The site belongs to the E-Ink.me family of free e-reader tools, so there is nothing to buy and nothing to sign up for — just open the page and play."
+    },
+    {
+      "q": "Does it work on my Kindle Paperwhite?",
+      "a": "On Paperwhite, Scribe and Colorsoft models from 2021 onward with firmware 5.13.7 or newer, yes — the built-in browser runs the whole game. Older Kindles with the early experimental browser can read this page as plain text, but the puzzle itself will not start on them."
+    },
+    {
+      "q": "Do I need to jailbreak my Kindle?",
+      "a": "No. The game runs entirely inside the browser your Kindle already ships with. There is no app to install, no file to sideload and no modification of any kind — if your device can open an ordinary web page, it can play Word Daily."
+    },
+    {
+      "q": "Can I play offline?",
+      "a": "You need a connection the first time the page loads, because the site is delivered as a normal web page rather than a downloadable app. Once it has loaded, every guess runs on the device itself and your streak is stored locally — but plan to be online when you start."
+    }
+  ],
+  "cta": {
+    "label": "Solved the daily word? Turn any web article into an EPUB and read it on your Kindle — free tools at e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "daily",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-search"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "slug": "word-search",
+  "title": "Word Search",
+  "category": "word",
+  "difficulties": ["easy", "medium", "hard"],
+  "engineFeatures": ["grid", "timer"],
+  "seeded": false,
+  "seo": {
+    "keywordsHint": ["word search for kindle", "word search online free"],
+    "videoGameGenre": "Word"
+  }
+}

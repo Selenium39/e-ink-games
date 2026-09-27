@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Tic-Tac-Toe for Kindle & E-Ink — Free, No Download",
+    "description": "Play free Tic-Tac-Toe in your browser on Kindle, BOOX or Kobo. No download, no install — face an unbeatable AI or pass-and-play on one e-ink screen."
+  },
+  "h1": "Tic-Tac-Toe for Kindle & E-Ink — Free, No Download",
+  "tagline": "Classic three-in-a-row that runs right in your Kindle Paperwhite, Scribe or BOOX browser — play an unbeatable computer or a friend on one screen, with nothing to download.",
+  "howToPlay": {
+    "steps": [
+      "Pick your opponent. Play against the computer, or switch to 2 Players and share one screen — X and O take turns on the same device, pass-and-play style.",
+      "Choose a difficulty. Easy still makes mistakes you can punish; Hard plays flawless minimax strategy and can never be beaten — the best anyone can do against it is force a draw.",
+      "Make a move. You always play X and move first. Tap or click any empty square on a touch screen, or press a number key: keys 1 through 9 map to the grid from top-left to bottom-right.",
+      "Navigate by keyboard. Arrow keys move a bold-framed cursor square by square; press Enter or Space to drop your piece on it. Backspace or U takes a move back.",
+      "Know the goal. Line up three of your marks in a row, a column or a diagonal. The winning line is flagged instantly with an inverted black-and-white highlight across its three squares.",
+      "Undo mistakes. Against the computer, one Undo steps back both your move and the computer's reply, returning the board to your turn; in two-player mode it takes back a single move.",
+      "Track the record. Your wins, losses and draws against the computer are counted on this device and shown beside the board — see how long you can hold a perfect opponent to a draw."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 and later)",
+        "status": "yes",
+        "note": "The built-in browser runs the full game; needs firmware 5.13.7 or newer."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "The 10.2-inch screen makes the nine squares huge and comfortable to tap one-handed."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Same browser engine as recent Paperwhites — the game stays black-and-white by design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma and similar)",
+        "status": "yes",
+        "note": "Full Chromium browser, the smoothest e-ink experience; page-turn keys or a paired keyboard drive the cursor."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage and similar)",
+        "status": "limited",
+        "note": "The built-in browser is dated and may not run the game on every model or firmware version."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No official browser app; third-party options require jailbreaking the tablet."
+      },
+      {
+        "device": "Older Kindles (experimental browser)",
+        "status": "no",
+        "note": "Pre-2016 experimental browsers can't run modern JavaScript — this page stays readable, but the game won't start."
+      }
+    ]
+  },
+  "whyEInk": "Tic-tac-toe is nine squares and two marks, and e-ink redraws only the square you touch. No blinking, no animation, no refresh hiding behind the board — just crisp black strokes on paper-white. The grid reads perfectly in direct daylight and barely touches the battery, so a quick match never becomes a recharge break.",
+  "faq": [
+    {
+      "q": "Is it really free?",
+      "a": "Yes. Every game is free with no account, no paywall and no ads. The site belongs to the E-Ink.me family and is kept running alongside the free e-reader tools on the main site, so there is nothing to buy and nothing to sign up for."
+    },
+    {
+      "q": "Does it work on my Kindle?",
+      "a": "If you have a Kindle from 2021 or later — Paperwhite, Scribe or Colorsoft — running firmware 5.13.7 or newer, yes. Open the built-in browser and load this page. Older Kindles with the early experimental browser can display this page as text, but the game itself will not start."
+    },
+    {
+      "q": "Do I need to jailbreak my Kindle?",
+      "a": "No. The game runs entirely in the web browser your Kindle already ships with. There is no app to sideload and no hack to apply — if the device can open a web page, it can play. Nothing about your warranty changes."
+    },
+    {
+      "q": "Can I play offline?",
+      "a": "You need an internet connection the first time this page loads, because the site is delivered as an ordinary web page rather than a downloadable app. Once loaded, the game runs on the device itself, and your board and win record are saved locally between visits."
+    }
+  ],
+  "cta": {
+    "label": "Enjoying the match? Turn any web article into an EPUB and read it on your Kindle — free tools at e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "board",
+    "relatedSlugs": [
+      "2048",
+      "hidden-code",
+      "minesweeper"
+    ]
+  }
+}

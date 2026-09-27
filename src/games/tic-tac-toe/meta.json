@@ -1,0 +1,12 @@
+{
+  "slug": "tic-tac-toe",
+  "title": "Tic-Tac-Toe",
+  "category": "board",
+  "difficulties": ["easy", "hard"],
+  "engineFeatures": ["grid", "undo"],
+  "seeded": false,
+  "seo": {
+    "keywordsHint": ["tic tac toe for kindle", "tic tac toe online free"],
+    "videoGameGenre": "Board"
+  }
+}

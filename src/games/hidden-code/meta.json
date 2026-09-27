@@ -1,0 +1,12 @@
+{
+  "slug": "hidden-code",
+  "title": "Hidden Code",
+  "category": "logic",
+  "difficulties": ["easy", "medium", "hard"],
+  "engineFeatures": ["keypad", "undo"],
+  "seeded": false,
+  "seo": {
+    "keywordsHint": ["code breaking game", "logic game for kindle"],
+    "videoGameGenre": "Logic"
+  }
+}

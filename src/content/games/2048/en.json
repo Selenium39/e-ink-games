@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "2048 for Kindle & E-Ink — Free, No Download",
+    "description": "Play 2048 free in your browser on Kindle, BOOX or Kobo e-readers. No download, no install — classic tile merging tuned for black-and-white e-ink screens."
+  },
+  "h1": "2048 for Kindle & E-Ink — Free, No Download",
+  "tagline": "Slide and merge numbered tiles until they add up to 2048 — right in the browser of your Kindle Paperwhite, Scribe or BOOX reader, with nothing to download or install.",
+  "howToPlay": {
+    "steps": [
+      "Start with two tiles. Every game opens on a 4×4 grid holding just two numbered tiles — a 2 or a 4 — and every move you make drops one new tile onto the board, so the grid keeps filling up as you play.",
+      "Move the whole board. On a touch screen, swipe anywhere across the board — left, right, up or down — and every tile slides as far as it can in that direction. You can also tap the arrow buttons below the grid, or press the arrow keys if your device has physical page-turn buttons or a paired keyboard.",
+      "Merge equal tiles. When two tiles showing the same number collide, they fuse into one tile worth double: two 2s become a 4, two 4s become an 8, and so on. Each tile can only merge once per move, so a row of 2-2-2-2 becomes two 4s, not an 8. Every merge adds its new value to your score.",
+      "Read the e-ink feedback. Instead of sliding animations, a freshly dropped tile is marked with a thick black frame for one turn, and tiles that just merged flip to white-on-black — on a paper-like display you can see exactly what changed without any motion or flicker.",
+      "Undo mistakes. One tap on Undo steps the board back one move, restoring the position, the score and the tile you were dealt, so a mis-swipe never costs you the game.",
+      "Aim for 2048. Build up powers of two by keeping your biggest tiles pressed into one corner. The moment a 2048 tile appears you've won — the game offers a new board or lets you keep playing toward 4096 and beyond.",
+      "Watch for the end. The game is over when the grid is full and no two neighboring tiles match, so no move is possible. Your current score, your best score for the device and a session timer are always shown above the board, and progress is saved automatically if you close the browser mid-run."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 and later)",
+        "status": "yes",
+        "note": "Swipe moves work well on the touch screen; needs firmware 5.13.7 or newer."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "The large 10.2-inch screen shows the 4×4 grid at a comfortable size, one swipe per move."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Same browser engine as recent Paperwhites — the game is black-and-white by design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma and similar)",
+        "status": "yes",
+        "note": "Full Chromium browser, the smoothest e-ink experience; arrow keys work on models with page buttons."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage and similar)",
+        "status": "limited",
+        "note": "The built-in browser is dated and may not run the game on every model or firmware version."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No official browser app; third-party options require jailbreaking the tablet."
+      },
+      {
+        "device": "Older Kindles (experimental browser)",
+        "status": "no",
+        "note": "Pre-2016 experimental browsers can't run modern JavaScript — this page stays readable, but the game won't start."
+      }
+    ]
+  },
+  "whyEInk": "2048 is usually a game of sliding animations, and e-ink screens don't animate — so this build replaces motion with print-style marks: new tiles carry a thick frame for one turn and merges flip black-to-white. Only the tiles that changed get redrawn, so the board reads like paper and the battery barely notices.",
+  "faq": [
+    {
+      "q": "Is it really free?",
+      "a": "Yes. The game is free to play with no account, no paywall and no ads. The site is part of the E-Ink.me family and runs alongside the free e-reader tools on the main site, so there is nothing to buy, nothing to unlock and nothing to sign up for."
+    },
+    {
+      "q": "Does it work on my Kindle Paperwhite?",
+      "a": "If your Paperwhite is a 2021 or later model on firmware 5.13.7 or newer, yes — open the built-in browser, type in the site address and swipe to play. Older Paperwhites with the early experimental browser can still read this page as text, but they cannot run the game itself."
+    },
+    {
+      "q": "Do I need to jailbreak my Kindle?",
+      "a": "No. The game runs entirely inside your Kindle's built-in web browser. There is no app to sideload, no hack to apply and no warranty at risk — loading a web page is an ordinary thing for a Kindle to do. If the device can open a website, it can play."
+    },
+    {
+      "q": "Can I play offline?",
+      "a": "You need a connection the first time the page loads, because the game is delivered as a normal web page rather than a store app. Once it is loaded, every move runs locally on the device — but e-reader browsers are not designed for offline use, so be connected when you start a run."
+    }
+  ],
+  "cta": {
+    "label": "Reached 2048? Turn any web article into an EPUB and read it on your Kindle — free tools at e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "memory",
+      "minesweeper",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

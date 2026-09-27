@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Hidden Code for Kindle & E-Ink — Free Logic Game",
+    "description": "Play free code-breaking puzzles in your browser on Kindle, BOOX or Kobo. Crack the hidden symbol code — no download, made for e-ink screens."
+  },
+  "h1": "Hidden Code for Kindle & E-Ink — Free, No Download",
+  "tagline": "Crack a hidden code of shapes and symbols right in your Kindle Paperwhite, Scribe or BOOX browser — no app, no download, just pure black-and-white deduction.",
+  "howToPlay": {
+    "steps": [
+      "Pick a difficulty. Easy hides a 4-symbol code drawn from 5 shapes and gives you 10 rounds, Medium raises the pool to 6 shapes in 8 rounds, and Hard stretches the code to 5 slots. More shapes mean far more possible codes to reason through.",
+      "Fill the current row. Tap a slot, then tap a shape on the symbol keypad — or press keys 1 to 6 on a physical keyboard. Arrow keys move between slots and Backspace erases, so keyboard-only players are fully covered.",
+      "Submit your guess. Press Enter or the Check button once every slot is filled. The row locks into the history list and cannot be edited afterwards — each guess is a permanent clue.",
+      "Read the feedback. Every submitted row earns solid dots for shapes that are correct and in the right slot, and hollow dots for shapes that exist in the code but sit in the wrong slot. The dots never reveal which slot they belong to, and shapes absent from the code earn nothing.",
+      "Deduce and refine. Cross-reference your rows: a shape that earns no dot anywhere is out, while a repeated shape can earn several dots at once. Use Undo to step back through your unsubmitted row before you commit it.",
+      "Win or learn. Break the code — every slot correct — before the rounds run out and the win is yours; run dry and the hidden code is revealed so you can see how close your last guess was.",
+      "Keep your record. Wins and average rounds-to-victory are tallied on your device, and a game in progress saves automatically — close the browser mid-code and pick up exactly where you left off."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 and later)",
+        "status": "yes",
+        "note": "The built-in browser runs the full game; needs firmware 5.13.7 or newer."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "The large screen shows your whole guess history without scrolling, one tap per symbol."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Same browser engine as recent Paperwhites — the game is pure black-and-white by design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma and similar)",
+        "status": "yes",
+        "note": "Full Chromium browser, the smoothest e-ink experience; number keys 1-6 enter symbols on attached keyboards."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage and similar)",
+        "status": "limited",
+        "note": "The built-in browser is dated and may not run the game on every model or firmware version."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No official browser app; third-party options require jailbreaking the tablet."
+      },
+      {
+        "device": "Older Kindles (experimental browser)",
+        "status": "no",
+        "note": "Pre-2016 experimental browsers can't run modern JavaScript — this page stays readable, but the game won't start."
+      }
+    ]
+  },
+  "whyEInk": "Code breaking is quiet, turn-based thinking, and e-ink is the quiet, page-like screen it deserves. Nothing here blinks, animates or refreshes behind your rows — only the slot you touch redraws. Read the board like a printed puzzle sheet in daylight, at nearly zero battery cost.",
+  "faq": [
+    {
+      "q": "Is it really free?",
+      "a": "Yes. Every game is free to play with no account, no paywall and no ads. The site is part of the E-Ink.me family and is kept running alongside the free e-reader tools on the main site — nothing to buy and nothing to sign up for."
+    },
+    {
+      "q": "Does it work on my Kindle Paperwhite?",
+      "a": "If your Paperwhite is a 2021 or later model on firmware 5.13.7 or newer, yes — open the built-in browser, type in the site address and start playing. Older Paperwhites with the early experimental browser can display this page as plain text, but they cannot run the game itself."
+    },
+    {
+      "q": "Do I need to jailbreak my Kindle?",
+      "a": "No. The game runs entirely in your Kindle's built-in web browser. There is no app to sideload, no hack to apply and no warranty to worry about — opening a website is an ordinary thing for a Kindle to do. If your device can load a web page, it can play."
+    },
+    {
+      "q": "Can I play offline?",
+      "a": "You need an internet connection the first time you open the page, because the site is delivered as a normal web page rather than a downloadable app. Once it loads, the game runs locally on your device — but e-reader browsers are not built for offline use, so plan on being connected when you start."
+    }
+  ],
+  "cta": {
+    "label": "Cracked the code? Turn any web article into an EPUB and read it on your Kindle — free tools at e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "logic",
+    "relatedSlugs": [
+      "hangman",
+      "minesweeper",
+      "nonogram",
+      "word-daily"
+    ]
+  }
+}

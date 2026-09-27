@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Hangman for Kindle & E-Ink — Free, No Download",
+    "description": "Play free hangman in your browser on Kindle, BOOX or Kobo. No download, no install — a classic black-and-white word game made for e-ink screens."
+  },
+  "h1": "Hangman for Kindle & E-Ink — Free, No Download",
+  "tagline": "Classic hangman that runs right in your Kindle Paperwhite, Scribe or BOOX browser — guess the word one letter at a time, with no download and nothing to install.",
+  "howToPlay": {
+    "steps": [
+      "Pick a difficulty. Easy draws common four-to-six-letter words and shows you the category — animal, food, place and more — as a starting clue. Medium moves to six-to-eight-letter words with no hint, and Hard deals rare nine-to-twelve-letter words that will test any vocabulary.",
+      "Read the gallows. Every round starts with an empty frame and six wrong guesses to spare. Each miss draws one more part of the stick figure — head, body, arms, then legs — so you can see at a glance exactly how close you are to losing.",
+      "Guess letters by touch. Tap the on-screen A–Z keyboard; every key is sized for e-reader touch screens. A correct letter flips to solid black-and-white and fills in every matching blank at once, while a wrong one gets a dashed border and locks in place.",
+      "Or use a physical keyboard. If your device has page-turn keys or a paired keyboard, just press A–Z directly — the game listens for key presses in the background, and uppercase input is accepted and treated as lowercase.",
+      "Watch the blanks. The target word appears as a row of underlined slots; each hit reveals that letter in every position where it occurs. Trying a letter you have already guessed changes nothing, so every tap counts.",
+      "Win or learn. Reveal every letter before the sixth miss to win the round; if the figure is completed, the game ends and the full word is shown so you never walk away without the answer. Your wins and total games are tallied separately for each difficulty.",
+      "Play again. Tap New Game for a fresh word, or switch difficulty at the top — switching asks for confirmation only when a round is already in progress, and your board is saved automatically if you close the page mid-word."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 and later)",
+        "status": "yes",
+        "note": "The built-in browser runs the full game; needs firmware 5.13.7 or newer. The letter keys are comfortable to tap on the 6.8-inch screen."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "The 10.2-inch screen shows the gallows, the word blanks and all 26 letter keys without scrolling."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Same browser engine as recent Paperwhites — the game stays black-and-white by design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma and similar)",
+        "status": "yes",
+        "note": "Full Chromium browser, the smoothest e-ink experience; a paired keyboard or the touch screen both work for guessing."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage and similar)",
+        "status": "limited",
+        "note": "The built-in browser is dated and may not run the game on every model or firmware version."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No official browser app; third-party options require jailbreaking the tablet."
+      },
+      {
+        "device": "Older Kindles (experimental browser)",
+        "status": "no",
+        "note": "Pre-2016 experimental browsers can't run modern JavaScript — this page stays readable, but the game won't start."
+      }
+    ]
+  },
+  "whyEInk": "Hangman is a pen-and-paper game at heart, and e-ink treats it that way: the gallows redraws one stroke at a time, the letter you tap is the only key that changes, and nothing flickers or animates behind the puzzle. The screen reads like printed paper in daylight — easy on the eyes and the battery alike.",
+  "faq": [
+    {
+      "q": "Is it really free?",
+      "a": "Yes. Every round is free to play with no account, no paywall and no ads. The site is part of the E-Ink.me family and is kept running alongside the free e-reader tools on the main site, so there is nothing to buy, nothing to sign up for, and no limit on how many words you guess."
+    },
+    {
+      "q": "Does it work on my Kindle Paperwhite?",
+      "a": "If your Paperwhite is a 2021 or later model on firmware 5.13.7 or newer, yes — open the built-in browser, type in the site address and start guessing. BOOX and newer Kindles such as the Scribe and Colorsoft work the same way. Older Kindles with the early experimental browser can read this page as text but cannot run the game."
+    },
+    {
+      "q": "Do I need to jailbreak my Kindle?",
+      "a": "No. The game runs entirely in your e-reader's built-in web browser. There is no app to sideload, no hack to apply and no warranty to worry about — opening a website is an ordinary thing for a modern Kindle to do. If your device can load this page, it can load the gallows."
+    },
+    {
+      "q": "Can I play offline?",
+      "a": "You need an internet connection the first time you open the page, because the site is delivered as a normal web page rather than a downloadable app. After it loads, all guessing runs locally on your device — but e-reader browsers are not built for offline use, so plan on being connected when you start a session."
+    }
+  ],
+  "cta": {
+    "label": "Enjoying the game? Turn any web article into an EPUB and read it on your Kindle — free tools at e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "word",
+    "relatedSlugs": [
+      "hidden-code",
+      "word-daily",
+      "word-search"
+    ]
+  }
+}

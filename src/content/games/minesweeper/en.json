@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Minesweeper for Kindle & E-Ink — Free, No Download",
+    "description": "Play free Minesweeper in your browser on Kindle, BOOX or Kobo. No download, no install — classic mine-hunting built for black-and-white e-ink screens."
+  },
+  "h1": "Minesweeper for Kindle & E-Ink — Free, No Download",
+  "tagline": "Classic Minesweeper that runs right in your Kindle Paperwhite, Scribe or BOOX browser — no app to install, nothing to download, just open the page and start digging.",
+  "howToPlay": {
+    "steps": [
+      "Pick a board. Easy is a 9×9 grid with 10 mines, Medium is 11×11 with 24, and Hard is 13×13 with 40. Bigger boards reward patient scanning over fast tapping.",
+      "Dig the first square. Your opening tap is always safe — mines are only planted after it, and the square you hit plus all eight of its neighbours are kept mine-free, so an opening move can never blow up.",
+      "Read the numbers. Each digit counts the mines in the eight squares around it. A blank square touches no mines, so the game opens whole blank regions for you in one tap, and you only work the numbered edges.",
+      "Flag suspected mines. Switch to Flag mode and tap a square to mark it; a flag blocks accidental taps, and the counter above the board shows mines left — the total minus your flags. Tap the same square again to remove a flag.",
+      "Chord to go faster. In Dig mode, tap an open number when the flags around it match the digit: every other neighbour opens at once. It is the classic two-tap shortcut for confident players, and it is fully supported here.",
+      "Play with keys. Arrow keys move the cursor, Enter or Space digs (or chords an open number), and F flags the square — handy on e-readers with a keyboard attached or when a tap is just too far away.",
+      "Beat the clock. The timer starts on your first move and pauses while the page is in the background. Clear every safe square to win — the remaining mines are flagged for you — and your progress is saved automatically if you leave."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 and later)",
+        "status": "yes",
+        "note": "The built-in browser runs the full game; needs firmware 5.13.7 or newer."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "The 10.2-inch screen shows even the 13×13 Hard board at full size with room to spare."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Same browser engine as recent Paperwhites — the game stays black-and-white by design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma and similar)",
+        "status": "yes",
+        "note": "Full Chromium browser, the smoothest e-ink experience; keyboard shortcuts work with a paired keyboard."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage and similar)",
+        "status": "limited",
+        "note": "The built-in browser is dated and may not run the game on every model or firmware version."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "No official browser app; third-party options require jailbreaking the tablet."
+      },
+      {
+        "device": "Older Kindles (experimental browser)",
+        "status": "no",
+        "note": "Pre-2016 experimental browsers can't run modern JavaScript — this page stays readable, but the game won't start."
+      }
+    ]
+  },
+  "whyEInk": "Minesweeper is a quiet game, and e-ink is a quiet screen. Nothing here animates, flashes or refreshes behind your finger — only the square you touch redraws, as a fast partial update. The fixed black-and-white grid reads like a printed puzzle page in daylight, and long sessions barely touch the battery.",
+  "faq": [
+    {
+      "q": "Is it really free?",
+      "a": "Yes — completely. Every board size is free to play, with no account, no paywall and no ads. The site belongs to the E-Ink.me family and runs alongside the free e-reader tools on the main site, so there is nothing to buy and nothing to sign up for."
+    },
+    {
+      "q": "Does it work on my Kindle Paperwhite?",
+      "a": "If your Paperwhite is a 2021 or later model on firmware 5.13.7 or newer, yes — open the built-in browser, type in the site address and start digging. Older Paperwhites with the early experimental browser can display this page as plain text, but they cannot run the game itself."
+    },
+    {
+      "q": "Do I need to jailbreak my Kindle?",
+      "a": "No. The game runs entirely in your Kindle's built-in web browser. There is no app to sideload, no hack to apply and no warranty risk — opening a web page is an ordinary thing for a Kindle to do. If the device can load a page, it can play this game."
+    },
+    {
+      "q": "Can I play offline?",
+      "a": "You need an internet connection the first time you open the page, because the site is delivered as a normal web page rather than a downloadable app. Once it loads, the game runs locally on your device — but e-reader browsers are not built for offline use, so plan on being connected when you start."
+    }
+  ],
+  "cta": {
+    "label": "Enjoying Minesweeper? Turn any web article into an EPUB and read it on your Kindle — free tools at e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "memory",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}
