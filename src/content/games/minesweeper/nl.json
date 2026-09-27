@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Minesweeper voor Kindle & E-Ink – gratis, geen download",
+    "description": "Speel gratis mijnenveger in je browser op Kindle, BOOX of Kobo. Geen download, geen installatie – klassiek mijnenjagen, gebouwd voor zwart-wit e-inkschermen."
+  },
+  "h1": "Minesweeper voor Kindle & E-Ink – gratis, geen download",
+  "tagline": "Klassieke mijnenveger die rechtstreeks draait in de browser van je Kindle Paperwhite, Scribe of BOOX – geen app te installeren, niets te downloaden: open de pagina en begin met graven.",
+  "howToPlay": {
+    "steps": [
+      "Kies een bord. Makkelijk is een raster van 9×9 met 10 mijnen, Gemiddeld 11×11 met 24, en Moeilijk 13×13 met 40. Grotere borden belonen geduldig speurwerk boven snel tikken.",
+      "Graaf het eerste vakje. Je openingsdik is altijd veilig – de mijnen worden pas daarna geplant, en het vakje dat je raakt plus alle acht de buren blijven mijnenvrij, zodat een openingszet nooit kan ontploffen.",
+      "Lees de cijfers. Elk cijfer telt de mijnen in de acht vakjes eromheen. Een leeg vakje raakt geen enkele mijn, dus het spel opent hele lege gebieden in één tik en jij werkt alleen de genummerde randen af.",
+      "Vlag verdachte mijnen. Schakel over naar de Vlag-modus en tik op een vakje om het te markeren; een vlag blokkeert per ongeluk tikken, en de teller boven het bord toont de mijnen die over zijn – het totaal min je vlaggen. Tik nogmaals op hetzelfde vakje om een vlag te verwijderen.",
+      "Open sneller met de dubbele tik. In de Graaf-modus tik je op een open cijfer zodra de vlaggen eromheen het getal volmaken: alle overige buren gaan dan in één keer open. Dit is de klassieke snelkoppeling voor zelfverzekerde spelers, en hij wordt hier volledig ondersteund.",
+      "Speel met toetsen. De pijltjestoetsen bewegen de cursor, Enter of spatie graaft (of opent de buren van een open cijfer), en F vlagt het vakje – handig op e-readers met aangesloten toetsenbord of wanneer een tik gewoon te ver weg is.",
+      "Versla de klok. De timer start bij je eerste zet en pauzeert terwijl de pagina op de achtergrond staat. Ruim elk veilig vakje op om te winnen – de overgebleven mijnen worden voor je gevlagd – en je voortgang wordt automatisch opgeslagen als je weggaat."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (vanaf 2021)",
+        "status": "yes",
+        "note": "De ingebouwde browser draait het volledige spel; heeft firmware 5.13.7 of nieuwer nodig."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Het 10,2-inch-scherm toont zelfs het moeilijke bord van 13×13 op volle grootte, met ruimte te over."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Dezelfde browser-engine als recente Paperwhites – het spel blijft van huis uit zwart-wit."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma en vergelijkbare)",
+        "status": "yes",
+        "note": "Volledige Chromium-browser, de soepelste e-ink-ervaring; sneltoetsen werken met een gekoppeld toetsenbord."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage en vergelijkbare)",
+        "status": "limited",
+        "note": "De ingebouwde browser is gedateerd en draait het spel mogelijk niet op elk model of elke firmwareversie."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Geen officiële browser-app; oplossingen van derden vereisen een jailbreak van de tablet."
+      },
+      {
+        "device": "Oudere Kindles (experimentele browser)",
+        "status": "no",
+        "note": "Experimentele browsers van vóór 2016 kunnen geen modern JavaScript aan – deze pagina blijft leesbaar, maar het spel start niet."
+      }
+    ]
+  },
+  "whyEInk": "Mijnenveger is een stil spel en e-ink een stil scherm. Niets hier animeert, flitst of ververst onder je vinger – alleen het vakje dat je aanraakt wordt als snelle partiële update opnieuw getekend. Het vaste zwart-witraster leest bij daglicht als een gedrukte puzzelpagina, en lange sessies raken de batterij nauwelijks.",
+  "faq": [
+    {
+      "q": "Is het echt gratis?",
+      "a": "Ja – volledig. Elke bordgrootte is gratis te spelen, zonder account, zonder betaalmuur en zonder advertenties. De site hoort bij de E-Ink.me-familie en draait naast de gratis e-reader-tools van de hoofdsite: niets te kopen en niets te registreren."
+    },
+    {
+      "q": "Werkt het op mijn Kindle Paperwhite?",
+      "a": "Als je Paperwhite van 2021 of nieuwer is en firmware 5.13.7 of hoger heeft: ja – open de ingebouwde browser, typ het adres van de site in en begin met graven. Oudere Paperwhites met de vroege experimentele browser kunnen deze pagina als platte tekst tonen, maar het spel zelf draait er niet."
+    },
+    {
+      "q": "Moet ik mijn Kindle jailbreaken?",
+      "a": "Nee. Het spel draait volledig in de ingebouwde webbrowser van je Kindle. Er is geen app te sideloaden, geen truc toe te passen en geen garantierisico – een webpagina openen is voor een Kindle een heel gewone bezigheid. Als het apparaat een pagina kan laden, kan het dit spel spelen."
+    },
+    {
+      "q": "Kan ik offline spelen?",
+      "a": "De eerste keer dat je de pagina opent heb je internetverbinding nodig, omdat de site als gewone webpagina wordt geleverd en niet als downloadbare app. Eenmaal geladen draait het spel lokaal op je apparaat – maar e-readerbrowsers zijn niet gebouwd voor offline gebruik, dus wees verbonden wanneer je start."
+    }
+  ],
+  "cta": {
+    "label": "Geniet je van Minesweeper? Zet elk webartikel om in een EPUB en lees het op je Kindle – gratis tools op e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "memory",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

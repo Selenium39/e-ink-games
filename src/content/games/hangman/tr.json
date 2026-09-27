@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Kindle & E-Ink için Hangman — Ücretsiz, İndirmeden",
+    "description": "Hangman'ı Kindle, BOOX veya Kobo tarayıcısında ücretsiz oyna. İndirme yok, kurulum yok — e-mürekkep ekranlar için yapılmış klasik bir siyah beyaz kelime oyunu."
+  },
+  "h1": "Kindle & E-Ink için Hangman — Ücretsiz, İndirmeden",
+  "tagline": "Kindle Paperwhite, Scribe veya BOOX tarayıcında doğrudan çalışan klasik Hangman — kelimeyi tek tek harflerle tahmin et; indirme yok, kurulacak hiçbir şey yok.",
+  "howToPlay": {
+    "steps": [
+      "Bir zorluk seç. Kolay, yaygın dört ila altı harfli kelimeler çeker ve başlangıç ipucu olarak kategoriyi — hayvan, yemek, yer ve dahası — gösterir. Orta, ipuçsız altı ila sekiz harfli kelimelere geçer; Zor ise her dağarcığı sınayacak nadir dokuz ila on iki harfli kelimeler dağıtır.",
+      "Darağacını oku. Her tur boş bir çerçeve ve kullanabileceğin altı yanlış tahminle başlar. Her ıskalama, çöp adamın bir parçasını daha çizer — kafa, gövde, kollar, sonra bacaklar — böylece kaybetmeye ne kadar yaklaştığını bir bakışta görürsün.",
+      "Harfleri dokunarak tahmin et. Ekrandaki A–Z klavyesine dokun; her tuş e-okuyucu dokunmatik ekranlar için boyutlandırıldı. Doğru bir harf dolgun siyah beyaza döner ve eşleşen tüm boşlukları tek seferde doldurur; yanlış olan ise kesikli bir çerçeve alır ve yerine kilitlenir.",
+      "Ya da fiziksel bir klavye kullan. Cihazında sayfa çevirme tuşları veya eşleştirilmiş bir klavye varsa doğrudan A–Z'ye bas — oyun arka planda tuş vuruşlarını dinler ve büyük harf girişleri kabul edilip küçük harf gibi işlenir.",
+      "Boşlukları izle. Hedef kelime, altı çizili bir sıra olarak görünür; her isabet o harfi geçtiği her konumda ortaya çıkarır. Daha önce tahmin ettiğin bir harfi denemek hiçbir şeyi değiştirmez, dolayısıyla her dokunuş önemlidir.",
+      "Ya kazan ya da öğren. Altıncı ıskalamadan önce tüm harfleri ortaya çıkararak turu kazan; çöp adam tamamlanırsa oyun biter ve tam kelime gösterilir, böylece cevapsız asla ayrılmazsın. Kazandığın oyunlar ve oynadığın toplam oyun sayısı her zorluk için ayrı ayrı sayılır.",
+      "Tekrar oyna. Yeni bir kelime için Yeni Oyun'a dokun ya da üstten zorluğu değiştir — değiştirme yalnızca bir tur sürerken onay ister ve kelimenin ortasında sayfayı kapatırsan tahtan otomatik olarak kaydedilir."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 ve sonrası)",
+        "status": "yes",
+        "note": "Yerleşik tarayıcı oyunun tamamını çalıştırır; 5.13.7 veya daha yeni bir aygıt yazılımı gerekir. Harf tuşları 6,8 inçlik ekranda rahatça dokunulur."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "10,2 inçlik ekran darağacını, kelime boşluklarını ve 26 harf tuşunun tamamını kaydırmadan gösterir."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Son Paperwhite'larla aynı tarayıcı motoru — oyun tasarımı gereği siyah beyaz kalır."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma ve benzerleri)",
+        "status": "yes",
+        "note": "Tam Chromium tarayıcı, en akıcı e-mürekkep deneyimi; tahmin için eşleştirilmiş klavye de dokunmatik ekran da çalışır."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage ve benzerleri)",
+        "status": "limited",
+        "note": "Yerleşik tarayıcı eskidir ve oyunu her model ya da aygıt yazılımı sürümünde çalıştırmayabilir."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Resmî bir tarayıcı uygulaması yok; üçüncü taraf seçenekleri tablette jailbreak gerektirir."
+      },
+      {
+        "device": "Eski Kindle'lar (deneysel tarayıcı)",
+        "status": "no",
+        "note": "2016 öncesi deneysel tarayıcılar modern JavaScript çalıştıramaz — bu sayfa okunabilir kalır ama oyun başlamaz."
+      }
+    ]
+  },
+  "whyEInk": "Hangman özünde kalem-kâğıt oyunudur ve e-mürekkep ona öyle davranır: darağacı tek tek çizgi çizerek yeniden çizilir, dokunduğun harf değişen tek tuştur ve bulmacanın ardında hiçbir şey titremez ya da animasyon yapmaz. Ekran gündüz ışığında basılı kâğıt gibi okunur — hem göze hem pile iyidir.",
+  "faq": [
+    {
+      "q": "Gerçekten ücretsiz mi?",
+      "a": "Evet. Her tur hesap, ödeme duvarı ve reklam olmadan ücretsiz oynanır. Site E-Ink.me ailesinin bir parçasıdır ve ana sitedeki ücretsiz e-okuyucu araçlarıyla birlikte yürütülür; satın alınacak bir şey, kaydolunacak bir şey ve tahmin edebileceğin kelime sayısına hiçbir sınır yoktur."
+    },
+    {
+      "q": "Kindle Paperwhite'ımda çalışır mı?",
+      "a": "Paperwhite'ın 2021 veya sonrası bir modelse ve aygıt yazılımı 5.13.7 veya daha yeni bir sürümse, evet — yerleşik tarayıcıyı aç, site adresini yaz ve tahmin etmeye başla. BOOX ile Scribe ve Colorsoft gibi yeni Kindle'lar da aynı şekilde çalışır. Erken deneysel tarayıcılı eski Kindle'lar bu sayfayı metin olarak okuyabilir ama oyunu çalıştıramaz."
+    },
+    {
+      "q": "Kindle'ımı jailbreak yapmam gerekiyor mu?",
+      "a": "Hayır. Oyun tamamen e-okuyucunun yerleşik web tarayıcısında çalışır. Yüklenecek bir uygulama, uygulanacak bir hack ve endişelenecek bir garanti yoktur — bir web sitesi açmak modern bir Kindle için sıradan bir iştir. Cihazın bu sayfayı yükleyebiliyorsa darağacını da yükleyebilir."
+    },
+    {
+      "q": "Çevrimdışı oynayabilir miyim?",
+      "a": "Sayfayı ilk açışında internet bağlantısı gerekir, çünkü site indirilebilir bir uygulama değil normal bir web sayfası olarak sunulur. Yüklendikten sonra tüm tahminler cihazında yerel olarak çalışır — ama e-okuyucu tarayıcıları çevrimdışı kullanım için yapılmadığından bir oturuma başlarken bağlı olmayı planla."
+    }
+  ],
+  "cta": {
+    "label": "Oyun keyfi sürüyor mu? Herhangi bir web makalesini EPUB'a dönüştür ve Kindle'ında oku — e-ink.me'de ücretsiz araçlar",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "word",
+    "relatedSlugs": [
+      "hidden-code",
+      "word-daily",
+      "word-search"
+    ]
+  }
+}

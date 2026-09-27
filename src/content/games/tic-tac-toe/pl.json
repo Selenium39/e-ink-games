@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Tic-Tac-Toe dla Kindle i E-Ink — darmowe, bez pobierania",
+    "description": "Graj w kółko i krzyżyk za darmo w przeglądarce Kindle, BOOX lub Kobo. Bez pobierania i instalacji — zmierz się z niepokonanym AI albo graj we dwóch na jednym ekranie e-ink."
+  },
+  "h1": "Tic-Tac-Toe dla Kindle i E-Ink — darmowe, bez pobierania",
+  "tagline": "Klasyczne kółko i krzyżyk działające wprost w przeglądarce Kindle Paperwhite, Scribe lub BOOX — zagraj z niepokonanym komputerem albo ze znajomym na jednym ekranie, bez niczego do pobrania.",
+  "howToPlay": {
+    "steps": [
+      "Wybierz przeciwnika. Graj przeciwko komputerowi albo przełącz się na tryb 2 graczy i dzielcie jeden ekran — X i O ruszają się na zmianę na tym samym urządzeniu, w stylu pass-and-play.",
+      "Ustal poziom trudności. Łatwy wciąż popełnia błędy, które możesz ukarać; Trudny gra bezbłędną strategią minimax i nie da się go pokonać — najlepsze, co można wobec niego zdziałać, to wymusić remis.",
+      "Wykonaj ruch. Zawsze grasz X i ruszasz się pierwszy. Dotknij lub kliknij dowolne puste pole na ekranie dotykowym albo naciśnij klawisz cyfry: klawisze 1–9 odpowiadają polom od lewego górnego do prawego dolnego rogu.",
+      "Poruszaj się klawiaturą. Strzałki przesuwają kursor w grubej ramce pole po polu; Enter lub spacja stawia twój znak w wybranym polu. Backspace albo U cofa ruch.",
+      "Znaj cel. Ustaw trzy swoje znaki w wierszu, kolumnie lub na przekątnej. Zwycięska linia jest natychmiast oznaczana odwróconym czarno-białym podświetleniem na jej trzech polach.",
+      "Cofaj pomyłki. Przeciwko komputerowi jedno cofnięcie wycofuje zarówno twój ruch, jak i odpowiedź komputera, przywracając twoją turę; w trybie dwóch graczy cofa pojedynczy ruch.",
+      "Pilnuj bilansu. Twoje zwycięstwa, porażki i remisy przeciwko komputerowi są zliczane na tym urządzeniu i pokazywane obok planszy — sprawdź, jak długo utrzymasz remis z idealnym przeciwnikiem."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 i nowsze)",
+        "status": "yes",
+        "note": "Wbudowana przeglądarka obsługuje pełną grę; wymagane oprogramowanie 5.13.7 lub nowsze."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Ekran 10,2 cala sprawia, że dziewięć pól jest ogromnych i wygodnych do dotykania jedną ręką."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Ta sama przeglądarka co w najnowszych Paperwhite — gra z założenia pozostaje czarno-biała."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma i podobne)",
+        "status": "yes",
+        "note": "Pełny Chromium, najbardziej płynne doświadczenie na e-ink; przyciski przewijania lub sparowana klawiatura prowadzą kursor."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage i podobne)",
+        "status": "limited",
+        "note": "Wbudowana przeglądarka jest przestarzała i może nie uruchomić gry na każdym modelu lub wersji oprogramowania."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Brak oficjalnej aplikacji przeglądarki; rozwiązania zewnętrzne wymagają odblokowania tabletu (jailbreak)."
+      },
+      {
+        "device": "Starsze Kindle (przeglądarka eksperymentalna)",
+        "status": "no",
+        "note": "Eksperymentalne przeglądarki sprzed 2016 r. nie obsłużą nowoczesnego JavaScriptu — strona pozostaje czytelna, ale gra się nie uruchomi."
+      }
+    ]
+  },
+  "whyEInk": "Kółko i krzyżyk to dziewięć pól i dwa znaki, a e-ink przerysowuje tylko pole, którego dotkniesz. Żadnego migania, żadnej animacji, żadnego odświeżania ukrywającego się za planszą — tylko ostre czarne kreski na papierowej bieli. Siatka czyta się perfekcyjnie w pełnym świetle dziennym i ledwo dotyka baterii, więc szybka partia nigdy nie zamienia się w przerwę na ładowanie.",
+  "faq": [
+    {
+      "q": "Czy to naprawdę jest darmowe?",
+      "a": "Tak. Każda partia jest darmowa — bez konta, bez paywalla i bez reklam. Witryna należy do rodziny E-Ink.me i jest utrzymywana obok darmowych narzędzi dla czytników na stronie głównej, więc nie ma tu nic do kupienia ani żadnych zapisów."
+    },
+    {
+      "q": "Czy działa na moim Kindle?",
+      "a": "Jeśli masz Kindla z 2021 r. lub nowszego — Paperwhite, Scribe albo Colorsoft — z oprogramowaniem 5.13.7 lub nowszym, to tak. Otwórz wbudowaną przeglądarkę i wczytaj tę stronę. Starsze Kindle z wczesną przeglądarką eksperymentalną wyświetlą tę stronę jako tekst, ale sama gra się nie uruchomi."
+    },
+    {
+      "q": "Czy muszę odblokowywać Kindle (jailbreak)?",
+      "a": "Nie. Gra działa w całości w przeglądarce, którą Kindle ma już fabrycznie. Nie ma aplikacji do wgrania ręcznego ani żadnych hacków — jeśli urządzenie potrafi otworzyć stronę internetową, potrafi zagrać. Twoja gwarancja pozostaje nietknięta."
+    },
+    {
+      "q": "Czy mogę grać offline?",
+      "a": "Połączenie z internetem jest potrzebne przy pierwszym wczytaniu strony, bo witryna jest dostarczana jak zwykła strona, a nie aplikacja do pobrania. Po wczytaniu gra działa na samym urządzeniu, a plansza i bilans zwycięstw są zapisywane lokalnie między wizytami."
+    }
+  ],
+  "cta": {
+    "label": "Podoba Ci się partia? Zamień dowolny artykuł z sieci w EPUB i czytaj go na Kindle — darmowe narzędzia na e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "board",
+    "relatedSlugs": [
+      "2048",
+      "hidden-code",
+      "minesweeper"
+    ]
+  }
+}

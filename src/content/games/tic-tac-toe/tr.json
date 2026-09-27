@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Kindle & E-Ink için Tic-Tac-Toe — Ücretsiz, İndirmeden",
+    "description": "Tic-Tac-Toe'yu Kindle, BOOX veya Kobo tarayıcısında ücretsiz oyna. İndirme yok, kurulum yok — yenilmez bir yapay zekâya karşı oyna ya da tek e-mürekkep ekranda sırayla maç yap."
+  },
+  "h1": "Kindle & E-Ink için Tic-Tac-Toe — Ücretsiz, İndirmeden",
+  "tagline": "Kindle Paperwhite, Scribe veya BOOX tarayıcında doğrudan çalışan klasik üç taş oyunu — indirme olmadan, tek ekranda yenilmez bir bilgisayara ya da bir arkadaşına karşı oyna.",
+  "howToPlay": {
+    "steps": [
+      "Rakibini seç. Bilgisayara karşı oyna ya da 2 Oyuncu moduna geçip tek ekranı paylaş — X ve O aynı cihazda sırayla hamle yapar; klasik pass-and-play usulünde.",
+      "Bir zorluk seç. Kolay, cezalandırabileceğin hatalar yapmaya devam eder; Zor ise kusursuz minimax stratejisi oynar ve asla yenilmez — ona karşı yapılabilecek en iyi şey beraberliğe zorlamaktır.",
+      "Hamleni yap. Her zaman X ile oynar ve ilk hamleyi sen yaparsın. Dokunmatik ekranda boş herhangi bir kareye dokun ya da bir rakam tuşuna bas: 1'den 9'a kadar tuşlar, soldan sağa ve üstten alta doğru ızgaradaki karelere karşılık gelir.",
+      "Klavyeyle gezin. Ok tuşları, kalın çerçeveli imleci kare kare taşır; taşını üzerine bırakmak için Enter'a ya da Boşluk'a bas. Backspace ya da U bir hamleyi geri alır.",
+      "Amacı bil. Üç işaretini bir sıra, bir sütun veya bir çapraz boyunca dizi. Kazanan hat, üç karesini kapsayan ters siyah beyaz bir vurguyla anında işaretlenir.",
+      "Hataları geri al. Bilgisayara karşı Geri Al, hem senin hamleni hem bilgisayarın cevabını geri alır ve tahtayı senin sırana döndürür; iki oyunculu modda tek bir hamleyi geri alır.",
+      "Rekoru takip et. Bilgisayara karşı kazandıkların, kaybettiklerin ve berabere kaldıkların bu cihazda sayılır ve tahtanın yanında gösterilir — kusursuz rakibi ne kadar uzun süre beraberliğe tutturabileceğini gör."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 ve sonrası)",
+        "status": "yes",
+        "note": "Yerleşik tarayıcı oyunun tamamını çalıştırır; 5.13.7 veya daha yeni bir aygıt yazılımı gerekir."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "10,2 inçlik ekran dokuz kareyi dev boyuta getirir ve tek elle dokunmayı rahatlatır."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Son Paperwhite'larla aynı tarayıcı motoru — oyun tasarımı gereği siyah beyaz kalır."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma ve benzerleri)",
+        "status": "yes",
+        "note": "Tam Chromium tarayıcı, en akıcı e-mürekkep deneyimi; sayfa çevirme tuşları ya da eşleştirilmiş bir klavye imleci yönetir."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage ve benzerleri)",
+        "status": "limited",
+        "note": "Yerleşik tarayıcı eskidir ve oyunu her model ya da aygıt yazılımı sürümünde çalıştırmayabilir."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Resmî bir tarayıcı uygulaması yok; üçüncü taraf seçenekleri tablette jailbreak gerektirir."
+      },
+      {
+        "device": "Eski Kindle'lar (deneysel tarayıcı)",
+        "status": "no",
+        "note": "2016 öncesi deneysel tarayıcılar modern JavaScript çalıştıramaz — bu sayfa okunabilir kalır ama oyun başlamaz."
+      }
+    ]
+  },
+  "whyEInk": "Tic-tac-toe dokuz kare ve iki işarettir ve e-mürekkep yalnızca dokunduğun kareyi yeniden çizer. Yanıp sönme yok, animasyon yok, tahtanın ardında saklanan yenileme yok — sadece kâğıt beyazı üzerinde net siyah çizgiler. Izgara doğrudan gündüz ışığında kusursuz okunur ve pile neredeyse hiç dokunmaz; yani hızlı bir maç hiçbir zaman şarj arasına dönüşmez.",
+  "faq": [
+    {
+      "q": "Gerçekten ücretsiz mi?",
+      "a": "Evet. Her oyun hesap, ödeme duvarı ve reklam olmadan ücretsizdir. Site E-Ink.me ailesine aittir ve ana sitedeki ücretsiz e-okuyucu araçlarıyla birlikte yürütülür; satın alınacak ve kaydolunacak bir şey yoktur."
+    },
+    {
+      "q": "Kindle'ımda çalışır mı?",
+      "a": "2021 veya sonrası bir Kindle'ın varsa — Paperwhite, Scribe veya Colorsoft — ve aygıt yazılımı 5.13.7 veya daha yeniyse, evet. Yerleşik tarayıcıyı aç ve bu sayfayı yükle. Erken deneysel tarayıcılı eski Kindle'lar bu sayfayı metin olarak gösterebilir ama oyunun kendisi başlamaz."
+    },
+    {
+      "q": "Kindle'ımı jailbreak yapmam gerekiyor mu?",
+      "a": "Hayır. Oyun tamamen Kindle'ının zaten birlikte geldiği web tarayıcısında çalışır. Yüklenecek bir uygulama ve uygulanacak bir hack yoktur — cihaz bir web sayfası açabiliyorsa oynayabilir de. Garantinde hiçbir şey değişmez."
+    },
+    {
+      "q": "Çevrimdışı oynayabilir miyim?",
+      "a": "Bu sayfa ilk yüklendiğinde internet bağlantısı gerekir, çünkü site indirilebilir bir uygulama değil sıradan bir web sayfası olarak sunulur. Yüklendikten sonra oyun cihazın kendisinde çalışır; tahtan ve kazanma rekorun ziyaretler arasında yerel olarak saklanır."
+    }
+  ],
+  "cta": {
+    "label": "Maç keyfi sürüyor mu? Herhangi bir web makalesini EPUB'a dönüştür ve Kindle'ında oku — e-ink.me'de ücretsiz araçlar",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "board",
+    "relatedSlugs": [
+      "2048",
+      "hidden-code",
+      "minesweeper"
+    ]
+  }
+}

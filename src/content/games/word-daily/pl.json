@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Word Daily dla Kindle i E-Ink — codzienna gra słowna",
+    "description": "Graj w codzienną grę słowną za darmo w przeglądarce Kindle, BOOX lub Kobo. Jedno nowe pięcioliterowe słowo każdego dnia — bez pobierania, dla ekranów e-ink."
+  },
+  "h1": "Word Daily dla Kindle i E-Ink — darmowe, bez pobierania",
+  "tagline": "Codzienna gra słowna w stylu Wordle działająca wprost w przeglądarce Kindle, BOOX lub Kobo — jedno pięcioliterowe słowo dziennie, to samo dla każdego gracza, rysowane w czystej czerni i bieli.",
+  "howToPlay": {
+    "steps": [
+      "Odgadnij dzisiejsze pięcioliterowe słowo. Każdego dnia wszyscy gracze dostają to samo słowo — łamigłówka jest związana z datą, nie z twoim urządzeniem, więc możesz porównywać wyniki ze znajomymi. Masz sześć prób, a jutro przyjdzie nowe słowo.",
+      "Wpisz pierwszy strzał. Dotykaj ekranowej klawiatury QWERTY palcem lub rysikiem albo pisz na fizycznej klawiaturze, jeśli twój czytnik ją ma lub jest sparowana — klawisze sprzętowe, Enter i Backspace działają obok klawiatury dotykowej.",
+      "Czytaj podpowiedzi. Po każdym strzale kafelki odpowiadają w czystej czerni i bieli: pełny czarny kafelek oznacza literę na właściwym miejscu, kafelek z grubą obwódką — literę obecną w słowie, ale gdzie indziej, a cienka obwódka — literę, której w słowie w ogóle nie ma.",
+      "Patrz na historię klawiatury. Każdy ekranowy klawisz nosi te same trzy oznaczenia dla już sprawdzonych liter, więc na pierwszy rzut oka wiesz, które litery są na swoim miejscu, które żyją gdzie indziej, a które są ślepą uliczką.",
+      "Uważaj na powtórzone litery. Ukryte słowo może zawierać tę samą literę dwa razy; podpowiedź liczy każdą kopię osobno, więc gruba obwódka nigdy nie obiecuje więcej kopii, niż słowo naprawdę ma.",
+      "Graj w nieograniczone rundy treningowe. Skończone ze słowem dnia i masz apetyt na więcej? Przełącz się w tryb treningowy i w każdej chwili losuj świeże słowo — rundy treningowe nie ruszają wyniku dnia, serii zwycięstw ani statystyk.",
+      "Dziel się i wracaj. Gdy łamigłówka dobiegnie końca, pojawi się siatka wyników w czystym tekście — przytrzymaj, aby ją zaznaczyć i skopiować gdzie chcesz. Postęp dnia, seria i statystyki zapisują się na urządzeniu automatycznie."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 i nowsze)",
+        "status": "yes",
+        "note": "Wbudowana przeglądarka obsługuje pełną grę; wymagane oprogramowanie 5.13.7 lub nowsze."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Duży ekran pokazuje całą planszę liter i klawiaturę bez przewijania."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Ta sama przeglądarka co w najnowszych Paperwhite — gra z założenia pozostaje czarno-biała."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma i podobne)",
+        "status": "yes",
+        "note": "Pełny Chromium, najbardziej płynne doświadczenie na e-ink; pisanie na sparowanej klawiaturze jest natychmiastowe."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage i podobne)",
+        "status": "limited",
+        "note": "Wbudowana przeglądarka jest przestarzała i może nie uruchomić gry na każdym modelu lub wersji oprogramowania."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Brak oficjalnej aplikacji przeglądarki; rozwiązania zewnętrzne wymagają odblokowania tabletu (jailbreak)."
+      },
+      {
+        "device": "Starsze Kindle (przeglądarka eksperymentalna)",
+        "status": "no",
+        "note": "Eksperymentalne przeglądarki sprzed 2016 r. nie obsłużą nowoczesnego JavaScriptu — strona pozostaje czytelna, ale gra się nie uruchomi."
+      }
+    ]
+  },
+  "whyEInk": "Łamigłówki słowne to tekst, a e-ink renderuje tekst pięknie. Gra przerysowuje tylko kafelki, które się zmieniły — żadnych animacji, błysków ani szarych obwitek — więc plansza czyta się jak wydrukowana strona w każdym świetle. Format raz na dzień pasuje do czytników idealnie: jedno słowo, spokojna minuta namysłu i ekran, który nigdy nie odpowiada światłem.",
+  "faq": [
+    {
+      "q": "Czy to naprawdę jest darmowe?",
+      "a": "Tak. Codzienne słowo i nieograniczone rundy treningowe są całkowicie darmowe — bez konta, bez reklam i bez paywalla. Witryna należy do rodziny darmowych narzędzi dla czytników E-Ink.me, więc nie ma tu nic do kupienia ani żadnych zapisów — otwórz stronę i graj."
+    },
+    {
+      "q": "Czy działa na moim Kindle Paperwhite?",
+      "a": "Na modelach Paperwhite, Scribe i Colorsoft od 2021 r. z oprogramowaniem 5.13.7 lub nowszym — tak: wbudowana przeglądarka obsługuje całą grę. Starsze Kindle z wczesną przeglądarką eksperymentalną przeczytają tę stronę jako zwykły tekst, ale łamigłówka sama się na nich nie uruchomi."
+    },
+    {
+      "q": "Czy muszę odblokowywać Kindle (jailbreak)?",
+      "a": "Nie. Gra działa w całości w przeglądarce, którą Kindle ma już fabrycznie. Nie ma aplikacji do zainstalowania, żadnych plików do wgrania ręcznego ani żadnych modyfikacji — jeśli twoje urządzenie otwiera zwykłe strony internetowe, obsłuży Word Daily."
+    },
+    {
+      "q": "Czy mogę grać offline?",
+      "a": "Połączenie jest potrzebne przy pierwszym wczytaniu strony, bo witryna jest dostarczana jak zwykła strona, a nie aplikacja do pobrania. Po wczytaniu każdy strzał wykonuje się na samym urządzeniu, a seria jest przechowywana lokalnie — ale zaplanuj pracę online na start."
+    }
+  ],
+  "cta": {
+    "label": "Codzienne słowo odgadnięte? Zamień dowolny artykuł z sieci w EPUB i czytaj go na Kindle — darmowe narzędzia na e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "daily",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-search"
+    ]
+  }
+}

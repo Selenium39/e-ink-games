@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Word Daily voor Kindle & E-Ink – gratis dagelijks woordspel",
+    "description": "Speel elke dag een gratis woordspel in je Kindle-, BOOX- of Kobo-browser. Eén nieuw woord van vijf letters per dag – geen download, geen installatie, gemaakt voor e-inkschermen."
+  },
+  "h1": "Word Daily voor Kindle & E-Ink – gratis, geen download",
+  "tagline": "Een dagelijks woordspel in Wordle-stijl dat rechtstreeks draait in de browser van je Kindle, BOOX of Kobo – één woord van vijf letters per dag, hetzelfde woord voor elke speler, getekend in puur zwart-wit.",
+  "howToPlay": {
+    "steps": [
+      "Raad het woord van vijf letters van vandaag. Elke speler krijgt elke dag hetzelfde woord – de puzzel hangt aan de datum, niet aan je apparaat, zodat je je resultaten met vrienden kunt vergelijken. Je hebt zes pogingen, en morgen komt er een nieuw woord.",
+      "Typ je eerste gok. Tik met een vinger of stylus op het QWERTY-toetsenbord op het scherm, of typ op een fysiek toetsenbord als je e-reader er een heeft of er een is gekoppeld – hardwaartoetsen, Enter en Backspace werken allemaal naast het schermtoetsenbord.",
+      "Lees de feedback. Na elke gok antwoorden de tegels in puur zwart-wit: een effen zwarte tegel betekent dat de letter op de juiste plek staat, een dik omlijnde tegel dat de letter in het woord zit maar ergens anders, en een dun omlijnde tegel dat hij er helemaal niet in zit.",
+      "Houd de toetsenbordhistorie bij. Elke toets op het scherm draagt dezelfde drie markeringen voor letters die je al hebt geprobeerd, zodat je in één oogopslag weet welke letters al staan, welke elders nog leven en welke doodlopers zijn.",
+      "Let op dubbele letters. Het verborgen woord kan dezelfde letter twee keer bevatten; de feedback telt elke keer nauwkeurig mee, dus een dikke omlijning belooft nooit meer keren dan het woord werkelijk bevat.",
+      "Speel onbeperkt oefenrondes. Klaar met het dagelijkse woord en zin in meer? Wissel op elk moment naar de Oefenmodus voor een vers willekeurig woord – oefenrondes raken je dagelijkse resultaat, je reeks of je statistieken nooit aan.",
+      "Deel en kom terug. Als de puzzel eindigt, verschijnt er een resultatenraster in platte tekst – houd ingedrukt om het te selecteren en te kopiëren waar je maar wilt. Je dagelijkse voortgang, je reeks en je statistieken worden automatisch op je apparaat opgeslagen."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (vanaf 2021)",
+        "status": "yes",
+        "note": "De ingebouwde browser draait het volledige spel; heeft firmware 5.13.7 of nieuwer nodig."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Het grote scherm toont het hele letterbord en toetsenbord zonder scrollen."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Dezelfde browser-engine als recente Paperwhites – het spel blijft van huis uit zwart-wit."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma en vergelijkbare)",
+        "status": "yes",
+        "note": "Volledige Chromium-browser, de soepelste e-ink-ervaring; typen op een gekoppeld toetsenbord voelt direct."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage en vergelijkbare)",
+        "status": "limited",
+        "note": "De ingebouwde browser is gedateerd en draait het spel mogelijk niet op elk model of elke firmwareversie."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Geen officiële browser-app; oplossingen van derden vereisen een jailbreak van de tablet."
+      },
+      {
+        "device": "Oudere Kindles (experimentele browser)",
+        "status": "no",
+        "note": "Experimentele browsers van vóór 2016 kunnen geen modern JavaScript aan – deze pagina blijft leesbaar, maar het spel start niet."
+      }
+    ]
+  },
+  "whyEInk": "Woordpuzzels zijn tekst, en e-ink geeft tekst prachtig weer. Dit spel herptekent alleen de tegels die veranderen – geen animaties, geen geflikker, geen grijze vlekken – zodat het bord in elk licht leest als een gedrukte pagina. Het formaat van één keer per dag past perfect bij e-readers: één woord, een stille minuut nadenken, en een scherm dat nooit teruglicht.",
+  "faq": [
+    {
+      "q": "Is het echt gratis?",
+      "a": "Ja. Het dagelijkse woord en onbeperkt oefenrondes zijn volledig gratis, zonder account, zonder advertenties en zonder betaalmuur. De site hoort bij de E-Ink.me-familie van gratis e-reader-tools: niets te kopen en niets te registreren – gewoon de pagina openen en spelen."
+    },
+    {
+      "q": "Werkt het op mijn Kindle Paperwhite?",
+      "a": "Op Paperwhite-, Scribe- en Colorsoft-modellen vanaf 2021 met firmware 5.13.7 of nieuwer: ja – de ingebouwde browser draait het hele spel. Oudere Kindles met de vroege experimentele browser kunnen deze pagina als platte tekst lezen, maar de puzzel zelf start er niet op."
+    },
+    {
+      "q": "Moet ik mijn Kindle jailbreaken?",
+      "a": "Nee. Het spel draait volledig in de browser die je Kindle standaard meebrengt. Er is geen app te installeren, geen bestand te sideloaden en geen enkele aanpassing nodig – als je apparaat een gewone webpagina kan openen, kan het Word Daily spelen."
+    },
+    {
+      "q": "Kan ik offline spelen?",
+      "a": "De eerste keer dat de pagina laadt heb je een verbinding nodig, omdat de site als gewone webpagina wordt geleverd en niet als downloadbare app. Eenmaal geladen wordt elke gok op het apparaat zelf uitgevoerd en wordt je reeks lokaal bewaard – maar wees online wanneer je begint."
+    }
+  ],
+  "cta": {
+    "label": "Het dagelijkse woord opgelost? Zet elk webartikel om in een EPUB en lees het op je Kindle – gratis tools op e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "daily",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-search"
+    ]
+  }
+}

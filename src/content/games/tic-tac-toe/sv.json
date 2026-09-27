@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Tic-Tac-Toe för Kindle & E-Ink – gratis, utan nedladdning",
+    "description": "Spela gratis luffarschack i webbläsaren på Kindle, BOOX eller Kobo. Ingen nedladdning, ingen installation – möt en oslagbar AI eller spela två personer på en skärm."
+  },
+  "h1": "Tic-Tac-Toe för Kindle & E-Ink – gratis, utan nedladdning",
+  "tagline": "Klassiskt luffarschack som körs direkt i webbläsaren på din Kindle Paperwhite, Scribe eller BOOX – spela mot en oslagbar dator eller en vän på samma skärm, utan att ladda ner något.",
+  "howToPlay": {
+    "steps": [
+      "Välj motståndare. Spela mot datorn, eller växla till 2 spelare och dela en skärm – X och O tar tur om på samma enhet, i klassisk pass-and-play-stil.",
+      "Välj svårighetsgrad. Lätt begår fortfarande misstag du kan straffa; Svår spelar felfri minimax-strategi och kan aldrig besegras – det bästa någon kan åstadkomma mot den är att tvinga fram oavgjort.",
+      "Gör ditt drag. Du spelar alltid X och börjar. Tryck eller klicka på valfri tom ruta på en pekskärm, eller tryck en siffertangent: tangenterna 1 till 9 motsvarar rutnätet från vänstra övre till högra nedre hörnet.",
+      "Navigera med tangentbord. Piltangenterna flyttar en markör med kraftig ram ruta för ruta; tryck Enter eller mellanslag för att lägga ditt märke på den. Backsteg eller U tar tillbaka ett drag.",
+      "Vet målet. Ställ upp tre av dina märken i rad, kolumn eller diagonal. Den vinnande linjen markeras genast med en inverterad svartvit framtoning över dess tre rutor.",
+      "Ångra misstag. Mot datorn stegar en Ångra tillbaka både ditt drag och datorns svar, så att brädet återgår till din tur; i tvåspelarläge tar den tillbaka ett enda drag.",
+      "Följ rekordet. Dina vinster, förluster och oavgjorda mot datorn räknas på den här enheten och visas bredvid brädet – se hur länge du kan hålla en perfekt motståndare till oavgjort."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (från 2021)",
+        "status": "yes",
+        "note": "Den inbyggda webbläsaren kör hela spelet; kräver firmware 5.13.7 eller nyare."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Skärmen på 10,2 tum gör de nio rutorna enorma och behagliga att trycka med en hand."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Samma webbläsarmotor som nyare Paperwhites – spelet är svartvitt av design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma m.fl.)",
+        "status": "yes",
+        "note": "Fullständig Chromium-webbläsare, den smidigaste e-ink-upplevelsen; bläddringsknappar eller ett ihopkopplat tangentbord styr markören."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage m.fl.)",
+        "status": "limited",
+        "note": "Den inbyggda webbläsaren är föråldrad och kanske inte kör spelet på alla modeller eller firmware-versioner."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Ingen officiell webbläsarapp; tredjepartslösningar kräver att surfplattan jailbreakas."
+      },
+      {
+        "device": "Äldre Kindles (experimentell webbläsare)",
+        "status": "no",
+        "note": "Experimentella webbläsare från före 2016 kan inte köra modern JavaScript – sidan förblir läsbar, men spelet startar inte."
+      }
+    ]
+  },
+  "whyEInk": "Luffarschack är nio rutor och två märken, och e-ink ritar om bara rutan du rör vid. Inget blinkande, ingen animation, ingen uppdatering som gömmer sig bakom brädet – bara skarpa svarta streck på pappersvitt. Rutnätet avläses perfekt i direkt dagsljus och batteriet märks knappt, så en snabb match blir aldrig en laddningspaus.",
+  "faq": [
+    {
+      "q": "Är det verkligen gratis?",
+      "a": "Ja. Varje parti är gratis utan konto, betalvägg eller reklam. Webbplatsen tillhör E-Ink.me-familjen och drivs sida vid sida med de gratis e-läsarverktygen på huvudsidan, så det finns inget att köpa och inget att registrera sig för."
+    },
+    {
+      "q": "Fungerar det på min Kindle?",
+      "a": "Har du en Kindle från 2021 eller senare – Paperwhite, Scribe eller Colorsoft – med firmware 5.13.7 eller nyare: ja. Öppna den inbyggda webbläsaren och ladda den här sidan. Äldre Kindles med den tidiga experimentella webbläsaren kan visa den här sidan som text, men själva spelet startar inte."
+    },
+    {
+      "q": "Måste jag jailbreaka min Kindle?",
+      "a": "Nej. Spelet körs helt i den webbläsare din Kindle redan levereras med. Det finns ingen app att sideloada och inget hack att applicera – om enheten kan öppna en webbsida kan den spela. Ingenting med din garanti förändras."
+    },
+    {
+      "q": "Kan jag spela offline?",
+      "a": "Du behöver en internetuppkoppling första gången sidan laddas, eftersom webbplatsen levereras som en vanlig webbsida snarare än som en nedladdningsbar app. När den väl laddats körs spelet på enheten själv, och ditt bräde och ditt vinstrekord sparas lokalt mellan besöken."
+    }
+  ],
+  "cta": {
+    "label": "Gillar du matchen? Förvandle vilken webbartikel som helst till en EPUB och läs den på din Kindle – gratis verktyg på e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "board",
+    "relatedSlugs": [
+      "2048",
+      "hidden-code",
+      "minesweeper"
+    ]
+  }
+}

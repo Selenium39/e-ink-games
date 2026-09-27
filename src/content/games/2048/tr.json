@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Kindle & E-Ink için 2048 — Ücretsiz, İndirmeden",
+    "description": "2048'i Kindle, BOOX veya Kobo e-okuyucusunun tarayıcısında ücretsiz oyna. İndirme yok, kurulum yok — siyah beyaz e-mürekkep ekranlar için ayarlanmış klasik taş birleştirme."
+  },
+  "h1": "Kindle & E-Ink için 2048 — Ücretsiz, İndirmeden",
+  "tagline": "Numaralı taşları kaydır ve birleştir, toplam 2048'e ulaşana dek — tamamen Kindle Paperwhite, Scribe veya BOOX okuyucunun tarayıcısında; indirilecek ya da kurulacak hiçbir şey yok.",
+  "howToPlay": {
+    "steps": [
+      "İki taşla başla. Her oyun, yalnızca iki numaralı taş barındıran bir 4×4 ızgarayla açılır — bir 2 ya da bir 4 — ve yaptığın her hamle tahtaya yeni bir taş düşürür; böylece ızgara oynadıkça dolmaya devam eder.",
+      "Tüm tahtayı hareket ettir. Dokunmatik ekranda tahtanın herhangi bir yerinde kaydır — sola, sağa, yukarı veya aşağı — ve her taş o yönde gidebileceği kadar ilerler. Izgaranın altındaki ok düğmelerine dokunabilir ya da cihazında fiziksel sayfa çevirme düğmeleri veya eşleştirilmiş bir klavye varsa ok tuşlarına basabilirsin.",
+      "Eşit taşları birleştir. Aynı sayıyı gösteren iki taş çarpıştığında, ikisi iki kat değerli tek taşta birleşir: iki 2 bir 4 olur, iki 4 bir 8 olur, böylece gider. Her taş hamle başına yalnızca bir kez birleşebilir; bu yüzden 2-2-2-2 şeklindeki bir sıra bir 8 değil, iki 4 olur. Her birleştirme, yeni değerini puanına ekler.",
+      "E-mürekkep geri bildirimini oku. Kaydırma animasyonları yerine, yeni düşen taş bir tur boyunca kalın siyah bir çerçeveyle işaretlenir ve az önce birleşen taşlar siyah üzerine beyaza döner — kâğıt benzeri bir ekranda hareket ya da titreme olmadan tam olarak neyin değiştiğini görürsün.",
+      "Hataları geri al. Geri Al'a tek bir dokunuş tahtayı bir hamle geriye götürür; konumu, puanı ve sana verilen taşı geri getirir, böylece yanlış bir kaydırma oyununa asla mal olmaz.",
+      "2048'i hedefle. En büyük taşlarını bir köşeye sıkıştırarak ikinin kuvvetlerini büyüt. 2048 taşı belirdiği anda kazanmış olursun — oyun yeni bir tahta önerir ya da 4096'ya ve ötesine doğru oynamaya devam etmene izin verir.",
+      "Sonu gözet. Izgara dolduğunda ve komşu iki taş artık eşleşmediğinde hiçbir hamle kalmaz; oyun bu noktada biter. Mevcut puanın, cihazına ait en iyi puanın ve bir oturum sayacı her zaman tahtanın üzerinde gösterilir; tarayıcıyı oyun ortasında kapatırsan ilerlemen otomatik olarak kaydedilir."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 ve sonrası)",
+        "status": "yes",
+        "note": "Kaydırma hamleleri dokunmatik ekranda iyi çalışır; 5.13.7 veya daha yeni bir aygıt yazılımı gerekir."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Geniş 10,2 inçlik ekran 4×4 ızgarayı rahat bir boyutta gösterir; hamle başına bir kaydırma."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Son Paperwhite'larla aynı tarayıcı motoru — oyun tasarımı gereği siyah beyazdır."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma ve benzerleri)",
+        "status": "yes",
+        "note": "Tam Chromium tarayıcı, en akıcı e-mürekkep deneyimi; sayfa düğmeli modellerde ok tuşları çalışır."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage ve benzerleri)",
+        "status": "limited",
+        "note": "Yerleşik tarayıcı eskidir ve oyunu her model ya da aygıt yazılımı sürümünde çalıştırmayabilir."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Resmî bir tarayıcı uygulaması yok; üçüncü taraf seçenekleri tablette jailbreak gerektirir."
+      },
+      {
+        "device": "Eski Kindle'lar (deneysel tarayıcı)",
+        "status": "no",
+        "note": "2016 öncesi deneysel tarayıcılar modern JavaScript çalıştıramaz — bu sayfa okunabilir kalır ama oyun başlamaz."
+      }
+    ]
+  },
+  "whyEInk": "2048 genellikle kaydırma animasyonlarıyla oynanan bir oyundur ve e-mürekkep ekranlar animasyon yapmaz — bu yüzden bu sürüm hareketi baskı tarzı işaretlerle değiştirir: yeni taşlar bir tur boyunca kalın bir çerçeve taşır ve birleşmeler siyahtan beyaza döner. Yalnızca değişen taşlar yeniden çizilir; tahta kâğıt gibi okunur ve pil neredeyse hiç fark etmez.",
+  "faq": [
+    {
+      "q": "Gerçekten ücretsiz mi?",
+      "a": "Evet. Oyun hesap, ödeme duvarı ve reklam olmadan ücretsiz oynanır. Site E-Ink.me ailesinin bir parçasıdır ve ana sitedeki ücretsiz e-okuyucu araçlarının yanında çalışır; satın alınacak, açılacak ve kaydolunacak bir şey yoktur."
+    },
+    {
+      "q": "Kindle Paperwhite'ımda çalışır mı?",
+      "a": "Paperwhite'ın 2021 veya sonrası bir modelse ve aygıt yazılımı 5.13.7 veya daha yeni bir sürümse, evet — yerleşik tarayıcıyı aç, site adresini yaz ve kaydırarak oynamaya başla. Erken deneysel tarayıcılı eski Paperwhite'lar bu sayfayı metin olarak okuyabilir ama oyunun kendisini çalıştıramaz."
+    },
+    {
+      "q": "Kindle'ımı jailbreak yapmam gerekiyor mu?",
+      "a": "Hayır. Oyun tamamen Kindle'ının yerleşik web tarayıcısı içinde çalışır. Yüklenecek bir uygulama, uygulanacak bir hack yoktur ve garanti riske girmez — bir web sayfası açmak bir Kindle için sıradan bir iştir. Cihaz bir web sitesini açabiliyorsa, oynayabilir de."
+    },
+    {
+      "q": "Çevrimdışı oynayabilir miyim?",
+      "a": "Sayfa ilk yüklendiğinde internet bağlantısı gerekir, çünkü oyun mağaza uygulaması değil normal bir web sayfası olarak sunulur. Yüklendikten sonra her hamle cihazda yerel olarak çalışır — ama e-okuyucu tarayıcıları çevrimdışı kullanım için tasarlanmadığından, oyuna başlarken bağlı ol."
+    }
+  ],
+  "cta": {
+    "label": "2048'e ulaştın mı? Herhangi bir web makalesini EPUB'a dönüştür ve Kindle'ında oku — e-ink.me'de ücretsiz araçlar",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "memory",
+      "minesweeper",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

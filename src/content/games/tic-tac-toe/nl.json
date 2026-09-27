@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Tic-Tac-Toe voor Kindle & E-Ink – gratis, geen download",
+    "description": "Speel gratis boter-kaas-en-eieren in je browser op Kindle, BOOX of Kobo. Geen download, geen installatie – tegen een onverslaanbare AI of samen op één e-inkscherm."
+  },
+  "h1": "Tic-Tac-Toe voor Kindle & E-Ink – gratis, geen download",
+  "tagline": "Klassiek boter-kaas-en-eieren dat rechtstreeks draait in de browser van je Kindle Paperwhite, Scribe of BOOX – speel tegen een onverslaanbare computer of een vriend op één scherm, zonder iets te downloaden.",
+  "howToPlay": {
+    "steps": [
+      "Kies je tegenstander. Speel tegen de computer, of schakel over naar 2 spelers en deel één scherm – X en O zijn om de beurt op hetzelfde apparaat, in de over-en-weer-stijl die je van tafel kent.",
+      "Kies een moeilijkheidsgraad. Makkelijk maakt nog fouten waar je op kunt fluiten; Moeilijk speelt foutloze minimax-strategie en is nooit te verslaan – het beste wat iemand eruit kan halen is een gelijkspel afdwingen.",
+      "Doe een zet. Jij speelt altijd X en begint. Tik of klik op een touchscreen op een willekeurig leeg vakje, of druk op een cijfertoets: de toetsen 1 tot en met 9 horen bij het raster van linksboven naar rechtsonder.",
+      "Navigeer met het toetsenbord. De pijltjestoetsen bewegen een dik omkaderde cursor vakje voor vakje; druk op Enter of spatie om je teken te plaatsen. Backspace of U haalt een zet terug.",
+      "Weet wat het doel is. Leg drie van je tekens op een rij, in een kolom of schuin. De winnende lijn wordt meteen gemarkeerd met een geïnverteerde zwart-witmarkering over de drie vakjes.",
+      "Maak fouten ongedaan. Tegen de computer loopt één keer Ongedaan maken zowel jouw zet als het antwoord van de computer terug, zodat het weer jouw beurt is; in de modus met twee spelers haalt het één enkele zet terug.",
+      "Volg je record. Je overwinningen, verliezen en gelijkspellen tegen de computer worden op dit apparaat geteld en naast het bord getoond – kijk hoe lang je een perfecte tegenstander op een gelijkspel kunt houden."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (vanaf 2021)",
+        "status": "yes",
+        "note": "De ingebouwde browser draait het volledige spel; heeft firmware 5.13.7 of nieuwer nodig."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Het 10,2-inch-scherm maakt de negen vakjes groot en prettig om met één hand te tikken."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Dezelfde browser-engine als recente Paperwhites – het spel blijft van huis uit zwart-wit."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma en vergelijkbare)",
+        "status": "yes",
+        "note": "Volledige Chromium-browser, de soepelste e-ink-ervaring; bladertoetsen of een gekoppeld toetsenbord sturen de cursor."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage en vergelijkbare)",
+        "status": "limited",
+        "note": "De ingebouwde browser is gedateerd en draait het spel mogelijk niet op elk model of elke firmwareversie."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Geen officiële browser-app; oplossingen van derden vereisen een jailbreak van de tablet."
+      },
+      {
+        "device": "Oudere Kindles (experimentele browser)",
+        "status": "no",
+        "note": "Experimentele browsers van vóór 2016 kunnen geen modern JavaScript aan – deze pagina blijft leesbaar, maar het spel start niet."
+      }
+    ]
+  },
+  "whyEInk": "Boter-kaas-en-eieren is negen vakjes en twee tekens, en e-ink herptekent alleen het vakje dat je aanraakt. Geen geflikker, geen animatie, geen verversing die zich achter het bord verstopt – gewoon strakke zwarte strepen op papierwit. Het raster leest perfect in fel daglicht en raakt de batterij nauwelijks, dus een snel potje wordt nooit een oplaadpauze.",
+  "faq": [
+    {
+      "q": "Is het echt gratis?",
+      "a": "Ja. Elk spel is gratis, zonder account, zonder betaalmuur en zonder advertenties. De site hoort bij de E-Ink.me-familie en draait naast de gratis e-reader-tools van de hoofdsite: niets te kopen en niets te registreren."
+    },
+    {
+      "q": "Werkt het op mijn Kindle?",
+      "a": "Heb je een Kindle van 2021 of nieuwer – Paperwhite, Scribe of Colorsoft – met firmware 5.13.7 of nieuwer, dan: ja. Open de ingebouwde browser en laad deze pagina. Oudere Kindles met de vroege experimentele browser kunnen deze pagina als tekst tonen, maar het spel zelf start niet."
+    },
+    {
+      "q": "Moet ik mijn Kindle jailbreaken?",
+      "a": "Nee. Het spel draait volledig in de webbrowser die je Kindle standaard meebrengt. Er is geen app te sideloaden en geen truc toe te passen – als het apparaat een webpagina kan openen, kan het spelen. Je garantie verandert nergens door."
+    },
+    {
+      "q": "Kan ik offline spelen?",
+      "a": "De eerste keer dat deze pagina laadt heb je internetverbinding nodig, omdat de site als gewone webpagina wordt geleverd en niet als downloadbare app. Eenmaal geladen draait het spel op het apparaat zelf, en je bord en je winrecord worden lokaal bewaard tussen bezoeken."
+    }
+  ],
+  "cta": {
+    "label": "Lust je nog een partijtje? Zet elk webartikel om in een EPUB en lees het op je Kindle – gratis tools op e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "board",
+    "relatedSlugs": [
+      "2048",
+      "hidden-code",
+      "minesweeper"
+    ]
+  }
+}

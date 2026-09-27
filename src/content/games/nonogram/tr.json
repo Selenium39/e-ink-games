@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Kindle & E-Ink'te Nonogram oyna — Ücretsiz, İndirmeden",
+    "description": "Nonogram bulmacalarını Kindle, BOOX veya Kobo tarayıcısında ücretsiz oyna. İndirme yok, kurulum yok — e-mürekkep ekranlar için yapılmış siyah beyaz mantık ızgaraları."
+  },
+  "h1": "Kindle & E-Ink için Nonogram — Ücretsiz, İndirmeden",
+  "tagline": "Kindle Paperwhite, Scribe veya BOOX tarayıcında doğrudan çalışan klasik resim mantığı bulmacaları — kurulacak uygulama yok, indirilecek hiçbir şey yok; sayfayı aç ve kareleri doldurmaya başla.",
+  "howToPlay": {
+    "steps": [
+      "Bir tahta seç ya da Günlük'ü dene. Kolay 5×5, Orta 10×10, Zor ise 15×15 ızgaradır — her bulmaca her seferinde yeniden üretilir ve yalnızca saf mantıkla çözülebildiği garanti edilir. Günlük düğmesi her gün tek bir ortak 10×10 resim bulmacası dağıtır: dünyadaki her oyuncu aynı tohumu alır, yani hesap olmadan ilerlemeni karşılaştırabilirsin.",
+      "İpuçlarını oku. Sol ve üst kenarlardaki sayılar, her satır ve sütundaki dolu kare dizilişlerini tanımlar. \"3 1\" yazılı bir satır, üçlü bir blok, en az bir boşluk ve ardından tek bir dolu hücre saklar — sıralama sabittir, boşluklar bulmacanın kendisidir.",
+      "Kareleri doldur ve işaretle. Dokunmatik ekranda bir kareye dokunarak üç durum arasında geçiş yap: boş, dolu ve çizili. Çarpılar (×), boş kalmak zorunda olan kareler için kanıt işaretlerindir. Klavyede ok tuşları imleci yürütür — parmak ucundan bile küçük duran karelerin olduğu 15×15 Zor tahtasında olmazsa olmazdır — Enter geçiş yapar, X çarpı açıp kapatır, Backspace temizler.",
+      "İpuçlarının döndüğünü izle. Bir satır ya da sütunun dolu kareleri ipucuyla tam eşleştiğinde o ipucu siyah üzerine beyaza döner — satırın bittiğine dair bedava bir onaydır. Yol boyunca yanlış hamle uyarısı yoktur; kâğıt nonogramlar gibi, tek yargıç resmin kendisidir.",
+      "Mantığı işlet, tahmine asla yer yok. Dolu satırlar, kenar blokları ve iki yönden üst üste binen dizilişler resmi adım adım açığa çıkarır. Geri Al, işaretlerini tek tek geriye götürür; dahili zamanlayıcı oturumunu izler ve tarayıcıyı resmin ortasında kapatırsan ilerleme otomatik olarak kaydedilir.",
+      "Resmi tamamla. Her satır ve sütun ipuçlarıyla eşleştiğinde bulmaca çözülmüş olur — her tahtanın tam olarak tek bir çözümü olduğundan, simetrik gizli imge akıl yürüttükçe hücre hücre ortaya çıkar; kâğıt benzeri bir ekrana yakışan Picross tarzı bir ödül."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 ve sonrası)",
+        "status": "yes",
+        "note": "Yerleşik tarayıcı oyunun tamamını çalıştırır; 5.13.7 veya daha yeni bir aygıt yazılımı gerekir."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "10,2 inçlik ekran, 15×15'lik Zor ızgarasını bile rahat bir boyutta gösterir."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Son Paperwhite'larla aynı tarayıcı motoru — oyun tasarımı gereği siyah beyaz kalır."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma ve benzerleri)",
+        "status": "yes",
+        "note": "Tam Chromium tarayıcı, en akıcı e-mürekkep deneyimi; fiziksel sayfa tuşları olan modellerde bu tuşlar imleci hareket ettirir."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage ve benzerleri)",
+        "status": "limited",
+        "note": "Yerleşik tarayıcı eskidir ve bulmacayı her model ya da aygıt yazılımı sürümünde çalıştırmayabilir."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Resmî bir tarayıcı uygulaması yok; üçüncü taraf seçenekleri tablette jailbreak gerektirir."
+      },
+      {
+        "device": "Eski Kindle'lar (deneysel tarayıcı)",
+        "status": "no",
+        "note": "2016 öncesi deneysel tarayıcılar modern JavaScript çalıştıramaz — bu sayfa okunabilir kalır ama oyun başlamaz."
+      }
+    ]
+  },
+  "whyEInk": "Nonogram sakin ve durağan bir bulmacadır, e-mürekkep de sakin ve durağan bir ekrandır — doğal bir ikili. Burada ızgaranın ardında yanıp sönen, animasyon yapan veya yeniden boyanan hiçbir şey yoktur; yalnızca dokunduğun kare yeniden çizilir. Tahta, kareli kâğıt gibi okunur; gündüz ışığında uzun oturumlarda rahattır, pil maliyeti neredeyse sıfırdır.",
+  "faq": [
+    {
+      "q": "Gerçekten ücretsiz mi?",
+      "a": "Evet. Her bulmaca — Günlük dahil — hesap, ödeme duvarı ve reklam olmadan ücretsiz oynanır. Site E-Ink.me ailesinin bir parçasıdır ve ana sitedeki ücretsiz e-okuyucu araçlarının yanında yürütülür; satın alınacak ve kaydolunacak bir şey yoktur."
+    },
+    {
+      "q": "Kindle Paperwhite'ımda çalışır mı?",
+      "a": "Paperwhite'ın 2021 veya sonrası bir modelse ve aygıt yazılımı 5.13.7 veya daha yeni bir sürümse, evet — yerleşik tarayıcıyı aç, site adresini yaz ve kareleri doldurmaya başla. Erken deneysel tarayıcılı eski Paperwhite'lar bu sayfayı düz metin olarak gösterebilir ama bulmacanın kendisini çalıştıramaz."
+    },
+    {
+      "q": "Kindle'ımı jailbreak yapmam gerekiyor mu?",
+      "a": "Hayır. Oyun tamamen Kindle'ının yerleşik web tarayıcısında çalışır. Yüklenecek bir uygulama, uygulanacak bir hack ve endişelenecek bir garanti yoktur — bir web sitesi açmak bir Kindle için sıradan bir iştir. Cihazın bir web sayfası yükleyebiliyorsa bu oyunu da yükleyebilir."
+    },
+    {
+      "q": "Çevrimdışı oynayabilir miyim?",
+      "a": "Sayfayı ilk açışında internet bağlantısı gerekir, çünkü site indirilebilir bir uygulama değil normal bir web sayfası olarak sunulur. Yüklendikten sonra bulmaca cihazında yerel olarak çalışır — ama e-okuyucu tarayıcıları çevrimdışı kullanım için yapılmadığından başlarken bağlı olmayı planla."
+    }
+  ],
+  "cta": {
+    "label": "Resmi çözdün mü? Herhangi bir web makalesini EPUB'a dönüştür ve Kindle'ında oku — e-ink.me'de ücretsiz araçlar",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "logic",
+    "relatedSlugs": [
+      "2048",
+      "hidden-code",
+      "minesweeper",
+      "sudoku"
+    ]
+  }
+}

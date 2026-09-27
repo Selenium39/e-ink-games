@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Memory Pairs för Kindle & E-Ink – gratis, utan nedladdning",
+    "description": "Spela gratis Memory Pairs i webbläsaren på Kindle, BOOX eller Kobo. Ingen nedladdning, ingen installation – ett klassiskt memory byggt för e-ink-skärmar."
+  },
+  "h1": "Memory Pairs för Kindle & E-Ink – gratis, utan nedladdning",
+  "tagline": "Det klassiska memory-spelet med matchande kort, byggt i ren svartvitt för Kindle Paperwhite, Scribe, BOOX och andra e-läsare – öppna bara sidan och spela.",
+  "howToPlay": {
+    "steps": [
+      "Välj brädstorlek. Lätt lägger upp 12 kort (6 par) i ett rutnät med fyra kolumner, Medel delar ut 16 kort (8 par), och Svår fyller ett 6×4-bräde med 24 kort (12 par). Varje runda blandar en ny layout från tolv olika symboler, så det hjälper aldrig att ha memorerat gårdagens bräde.",
+      "Vänd två kort. Tryck på valfritt nedvänt kort på en pekskärm så visas dess symbol i inverterad svartvitt; tryck sedan på ett andra kort. Har din enhet fysiska tangenter eller ett ihopkopplat tangentbord flyttar du den streckade markeringen med piltangenterna och trycker Enter eller mellanslag för att vända.",
+      "Läs utgången. Ett matchande par ligger kvar med framsidan upp och markeras med en tjock ram – det är låst för gott. Ett fel par blir kvar synligt i ungefär en sekund så att du hinner memorera båda positionerna, varefter korten vänder tillbaka av sig själva.",
+      "Spela i din egen takt. Medan ett fel par visas ignorerar brädet tyst ett tredje tryck, så det är omöjligt att förstöra ett par genom att trycka för snabbt – pausa, titta och planera din nästa vändning.",
+      "Följ din session. En timer och en dragräknare löper ovanför brädet; ett drag betyder att två kort vänds, matchade eller inte, och en parräknare visar hur många av brädets par du redan har låst.",
+      "Kom tillbaka när som helst. Dina framsteg sparas automatiskt på de flesta enheter – stäng webbläsaren mitt i spelet, och samma layout, dragantal och förfluten tid väntar på dig när du kommer tillbaka.",
+      "Töm brädet. Rundan slutar när alla par har hittats; ditt bästa dragantal och din snabbaste tid sparas separat för varje svårighetsgrad, så du har alltid ett personligt rekord att slå."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (från 2021)",
+        "status": "yes",
+        "note": "Den inbyggda webbläsaren kör hela spelet; kräver firmware 5.13.7 eller nyare."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Skärmen på 10,2 tum visar även Svårs bräde med 24 kort i generös storlek, ett tryck per kort."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Samma webbläsarmotor som nyare Paperwhites – spelet är medvetet svartvitt."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma m.fl.)",
+        "status": "yes",
+        "note": "Fullständig Chromium-webbläsare med omedelbar peksvar, det smidigaste sättet att spela."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage m.fl.)",
+        "status": "limited",
+        "note": "Den inbyggda webbläsaren är föråldrad och kanske inte kör spelet på alla modeller eller firmware-versioner."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Ingen officiell webbläsarapp; tredjepartslösningar kräver att surfplattan jailbreakas."
+      },
+      {
+        "device": "Äldre Kindles (experimentell webbläsare)",
+        "status": "no",
+        "note": "Experimentella webbläsare från före 2016 kan inte köra modern JavaScript – sidan förblir läsbar, men spelet startar inte."
+      }
+    ]
+  },
+  "whyEInk": "Memory är ett spel med statiska bilder, och e-ink är en skärm byggd för statiska bilder. Ett kort ändras bara när du vänder det – inga animationer, ingen automatisk uppdatering, inget flimmer bakom brädet. Skärmen ser ut som ett tryckt kortbord, behagligt att studera en hel session i dagsljus, till nästan noll batterikostnad.",
+  "faq": [
+    {
+      "q": "Är det verkligen gratis?",
+      "a": "Ja. Varje bräde är gratis att spela utan konto, betalvägg eller reklam. Webbplatsen tillhör E-Ink.me-familjen och underhålls sida vid sida med de gratis e-läsarverktygen på huvudsidan, så det finns inget att köpa och inget att registrera sig för – öppna bara sidan och börja vända kort."
+    },
+    {
+      "q": "Fungerar det på min Kindle Paperwhite?",
+      "a": "Om din Paperwhite är en modell från 2021 eller senare med firmware 5.13.7 eller nyare: ja – öppna den inbyggda webbläsaren, skriv in webbplatsens adress och korten är redo. Äldre Paperwhites med den tidiga experimentella webbläsaren kan fortfarande läsa den här sidan som ren text, men de kan inte köra själva spelet."
+    },
+    {
+      "q": "Måste jag jailbreaka min Kindle?",
+      "a": "Nej. Spelet körs helt i Kindles inbyggda webbläsare. Det finns ingen app att sideloada, inget hack att applicera och ingen garanti att oroa sig för – att ladda en webbsida är något en Kindle gör varje dag. Om enheten kan öppna en webbplats kan den spela det här spelet."
+    },
+    {
+      "q": "Kan jag spela offline?",
+      "a": "Du behöver en internetuppkoppling första gången du öppnar sidan, eftersom webbplatsen levereras som en vanlig webbsida snarare än som en app från en butik. När den väl laddats körs allt lokalt på din enhet – men e-läsarwebbläsare är inte byggda för offlinebruk, så räkna med att vara uppkopplad när du startar en session."
+    }
+  ],
+  "cta": {
+    "label": "Gillar du Memory Pairs? Förvandle vilken webbartikel som helst till en EPUB och läs den på din Kindle – gratis verktyg på e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "minesweeper",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

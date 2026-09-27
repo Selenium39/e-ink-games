@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Hidden Code voor Kindle & E-Ink – gratis logicspel",
+    "description": "Speel gratis codekrakende puzzels in je browser op Kindle, BOOX of Kobo. Kraak de verborgen symboolcode – geen download, gemaakt voor e-inkschermen."
+  },
+  "h1": "Hidden Code voor Kindle & E-Ink – gratis, geen download",
+  "tagline": "Kraak een verborgen code van vormen en symbolen rechtstreeks in de browser van je Kindle Paperwhite, Scribe of BOOX – geen app, geen download, gewoon puur zwart-wit deductiewerk.",
+  "howToPlay": {
+    "steps": [
+      "Kies een moeilijkheidsgraad. Makkelijk verbergt een code van 4 symbolen uit 5 vormen en geeft je 10 rondes, Gemiddeld vergroot de voorraad naar 6 vormen in 8 rondes, en Moeilijk trekt de code uit tot 5 posities. Meer vormen betekenen veel meer mogelijke codes om door te redeneren.",
+      "Vul de huidige rij. Tik op een positie en daarna op een vorm op het symbooltoetsenbord – of druk op een fysiek toetsenbord op de toetsen 1 tot en met 6. De pijltjestoetsen bewegen tussen de posities en Backspace wist, dus spelers met alleen een toetsenbord zijn volledig bediend.",
+      "Dien je gok in. Druk op Enter of op de knop Controleren zodra alle posities gevuld zijn. De rij vergrendelt in de historie en kan daarna niet meer worden bewerkt – elke gok is een permanente aanwijzing.",
+      "Lees de feedback. Elke ingediende rij levert effen stippen op voor vormen die juist én op de juiste positie staan, en open stippen voor vormen die in de code zitten maar op de verkeerde positie. De stippen verraden nooit bij welke positie ze horen, en vormen die niet in de code zitten leveren niets op.",
+      "Deduceer en verfijn. Leg je rijen naast elkaar: een vorm die nergens een stip oplevert valt af, en een herhaalde vorm kan meerdere stippen tegelijk opleveren. Gebruik Ongedaan maken om je nog niet ingediende rij stap voor stap terug te draaien voordat je hem indient.",
+      "Win of leer. Kraak de code – elke positie juist – vóór de rondes op zijn en de winst is van jou; raak je op, dan wordt de verborgen code onthuld zodat je kunt zien hoe dicht je laatste gok bij de waarheid zat.",
+      "Houd je record bij. Overwinningen en je gemiddeld aantal rondes tot een overwinning worden op je apparaat bijgehouden, en een spel onderweg wordt automatisch opgeslagen – sluit de browser midden in de code en ga precies verder waar je was gebleven."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (vanaf 2021)",
+        "status": "yes",
+        "note": "De ingebouwde browser draait het volledige spel; heeft firmware 5.13.7 of nieuwer nodig."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Het grote scherm toont je hele raadhistorie zonder scrollen, één tik per symbool."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Dezelfde browser-engine als recente Paperwhites – het spel is van huis uit puur zwart-wit."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma en vergelijkbare)",
+        "status": "yes",
+        "note": "Volledige Chromium-browser, de soepelste e-ink-ervaring; op aangesloten toetsenborden voeren de cijfertoetsen 1-6 de symbolen in."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage en vergelijkbare)",
+        "status": "limited",
+        "note": "De ingebouwde browser is gedateerd en draait het spel mogelijk niet op elk model of elke firmwareversie."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Geen officiële browser-app; oplossingen van derden vereisen een jailbreak van de tablet."
+      },
+      {
+        "device": "Oudere Kindles (experimentele browser)",
+        "status": "no",
+        "note": "Experimentele browsers van vóór 2016 kunnen geen modern JavaScript aan – deze pagina blijft leesbaar, maar het spel start niet."
+      }
+    ]
+  },
+  "whyEInk": "Code kraken is rustig, beurtgebaseerd denkwerk, en e-ink is het rustige, papierachtige scherm dat het verdient. Niets hier flikkert, animeert of ververst achter je rijen – alleen de positie die je aanraakt wordt opnieuw getekend. Lees het bord als een gedrukte puzzelpagina bij daglicht, tegen bijna nul batterijverbruik.",
+  "faq": [
+    {
+      "q": "Is het echt gratis?",
+      "a": "Ja. Elk spel is gratis te spelen, zonder account, zonder betaalmuur en zonder advertenties. De site maakt deel uit van de E-Ink.me-familie en draait naast de gratis e-reader-tools van de hoofdsite – niets te kopen en niets te registreren."
+    },
+    {
+      "q": "Werkt het op mijn Kindle Paperwhite?",
+      "a": "Als je Paperwhite van 2021 of nieuwer is en firmware 5.13.7 of hoger heeft: ja – open de ingebouwde browser, typ het adres van de site in en begin met spelen. Oudere Paperwhites met de vroege experimentele browser kunnen deze pagina als platte tekst tonen, maar het spel zelf draait er niet op."
+    },
+    {
+      "q": "Moet ik mijn Kindle jailbreaken?",
+      "a": "Nee. Het spel draait volledig in de ingebouwde webbrowser van je Kindle. Er is geen app te sideloaden, geen truc toe te passen en geen garantie om je zorgen over te maken – een website openen is voor een Kindle een heel gewone bezigheid. Als je apparaat een webpagina kan laden, kan het spelen."
+    },
+    {
+      "q": "Kan ik offline spelen?",
+      "a": "Bij het eerste openen van de pagina heb je internetverbinding nodig, omdat de site als gewone webpagina wordt geleverd en niet als downloadbare app. Eenmaal geladen draait het spel lokaal op je apparaat – maar e-readerbrowsers zijn niet gebouwd voor offline gebruik, dus wees verbonden wanneer je start."
+    }
+  ],
+  "cta": {
+    "label": "Code gekraakt? Zet elk webartikel om in een EPUB en lees het op je Kindle – gratis tools op e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "logic",
+    "relatedSlugs": [
+      "hangman",
+      "minesweeper",
+      "nonogram",
+      "word-daily"
+    ]
+  }
+}

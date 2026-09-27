@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Spela Nonogram för Kindle & E-Ink – gratis, utan nedladdning",
+    "description": "Spela gratis nonogrampussel i webbläsaren på Kindle, BOOX eller Kobo. Ingen nedladdning, ingen installation – svartvita logikrutnät för e-ink-skärmar."
+  },
+  "h1": "Nonogram för Kindle & E-Ink – gratis, utan nedladdning",
+  "tagline": "Klassiska bildlogikpussel som körs direkt i webbläsaren på din Kindle Paperwhite, Scribe eller BOOX – ingen app att installera, inget att ladda ner, öppna bara sidan och börja fylla rutor.",
+  "howToPlay": {
+    "steps": [
+      "Välj bräde, eller ta Dagligen. Lätt är ett 5×5-rutnät, Medel 10×10 och Svår 15×15 – varje pussel genereras färskt och garanteras lösbar genom ren logik. Knappen Dagligen delar ut ett gemensamt 10×10-bildpussel varje dag: alla spelare världen över får samma frö, så du kan jämföra framsteg utan konto.",
+      "Läs ledtrådarna. Siffrorna längs vänster- och överkanten beskriver följderna av fyllda rutor i varje rad och kolumn. En rad märkt \"3 1\" gömmer ett block av tre, minst ett mellanrum och sedan en ensam fylld ruta – ordningen är given, mellanrummen är pusslet.",
+      "Fyll och markera rutor. På en pekskärm trycker du på en ruta för att stega den genom tre lägen: tom, fylld och överkryssad. Kryssen (×) är dina bevismarkeringar för rutor som måste förbli tomma. Med tangentbord vandrar piltangenterna markören – oumbärligt på Svårs 15×15-bräde, där rutorna är mindre än en fingertopp – och Enter stegar, X växlar ett kryss och Backsteg rensar.",
+      "Se ledtrådarna vända sig. När en rad eller kolumns fyllda rutor stämmer exakt med dess ledtråd inverteras den till vitt på svart – en gratis bekräftelse på att linjen är klar. Det finns inga varningar för fel drag på vägen; likt pappersnonogram är bilden själv den enda domaren.",
+      "Jobba med logiken, aldrig gissningar. Fulla linjer, kantblock och följd som överlappar från båda håll öppnar bilden steg för steg. Ångra stegar tillbaka genom dina markeringar en i taget, den inbyggda timern följer din session, och framstegen sparas automatiskt om du stänger webbläsaren mitt i en bild.",
+      "Färdigställ bilden. Pusslet är löst när varje rad och kolumn stämmer med sina ledtrådar – eftersom varje bräde har exakt en lösning framträder den symmetriska dolda bilden ruta för ruta allt eftersom du deducerar, en Picross-liknande belöning som passar en papperslik skärm."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (från 2021)",
+        "status": "yes",
+        "note": "Den inbyggda webbläsaren kör hela spelet; kräver firmware 5.13.7 eller nyare."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Skärmen på 10,2 tum visar även Svårs 15×15-rutnät i behaglig storlek."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Samma webbläsarmotor som nyare Paperwhites – spelet är svartvitt av design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma m.fl.)",
+        "status": "yes",
+        "note": "Fullständig Chromium-webbläsare, den smidigaste e-ink-upplevelsen; fysiska bläddringsknappar flyttar markören på modeller som har dem."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage m.fl.)",
+        "status": "limited",
+        "note": "Den inbyggda webbläsaren är föråldrad och kanske inte kör pusslet på alla modeller eller firmware-versioner."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Ingen officiell webbläsarapp; tredjepartslösningar kräver att surfplattan jailbreakas."
+      },
+      {
+        "device": "Äldre Kindles (experimentell webbläsare)",
+        "status": "no",
+        "note": "Experimentella webbläsare från före 2016 kan inte köra modern JavaScript – sidan förblir läsbar, men spelet startar inte."
+      }
+    ]
+  },
+  "whyEInk": "Ett nonogram är ett tyst, statiskt pussel och e-ink är en tyst, statisk skärm – ett naturligt par. Ingenting här blinkar, animeras eller målar om bakom ditt rutnät; bara rutan du rör vid ritas om. Brädet ser ut som tryckt rutat papper, behagligt i dagsljus genom långa sessioner, till nästan noll batterikostnad.",
+  "faq": [
+    {
+      "q": "Är det verkligen gratis?",
+      "a": "Ja. Varje pussel – Dagligen inkluderat – är gratis att spela utan konto, betalvägg eller reklam. Webbplatsen ingår i E-Ink.me-familjen och drivs sida vid sida med de gratis e-läsarverktygen på huvudsidan, så det finns inget att köpa och inget att registrera sig för."
+    },
+    {
+      "q": "Fungerar det på min Kindle Paperwhite?",
+      "a": "Om din Paperwhite är en modell från 2021 eller senare med firmware 5.13.7 eller nyare: ja – öppna den inbyggda webbläsaren, skriv in webbplatsens adress och börja fylla rutor. Äldre Paperwhites med den tidiga experimentella webbläsaren kan visa den här sidan som ren text, men de kan inte köra pusslet själva."
+    },
+    {
+      "q": "Måste jag jailbreaka min Kindle?",
+      "a": "Nej. Spelet körs helt i Kindles inbyggda webbläsare. Det finns ingen app att sideloada, inget hack att applicera och ingen garanti att oroa sig för – att öppna en webbplats är något en Kindle gör varje dag. Om din enhet kan ladda en webbsida kan den ladda det här spelet."
+    },
+    {
+      "q": "Kan jag spela offline?",
+      "a": "Du behöver en internetuppkoppling första gången du öppnar sidan, eftersom webbplatsen levereras som en vanlig webbsida snarare än som en nedladdningsbar app. Efter att den laddats körs pusslet lokalt på din enhet – men e-läsarwebbläsare är inte byggda för offlinebruk, så räkna med att vara uppkopplad när du startar."
+    }
+  ],
+  "cta": {
+    "label": "Löst bilden? Förvandle vilken webbartikel som helst till en EPUB och läs den på din Kindle – gratis verktyg på e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "logic",
+    "relatedSlugs": [
+      "2048",
+      "hidden-code",
+      "minesweeper",
+      "sudoku"
+    ]
+  }
+}

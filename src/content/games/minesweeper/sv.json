@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Minesweeper för Kindle & E-Ink – gratis, utan nedladdning",
+    "description": "Spela gratis Minesweeper i webbläsaren på Kindle, BOOX eller Kobo. Ingen nedladdning, ingen installation – klassisk minjakt byggd för svartvita e-ink-skärmar."
+  },
+  "h1": "Minesweeper för Kindle & E-Ink – gratis, utan nedladdning",
+  "tagline": "Klassisk Minesweeper som körs direkt i webbläsaren på din Kindle Paperwhite, Scribe eller BOOX – ingen app att installera, inget att ladda ner, öppna bara sidan och börja gräva.",
+  "howToPlay": {
+    "steps": [
+      "Välj bräde. Lätt är ett 9×9-rutnät med 10 minor, Medel är 11×11 med 24, och Svår är 13×13 med 40. Större bräden belönar tålmodigt skannande framför snabba tryck.",
+      "Gräv den första rutan. Ditt inledande tryck är alltid säkert – minor planteras först efter det, och rutan du träffar plus alla åtta grannar hålls minorfria, så ett öppningsdrag kan aldrig gå av.",
+      "Läs siffrorna. Varje siffra räknar minor i de åtta rutorna runt omkring. En tom ruta rör vid inga minor, så spelet öppnar hela tomma områden åt dig i ett tryck, och du jobbar bara längs de numrerade kanterna.",
+      "Flagga misstänkta minor. Växla till Flaggläge och tryck på en ruta för att markera den; en flagga skyddar mot olyckliga tryck, och räknaren ovanför brädet visar minor kvar – totalsumman minus dina flaggor. Tryck på samma ruta igen för att ta bort flaggan.",
+      "Kör chord för fart. I Grävläge trycker du på en öppen siffra när flaggorna runt om stämmer med siffran: alla övriga grannar öppnas på en gång. Det är den klassiska genvägen med två tryck för säkra spelare, och den stöds till fullo här.",
+      "Spela med tangenter. Piltangenterna flyttar markören, Enter eller mellanslag gräver (eller kör chord på en öppen siffra), och F flaggar rutan – praktiskt på e-läsare med anslutet tangentbord, eller när ett tryck helt enkelt är för långt bort.",
+      "Slå klockan. Timern startar vid ditt första drag och pausar medan sidan ligger i bakgrunden. Töm alla säkra rutor för att vinna – de kvarvarande minorna flaggas åt dig – och dina framsteg sparas automatiskt om du lämnar."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (från 2021)",
+        "status": "yes",
+        "note": "Den inbyggda webbläsaren kör hela spelet; kräver firmware 5.13.7 eller nyare."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Skärmen på 10,2 tum visar även Svårs 13×13-bräde i full storlek med plats över."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Samma webbläsarmotor som nyare Paperwhites – spelet är svartvitt av design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma m.fl.)",
+        "status": "yes",
+        "note": "Fullständig Chromium-webbläsare, den smidigaste e-ink-upplevelsen; tangentbordsgenvägar fungerar med ett ihopkopplat tangentbord."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage m.fl.)",
+        "status": "limited",
+        "note": "Den inbyggda webbläsaren är föråldrad och kanske inte kör spelet på alla modeller eller firmware-versioner."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Ingen officiell webbläsarapp; tredjepartslösningar kräver att surfplattan jailbreakas."
+      },
+      {
+        "device": "Äldre Kindles (experimentell webbläsare)",
+        "status": "no",
+        "note": "Experimentella webbläsare från före 2016 kan inte köra modern JavaScript – sidan förblir läsbar, men spelet startar inte."
+      }
+    ]
+  },
+  "whyEInk": "Minesweeper är ett tyst spel, och e-ink är en tyst skärm. Ingenting här animeras, blinkar eller uppdateras bakom fingret – bara rutan du rör vid ritas om, som en snabb partiell uppdatering. Det fasta svartvita rutnätet ser ut som en tryckt puzzlesida i dagsljus, och långa sessioner märks knappt på batteriet.",
+  "faq": [
+    {
+      "q": "Är det verkligen gratis?",
+      "a": "Ja – helt och hållet. Varje brädstorlek är gratis att spela, utan konto, betalvägg eller reklam. Webbplatsen tillhör E-Ink.me-familjen och drivs sida vid sida med de gratis e-läsarverktygen på huvudsidan, så det finns inget att köpa och inget att registrera sig för."
+    },
+    {
+      "q": "Fungerar det på min Kindle Paperwhite?",
+      "a": "Om din Paperwhite är en modell från 2021 eller senare med firmware 5.13.7 eller nyare: ja – öppna den inbyggda webbläsaren, skriv in webbplatsens adress och börja gräva. Äldre Paperwhites med den tidiga experimentella webbläsaren kan visa den här sidan som ren text, men de kan inte köra själva spelet."
+    },
+    {
+      "q": "Måste jag jailbreaka min Kindle?",
+      "a": "Nej. Spelet körs helt i Kindles inbyggda webbläsare. Det finns ingen app att sideloada, inget hack att applicera och ingen garanti att riskera – att öppna en webbsida är något en Kindle gör varje dag. Om enheten kan ladda en sida kan den spela det här spelet."
+    },
+    {
+      "q": "Kan jag spela offline?",
+      "a": "Du behöver en internetuppkoppling första gången du öppnar sidan, eftersom webbplatsen levereras som en vanlig webbsida snarare än som en nedladdningsbar app. När den väl laddats körs spelet lokalt på din enhet – men e-läsarwebbläsare är inte byggda för offlinebruk, så räkna med att vara uppkopplad när du startar."
+    }
+  ],
+  "cta": {
+    "label": "Gillar du Minesweeper? Förvandle vilken webbartikel som helst till en EPUB och läs den på din Kindle – gratis verktyg på e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "memory",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Hidden Code för Kindle & E-Ink – gratis logikspel",
+    "description": "Spela gratis kodknäckarpussel i webbläsaren på Kindle, BOOX eller Kobo. Knäck den dolda symbolkoden – ingen nedladdning, byggt för e-ink-skärmar."
+  },
+  "h1": "Hidden Code för Kindle & E-Ink – gratis, utan nedladdning",
+  "tagline": "Knäck en dold kod av former och symboler direkt i webbläsaren på din Kindle Paperwhite, Scribe eller BOOX – ingen app, ingen nedladdning, bara ren svartvit slutledning.",
+  "howToPlay": {
+    "steps": [
+      "Välj svårighetsgrad. Lätt gömmer en kod med 4 symboler ur 5 former och ger dig 10 rundor, Medel höjer potten till 6 former på 8 rundor, och Svår drar ut koden till 5 platser. Fler former betyder långt fler möjliga koder att resonera dig fram genom.",
+      "Fyll den aktuella raden. Tryck på en plats och sedan på en form i symboltangentbordet – eller tryck tangenterna 1 till 6 på ett fysiskt tangentbord. Piltangenterna flyttar mellan platserna och Backsteg raderar, så spelare som bara använder tangentbord är helt täckta.",
+      "Skicka din gissning. Tryck på Enter eller knappen Kontrollera när alla platser är fyllda. Raden låses in i historiklistan och kan inte redigeras efteråt – varje gissning är en permanent ledtråd.",
+      "Läs återkopplingen. Varje skickad rad ger heldragna prickar för former som är rätt och på rätt plats, och ihåliga prickar för former som finns i koden men står på fel plats. Prickarna avslöjar aldrig vilken plats de hör till, och former som inte finns i koden ger ingenting.",
+      "Deducera och förfina. Jämför dina rader med varandra: en form som inte ger någon prick någonstans är ute, medan en upprepad form kan ge flera prickar på en gång. Använd Ångra för att stega tillbaka i din oskickade rad innan du låser den.",
+      "Vinn eller lär. Knäck koden – alla platser rätt – innan rundorna tar slut och segern är din; tar de slut avslöjas den dolda koden, så att du kan se hur nära din sista gissning var.",
+      "Bevara ditt rekord. Vinster och genomsnittligt antal rundor till vinst räknas på din enhet, och ett pågående parti sparas automatiskt – stäng webbläsaren mitt i koden och fortsätt exakt där du slutade."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (från 2021)",
+        "status": "yes",
+        "note": "Den inbyggda webbläsaren kör hela spelet; kräver firmware 5.13.7 eller nyare."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Den stora skärmen visar hela din gissningshistorik utan att behöva scrolla, ett tryck per symbol."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Samma webbläsarmotor som nyare Paperwhites – spelet är ren svartvitt av design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma m.fl.)",
+        "status": "yes",
+        "note": "Fullständig Chromium-webbläsare, den smidigaste e-ink-upplevelsen; siffertangenterna 1–6 matar in symboler på anslutna tangentbord."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage m.fl.)",
+        "status": "limited",
+        "note": "Den inbyggda webbläsaren är föråldrad och kanske inte kör spelet på alla modeller eller firmware-versioner."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Ingen officiell webbläsarapp; tredjepartslösningar kräver att surfplattan jailbreakas."
+      },
+      {
+        "device": "Äldre Kindles (experimentell webbläsare)",
+        "status": "no",
+        "note": "Experimentella webbläsare från före 2016 kan inte köra modern JavaScript – sidan förblir läsbar, men spelet startar inte."
+      }
+    ]
+  },
+  "whyEInk": "Kodknäckande är tyst, turbaserat tänkande, och e-ink är den tysta, papperslika skärm det förtjänar. Ingenting här blinkar, animeras eller uppdateras bakom dina rader – bara platsen du rör vid ritas om. Läs brädet som ett tryckt pusselblad i dagsljus, till nästan noll batterikostnad.",
+  "faq": [
+    {
+      "q": "Är det verkligen gratis?",
+      "a": "Ja. Varje parti är gratis att spela utan konto, betalvägg eller reklam. Webbplatsen ingår i E-Ink.me-familjen och drivs sida vid sida med de gratis e-läsarverktygen på huvudsidan – inget att köpa och inget att registrera sig för."
+    },
+    {
+      "q": "Fungerar det på min Kindle Paperwhite?",
+      "a": "Om din Paperwhite är en modell från 2021 eller senare med firmware 5.13.7 eller nyare: ja – öppna den inbyggda webbläsaren, skriv in webbplatsens adress och börja spela. Äldre Paperwhites med den tidiga experimentella webbläsaren kan visa den här sidan som ren text, men de kan inte köra själva spelet."
+    },
+    {
+      "q": "Måste jag jailbreaka min Kindle?",
+      "a": "Nej. Spelet körs helt i Kindles inbyggda webbläsare. Det finns ingen app att sideloada, inget hack att applicera och ingen garanti att oroa sig för – att öppna en webbplats är något en Kindle gör varje dag. Om din enhet kan ladda en webbsida kan den spela."
+    },
+    {
+      "q": "Kan jag spela offline?",
+      "a": "Du behöver en internetuppkoppling första gången du öppnar sidan, eftersom webbplatsen levereras som en vanlig webbsida snarare än som en nedladdningsbar app. När den väl laddats körs spelet lokalt på din enhet – men e-läsarwebbläsare är inte byggda för offlinebruk, så räkna med att vara uppkopplad när du startar."
+    }
+  ],
+  "cta": {
+    "label": "Knäckt koden? Förvandle vilken webbartikel som helst till en EPUB och läs den på din Kindle – gratis verktyg på e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "logic",
+    "relatedSlugs": [
+      "hangman",
+      "minesweeper",
+      "nonogram",
+      "word-daily"
+    ]
+  }
+}

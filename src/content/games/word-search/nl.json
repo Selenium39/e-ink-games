@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Word Search voor Kindle & E-Ink – gratis, geen download",
+    "description": "Speel gratis woordzoekers in je browser op Kindle, BOOX of Kobo. Geen download, geen installatie – grote zwart-wit letterrasters gemaakt voor e-inkschermen."
+  },
+  "h1": "Word Search voor Kindle & E-Ink – gratis, geen download",
+  "tagline": "Klassieke woordzoeker die rechtstreeks draait in de browser van je Kindle Paperwhite, Scribe of BOOX – kies een thema, jaag op de verborgen woorden in het letterraster, niets te downloaden.",
+  "howToPlay": {
+    "steps": [
+      "Kies een moeilijkheidsgraad. Makkelijk verbergt zes woorden in een raster van 10×10, Gemiddeld acht woorden in 12×12 en Moeilijk tien woorden in 14×14. Elke ronde rolt ook een willekeurig thema – dieren, eten, natuur, technologie of ruimte – zodat elke puzzel vers voelt.",
+      "Speur het letterraster en kies een doel uit de woordenlijst. Woorden verbergen zich in acht richtingen: horizontaal, verticaal en langs beide diagonalen, en ze kunnen ook achterstevoren lopen.",
+      "Selecteer een woord. Op een touchscreen tik je op de eerste letter en daarna op de laatste letter van het woord – beide uiteinden werken. Bij een treffer keren de letters om naar wit-op-zwart en wordt het woord doorgestreept in de lijst.",
+      "Speel liever met toetsen. De pijltjestoetsen bewegen een cursor door het raster, Enter markeert het begin en het einde van een woord, en Escape annuleert een openstaande selectie – handig op het dichte raster van 14×14 bij Moeilijk, waar de vakjes dicht op elkaar staan.",
+      "Houd de klok in de gaten. Er loopt een timer terwijl je speelt, en je voortgang wordt automatisch opgeslagen – sluit de browser midden in de puzzel en pak dezelfde ronde later weer op.",
+      "Maak de ronde af. De puzzel is compleet zodra elk woord van de lijst gevonden is; je tijd en je beste tijd per moeilijkheidsgraad worden op het apparaat bewaard.",
+      "Begin opnieuw. Wissel van moeilijkheidsgraad of druk op Nieuwe puzzel voor een vers thema en een splinternieuw raster – geen twee rondes lijken op elkaar."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (vanaf 2021)",
+        "status": "yes",
+        "note": "De ingebouwde browser draait het volledige spel; heeft firmware 5.13.7 of nieuwer nodig."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Het 10,2-inch-scherm toont zelfs het dichte moeilijke raster van 14×14 comfortabel – tik om woorden te selecteren."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Dezelfde browser-engine als recente Paperwhites; het spel is van huis uit zwart-wit, dus er gaat niets verloren."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma en vergelijkbare)",
+        "status": "yes",
+        "note": "Volledige Chromium-browser, de soepelste e-ink-ervaring; fysieke bladertoetsen bewegen de cursor op modellen die ze hebben."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage en vergelijkbare)",
+        "status": "limited",
+        "note": "De ingebouwde browser is gedateerd en draait de puzzel mogelijk niet op elk model of elke firmwareversie."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Geen officiële browser-app; oplossingen van derden vereisen een jailbreak van de tablet."
+      },
+      {
+        "device": "Oudere Kindles (experimentele browser)",
+        "status": "no",
+        "note": "Experimentele browsers van vóór 2016 kunnen geen modern JavaScript aan – deze pagina blijft leesbaar, maar het spel start niet."
+      }
+    ]
+  },
+  "whyEInk": "Woordzoeken is een rustig, geduldig spel en e-ink een rustig, geduldig scherm. Niets hier flikkert, animeert of herschildert achter je letters – alleen het vakje dat je aanraakt wordt opnieuw getekend, als inkt die op papier droogt. Het grote letterraster blijft scherp in fel daglicht, tegen vrijwel nul batterijverbruik.",
+  "faq": [
+    {
+      "q": "Is het echt gratis?",
+      "a": "Ja. Elke puzzel is gratis te spelen, zonder account, zonder betaalmuur en zonder advertenties. De site maakt deel uit van de E-Ink.me-familie en draait naast de gratis e-reader-tools van de hoofdsite – niets te kopen en niets te registreren."
+    },
+    {
+      "q": "Werkt het op mijn Kindle Paperwhite?",
+      "a": "Als je Paperwhite van 2021 of nieuwer is en firmware 5.13.7 of hoger heeft: ja – open de ingebouwde browser, typ het adres van de site in en begin met spelen. Oudere Paperwhites met de vroege experimentele browser kunnen deze pagina als tekst lezen, maar de puzzel zelf draait niet."
+    },
+    {
+      "q": "Moet ik mijn Kindle jailbreaken?",
+      "a": "Nee. Het spel draait volledig in de ingebouwde webbrowser van je Kindle. Er is geen app te sideloaden, geen truc toe te passen en geen garantie om je zorgen over te maken – een website openen is voor een Kindle een heel gewone bezigheid. Als het apparaat een pagina kan laden, kan het deze puzzel laden."
+    },
+    {
+      "q": "Kan ik offline spelen?",
+      "a": "De eerste keer dat je de pagina opent heb je internetverbinding nodig, omdat de site als gewone webpagina aankomt en niet als downloadbare app. Eenmaal geladen draait de puzzel lokaal op je apparaat – maar e-readerbrowsers zijn niet ontworpen voor offline gebruik, dus blijf verbonden wanneer je een ronde start."
+    }
+  ],
+  "cta": {
+    "label": "Elk woord gevonden? Zet elk webartikel om in een EPUB en lees het op je Kindle – gratis tools op e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "word",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-daily"
+    ]
+  }
+}

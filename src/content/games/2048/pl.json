@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "2048 dla Kindle i E-Ink — darmowe, bez pobierania",
+    "description": "Graj w 2048 za darmo w przeglądarce Kindle, BOOX lub Kobo. Bez pobierania i instalacji — klasyczne łączenie kafelków na czarno-białych ekranach e-ink."
+  },
+  "h1": "2048 dla Kindle i E-Ink — darmowe, bez pobierania",
+  "tagline": "Przesuwaj i łącz kafelki z liczbami, aż suma da 2048 — wprost w przeglądarce czytnika Kindle Paperwhite, Scribe lub BOOX, bez niczego do pobrania i zainstalowania.",
+  "howToPlay": {
+    "steps": [
+      "Zaczynasz od dwóch kafelków. Każda partia otwiera się na planszy 4×4 z zaledwie dwoma kafelkami z liczbami — 2 albo 4 — a każdy Twój ruch dokłada na planszę jeden nowy kafelek, więc siatka wciąż się zapełnia.",
+      "Przesuwasz całą planszę. Na ekranie dotykowym przesuń palcem w dowolnym miejscu planszy — w lewo, w prawo, w górę albo w dół — i każdy kafelek zjedzie tak daleko, jak się da w tym kierunku. Możesz też dotknąć przycisków ze strzałkami pod siatką albo naciskać klawisze strzałek, jeśli urządzenie ma fizyczne przyciski przewijania lub sparowaną klawiaturę.",
+      "Łączysz równe kafelki. Gdy dwa kafelki z tą samą liczbą się zetkną, scalają się w jeden o podwójnej wartości: dwie dwójki dają 4, dwie czwórki dają 8 i tak dalej. Każdy kafelek może scalić się tylko raz na ruch, więc rząd 2-2-2-2 da dwa kafelki 4, a nie ósemkę. Każde scalenie dopisuje nową wartość do wyniku.",
+      "Odczytujesz sygnały e-ink. Zamiast animacji przesuwania świeżo dodany kafelek przez jedną turę nosi grubą czarną ramkę, a kafelki właśnie scalone odwracają się w biel na czerni — na ekranie przypominającym papier widzisz dokładnie, co się zmieniło, bez żadnego ruchu ani migotania.",
+      "Cofasz pomyłki. Jedno dotknięcie przycisku cofania wycofuje planszę o jeden ruch, przywracając pozycję, wynik i ostatnio dostarczony kafelek — niechlujne przesunięcie nigdy nie przekreśla partii.",
+      "Celujesz w 2048. Buduj potęgi dwójki, trzymając największe kafelki przyciśnięte do jednego rogu. W chwili, gdy pojawi się kafelek 2048, wygrywasz — gra proponuje nową planszę albo pozwala grać dalej w kierunku 4096 i więcej.",
+      "Uważaj na koniec. Gra się kończy, gdy siatka jest pełna, a żadne dwa sąsiednie kafelki nie są równe — żaden ruch nie jest już możliwy. Aktualny wynik, rekord dla tego urządzenia i czas sesji są zawsze widoczne nad planszą, a postęp zapisuje się automatycznie, jeśli zamkniesz przeglądarkę w połowie gry."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 i nowsze)",
+        "status": "yes",
+        "note": "Ruchy przesuwania dobrze działają na ekranie dotykowym; wymagane oprogramowanie 5.13.7 lub nowsze."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Duży ekran 10,2 cala pokazuje siatkę 4×4 w wygodnym rozmiarze — jedno przesunięcie na ruch."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Ta sama przeglądarka co w najnowszych Paperwhite — gra z założenia jest czarno-biała."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma i podobne)",
+        "status": "yes",
+        "note": "Pełny Chromium, najbardziej płynne doświadczenie na e-ink; strzałki działają na modelach z przyciskami przewijania."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage i podobne)",
+        "status": "limited",
+        "note": "Wbudowana przeglądarka jest przestarzała i może nie uruchomić gry na każdym modelu lub wersji oprogramowania."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Brak oficjalnej aplikacji przeglądarki; rozwiązania zewnętrzne wymagają odblokowania tabletu (jailbreak)."
+      },
+      {
+        "device": "Starsze Kindle (przeglądarka eksperymentalna)",
+        "status": "no",
+        "note": "Eksperymentalne przeglądarki sprzed 2016 r. nie obsłużą nowoczesnego JavaScriptu — strona pozostaje czytelna, ale gra się nie uruchomi."
+      }
+    ]
+  },
+  "whyEInk": "2048 to zwykle gra pełna animacji przesuwania, a e-ink nie animuje — dlatego ta wersja zastępuje ruch znakami w stylu druku: nowe kafelki przez jedną turę mają grubą ramkę, a scalone odwracają się z czerni w biel. Przerysowywane są tylko kafelki, które się zmieniły, więc plansza czyta się jak papier, a bateria prawie tego nie zauważa.",
+  "faq": [
+    {
+      "q": "Czy to naprawdę jest darmowe?",
+      "a": "Tak. Gra jest darmowa — bez konta, bez paywalla i bez reklam. Witryna należy do rodziny E-Ink.me i działa obok darmowych narzędzi dla czytników na stronie głównej, więc nie ma tu nic do kupienia, niczego do odblokowania ani żadnych zapisów."
+    },
+    {
+      "q": "Czy działa na moim Kindle Paperwhite?",
+      "a": "Jeśli Twój Paperwhite pochodzi z 2021 r. lub jest nowszy i ma oprogramowanie 5.13.7 albo nowsze — tak: otwórz wbudowaną przeglądarkę, wpisz adres witryny i przesuwaj, aby grać. Starsze Paperwhite z wczesną przeglądarką eksperymentalną wyświetlą tę stronę jako tekst, ale samej gry nie uruchomią."
+    },
+    {
+      "q": "Czy muszę odblokowywać Kindle (jailbreak)?",
+      "a": "Nie. Gra działa w całości w wbudowanej przeglądarce Kindle. Nie ma aplikacji do wgrania ręcznego, żadnych hacków ani ryzyka dla gwarancji — otwarcie strony internetowej to dla Kindla zupełnie zwykła sprawa. Jeśli urządzenie potrafi otworzyć witrynę, potrafi zagrać."
+    },
+    {
+      "q": "Czy mogę grać offline?",
+      "a": "Połączenie z internetem jest potrzebne przy pierwszym wczytaniu strony, bo gra jest dostarczana jak zwykła witryna, a nie aplikacja ze sklepu. Po wczytaniu każdy ruch wykonuje się lokalnie na urządzeniu — ale przeglądarki czytników nie są przystosowane do pracy offline, więc graj z aktywnym połączeniem."
+    }
+  ],
+  "cta": {
+    "label": "Masz już 2048? Zamień dowolny artykuł z sieci w EPUB i czytaj go na Kindle — darmowe narzędzia na e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "memory",
+      "minesweeper",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

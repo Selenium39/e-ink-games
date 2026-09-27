@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Word Search dla Kindle i E-Ink — darmowe, bez pobierania",
+    "description": "Graj w wykreślanki za darmo w przeglądarce Kindle, BOOX lub Kobo. Bez pobierania i instalacji — duże czarno-białe siatki liter stworzone dla ekranów e-ink."
+  },
+  "h1": "Word Search dla Kindle i E-Ink — darmowe, bez pobierania",
+  "tagline": "Klasyczna wykreślanka działająca wprost w przeglądarce Kindle Paperwhite, Scribe lub BOOX — wybierz temat, poluj na ukryte słowa w siatce liter, bez niczego do pobrania.",
+  "howToPlay": {
+    "steps": [
+      "Wybierz poziom trudności. Łatwy ukrywa sześć słów w siatce 10×10, Średni osiem słów w 12×12, a Trudny dziesięć słów w 14×14. Każda runda losuje też temat — Zwierzęta, Jedzenie, Natura, Technologia albo Kosmos — więc każda łamigłówka smakuje jak nowa.",
+      "Przeszukuj siatkę liter i wybierz cel z listy słów. Słowa kryją się w ośmiu kierunkach: w poziomie, w pionie i po obu przekątnych — a potrafią też czytać się od tyłu.",
+      "Zaznacz słowo. Na ekranie dotykowym dotknij pierwszej litery, a potem ostatniej litery słowa — działa dowolny z końców. Przy trafieniu litery odwracają się w biel na czerni, a słowo zostaje przekreślone na liście.",
+      "Graj klawiszami. Strzałki przesuwają kursor po siatce, Enter oznacza początek i koniec słowa, a Escape anuluje trwające zaznaczenie — wygodne na trudnej siatce 14×14, gdzie pola leżą blisko siebie.",
+      "Patrz na zegar. Stoper działa podczas gry, a postęp zapisuje się automatycznie — zamknij przeglądarkę w połowie łamigłówki i wróć później do tej samej rundy.",
+      "Zakończ rundę. Łamigłówka jest gotowa, gdy każde słowo z listy zostało znalezione; twój czas i rekordy dla każdego poziomu trudności są pamiętane na urządzeniu.",
+      "Zacznij od nowa. Zmień poziom trudności albo naciśnij Nowa łamigłówka, aby dostać świeży temat i zupełnie nową siatkę — żadne dwie rundy nie wyglądają tak samo."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 i nowsze)",
+        "status": "yes",
+        "note": "Wbudowana przeglądarka obsługuje pełną grę; wymagane oprogramowanie 5.13.7 lub nowsze."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Ekran 10,2 cala pokazuje nawet gęstą trudną siatkę 14×14 komfortowo — dotykaj, aby zaznaczać słowa."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Ta sama przeglądarka co w najnowszych Paperwhite; gra jest z założenia czarno-biała, więc nic nie ginie."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma i podobne)",
+        "status": "yes",
+        "note": "Pełny Chromium, najbardziej płynne doświadczenie na e-ink; fizyczne przyciski stron przesuwają kursor na modelach, które je mają."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage i podobne)",
+        "status": "limited",
+        "note": "Wbudowana przeglądarka jest przestarzała i może nie uruchomić łamigłówki na każdym modelu lub wersji oprogramowania."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Brak oficjalnej aplikacji przeglądarki; rozwiązania zewnętrzne wymagają odblokowania tabletu (jailbreak)."
+      },
+      {
+        "device": "Starsze Kindle (przeglądarka eksperymentalna)",
+        "status": "no",
+        "note": "Eksperymentalne przeglądarki sprzed 2016 r. nie obsłużą nowoczesnego JavaScriptu — strona pozostaje czytelna, ale gra się nie uruchomi."
+      }
+    ]
+  },
+  "whyEInk": "Wykreślanka to cicha, cierpliwa gra, a e-ink to cichy, cierpliwy ekran. Nic tu nie miga, nie animuje się ani nie przemalowuje za literami — przerysowuje się tylko dotknięte pole, jak tusz wysychający na papierze. Duża siatka liter pozostaje ostra w pełnym świetle dziennym, przy praktycznie zerowym zużyciu baterii.",
+  "faq": [
+    {
+      "q": "Czy to naprawdę jest darmowe?",
+      "a": "Tak. Każda łamigłówka jest darmowa — bez konta, bez paywalla i bez reklam. Witryna należy do rodziny E-Ink.me i działa obok darmowych narzędzi dla czytników na stronie głównej — nie ma tu nic do kupienia ani żadnych zapisów."
+    },
+    {
+      "q": "Czy działa na moim Kindle Paperwhite?",
+      "a": "Jeśli Twój Paperwhite pochodzi z 2021 r. lub jest nowszy i ma oprogramowanie 5.13.7 albo nowsze — tak: otwórz wbudowaną przeglądarkę, wpisz adres witryny i graj. Starsze Paperwhite z wczesną przeglądarką eksperymentalną przeczytają tę stronę jako tekst, ale łamigłówka sama się nie uruchomi."
+    },
+    {
+      "q": "Czy muszę odblokowywać Kindle (jailbreak)?",
+      "a": "Nie. Gra działa w całości w wbudowanej przeglądarce Twojego Kindla. Nie ma aplikacji do wgrania ręcznego, żadnych hacków ani powodów do obaw o gwarancję — otwieranie stron internetowych to dla Kindla zupełnie zwykła sprawa. Jeśli wczyta stronę, wczyta też tę łamigłówkę."
+    },
+    {
+      "q": "Czy mogę grać offline?",
+      "a": "Połączenie z internetem jest potrzebne przy pierwszym otwarciu strony, bo witryna przychodzi jako zwykła strona, a nie aplikacja do pobrania. Po wczytaniu łamigłówka działa lokalnie na urządzeniu — ale przeglądarki czytników nie są projektowane do pracy offline, więc zostań online na czas rundy."
+    }
+  ],
+  "cta": {
+    "label": "Wszystkie słowa już znalezione? Zamień dowolny artykuł z sieci w EPUB i czytaj go na Kindle — darmowe narzędzia na e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "word",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-daily"
+    ]
+  }
+}

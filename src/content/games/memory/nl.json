@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Memory Pairs voor Kindle & E-Ink – gratis, geen download",
+    "description": "Speel gratis Memory Pairs in je browser op Kindle, BOOX of Kobo. Geen download, geen installatie – het klassieke geheugenspel, gemaakt voor e-inkschermen."
+  },
+  "h1": "Memory Pairs voor Kindle & E-Ink – gratis, geen download",
+  "tagline": "Het klassieke kaartmemory, herbouwd in puur zwart-wit voor Kindle Paperwhite, Scribe, BOOX en andere e-readers – gewoon de pagina openen en spelen.",
+  "howToPlay": {
+    "steps": [
+      "Kies een bordgrootte. Makkelijk legt 12 kaarten (6 paren) in een raster van vier kolommen, Gemiddeld deelt 16 kaarten (8 paren) uit, en Moeilijk vult een bord van 6×4 met 24 kaarten (12 paren). Elke ronde schudt een nieuwe indeling uit twaalf verschillende symbolen, dus het bord van gisteren uit je hoofd leren helpt je nergens.",
+      "Draai twee kaarten om. Tik op een touchscreen op een willekeurige gesloten kaart en het symbool verschijnt geïnverteerd in zwart-wit; tik daarna op een tweede kaart. Als je apparaat fysieke toetsen of een gekoppeld toetsenbord heeft, beweeg je de stippelmarkering met de pijltjestoetsen en druk je op Enter of spatie om te omdraaien.",
+      "Kijk naar het vonnis. Een passend paar blijft open liggen en krijgt een dik kader – het is voorgoed vastgezet. Een misser blijft ongeveer een seconde zichtbaar zodat je beide posities kunt onthouden, waarna de twee kaarten vanzelf terugdraaien.",
+      "Speel in je eigen tempo. Terwijl een misser te zien is negeert het bord stilletjes een derde tik, dus je kunt geen paar verknoeien door te snel te klikken – pauzeer, kijk en plan je volgende omdraai.",
+      "Volg je sessie. Een timer en een zettenteller lopen boven het bord; één zet betekent twee kaarten omdraaien, passend of niet, en een paarteller toont hoeveel paren van het bord je al hebt vastgezet.",
+      "Kom altijd terug. Je voortgang wordt op de meeste apparaten automatisch opgeslagen – sluit de browser midden in het spel en dezelfde indeling, hetzelfde aantal zetten en dezelfde verstreken tijd staan er wanneer je terugkomt.",
+      "Leg het bord leeg. De ronde eindigt zodra elk paar gevonden is; je beste aantal zetten en je snelste tijd worden per moeilijkheidsgraad apart onthouden, zodat je altijd een eigen record hebt om te verbreken."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (vanaf 2021)",
+        "status": "yes",
+        "note": "De ingebouwde browser draait het volledige spel; heeft firmware 5.13.7 of nieuwer nodig."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Het 10,2-inch-scherm toont zelfs het moeilijke bord van 24 kaarten ruim, één tik per kaart."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Dezelfde browser-engine als recente Paperwhites – het spel is bewust zwart-wit."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma en vergelijkbare)",
+        "status": "yes",
+        "note": "Volledige Chromium-browser met directe touchreactie, de soepelste manier om te spelen."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage en vergelijkbare)",
+        "status": "limited",
+        "note": "De ingebouwde browser is gedateerd en draait het spel mogelijk niet op elk model of elke firmwareversie."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Geen officiële browser-app; oplossingen van derden vereisen een jailbreak van de tablet."
+      },
+      {
+        "device": "Oudere Kindles (experimentele browser)",
+        "status": "no",
+        "note": "Experimentele browsers van vóór 2016 kunnen geen modern JavaScript aan – deze pagina blijft leesbaar, maar het spel start niet."
+      }
+    ]
+  },
+  "whyEInk": "Memory is een spel van stilstaande beelden, en e-ink is een scherm dat voor stilstaande beelden gebouwd is. Een kaart verandert alleen als jij hem omdraait – geen animaties, geen automatische verversing, geen flikkering achter het bord. Het scherm leest als een gedrukte kaarttafel: een hele sessie lang prettig om te bestuderen bij daglicht, tegen vrijwel nul batterijverbruik.",
+  "faq": [
+    {
+      "q": "Is het echt gratis?",
+      "a": "Ja. Elk bord is gratis te spelen, zonder account, zonder betaalmuur en zonder advertenties. De site hoort bij de E-Ink.me-familie en wordt onderhouden naast de gratis e-reader-tools van de hoofdsite: niets te kopen en niets te registreren – gewoon de pagina openen en beginnen met omdraaien."
+    },
+    {
+      "q": "Werkt het op mijn Kindle Paperwhite?",
+      "a": "Als je Paperwhite van 2021 of nieuwer is en firmware 5.13.7 of hoger heeft: ja – open de ingebouwde browser, typ het adres van de site in en de kaarten staan klaar. Oudere Paperwhites met de vroege experimentele browser kunnen deze pagina nog als platte tekst lezen, maar het spel zelf draait er niet op."
+    },
+    {
+      "q": "Moet ik mijn Kindle jailbreaken?",
+      "a": "Nee. Het spel draait volledig in de ingebouwde webbrowser van je Kindle. Er is geen app te sideloaden, geen truc toe te passen en geen garantie om je zorgen over te maken – een webpagina laden is voor een Kindle een heel gewone bezigheid. Als het apparaat een website kan openen, kan het dit spel spelen."
+    },
+    {
+      "q": "Kan ik offline spelen?",
+      "a": "De eerste keer dat je de pagina opent heb je internetverbinding nodig, omdat de site als gewone webpagina wordt geleverd en niet als app uit een winkel. Eenmaal geladen draait alles lokaal op je apparaat – maar e-readerbrowsers zijn niet ontworpen voor offline gebruik, dus wees verbonden wanneer je een sessie start."
+    }
+  ],
+  "cta": {
+    "label": "Geniet je van Memory Pairs? Zet elk webartikel om in een EPUB en lees het op je Kindle – gratis tools op e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "minesweeper",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

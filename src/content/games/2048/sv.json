@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "2048 för Kindle & E-Ink – gratis, utan nedladdning",
+    "description": "Spela 2048 gratis i webbläsaren på Kindle, BOOX eller Kobo. Ingen nedladdning, ingen installation – klassisk sifferhopslagning anpassad för svartvita e-ink-skärmar."
+  },
+  "h1": "2048 för Kindle & E-Ink – gratis, utan nedladdning",
+  "tagline": "Svep och slå ihop numrerade brickor tills de blir 2048 – direkt i webbläsaren på din Kindle Paperwhite, Scribe eller BOOX, utan att ladda ner eller installera något.",
+  "howToPlay": {
+    "steps": [
+      "Starta med två brickor. Varje runda börjar på ett 4×4-rutnät med bara två numrerade brickor – en 2:a eller en 4:a – och varje drag du gör lägger en ny bricka på planen, så rutnätet fylls på allt eftersom du spelar.",
+      "Flytta hela planen. Svep var som helst över planen på en pekskärm – vänster, höger, uppåt eller nedåt – så glider varje bricka så långt den kan i den riktningen. Du kan också trycka på pilknapparna under rutnätet, eller använda piltangenter om din enhet har fysiska bläddringsknappar eller ett ihopkopplat tangentbord.",
+      "Slå ihop lika brickor. När två brickor med samma siffra krockar smälter de samman till en dubbelt så värdefull bricka: två 2:or blir en 4:a, två 4:or blir en 8:a och så vidare. Varje bricka kan bara slås ihop en gång per drag, så en rad med 2-2-2-2 blir två 4:or, inte en 8:a. Varje hopslagning läggs till på din poäng.",
+      "Läs e-ink-återkopplingen. Istället för glidande animationer markeras en nyanländ bricka med en tjock svart ram i ett drag, och brickor som precis slagits ihop vänder till vitt på svart – på en papperslik skärm ser du exakt vad som ändrats, utan någon rörelse eller flimmer.",
+      "Ångra misstag. Ett tryck på Ångra ställer planen tillbaka ett drag, med positionen, poängen och brickan du fick utdelad – så kostar ett felsvep aldrig hela spelet.",
+      "Sikta på 2048. Bygg upp tvåpotenser genom att hålla dina största brickor tryckta i ett hörn. Så snart en 2048-bricka dyker upp har du vunnit – spelet erbjuder en ny plan eller låter dig spela vidare mot 4096 och därutöver.",
+      "Håll utkik efter slutet. Spelet är över när rutnätet är fullt och inga två angränsande brickor matchar, så att inget drag är möjligt. Din aktuella poäng, ditt bästa resultat för enheten och en tidtagarur visas alltid ovanför planen, och dina framsteg sparas automatiskt om du stänger webbläsaren mitt i en runda."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (från 2021)",
+        "status": "yes",
+        "note": "Svep fungerar bra på pekskärmen; kräver firmware 5.13.7 eller nyare."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Skärmen på 10,2 tum visar 4×4-rutnätet i behaglig storlek, ett svep per drag."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Samma webbläsarmotor som nyare Paperwhites – spelet är svartvitt av design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma m.fl.)",
+        "status": "yes",
+        "note": "Fullständig Chromium-webbläsare, den smidigaste e-ink-upplevelsen; piltangenter fungerar på modeller med bläddringsknappar."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage m.fl.)",
+        "status": "limited",
+        "note": "Den inbyggda webbläsaren är föråldrad och kanske inte kör spelet på alla modeller eller firmware-versioner."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Ingen officiell webbläsarapp; tredjepartslösningar kräver att surfplattan jailbreakas."
+      },
+      {
+        "device": "Äldre Kindles (experimentell webbläsare)",
+        "status": "no",
+        "note": "Experimentella webbläsare från före 2016 kan inte köra modern JavaScript – sidan förblir läsbar, men spelet startar inte."
+      }
+    ]
+  },
+  "whyEInk": "2048 är vanligtvis ett spel med glidande animationer, och e-ink-skärmar animerar inte – så den här versionen byter ut rörelsen mot markeringar i tryckt stil: nya brickor får en tjock ram i ett drag och hopslagningar vänder svart till vitt. Endast brickorna som ändrats ritas om, så planen känns som papper och batteriet märker knappt av något.",
+  "faq": [
+    {
+      "q": "Är det verkligen gratis?",
+      "a": "Ja. Spelet är gratis att spela utan konto, betalvägg eller reklam. Webbplatsen ingår i E-Ink.me-familjen och drivs sida vid sida med de gratis e-läsarverktyg som finns på huvudsidan, så det finns inget att köpa, inget att låsa upp och ingen anledning att registrera sig."
+    },
+    {
+      "q": "Fungerar det på min Kindle Paperwhite?",
+      "a": "Om din Paperwhite är en modell från 2021 eller senare med firmware 5.13.7 eller nyare: ja – öppna den inbyggda webbläsaren, skriv in webbplatsens adress och svep igång. Äldre Paperwhites med den tidiga experimentella webbläsaren kan läsa den här sidan som text, men de kan inte köra själva spelet."
+    },
+    {
+      "q": "Måste jag jailbreaka min Kindle?",
+      "a": "Nej. Spelet körs helt i Kindles inbyggda webbläsare. Det finns ingen app att sideloada, inget hack att applicera och ingen garanti att riskera – att öppna en webbsida är något en Kindle gör varje dag. Om enheten kan öppna en webbplats kan den spela."
+    },
+    {
+      "q": "Kan jag spela offline?",
+      "a": "Du behöver en internetuppkoppling första gången sidan laddas, eftersom spelet levereras som en vanlig webbsida snarare än som en app från en butik. När det väl har laddats körs varje drag lokalt på enheten – men e-läsarwebbläsare är inte byggda för offlinebruk, så se till att vara uppkopplad när du startar en runda."
+    }
+  ],
+  "cta": {
+    "label": "Nått 2048? Förvandle vilken webbartikel som helst till en EPUB och läs den på din Kindle – gratis verktyg på e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "memory",
+      "minesweeper",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

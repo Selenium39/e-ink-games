@@ -12,6 +12,12 @@ import fr from "./fr";
 import it from "./it";
 import pt from "./pt";
 import ja from "./ja";
+import ko from "./ko";
+import ru from "./ru";
+import nl from "./nl";
+import pl from "./pl";
+import tr from "./tr";
+import sv from "./sv";
 
 export const dictionaries: Partial<Record<Locale, Messages>> = {
   en,
@@ -22,4 +28,10 @@ export const dictionaries: Partial<Record<Locale, Messages>> = {
   it,
   pt,
   ja,
+  ko,
+  ru,
+  nl,
+  pl,
+  tr,
+  sv,
 };

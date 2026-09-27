@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Speel Nonogram voor Kindle & E-Ink – gratis, geen download",
+    "description": "Speel gratis nonogrampuzzels in je browser op Kindle, BOOX of Kobo. Geen download, geen installatie – zwart-wit logicarasters gemaakt voor e-inkschermen."
+  },
+  "h1": "Nonogram voor Kindle & E-Ink – gratis, geen download",
+  "tagline": "Klassieke beeldlogica-puzzels die rechtstreeks draaien in de browser van je Kindle Paperwhite, Scribe of BOOX – geen app te installeren, niets te downloaden: open de pagina en begin met vakjes inkleuren.",
+  "howToPlay": {
+    "steps": [
+      "Kies een bord, of pak de Dagelijkse. Makkelijk is een raster van 5×5, Gemiddeld 10×10 en Moeilijk 15×15 – elke puzzel wordt vers gegenereerd en is gegarandeerd oplosbaar met zuivere logica. De knop Dagelijks deelt elke dag één gedeelde beeldpuzzel van 10×10 uit: elke speler wereldwijd krijgt dezelfde start, zodat je je voortgang kunt vergelijken zonder account.",
+      "Lees de aanwijzingen. De getallen langs de linker- en bovenrand beschrijven de reeksen gevulde vakjes in elke rij en kolom. Een rij met \"3 1\" verbergt een blok van drie, ten minste één tussenruimte, en daarna één los vakje – de volgorde staat vast, de tussenruimten zijn de puzzel.",
+      "Vul en markeer vakjes. Op een touchscreen tik je op een vakje om het te laten wisselen tussen drie toestanden: leeg, gevuld en afgekruist. Kruisjes (×) zijn je bewijsmarkeringen voor vakjes die leeg moeten blijven. Met een toetsenbord loop je met de pijltjestoetsen door het raster – onmisbaar op het moeilijke bord van 15×15, waar vakjes kleiner zijn dan een vingertop – en Enter wisselt, X zet een kruis, Backspace wist.",
+      "Kijk naar de omklappende aanwijzingen. Als de gevulde vakjes van een rij of kolom exact kloppen met de aanwijzing, keert die aanwijzing om naar wit-op-zwart – gratis bevestiging dat de lijn af is. Onderweg zijn er geen waarschuwingen voor foute zetten; net als bij nonogrammen op papier is het beeld zelf de enige rechter.",
+      "Redeneer, gis nooit. Volle lijnen, randblokken en reeksen die vanuit beide richtingen overlappen openen de afbeelding stap voor stap. Ongedaan maken loopt je markeringen één voor één terug, de ingebouwde timer volgt je sessie, en je voortgang wordt automatisch opgeslagen als je de browser sluit midden in het beeld.",
+      "Maak het beeld af. De puzzel is opgelost zodra elke rij en kolom klopt met zijn aanwijzingen – omdat elk bord precies één oplossing heeft, komt het symmetrische verborgen beeld vakje voor vakje tevoorschijn terwijl je deduceert: een beloning in Picross-stijl die past bij een papierachtig scherm."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (vanaf 2021)",
+        "status": "yes",
+        "note": "De ingebouwde browser draait het volledige spel; heeft firmware 5.13.7 of nieuwer nodig."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Het 10,2-inch-scherm toont zelfs het moeilijke raster van 15×15 op aangename grootte."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Dezelfde browser-engine als recente Paperwhites – het spel blijft van huis uit zwart-wit."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma en vergelijkbare)",
+        "status": "yes",
+        "note": "Volledige Chromium-browser, de soepelste e-ink-ervaring; fysieke bladertoetsen bewegen de cursor op modellen die ze hebben."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage en vergelijkbare)",
+        "status": "limited",
+        "note": "De ingebouwde browser is gedateerd en draait de puzzel mogelijk niet op elk model of elke firmwareversie."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Geen officiële browser-app; oplossingen van derden vereisen een jailbreak van de tablet."
+      },
+      {
+        "device": "Oudere Kindles (experimentele browser)",
+        "status": "no",
+        "note": "Experimentele browsers van vóór 2016 kunnen geen modern JavaScript aan – deze pagina blijft leesbaar, maar het spel start niet."
+      }
+    ]
+  },
+  "whyEInk": "Een nonogram is een rustige, stilstaande puzzel en e-ink een rustig, stilstaand scherm – een natuurlijke combinatie. Niets hier flikkert, animeert of herschildert achter je raster; alleen het vakje dat je aanraakt wordt opnieuw getekend. Het bord leest als bedrukt millimeterpapier: lange sessies lang prettig bij daglicht, tegen bijna nul batterijverbruik.",
+  "faq": [
+    {
+      "q": "Is het echt gratis?",
+      "a": "Ja. Elke puzzel – de Dagelijkse meegerekend – is gratis te spelen, zonder account, zonder betaalmuur en zonder advertenties. De site maakt deel uit van de E-Ink.me-familie en draait naast de gratis e-reader-tools van de hoofdsite: niets te kopen en niets te registreren."
+    },
+    {
+      "q": "Werkt het op mijn Kindle Paperwhite?",
+      "a": "Als je Paperwhite van 2021 of nieuwer is en firmware 5.13.7 of hoger heeft: ja – open de ingebouwde browser, typ het adres van de site in en begin met vakjes in te kleuren. Oudere Paperwhites met de vroege experimentele browser kunnen deze pagina als platte tekst tonen, maar de puzzel zelf draait er niet op."
+    },
+    {
+      "q": "Moet ik mijn Kindle jailbreaken?",
+      "a": "Nee. Het spel draait volledig in de ingebouwde webbrowser van je Kindle. Er is geen app te sideloaden, geen truc toe te passen en geen garantie om je zorgen over te maken – een website openen is voor een Kindle een heel gewone bezigheid. Als je apparaat een webpagina kan laden, kan het dit spel laden."
+    },
+    {
+      "q": "Kan ik offline spelen?",
+      "a": "Bij het eerste openen van de pagina heb je internetverbinding nodig, omdat de site als gewone webpagina wordt geleverd en niet als downloadbare app. Na het laden draait de puzzel lokaal op je apparaat – maar e-readerbrowsers zijn niet gebouwd voor offline gebruik, dus wees verbonden wanneer je start."
+    }
+  ],
+  "cta": {
+    "label": "Het beeld opgelost? Zet elk webartikel om in een EPUB en lees het op je Kindle – gratis tools op e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "logic",
+    "relatedSlugs": [
+      "2048",
+      "hidden-code",
+      "minesweeper",
+      "sudoku"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Hangman dla Kindle i E-Ink — darmowe, bez pobierania",
+    "description": "Graj w wisielca za darmo w przeglądarce Kindle, BOOX lub Kobo. Bez pobierania i instalacji — klasyczna czarno-biała gra słowna stworzona dla ekranów e-ink."
+  },
+  "h1": "Hangman dla Kindle i E-Ink — darmowe, bez pobierania",
+  "tagline": "Klasyczny wisielec działający wprost w przeglądarce Kindle Paperwhite, Scribe lub BOOX — odgaduj słowo literka po literce, bez pobierania i bez niczego do instalowania.",
+  "howToPlay": {
+    "steps": [
+      "Wybierz poziom trudności. Łatwy losuje popularne słowa o czterech–sześciu literach i podaje kategorię — zwierzę, jedzenie, miejsce i więcej — jako wstępną podpowiedź. Średni przechodzi do słów o sześciu–ośmiu literach bez podpowiedzi, a Trudny rozdaje rzadkie słowa o dziewięciu–dwunastu literach, które przechęrczą każde słownictwo.",
+      "Czytaj szubienicę. Każda runda zaczyna się od pustej ramy i sześciu pomyłek w zapasie. Każde nietrafienie dorysowuje jedną część szkieletowej sylwetki — głowę, tułów, ręce, na końcu nogi — więc na pierwszy rzut oka widać, jak blisko przegranej jesteś.",
+      "Zgaduj litery dotykiem. Dotykaj ekranowej klawiatury A–Z; każdy klawisz ma rozmiar dopasowany do dotykowych ekranów czytników. Trafna litera odwraca się w pełną czerń i biel oraz od razu wypełnia wszystkie pasujące luki, a nietrafna dostaje przerywaną ramkę i blokuje się na swoim miejscu.",
+      "Albo użyj fizycznej klawiatury. Jeśli urządzenie ma przyciski przewijania lub sparowaną klawiaturę, po prostu naciskaj A–Z bezpośrednio — gra nasłuchuje klawiszy w tle, a wielkie litery są przyjmowane i traktowane jak małe.",
+      "Patrz na luki. Szukane słowo pojawia się jako rząd podkreślonych pól; każde trafienie ujawnia tę literę w każdym miejscu, w którym występuje. Próba litery, którą już sprawdzono, niczego nie zmienia, więc każde dotknięcie ma znaczenie.",
+      "Wygrywaj albo ucz się. Odsłoń każdą literę przed szóstą pomyłką, aby wygrać rundę; jeśli sylwetka zostanie dorysowana w całości, gra się kończy i pełne słowo zostaje pokazane, więc nigdy nie odchodzisz bez odpowiedzi. Zwycięstwa i łączna liczba gier są zliczane osobno dla każdego poziomu trudności.",
+      "Graj dalej. Dotknij Nowa gra, aby losować świeże słowo, albo zmień poziom trudności u góry — zmiana prosi o potwierdzenie tylko wtedy, gdy runda już trwa, a plansza zapisuje się automatycznie, jeśli zamkniesz stronę w połowie słowa."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 i nowsze)",
+        "status": "yes",
+        "note": "Wbudowana przeglądarka obsługuje pełną grę; wymagane oprogramowanie 5.13.7 lub nowsze. Klawisze z literami wygodnie się dotyka na ekranie 6,8 cala."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Ekran 10,2 cala mieści szubienicę, pola słowa i wszystkie 26 klawiszy z literami bez przewijania."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Ta sama przeglądarka co w najnowszych Paperwhite — gra z założenia pozostaje czarno-biała."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma i podobne)",
+        "status": "yes",
+        "note": "Pełny Chromium, najbardziej płynne doświadczenie na e-ink; do zgadywania posłuży ekran dotykowy albo sparowana klawiatura."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage i podobne)",
+        "status": "limited",
+        "note": "Wbudowana przeglądarka jest przestarzała i może nie uruchomić gry na każdym modelu lub wersji oprogramowania."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Brak oficjalnej aplikacji przeglądarki; rozwiązania zewnętrzne wymagają odblokowania tabletu (jailbreak)."
+      },
+      {
+        "device": "Starsze Kindle (przeglądarka eksperymentalna)",
+        "status": "no",
+        "note": "Eksperymentalne przeglądarki sprzed 2016 r. nie obsłużą nowoczesnego JavaScriptu — strona pozostaje czytelna, ale gra się nie uruchomi."
+      }
+    ]
+  },
+  "whyEInk": "Wisielec to w gruncie rzeczy gra na kartce papieru i e-ink traktuje ją właśnie tak: szubienica dorysowuje po jednej kresce, zmienia się tylko dotknięty klawisz, a za łamigłówką nic nie migocze ani się nie animuje. Ekran czyta się jak drukowany papier w świetle dziennym — przyjemnie dla oczu i dla baterii.",
+  "faq": [
+    {
+      "q": "Czy to naprawdę jest darmowe?",
+      "a": "Tak. Każda runda jest darmowa — bez konta, bez paywalla i bez reklam. Witryna należy do rodziny E-Ink.me i jest utrzymywana obok darmowych narzędzi dla czytników na stronie głównej, więc nie ma tu nic do kupienia, żadnych zapisów ani limitu odgadywanych słów."
+    },
+    {
+      "q": "Czy działa na moim Kindle Paperwhite?",
+      "a": "Jeśli Twój Paperwhite pochodzi z 2021 r. lub jest nowszy i ma oprogramowanie 5.13.7 albo nowsze — tak: otwórz wbudowaną przeglądarkę, wpisz adres witryny i zaczynaj zgadywać. BOOX oraz nowsze modele Kindle, takie jak Scribe i Colorsoft, działają tak samo. Starsze Kindle z wczesną przeglądarką eksperymentalną przeczytają tę stronę jako tekst, ale gry nie uruchomią."
+    },
+    {
+      "q": "Czy muszę odblokowywać Kindle (jailbreak)?",
+      "a": "Nie. Gra działa w całości w wbudowanej przeglądarce Twojego czytnika. Nie ma aplikacji do wgrania ręcznego, żadnych hacków ani powodów do obaw o gwarancję — otwieranie stron internetowych to dla współczesnego Kindla rutyna. Jeśli urządzenie wczyta tę stronę, wczyta też szubienicę."
+    },
+    {
+      "q": "Czy mogę grać offline?",
+      "a": "Połączenie z internetem jest potrzebne przy pierwszym otwarciu strony, bo witryna jest dostarczana jak zwykła strona, a nie aplikacja do pobrania. Po wczytaniu całe zgadywanie dzieje się lokalnie na urządzeniu — ale przeglądarki czytników nie są zbudowane do pracy offline, więc zadbaj o połączenie przed rozpoczęciem sesji."
+    }
+  ],
+  "cta": {
+    "label": "Podoba Ci się gra? Zamień dowolny artykuł z sieci w EPUB i czytaj go na Kindle — darmowe narzędzia na e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "word",
+    "relatedSlugs": [
+      "hidden-code",
+      "word-daily",
+      "word-search"
+    ]
+  }
+}

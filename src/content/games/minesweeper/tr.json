@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Kindle & E-Ink için Minesweeper — Ücretsiz, İndirmeden",
+    "description": "Minesweeper'ı Kindle, BOOX veya Kobo tarayıcısında ücretsiz oyna. İndirme yok, kurulum yok — siyah beyaz e-mürekkep ekranlar için tasarlanmış klasik mayın avı."
+  },
+  "h1": "Kindle & E-Ink için Minesweeper — Ücretsiz, İndirmeden",
+  "tagline": "Kindle Paperwhite, Scribe veya BOOX tarayıcında doğrudan çalışan klasik Minesweeper — kurulacak uygulama yok, indirilecek hiçbir şey yok; sayfayı aç ve kazmaya başla.",
+  "howToPlay": {
+    "steps": [
+      "Bir tahta seç. Kolay 10 mayınlı bir 9×9 ızgara, Orta 24 mayınlı 11×11, Zor ise 40 mayınlı 13×13'tür. Daha büyük tahtalar hızlı dokunuştan çok sabırlı taramayı ödüllendirir.",
+      "İlk kareyi kaz. Açılış dokunuşun her zaman güvenlidir — mayınlar yalnızca ondan sonra yerleştirilir ve dokunduğun kare ile sekiz komşusunun tamamı mayınsız tutulur; yani açılış hamlesi asla patlayamaz.",
+      "Sayıları oku. Her rakam, çevresindeki sekiz karedeki mayınları sayar. Boş bir kare hiçbir mayına değmez; bu yüzden oyun sana tek dokunuşta bütün boş bölgeleri açar ve sen yalnızca numaralı kenarlarla uğraşırsın.",
+      "Şüpheli mayınları işaretle. Bayrak moduna geç ve bir kareyi işaretlemek için dokun; bayrak yanlış dokunuşları engeller ve tahtanın üzerindeki sayaç kalan mayınları — toplamdan bayraklarını düşerek — gösterir. Bayrağı kaldırmak için aynı kareye tekrar dokun.",
+      "Chord ile hızlan. Kaz modunda, çevresindeki bayraklar rakama eşit olduğunda açık bir sayıya dokun: diğer tüm komşular tek seferde açılır. Kendine güvenen oyuncuların klasik iki dokunuşluk kısayoludur ve burada tam olarak desteklenir.",
+      "Tuşlarla oyna. Ok tuşları imleci taşır, Enter ya da Boşluk kazar (veya açık bir sayıya chord uygular), F kareyi işaretler — klavye takılı e-okuyucularda ya da dokunulacak yer çok uzaktayken çok kullanışlıdır.",
+      "Saati yen. Zamanlayıcı ilk hamlenle başlar ve sayfa arka plandayken duraklar. Kazanmak için güvenli her kareyi temizle — kalan mayınlar senin için bayraklanır — ve ayrılırsan ilerlemen otomatik olarak kaydedilir."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 ve sonrası)",
+        "status": "yes",
+        "note": "Yerleşik tarayıcı oyunun tamamını çalıştırır; 5.13.7 veya daha yeni bir aygıt yazılımı gerekir."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "10,2 inçlik ekran, 13×13'lük Zor tahtasını bile tam boyutta, fazlasıyla ferah gösterir."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Son Paperwhite'larla aynı tarayıcı motoru — oyun tasarımı gereği siyah beyaz kalır."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma ve benzerleri)",
+        "status": "yes",
+        "note": "Tam Chromium tarayıcı, en akıcı e-mürekkep deneyimi; klavye kısayolları eşleştirilmiş klavyeyle çalışır."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage ve benzerleri)",
+        "status": "limited",
+        "note": "Yerleşik tarayıcı eskidir ve oyunu her model ya da aygıt yazılımı sürümünde çalıştırmayabilir."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Resmî bir tarayıcı uygulaması yok; üçüncü taraf seçenekleri tablette jailbreak gerektirir."
+      },
+      {
+        "device": "Eski Kindle'lar (deneysel tarayıcı)",
+        "status": "no",
+        "note": "2016 öncesi deneysel tarayıcılar modern JavaScript çalıştıramaz — bu sayfa okunabilir kalır ama oyun başlamaz."
+      }
+    ]
+  },
+  "whyEInk": "Minesweeper sakin bir oyundur ve e-mürekkep sakin bir ekrandır. Burada parmağının ardında animasyon, flaş veya yenileme yapan hiçbir şey yoktur — yalnızca dokunduğun kare hızlı bir kısmi güncellemeyle yeniden çizilir. Sabit siyah beyaz ızgara gündüz ışığında basılı bir bulmaca sayfası gibi okunur ve uzun oturumlar pile neredeyse hiç dokunmaz.",
+  "faq": [
+    {
+      "q": "Gerçekten ücretsiz mi?",
+      "a": "Evet — tamamen. Her tahta boyutu hesap, ödeme duvarı ve reklam olmadan ücretsiz oynanır. Site E-Ink.me ailesine aittir ve ana sitedeki ücretsiz e-okuyucu araçlarıyla birlikte çalışır; satın alınacak ve kaydolunacak bir şey yoktur."
+    },
+    {
+      "q": "Kindle Paperwhite'ımda çalışır mı?",
+      "a": "Paperwhite'ın 2021 veya sonrası bir modelse ve aygıt yazılımı 5.13.7 veya daha yeni bir sürümse, evet — yerleşik tarayıcıyı aç, site adresini yaz ve kazmaya başla. Erken deneysel tarayıcılı eski Paperwhite'lar bu sayfayı düz metin olarak gösterebilir ama oyunun kendisini çalıştıramaz."
+    },
+    {
+      "q": "Kindle'ımı jailbreak yapmam gerekiyor mu?",
+      "a": "Hayır. Oyun tamamen Kindle'ının yerleşik web tarayıcısında çalışır. Yüklenecek bir uygulama, uygulanacak bir hack yoktur ve garanti riski yoktur — bir web sayfası açmak bir Kindle için sıradan bir iştir. Cihaz bir sayfayı yükleyebiliyorsa bu oyunu da oynayabilir."
+    },
+    {
+      "q": "Çevrimdışı oynayabilir miyim?",
+      "a": "Sayfayı ilk açışında internet bağlantısı gerekir, çünkü site indirilebilir bir uygulama değil normal bir web sayfası olarak sunulur. Yüklendikten sonra oyun cihazında yerel olarak çalışır — ama e-okuyucu tarayıcıları çevrimdışı kullanım için yapılmadığından başlarken bağlı olmayı planla."
+    }
+  ],
+  "cta": {
+    "label": "Minesweeper keyfi sürüyor mu? Herhangi bir web makalesini EPUB'a dönüştür ve Kindle'ında oku — e-ink.me'de ücretsiz araçlar",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "memory",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "meta": {
+    "title": "Kindle & E-Ink için Memory Pairs — Ücretsiz, İndirmeden",
+    "description": "Memory Pairs'i Kindle, BOOX veya Kobo tarayıcısında ücretsiz oyna. İndirme yok, kurulum yok — e-mürekkep ekranlar için yapılmış klasik bir eşleştirme oyunu."
+  },
+  "h1": "Kindle & E-Ink için Memory Pairs — Ücretsiz, İndirmeden",
+  "tagline": "Klasik kart eşleştirme hafıza oyunu; Kindle Paperwhite, Scribe, BOOX ve diğer e-okuyucular için saf siyah beyaz olarak yeniden yapıldı — sayfayı aç ve oynamaya başla.",
+  "howToPlay": {
+    "steps": [
+      "Bir tahta boyutu seç. Kolay, dört sütunlu bir ızgaraya 12 kart (6 çift) dizer; Orta 16 kart (8 çift) dağıtır, Zor ise 6×4'lük bir tahtayı 24 kartla (12 çift) doldurur. Her tur, on iki farklı sembolden yeni bir düzen karıştırır; dünkü tahtayı ezberlemek hiçbir zaman işe yaramaz.",
+      "İki kart çevir. Dokunmatik ekranda kapalı duran herhangi bir karta dokun ve sembolü ters siyah beyaz olarak görün; sonra ikinci bir karta dokun. Cihazında fiziksel tuşlar veya eşleştirilmiş bir klavye varsa kesikli vurguyu ok tuşlarıyla taşı ve çevirmek için Enter'a ya da Boşluk'a bas.",
+      "Kararı izle. Eşleşen bir çift açık kalır ve kalın bir çerçeveyle işaretlenir — kalıcı olarak kilitlenir. Eşleşmeyen bir çift, her iki konumu ezberleyebilmen için yaklaşık bir saniye görünür kalır, sonra iki kart kendiliğinden kapanır.",
+      "Kendi hızında oyna. Eşleşmeyen bir çift görünürken tahta üçüncü dokunuşu sessizce yok sayar; yani çok hızlı tıklayarak bir çifti kaçırman mümkün değildir — dur, bak ve sıradaki çevirişini planla.",
+      "Oturumunu takip et. Tahtanın üzerinde bir zamanlayıcı ve hamle sayacı çalışır; bir hamle, eşleşsin ya da eşleşmesin iki kart çevirmek demektir ve çift sayacı tahtadaki kaç çifti kilitlediğini gösterir.",
+      "Ne zaman istersen dön. İlerleme çoğu cihazda otomatik olarak kaydedilir — tarayıcıyı oyun ortasında kapat; aynı düzen, hamle sayısı ve geçen süre dönüşünü bekliyor olacak.",
+      "Tahtayı temizle. Tüm çiftler bulunduğunda tur biter; en iyi hamle sayın ve en hızlı süren her zorluk için ayrı ayrı hatırlanır, böylece her zaman geçilecek kişisel bir rekorun olur."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 ve sonrası)",
+        "status": "yes",
+        "note": "Yerleşik tarayıcı oyunun tamamını çalıştırır; 5.13.7 veya daha yeni bir aygıt yazılımı gerekir."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "10,2 inçlik ekran, 24 kartlık Zor tahtasını bile cömert bir boyutta gösterir; kart başına bir dokunuş."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Son Paperwhite'larla aynı tarayıcı motoru — oyun kasıtlı olarak siyah beyazdır."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma ve benzerleri)",
+        "status": "yes",
+        "note": "Anında dokunma tepkisi veren tam Chromium tarayıcı; oyunu oynamanın en akıcı yolu."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage ve benzerleri)",
+        "status": "limited",
+        "note": "Yerleşik tarayıcı eskidir ve oyunu her model ya da aygıt yazılımı sürümünde çalıştırmayabilir."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Resmî bir tarayıcı uygulaması yok; üçüncü taraf seçenekleri tablette jailbreak gerektirir."
+      },
+      {
+        "device": "Eski Kindle'lar (deneysel tarayıcı)",
+        "status": "no",
+        "note": "2016 öncesi deneysel tarayıcılar modern JavaScript çalıştıramaz — bu sayfa okunabilir kalır ama oyun başlamaz."
+      }
+    ]
+  },
+  "whyEInk": "Memory durağan görüntüler oyunudur ve e-mürekkep durağan görüntüler için yapılmış bir ekrandır. Bir kart yalnızca onu çevirdiğinde değişir — animasyon yok, otomatik yenileme yok, tahtanın ardında titreme yok. Ekran basılı bir iskambil masası gibi okunur; gündüz ışığında tüm bir oturum boyunca incelemek rahattır, pil maliyeti neredeyse sıfırdır.",
+  "faq": [
+    {
+      "q": "Gerçekten ücretsiz mi?",
+      "a": "Evet. Her tahta hesap, ödeme duvarı ve reklam olmadan ücretsiz oynanır. Site E-Ink.me ailesine aittir ve ana sitedeki ücretsiz e-okuyucu araçlarıyla birlikte yürütülür; satın alınacak ve kaydolunacak bir şey yok — sayfayı aç ve kartları çevirmeye başla."
+    },
+    {
+      "q": "Kindle Paperwhite'ımda çalışır mı?",
+      "a": "Paperwhite'ın 2021 veya sonrası bir modelse ve aygıt yazılımı 5.13.7 veya daha yeni bir sürümse, evet — yerleşik tarayıcıyı aç, site adresini yaz, kartlar hazır. Erken deneysel tarayıcılı eski Paperwhite'lar bu sayfayı düz metin olarak okumaya devam eder ama oyunun kendisini çalıştıramaz."
+    },
+    {
+      "q": "Kindle'ımı jailbreak yapmam gerekiyor mu?",
+      "a": "Hayır. Oyun tamamen Kindle'ının yerleşik web tarayıcısında çalışır. Yüklenecek bir uygulama, uygulanacak bir hack yoktur ve garanti endişesi taşımazsın — bir web sayfası yüklemek bir Kindle için sıradan bir iştir. Cihaz bir web sitesini açabiliyorsa bu oyunu da oynayabilir."
+    },
+    {
+      "q": "Çevrimdışı oynayabilir miyim?",
+      "a": "Sayfayı ilk açışında internet bağlantısı gerekir, çünkü site mağaza uygulaması değil normal bir web sayfası olarak sunulur. Yüklendikten sonra her şey cihazında yerel olarak çalışır — ama e-okuyucu tarayıcıları çevrimdışı kullanım için tasarlanmadığından bir oturuma başlarken bağlı olmayı planla."
+    }
+  ],
+  "cta": {
+    "label": "Memory Pairs keyfi sürüyor mu? Herhangi bir web makalesini EPUB'a dönüştür ve Kindle'ında oku — e-ink.me'de ücretsiz araçlar",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "puzzle",
+    "relatedSlugs": [
+      "2048",
+      "minesweeper",
+      "nonogram",
+      "sudoku"
+    ]
+  }
+}

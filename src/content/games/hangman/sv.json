@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Hangman för Kindle & E-Ink – gratis, utan nedladdning",
+    "description": "Spela gratis hänga gubbe i webbläsaren på Kindle, BOOX eller Kobo. Ingen nedladdning, ingen installation – ett klassiskt svartvitt ordspel för e-ink-skärmar."
+  },
+  "h1": "Hangman för Kindle & E-Ink – gratis, utan nedladdning",
+  "tagline": "Klassisk hänga gubbe som körs direkt i webbläsaren på din Kindle Paperwhite, Scribe eller BOOX – gissa ordet en bokstav i taget, utan nedladdning och utan att installera något.",
+  "howToPlay": {
+    "steps": [
+      "Välj svårighetsgrad. Lätt drar vanliga ord med fyra till sex bokstäver och visar kategorin – djur, mat, plats med flera – som en första ledtråd. Medel går vidare till ord med sex till åtta bokstäver utan ledtråd, och Svår delar ut ovanliga ord med nio till tolv bokstäver som prövar vilken vokabulär som helst.",
+      "Läs galgen. Varje runda börjar med en tom ram och sex felgissningar att gå på. Varje miss ritar ytterligare en del av gubben – huvud, kropp, armar och till sist ben – så du ser på en gång hur nära förlusten du är.",
+      "Gissa bokstäver genom beröring. Tryck på skärmtangentbordet A–Z; varje tangent är dimensionerad för e-läsarens pekskärm. En rätt bokstav vänder till helt svartvitt och fyller i alla matchande luckor på en gång, medan en felaktig får en streckad ram och låses på plats.",
+      "Eller använd ett fysiskt tangentbord. Har din enhet bläddringsknappar eller ett ihopkopplat tangentbord trycker du bara direkt på A–Z – spelet lyssnar efter tangenttryckningar i bakgrunden, och versaler accepteras och behandlas som gemener.",
+      "Håll koll på luckorna. Ordet du söker visas som en rad med understrukna rutor; varje träff avslöjar bokstaven på alla platser där den förekommer. Att gissa en bokstav du redan prövat ändrar ingenting, så varje tryck räknas.",
+      "Vinn eller lär. Avslöja alla bokstäver innan sjätte missen för att vinna rundan; fullbordas gubben avslutas spelet och hela ordet visas, så du lämnar aldrig utan svaret. Dina vinster och totala antal spel räknas separat för varje svårighetsgrad.",
+      "Spela igen. Tryck på Nytt spel för ett nytt ord, eller byt svårighetsgrad upptill – vid byte frågas du bara om bekräftelse om en runda redan pågår, och ditt bräde sparas automatiskt om du stänger sidan mitt i ett ord."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (från 2021)",
+        "status": "yes",
+        "note": "Den inbyggda webbläsaren kör hela spelet; kräver firmware 5.13.7 eller nyare. Bokstavstangenterna ligger behagligt under fingret på den 6,8 tum stora skärmen."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Skärmen på 10,2 tum visar galgen, ordets luckor och alla 26 bokstavstangenter utan att behöva scrolla."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Samma webbläsarmotor som nyare Paperwhites – spelet är svartvitt av design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma m.fl.)",
+        "status": "yes",
+        "note": "Fullständig Chromium-webbläsare, den smidigaste e-ink-upplevelsen; ett ihopkopplat tangentbord eller pekskärmen fungerar lika bra för att gissa."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage m.fl.)",
+        "status": "limited",
+        "note": "Den inbyggda webbläsaren är föråldrad och kanske inte kör spelet på alla modeller eller firmware-versioner."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Ingen officiell webbläsarapp; tredjepartslösningar kräver att surfplattan jailbreakas."
+      },
+      {
+        "device": "Äldre Kindles (experimentell webbläsare)",
+        "status": "no",
+        "note": "Experimentella webbläsare från före 2016 kan inte köra modern JavaScript – sidan förblir läsbar, men spelet startar inte."
+      }
+    ]
+  },
+  "whyEInk": "Hänga gubbe är i grunden ett penna-och-papper-spel, och e-ink behandlar det därefter: galgen ritas om ett streck i taget, bokstaven du trycker är den enda tangent som ändras, och inget flimrar eller animeras bakom pusslet. Skärmen känns som tryckt papper i dagsljus – skonsamt för både ögonen och batteriet.",
+  "faq": [
+    {
+      "q": "Är det verkligen gratis?",
+      "a": "Ja. Varje runda är gratis att spela utan konto, betalvägg eller reklam. Webbplatsen ingår i E-Ink.me-familjen och drivs sida vid sida med de gratis e-läsarverktygen på huvudsidan, så det finns inget att köpa, inget att registrera sig för och ingen gräns för hur många ord du får gissa."
+    },
+    {
+      "q": "Fungerar det på min Kindle Paperwhite?",
+      "a": "Om din Paperwhite är en modell från 2021 eller senare med firmware 5.13.7 eller nyare: ja – öppna den inbyggda webbläsaren, skriv in webbplatsens adress och börja gissa. BOOX och nyare Kindles som Scribe och Colorsoft fungerar på samma sätt. Äldre Kindles med den tidiga experimentella webbläsaren kan läsa den här sidan som text, men de kan inte köra spelet."
+    },
+    {
+      "q": "Måste jag jailbreaka min Kindle?",
+      "a": "Nej. Spelet körs helt i din e-läsares inbyggda webbläsare. Det finns ingen app att sideloada, inget hack att applicera och ingen garanti att oroa sig för – att öppna en webbplats är något en modern Kindle gör varje dag. Om din enhet kan ladda den här sidan kan den ladda galgen."
+    },
+    {
+      "q": "Kan jag spela offline?",
+      "a": "Du behöver en internetuppkoppling första gången du öppnar sidan, eftersom webbplatsen levereras som en vanlig webbsida snarare än som en nedladdningsbar app. Efter att den laddats körs alla gissningar lokalt på din enhet – men e-läsarwebbläsare är inte byggda för offlinebruk, så räkna med att vara uppkopplad när du startar en session."
+    }
+  ],
+  "cta": {
+    "label": "Gillar du spelet? Förvandle vilken webbartikel som helst till en EPUB och läs den på din Kindle – gratis verktyg på e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "word",
+    "relatedSlugs": [
+      "hidden-code",
+      "word-daily",
+      "word-search"
+    ]
+  }
+}

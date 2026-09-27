@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Hangman voor Kindle & E-Ink – gratis, geen download",
+    "description": "Speel gratis galgje in je browser op Kindle, BOOX of Kobo. Geen download, geen installatie – een klassiek zwart-wit woordspel voor e-inkschermen."
+  },
+  "h1": "Hangman voor Kindle & E-Ink – gratis, geen download",
+  "tagline": "Klassiek galgje dat rechtstreeks draait in de browser van je Kindle Paperwhite, Scribe of BOOX – raad het woord letter voor letter, zonder download en niets te installeren.",
+  "howToPlay": {
+    "steps": [
+      "Kies een moeilijkheidsgraad. Makkelijk trekt gangbare woorden van vier tot zes letters en toont de categorie – dier, eten, plek en meer – als eerste aanknopingspunt. Gemiddeld gaat naar woorden van zes tot acht letters zonder hint, en Moeilijk deelt zeldzame woorden van negen tot twaalf letters die elke woordenschat op de proef stellen.",
+      "Lees de galg. Elke ronde begint met een leeg raam en zes foute gokken om te verspillen. Elk gemis tekent één nieuw deel van het stokfiguurtje – hoofd, romp, armen en dan benen – zodat je in één oogopslag ziet hoe dicht je bij het verlies bent.",
+      "Raad letters via het scherm. Tik op het A–Z-toetsenbord op het scherm; elke toets is gedimensioneerd voor e-reader-touchscreens. Een juiste letter wordt effen zwart-wit en vult meteen alle bijpassende lege plekken in, terwijl een foute letter een stippellijnkader krijgt en op zijn plaats vergrendeld blijft.",
+      "Of gebruik een fysiek toetsenbord. Als je apparaat bladertoetsen of een gekoppeld toetsenbord heeft, druk dan gewoon rechtstreeks op A–Z – het spel luistert op de achtergrond naar toetsaanslagen, en hoofdletters worden geaccepteerd en als kleine letters behandeld.",
+      "Houd de lege plekken in de gaten. Het gezochte woord verschijnt als een rij onderstreepte hokjes; elke treffer onthult die letter op elke positie waar hij voorkomt. Een letter die je al raadde opnieuw proberen verandert niets, dus elke tik telt.",
+      "Win of leer. Ontkel alle letters vóór het zesde gemis om de ronde te winnen; is het figuurtje compleet, dan eindigt het spel en wordt het volledige woord getoond, zodat je nooit zonder antwoord blijft zitten. Je overwinningen en je totaal aantal spellen worden per moeilijkheidsgraad bijgehouden.",
+      "Speel opnieuw. Tik op Nieuw spel voor een vers woord, of wissel bovenaan van moeilijkheidsgraad – wisselen vraagt alleen om bevestiging als er al een ronde bezig is, en je bord wordt automatisch opgeslagen als je de pagina sluit midden in een woord."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (vanaf 2021)",
+        "status": "yes",
+        "note": "De ingebouwde browser draait het volledige spel; heeft firmware 5.13.7 of nieuwer nodig. De lettertoetsen tikken prettig op het 6,8-inch-scherm."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Het 10,2-inch-scherm toont de galg, de lege plekken en alle 26 lettertoetsen zonder scrollen."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Dezelfde browser-engine als recente Paperwhites – het spel blijft van huis uit zwart-wit."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma en vergelijkbare)",
+        "status": "yes",
+        "note": "Volledige Chromium-browser, de soepelste e-ink-ervaring; een gekoppeld toetsenbord of het touchscreen werkt beide om te raden."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage en vergelijkbare)",
+        "status": "limited",
+        "note": "De ingebouwde browser is gedateerd en draait het spel mogelijk niet op elk model of elke firmwareversie."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Geen officiële browser-app; oplossingen van derden vereisen een jailbreak van de tablet."
+      },
+      {
+        "device": "Oudere Kindles (experimentele browser)",
+        "status": "no",
+        "note": "Experimentele browsers van vóór 2016 kunnen geen modern JavaScript aan – deze pagina blijft leesbaar, maar het spel start niet."
+      }
+    ]
+  },
+  "whyEInk": "Galgje is in de kern een potlood-en-papierspel, en e-ink behandelt het ook zo: de galg wordt streek voor streek opnieuw getekend, alleen de letter die je tikt verandert van toets, en niets flikkert of animeert achter de puzzel. Het scherm leest als bedrukt papier bij daglicht – prettig voor ogen én batterij.",
+  "faq": [
+    {
+      "q": "Is het echt gratis?",
+      "a": "Ja. Elke ronde is gratis te spelen, zonder account, zonder betaalmuur en zonder advertenties. De site maakt deel uit van de E-Ink.me-familie en draait naast de gratis e-reader-tools van de hoofdsite: niets te kopen, niets te registreren en geen limiet aan het aantal woorden dat je mag raden."
+    },
+    {
+      "q": "Werkt het op mijn Kindle Paperwhite?",
+      "a": "Als je Paperwhite van 2021 of nieuwer is en firmware 5.13.7 of hoger heeft: ja – open de ingebouwde browser, typ het adres van de site in en begin met raden. BOOX en nieuwere Kindles zoals de Scribe en Colorsoft werken hetzelfde. Oudere Kindles met de vroege experimentele browser kunnen deze pagina als tekst lezen, maar het spel niet draaien."
+    },
+    {
+      "q": "Moet ik mijn Kindle jailbreaken?",
+      "a": "Nee. Het spel draait volledig in de ingebouwde webbrowser van je e-reader. Er is geen app te sideloaden, geen truc toe te passen en geen garantie om je zorgen over te maken – een website openen is voor een moderne Kindle een heel gewone bezigheid. Als je apparaat deze pagina kan laden, kan het de galg laden."
+    },
+    {
+      "q": "Kan ik offline spelen?",
+      "a": "Bij het eerste openen van de pagina heb je internetverbinding nodig, omdat de site als gewone webpagina wordt geleverd en niet als downloadbare app. Na het laden verloopt alles lokaal op je apparaat – maar e-readerbrowsers zijn niet gebouwd voor offline gebruik, dus wees verbonden wanneer je een sessie start."
+    }
+  ],
+  "cta": {
+    "label": "Vind je het spel leuk? Zet elk webartikel om in een EPUB en lees het op je Kindle – gratis tools op e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "word",
+    "relatedSlugs": [
+      "hidden-code",
+      "word-daily",
+      "word-search"
+    ]
+  }
+}

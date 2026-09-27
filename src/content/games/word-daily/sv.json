@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Word Daily för Kindle & E-Ink – gratis dagligt ordspel",
+    "description": "Spela ett gratis dagligt ordspel i webbläsaren på Kindle, BOOX eller Kobo. Ett nytt fembokstavspussel varje dag – ingen nedladdning, byggt för e-ink-skärmar."
+  },
+  "h1": "Word Daily för Kindle & E-Ink – gratis, utan nedladdning",
+  "tagline": "Ett dagligt ordspel i Wordle-stil som körs direkt i webbläsaren på din Kindle, BOOX eller Kobo – ett fembokstavsord om dagen, samma ord för alla spelare, ritat i ren svartvitt.",
+  "howToPlay": {
+    "steps": [
+      "Gissa dagens fembokstavsord. Alla spelare får samma ord varje dag – pusslet är knutet till datumet, inte till din enhet, så du kan jämföra resultat med vänner. Du har sex försök, och ett nytt ord kommer imorgon.",
+      "Skriv din första gissning. Tryck på QWERTY-tangentbordet på skärmen med finger eller penna, eller skriv på ett fysiskt tangentbord om din e-läsare har ett eller om ett tangentbord är ihopkopplat – hårdvarutangenter, Enter och Backsteg fungerar alla sida vid sida med pektangentbordet.",
+      "Läs återkopplingen. Efter varje gissning svarar brickorna i ren svartvitt: en heldragen svart bricka betyder att bokstaven står på rätt plats, en bricka med kraftig ram betyder att bokstaven finns i ordet men någon annanstans, och en bricka med tunn ram betyder att den inte finns i ordet alls.",
+      "Håll koll på tangentbordshistoriken. Varje tangent på skärmen bär samma tre märken för bokstäver du redan har prövat, så du ser på en gång vilka bokstäver som är placerade, vilka som lever någon annanstans och vilka som är återvändsgränder.",
+      "Tänk på upprepade bokstäver. Det dolda ordet kan innehålla samma bokstav två gånger; återkopplingen räknar varje kopia noga, så en kraftig ram lovar aldrig fler kopior än ordet faktiskt innehåller.",
+      "Spela obegränsat med träningsrundor. Klar med dagens ord och sugen på mer? Växla till träningsläget för ett nytt slumpmässigt ord när som helst – träningsrundor rör aldrig ditt dagliga resultat, vinstsvit eller statistik.",
+      "Dela och kom tillbaka. När pusslet tar slut visas ett resultatrutnät i ren text – håll nedtryckt för att markera och kopiera det vart du vill. Ditt dagliga framsteg, din svit och din statistik sparas automatiskt på din enhet."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (från 2021)",
+        "status": "yes",
+        "note": "Den inbyggda webbläsaren kör hela spelet; kräver firmware 5.13.7 eller nyare."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Den stora skärmen visar hela bokstavstavlan och tangentbordet utan att behöva scrolla."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Samma webbläsarmotor som nyare Paperwhites – spelet är svartvitt av design."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma m.fl.)",
+        "status": "yes",
+        "note": "Fullständig Chromium-webbläsare, den smidigaste e-ink-upplevelsen; skrivande på ett ihopkopplat tangentbord känns omedelbart."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage m.fl.)",
+        "status": "limited",
+        "note": "Den inbyggda webbläsaren är föråldrad och kanske inte kör spelet på alla modeller eller firmware-versioner."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Ingen officiell webbläsarapp; tredjepartslösningar kräver att surfplattan jailbreakas."
+      },
+      {
+        "device": "Äldre Kindles (experimentell webbläsare)",
+        "status": "no",
+        "note": "Experimentella webbläsare från före 2016 kan inte köra modern JavaScript – sidan förblir läsbar, men spelet startar inte."
+      }
+    ]
+  },
+  "whyEInk": "Ordpussel är text, och e-ink återger text vackert. Det här spelet ritar om bara de brickor som ändras – inga animationer, inget blinkande, inga grå halos – så ser du brädet som en tryckt sida i vilket ljus som helst. Formatet en gång om dagen passar e-läsare perfekt: ett ord, en tyst minut av tänkande, och en skärm som aldrig lyser tillbaka.",
+  "faq": [
+    {
+      "q": "Är det verkligen gratis?",
+      "a": "Ja. Dagens ord och obegränsade träningsrundor är helt gratis, utan konto, reklam eller betalvägg. Webbplatsen tillhör E-Ink.me-familjen av gratis e-läsarverktyg, så det finns inget att köpa och inget att registrera sig för – öppna bara sidan och spela."
+    },
+    {
+      "q": "Fungerar det på min Kindle Paperwhite?",
+      "a": "På Paperwhite-, Scribe- och Colorsoft-modeller från 2021 och framåt med firmware 5.13.7 eller nyare: ja – den inbyggda webbläsaren kör hela spelet. Äldre Kindles med den tidiga experimentella webbläsaren kan läsa den här sidan som ren text, men pusslet själv startar inte på dem."
+    },
+    {
+      "q": "Måste jag jailbreaka min Kindle?",
+      "a": "Nej. Spelet körs helt i den webbläsare din Kindle redan levereras med. Det finns ingen app att installera, ingen fil att sideloada och ingen modifiering av något slag – om din enhet kan öppna en vanlig webbsida kan den spela Word Daily."
+    },
+    {
+      "q": "Kan jag spela offline?",
+      "a": "Du behöver en uppkoppling första gången sidan laddas, eftersom webbplatsen levereras som en vanlig webbsida snarare än som en nedladdningsbar app. När den väl laddats körs varje gissning på enheten själv och din svit lagras lokalt – men räkna med att vara online när du startar."
+    }
+  ],
+  "cta": {
+    "label": "Löst dagens ord? Förvandle vilken webbartikel som helst till en EPUB och läs den på din Kindle – gratis verktyg på e-ink.me",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "daily",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-search"
+    ]
+  }
+}

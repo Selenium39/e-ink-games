@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Kindle & E-Ink için Word Daily — Ücretsiz Günlük Kelime Oyunu",
+    "description": "Kindle, BOOX veya Kobo tarayıcında ücretsiz bir günlük kelime oyunu oyna. Her gün yeni beş harfli bir bulmaca — indirme yok, kurulum yok, e-mürekkep ekranlar için."
+  },
+  "h1": "Kindle & E-Ink için Word Daily — Ücretsiz, İndirmeden",
+  "tagline": "Kindle, BOOX veya Kobo tarayıcında doğrudan çalışan Wordle tarzı günlük bir kelime oyunu — günde bir beş harfli kelime, her oyuncu için aynı kelime, saf siyah beyazla çizilir.",
+  "howToPlay": {
+    "steps": [
+      "Günün beş harfli kelimesini tahmin et. Her oyuncu her gün aynı kelimeyi alır — bulmaca cihazına değil tarihe bağlıdır; böylece sonuçlarını arkadaşlarınla karşılaştırabilirsin. Altı deneme hakkın var ve yarın yeni bir kelime gelir.",
+      "İlk tahminini yaz. Ekrandaki QWERTY klavyesine parmağınla ya da kaleminle dokun veya e-okuyucunda fiziksel klavye varsa ya da bir klavye eşleştirilmişse fiziksel klavyede yaz — donanım tuşları, Enter ve Backspace dokunmatik klavyeyle birlikte çalışır.",
+      "Geri bildirimi oku. Her tahminden sonra taşlar saf siyah beyazla cevap verir: dolgun siyah bir taş harfin doğru yerde olduğu anlamına gelir, kalın çerçeveli bir taş harfin kelimede ama başka bir yerde olduğunu, ince çerçeveli bir taş ise harfin kelimede hiç bulunmadığını gösterir.",
+      "Klavye geçmişini izle. Ekrandaki her tuş, denediğin harfler için aynı üç işareti taşır; böylece bir bakışta hangi harflerin yerleştirildiğini, hangilerinin başka yerde yaşamaya devam ettiğini ve hangilerinin çıkmaz sokak olduğunu bilirsin.",
+      "Tekrarlayan harflere dikkat. Gizli kelime aynı harfi iki kez içerebilir; geri bildirim her kopyayı özenle sayar, yani kalın bir çerçeve kelimede gerçekten olandan fazla kopya vaat etmez.",
+      "Sınırsız antrenman turu oyna. Günlük kelimeyi bitirdin ve devamı mı geldi? Ne zaman istersen Antrenman moduna geçip taze rastgele bir kelime al — antrenman turları günlük sonucuna, kazanma serine ya da istatistiklerine asla dokunmaz.",
+      "Paylaş ve geri gel. Bulmaca bittiğinde düz metin bir sonuç ızgarası görünür — seçmek için uzun bas ve dilediğin yere kopyala. Günlük ilerlemen, serin ve istatistiklerin cihazında otomatik olarak kaydedilir."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 ve sonrası)",
+        "status": "yes",
+        "note": "Yerleşik tarayıcı oyunun tamamını çalıştırır; 5.13.7 veya daha yeni bir aygıt yazılımı gerekir."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "Geniş ekran, harf tahtasının tamamını ve klavyeyi kaydırmadan gösterir."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Son Paperwhite'larla aynı tarayıcı motoru — oyun tasarımı gereği siyah beyaz kalır."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma ve benzerleri)",
+        "status": "yes",
+        "note": "Tam Chromium tarayıcı, en akıcı e-mürekkep deneyimi; eşleştirilmiş bir klavyede yazmak anında hissettirir."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage ve benzerleri)",
+        "status": "limited",
+        "note": "Yerleşik tarayıcı eskidir ve oyunu her model ya da aygıt yazılımı sürümünde çalıştırmayabilir."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Resmî bir tarayıcı uygulaması yok; üçüncü taraf seçenekleri tablette jailbreak gerektirir."
+      },
+      {
+        "device": "Eski Kindle'lar (deneysel tarayıcı)",
+        "status": "no",
+        "note": "2016 öncesi deneysel tarayıcılar modern JavaScript çalıştıramaz — bu sayfa okunabilir kalır ama oyun başlamaz."
+      }
+    ]
+  },
+  "whyEInk": "Kelime bulmacaları metindir ve e-mürekkep metni güzel işler. Bu oyun yalnızca değişen taşları yeniden çizer — animasyon yok, yanıp sönme yok, gri hâleler yok — böylece tahta her ışıkta basılı bir sayfa gibi okunur. Günde bir kez formatı e-okuyuculara tam oturur: bir kelime, sessiz bir dakikalık düşünce ve asla ışık saçmayan bir ekran.",
+  "faq": [
+    {
+      "q": "Gerçekten ücretsiz mi?",
+      "a": "Evet. Günlük kelime ve sınırsız antrenman turları tamamen ücretsizdir; hesap, reklam ve ödeme duvarı yoktur. Site, ücretsiz e-okuyucu araçları ailesi E-Ink.me'ye aittir; satın alınacak ve kaydolunacak bir şey yoktur — sayfayı aç ve oyna."
+    },
+    {
+      "q": "Kindle Paperwhite'ımda çalışır mı?",
+      "a": "2021 ve sonrası, aygıt yazılımı 5.13.7 veya daha yeni olan Paperwhite, Scribe ve Colorsoft modellerinde evet — yerleşik tarayıcı oyunun tamamını çalıştırır. Erken deneysel tarayıcılı eski Kindle'lar bu sayfayı düz metin olarak okuyabilir ama bulmacanın kendisi onlarda başlamaz."
+    },
+    {
+      "q": "Kindle'ımı jailbreak yapmam gerekiyor mu?",
+      "a": "Hayır. Oyun tamamen Kindle'ının zaten birlikte geldiği tarayıcı içinde çalışır. Kurulacak bir uygulama, yüklenecek bir dosya ve herhangi bir türde değişiklik yoktur — cihazın sıradan bir web sayfası açabiliyorsa Word Daily'yi de oynayabilir."
+    },
+    {
+      "q": "Çevrimdışı oynayabilir miyim?",
+      "a": "Sayfa ilk yüklendiğinde bağlantı gerekir, çünkü site indirilebilir bir uygulama değil normal bir web sayfası olarak sunulur. Yüklendikten sonra her tahmin cihazın kendisinde çalışır ve serin yerel olarak saklanır — ama başlarken çevrimiçi olmayı planla."
+    }
+  ],
+  "cta": {
+    "label": "Günün kelimesini çözdün mü? Herhangi bir web makalesini EPUB'a dönüştür ve Kindle'ında oku — e-ink.me'de ücretsiz araçlar",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "daily",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-search"
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "title": "Kindle & E-Ink için Word Search — Ücretsiz, İndirmeden",
+    "description": "Sözcük avı bulmacalarını Kindle, BOOX veya Kobo tarayıcısında ücretsiz oyna. İndirme yok, kurulum yok — e-mürekkep ekranlar için büyük siyah beyaz harf ızgaraları."
+  },
+  "h1": "Kindle & E-Ink için Word Search — Ücretsiz, İndirmeden",
+  "tagline": "Kindle Paperwhite, Scribe veya BOOX tarayıcında doğrudan çalışan klasik sözcük avı — bir tema seç, harf ızgarasındaki gizli kelimeleri bul; indirilecek hiçbir şey yok.",
+  "howToPlay": {
+    "steps": [
+      "Bir zorluk seç. Kolay 10×10 bir ızgarada altı kelime, Orta 12×12'de sekiz kelime, Zor ise 14×14'te on kelime saklar. Her tur ayrıca rastgele bir tema seçer — Hayvanlar, Yemek, Doğa, Teknoloji veya Uzay — böylece her bulmaca taze gelir.",
+      "Harf ızgarasını tara ve kelime listesinden bir hedef seç. Kelimeler sekiz yönde saklanır: yatay, dikey ve her iki çapraz boyunca; ayrıca tersten de okunabilirler.",
+      "Bir kelime seç. Dokunmatik ekranda ilk harfe, sonra o kelimenin son harfine dokun — iki uçtan herhangi biri işe yarar. İsabet ettiğinde harfler siyah üzerine beyaza döner ve kelime listede üstü çizili hâle gelir.",
+      "Onun yerine tuşlarla oyna. Ok tuşları imleci ızgarada gezdirir, Enter bir kelimenin başını ve sonunu işaretler, Escape bekleyen seçimi iptal eder — hücrelerin birbirine yakın durduğu 14×14'lük Zor ızgarasında çok kullanışlıdır.",
+      "Saati izle. Oynarken bir zamanlayıcı çalışır ve ilerlemen otomatik olarak kaydedilir — bulmacanın ortasında tarayıcıyı kapat ve aynı tura sonra devam et.",
+      "Turu bitir. Listede her kelime bulunduğunda bulmaca tamamlanır; süren ve her zorluk için en iyi derecen cihazda saklanır.",
+      "Baştan başla. Zorluğu değiştir ya da taze bir tema ve sıfırdan yeni bir ızgara için Yeni Bulmaca'ya bas — iki tur hiçbir zaman aynı görünmez."
+    ]
+  },
+  "deviceTable": {
+    "rows": [
+      {
+        "device": "Kindle Paperwhite (2021 ve sonrası)",
+        "status": "yes",
+        "note": "Yerleşik tarayıcı oyunun tamamını çalıştırır; 5.13.7 veya daha yeni bir aygıt yazılımı gerekir."
+      },
+      {
+        "device": "Kindle Scribe",
+        "status": "yes",
+        "note": "10,2 inçlik ekran, sık duran 14×14'lük Zor ızgarasını bile rahat gösterir — kelimeleri seçmek için dokun."
+      },
+      {
+        "device": "Kindle Colorsoft",
+        "status": "yes",
+        "note": "Son Paperwhite'larla aynı tarayıcı motoru; oyun tasarımı gereği siyah beyazdır, dolayısıyla hiçbir şey kaybolmaz."
+      },
+      {
+        "device": "BOOX (Go, Note, Tab, Palma ve benzerleri)",
+        "status": "yes",
+        "note": "Tam Chromium tarayıcı, en akıcı e-mürekkep deneyimi; fiziksel sayfa tuşları olan modellerde bu tuşlar imleci hareket ettirir."
+      },
+      {
+        "device": "Kobo (Clara, Libra, Sage ve benzerleri)",
+        "status": "limited",
+        "note": "Yerleşik tarayıcı eskidir ve bulmacayı her model ya da aygıt yazılımı sürümünde çalıştırmayabilir."
+      },
+      {
+        "device": "reMarkable",
+        "status": "no",
+        "note": "Resmî bir tarayıcı uygulaması yok; üçüncü taraf seçenekleri tablette jailbreak gerektirir."
+      },
+      {
+        "device": "Eski Kindle'lar (deneysel tarayıcı)",
+        "status": "no",
+        "note": "2016 öncesi deneysel tarayıcılar modern JavaScript çalıştıramaz — bu sayfa okunabilir kalır ama oyun başlamaz."
+      }
+    ]
+  },
+  "whyEInk": "Sözcük avı sakin ve sabırlı bir oyundur, e-mürekkep de sakin ve sabırlı bir ekrandır. Burada harflerinin ardında yanıp sönen, animasyon yapan veya yeniden boyanan hiçbir şey yoktur — yalnızca dokunduğun hücre, kâğıtta kuruyan mürekkep gibi yeniden çizilir. Büyük harf ızgarası doğrudan gündüz ışığında net kalır, pil maliyeti fiilen sıfırdır.",
+  "faq": [
+    {
+      "q": "Gerçekten ücretsiz mi?",
+      "a": "Evet. Her bulmaca hesap, ödeme duvarı ve reklam olmadan ücretsiz oynanır. Site E-Ink.me ailesinin bir parçasıdır ve ana sitedeki ücretsiz e-okuyucu araçlarıyla birlikte çalışır — satın alınacak ve kaydolunacak bir şey yoktur."
+    },
+    {
+      "q": "Kindle Paperwhite'ımda çalışır mı?",
+      "a": "Paperwhite'ın 2021 veya sonrası bir modelse ve aygıt yazılımı 5.13.7 veya daha yeni bir sürümse, evet — yerleşik tarayıcıyı aç, site adresini yaz ve oynamaya başla. Erken deneysel tarayıcılı eski Paperwhite'lar bu sayfayı metin olarak okuyabilir ama bulmacanın kendisi çalışmaz."
+    },
+    {
+      "q": "Kindle'ımı jailbreak yapmam gerekiyor mu?",
+      "a": "Hayır. Oyun tamamen Kindle'ının yerleşik web tarayıcısında çalışır. Yüklenecek bir uygulama, uygulanacak bir hack ve endişelenecek bir garanti yoktur — bir web sitesi açmak bir Kindle için sıradan bir iştir. Sayfa yükleyebiliyorsa bu bulmacayı da yükleyebilir."
+    },
+    {
+      "q": "Çevrimdışı oynayabilir miyim?",
+      "a": "Sayfayı ilk açışında internet bağlantısı gerekir, çünkü site indirilebilir bir uygulama değil sıradan bir web sayfası olarak gelir. Yüklendikten sonra bulmaca cihazında yerel olarak çalışır — ama e-okuyucu tarayıcıları çevrimdışı kullanım için tasarlanmadığından bir tura başlarken bağlı kal."
+    }
+  ],
+  "cta": {
+    "label": "Tüm kelimeleri buldun mu? Herhangi bir web makalesini EPUB'a dönüştür ve Kindle'ında oku — e-ink.me'de ücretsiz araçlar",
+    "href": "https://e-ink.me"
+  },
+  "related": {
+    "category": "word",
+    "relatedSlugs": [
+      "hangman",
+      "hidden-code",
+      "word-daily"
+    ]
+  }
+}
