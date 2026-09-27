@@ -8,7 +8,8 @@
 //   - 分类导航：registry.getGamesByCategory() 的封闭分类键恒齐全，
 //     游戏数自动随目录增长；分类页上线前不出链接（无死链）
 // H1 与导流位（footer 家族条在 [locale]/layout.tsx）保持不变。
-// 区块公共词沿用游戏页的文件内 en/zh 映射模式（games.common 就位后统一收编）。
+// 区块公共词经 t() 取自 lib/i18n 的 games.common / games.home 命名空间
+//（2026-09 起统一 16 语言管道，原文件内 en/zh 映射已收编）。
 
 import type { Metadata } from "next";
 import Link from "next/link";
@@ -37,29 +38,7 @@ export async function generateMetadata({
   };
 }
 
-// ── 文件内双语词（games.common 缺口期模式，与游戏落地页一致）──
-
-const CATEGORY_LABEL: Record<GameCategory, { en: string; zh: string }> = {
-  puzzle: { en: "Puzzle", zh: "解谜" },
-  word: { en: "Word", zh: "文字" },
-  board: { en: "Board", zh: "棋类" },
-  logic: { en: "Logic", zh: "逻辑" },
-  daily: { en: "Daily", zh: "每日" },
-};
-
-const HOME_WORDS = {
-  playCta: { en: "Play free", zh: "免费开玩" },
-  categories: { en: "Browse by category", zh: "按分类浏览" },
-  gameCount: { en: "game", zh: "款游戏" },
-  comingSoon: { en: "Coming soon", zh: "即将上线" },
-} as const;
-
-function word(
-  locale: string,
-  entry: { readonly en: string; readonly zh: string },
-): string {
-  return (locale as Locale) === "zh" ? entry.zh : entry.en;
-}
+// ── 模板公共词：经 t() 取自 lib/i18n（games.common.category / games.home）──
 
 /** 卡片副文案：目标语言 tagline → en tagline → ""（半成品降级为纯标题卡） */
 async function loadTagline(slug: string, locale: Locale): Promise<string> {
@@ -118,9 +97,9 @@ export default async function HomePage({
           {GAMES.map((game) => (
             <li key={game.slug} className="site-game-card">
               <p className="site-card-label">
-                <span>{word(loc, CATEGORY_LABEL[game.category])}</span>
+                <span>{t(loc, `games.common.category.${game.category}`)}</span>
                 <Link href={`/${loc}/games/${game.slug}/`} className="site-card-cta">
-                  {word(loc, HOME_WORDS.playCta)} →
+                  {t(loc, "games.home.playCta")} →
                 </Link>
               </p>
               <h3 className="site-card-title">
@@ -139,18 +118,18 @@ export default async function HomePage({
       {/* 分类导航占位：分类页（/{locale}/category/{cat}/）上线前不出链接 */}
       <section className="site-section" aria-labelledby="cats-heading">
         <h2 className="ink-spec-label" id="cats-heading">
-          {word(loc, HOME_WORDS.categories)}
+          {t(loc, "games.home.categories")}
         </h2>
         <ul className="site-cats">
           {(Object.keys(byCategory) as GameCategory[]).map((cat) => {
             const games = byCategory[cat];
             return (
               <li key={cat} className="site-cat-row">
-                <span className="site-cat-name">{word(loc, CATEGORY_LABEL[cat])}</span>
+                <span className="site-cat-name">{t(loc, `games.common.category.${cat}`)}</span>
                 <span className="site-cat-count">
                   {games.length > 0
-                    ? `${games.length} ${word(loc, HOME_WORDS.gameCount)}`
-                    : word(loc, HOME_WORDS.comingSoon)}
+                    ? `${games.length} ${t(loc, "games.home.gameCount")}`
+                    : t(loc, "games.home.comingSoon")}
                 </span>
               </li>
             );

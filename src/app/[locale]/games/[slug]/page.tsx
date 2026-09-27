@@ -12,10 +12,9 @@
 //   紧随游戏区（转化位最优），故 DOM 上位于内容区块组之前；JSON-LD（9）
 //   输出在页面末尾。
 //
-// 本地化缺口（打样裁决，报告已列）：i18n messages 尚无 games.common 公共词表
-//（规约 §8.1 预留位），本页的区块标题/表头/状态展示词暂以 TEMPLATE_WORDS
-//（en/zh 映射）承载；games.common 就位后逐项替换为 t() 调用。GameShell 的
-// 加载/失败/降级/noscript 四词已同在此表（shell* 前缀）传入。
+// 本地化（2026-09 起 16 语言）：区块标题/表头/状态展示词全部经 t() 取自
+// lib/i18n 的 games.common 命名空间（规约 §8.1，原文件内 TEMPLATE_WORDS
+// 已收编）；per-game 文案在 content/games/{slug}/{locale}.json。
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -71,65 +70,18 @@ async function loadContent(slug: string, locale: Locale): Promise<GameContent> {
   return { ...enMod.default, ...localized } as GameContent;
 }
 
-// ── 模板公共词（games.common 缺口期的 en/zh 映射，见文件头说明）──
+// ── 模板公共词：全部经 t() 取自 lib/i18n 的 games.common 命名空间 ──
+//（原文件内 TEMPLATE_WORDS/CATEGORY_LABEL/STATUS_WORD 的 en/zh 映射已收编，
+// 16 语言扩容后所有语种共享同一管道；缺键时 t() 回退 en）
 
-const CATEGORY_LABEL: Record<string, { en: string; zh: string }> = {
-  puzzle: { en: "Puzzle", zh: "解谜" },
-  word: { en: "Word", zh: "文字" },
-  board: { en: "Board", zh: "棋类" },
-  logic: { en: "Logic", zh: "逻辑" },
-  daily: { en: "Daily", zh: "每日" },
-};
-
-const TEMPLATE_WORDS = {
-  howToPlay: { en: "How to play", zh: "玩法说明" },
-  devices: { en: "Device compatibility", zh: "设备兼容" },
-  colDevice: { en: "Device", zh: "设备" },
-  colStatus: { en: "Status", zh: "支持" },
-  colNote: { en: "Notes", zh: "说明" },
-  statusYes: { en: "Works", zh: "可玩" },
-  statusLimited: { en: "Limited", zh: "有限" },
-  statusNo: { en: "Not supported", zh: "不支持" },
-  whyEInk: { en: "Why it works on e-ink", zh: "为什么适合墨水屏" },
-  faq: { en: "Frequently asked questions", zh: "常见问题" },
-  moreGames: {
-    en: "More puzzle-style games",
-    zh: "更多同类游戏",
-  },
-  relatedEmpty: {
-    en: "More games in this category are being built right now — the catalog grows game by game. In the meantime, browse everything that already runs in your browser.",
-    zh: "这个分类下的更多游戏正在陆续上线——目录会一款一款长大。现在可以先看看已经能在浏览器里玩的全部游戏。",
-  },
-  browseAll: { en: "Browse all games", zh: "浏览全部游戏" },
-  // GameShell 壳层四词（加载状态语义拆分见 GameShell.tsx 文件头注释）：
-  // 占位=加载中；加载失败=刷新重试；浏览器过老仅由 bundle 特性检测失败时写入
-  shellLoading: { en: "Loading…", zh: "加载中…" },
-  shellError: {
-    en: "Failed to load the game — please refresh to retry.",
-    zh: "游戏加载失败——请刷新页面重试。",
-  },
-  shellFallback: {
-    en: "This game needs a newer browser.",
-    zh: "此游戏需要较新的浏览器才能运行。",
-  },
-  shellNoscript: {
-    en: "This game runs entirely in your browser — please enable JavaScript to play.",
-    zh: "本游戏完全在浏览器中运行——请启用 JavaScript 后游玩。",
-  },
-} as const;
-
-function word(
-  locale: string,
-  entry: { readonly en: string; readonly zh: string },
-): string {
-  return (locale as Locale) === "zh" ? entry.zh : entry.en;
+/** content JSON 的 related.category 是运行时字符串——非法值回退 puzzle（沿用旧防御） */
+function relatedCategory(raw: string): string {
+  return ["puzzle", "word", "board", "logic", "daily"].includes(raw) ? raw : "puzzle";
 }
 
-const STATUS_WORD: Record<DeviceStatus, { en: string; zh: string }> = {
-  yes: TEMPLATE_WORDS.statusYes,
-  limited: TEMPLATE_WORDS.statusLimited,
-  no: TEMPLATE_WORDS.statusNo,
-};
+function statusWord(locale: string, status: DeviceStatus): string {
+  return t(locale, `games.common.status${status.charAt(0).toUpperCase()}${status.slice(1)}`);
+}
 
 // ── 路由与元数据 ──
 
@@ -268,19 +220,19 @@ export default async function GamePage({ params }: { params: Params }) {
           </p>
         }
       >
-        {/* 壳层文案本地化（TEMPLATE_WORDS 承载，games.common 就位后换 t()） */}
+        {/* 壳层文案本地化（games.common 命名空间，16 语言管道） */}
         <GameShell
           slug={slug}
-          loading={word(locale, TEMPLATE_WORDS.shellLoading)}
-          error={word(locale, TEMPLATE_WORDS.shellError)}
-          fallback={word(locale, TEMPLATE_WORDS.shellFallback)}
-          noscript={word(locale, TEMPLATE_WORDS.shellNoscript)}
+          loading={t(locale, "games.common.shellLoading")}
+          error={t(locale, "games.common.shellError")}
+          fallback={t(locale, "games.common.shellFallback")}
+          noscript={t(locale, "games.common.shellNoscript")}
         />
       </GameFrame>
 
       {/* ③ How to play（结构化步骤） */}
       <section className="site-section" aria-labelledby="game-how-heading">
-        <h2 id="game-how-heading">{word(locale, TEMPLATE_WORDS.howToPlay)}</h2>
+        <h2 id="game-how-heading">{t(locale, "games.common.howToPlay")}</h2>
         <ol className="site-steps">
           {content.howToPlay.steps.map((step) => (
             <li key={step.slice(0, 24)}>{step}</li>
@@ -292,14 +244,14 @@ export default async function GamePage({ params }: { params: Params }) {
 
       {/* ④ 设备兼容表 */}
       <section className="site-section" aria-labelledby="game-devices-heading">
-        <h2 id="game-devices-heading">{word(locale, TEMPLATE_WORDS.devices)}</h2>
+        <h2 id="game-devices-heading">{t(locale, "games.common.devices")}</h2>
         <div className="site-table-scroll">
           <table className="site-devices">
             <thead>
               <tr>
-                <th scope="col">{word(locale, TEMPLATE_WORDS.colDevice)}</th>
-                <th scope="col">{word(locale, TEMPLATE_WORDS.colStatus)}</th>
-                <th scope="col">{word(locale, TEMPLATE_WORDS.colNote)}</th>
+                <th scope="col">{t(locale, "games.common.colDevice")}</th>
+                <th scope="col">{t(locale, "games.common.colStatus")}</th>
+                <th scope="col">{t(locale, "games.common.colNote")}</th>
               </tr>
             </thead>
             <tbody>
@@ -308,7 +260,7 @@ export default async function GamePage({ params }: { params: Params }) {
                   <th scope="row">{row.device}</th>
                   <td>
                     <span className={`site-status site-status--${row.status}`}>
-                      {word(locale, STATUS_WORD[row.status])}
+                      {statusWord(locale, row.status)}
                     </span>
                   </td>
                   <td>{row.note}</td>
@@ -323,26 +275,21 @@ export default async function GamePage({ params }: { params: Params }) {
 
       {/* ⑤ Why it works on e-ink */}
       <section className="site-section" aria-labelledby="game-why-heading">
-        <h2 id="game-why-heading">{word(locale, TEMPLATE_WORDS.whyEInk)}</h2>
+        <h2 id="game-why-heading">{t(locale, "games.common.whyEInk")}</h2>
         <p>{content.whyEInk}</p>
       </section>
 
       <hr className="ink-rule" />
 
       {/* ⑥ FAQ 4 问（FAQPage JSON-LD 见页尾） */}
-      <Faq items={content.faq} title={word(locale, TEMPLATE_WORDS.faq)} />
+      <Faq items={content.faq} title={t(locale, "games.common.faq")} />
 
       <hr className="ink-rule" />
 
       {/* ⑦ 同类游戏内链：relatedSlugs 空 → category 引导（不出空壳） */}
       <section className="site-section" aria-labelledby="game-related-heading">
         <h2 id="game-related-heading">
-          {word(locale, {
-            en: `More ${(
-              CATEGORY_LABEL[content.related.category] ?? CATEGORY_LABEL.puzzle
-            ).en.toLowerCase()} games`,
-            zh: `更多${(CATEGORY_LABEL[content.related.category] ?? CATEGORY_LABEL.puzzle).zh}游戏`,
-          })}
+          {t(locale, `games.common.moreGames.${relatedCategory(content.related.category)}`)}
         </h2>
         {relatedCards.length > 0 ? (
           <ul className="site-related">
@@ -354,8 +301,8 @@ export default async function GamePage({ params }: { params: Params }) {
           </ul>
         ) : (
           <p>
-            {word(locale, TEMPLATE_WORDS.relatedEmpty)}{" "}
-            <Link href={`/${locale}/`}>{word(locale, TEMPLATE_WORDS.browseAll)}</Link>
+            {t(locale, "games.common.relatedEmpty")}{" "}
+            <Link href={`/${locale}/`}>{t(locale, "games.common.browseAll")}</Link>
           </p>
         )}
       </section>
@@ -375,7 +322,7 @@ const PAGE_CSS = `
 .site-steps li{margin-bottom:.625rem;line-height:1.6}
 .site-table-scroll{overflow-x:auto}
 .site-devices{width:100%;border-collapse:collapse;font-size:.9375rem}
-.site-devices th,.site-devices td{border:1px solid var(--ink-fg,#000);padding:.5rem .625rem;text-align:left;vertical-align:top}
+.site-devices th,.site-devices td{border:1px solid var(--ink-fg,#000);padding:.5rem .625rem;text-align:left;text-align:start;vertical-align:top}
 .site-devices thead th{background:var(--ink-fg,#000);color:var(--ink-bg,#fff)}
 .site-devices tbody th{font-weight:700;white-space:nowrap}
 .site-status{display:inline-block;border:1px solid var(--ink-fg,#000);padding:.125rem .5rem;font-size:.8125rem;white-space:nowrap}

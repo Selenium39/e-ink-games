@@ -1,9 +1,9 @@
 // ── 语言配置（i18n 单一事实来源）─────────────────────────────────
 //
-// locales：全量备选语言，最终目标 16 个（对应实施方案 §6.3 的 hreflang 全集）。
-// 当前列出 14 个；其余语言由后续任务在 W3（文案周）补齐至 16 个
-// （候选：vi / hi，或依 GSC 收录数据定），届时追加到本数组、
-// 在 messages/ 下补对应字典文件，再挪入 ENABLED_LOCALES 即可产出路由。
+// locales：全量备选语言，共 16 个（对应实施方案 §6.3 的 hreflang 全集，
+// 与姊妹站 e-ink.me 的语言集合完全对齐：ar + zh-TW 于 2026-09 决议加入，
+// 取代早期 vi/hi 候选）。追加在数组尾部：hreflangAlternates 与 sitemap 的
+// 键序 = 此数组序，尾部追加保持既有输出顺序稳定。
 export const locales = [
   "en",
   "zh",
@@ -19,13 +19,38 @@ export const locales = [
   "pl",
   "tr",
   "sv",
+  "ar",
+  "zh-TW",
 ] as const;
 
 export type Locale = (typeof locales)[number];
 
+/** 各语言的本地显示名（语言切换器 UI 用；清单与姊妹站 e-ink.me 一致）。 */
+export const LOCALE_NAMES: Record<Locale, string> = {
+  en: "English",
+  zh: "简体中文",
+  de: "Deutsch",
+  es: "Español",
+  fr: "Français",
+  it: "Italiano",
+  pt: "Português",
+  ja: "日本語",
+  ko: "한국어",
+  ru: "Русский",
+  nl: "Nederlands",
+  pl: "Polski",
+  tr: "Türkçe",
+  sv: "Svenska",
+  ar: "العربية",
+  "zh-TW": "繁體中文",
+};
+
+/** 书写方向为 RTL 的语言（layout 的 <html dir> 由此驱动；游戏区恒 LTR）。 */
+export const RTL_LOCALES: readonly string[] = ["ar"];
+
 // 实际产出静态路由的语言（generateStaticParams 由此驱动）。
-// 扩语言三步：补 messages/{locale}.ts → 加入此数组 →（如需 hreflang）改 config 里的 alternates 生成。
-// 方案 §七.3：若 W3 吃紧，首发 8 语言，其余 12 月补。
+// 扩语言三步：补 messages/{locale}.ts → 补 content/games/*/{locale}.json 与
+// ui-words.json → 加入此数组（hreflang/sitemap 自动跟随）。
 export const ENABLED_LOCALES: readonly Locale[] = ["en", "zh"];
 
 export const DEFAULT_LOCALE: Locale = "en";

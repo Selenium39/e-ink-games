@@ -14,6 +14,9 @@ const zh: Messages = {
         games: "游戏",
         about: "关于",
       },
+      language: {
+        label: "选择语言",
+      },
       footer: {
         family: "E-Ink.me 家族站点",
         familyCta: "网页转 EPUB · 电纸书工具",
@@ -40,6 +43,50 @@ const zh: Messages = {
       familyCta: "网页转 EPUB · 电纸书工具",
       familyPlaceholder:
         "游戏只是开始。E-Ink.me 家族为你的整个电纸书生活打造工具——把任意网页文章转成 EPUB 装进 Kindle，以及更多。",
+    },
+  },
+  games: {
+    // 游戏页模板公共词（规约 §8.1；原 page.tsx 内 TEMPLATE_WORDS 收编于此）
+    common: {
+      category: {
+        puzzle: "解谜",
+        word: "文字",
+        board: "棋类",
+        logic: "逻辑",
+        daily: "每日",
+      },
+      moreGames: {
+        puzzle: "更多解谜游戏",
+        word: "更多文字游戏",
+        board: "更多棋类游戏",
+        logic: "更多逻辑游戏",
+        daily: "更多每日游戏",
+      },
+      howToPlay: "玩法说明",
+      devices: "设备兼容",
+      colDevice: "设备",
+      colStatus: "支持",
+      colNote: "说明",
+      statusYes: "可玩",
+      statusLimited: "有限",
+      statusNo: "不支持",
+      whyEInk: "为什么适合墨水屏",
+      faq: "常见问题",
+      relatedEmpty:
+        "这个分类下的更多游戏正在陆续上线——目录会一款一款长大。现在可以先看看已经能在浏览器里玩的全部游戏。",
+      browseAll: "浏览全部游戏",
+      // GameShell 壳层四词（加载状态语义拆分见 GameShell.tsx 文件头注释）
+      shellLoading: "加载中…",
+      shellError: "游戏加载失败——请刷新页面重试。",
+      shellFallback: "此游戏需要较新的浏览器才能运行。",
+      shellNoscript: "本游戏完全在浏览器中运行——请启用 JavaScript 后游玩。",
+    },
+    // 首页目录区公共词（原 [locale]/page.tsx 内 HOME_WORDS 收编于此）
+    home: {
+      playCta: "免费开玩",
+      categories: "按分类浏览",
+      gameCount: "款游戏",
+      comingSoon: "即将上线",
     },
   },
 };

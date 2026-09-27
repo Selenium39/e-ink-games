@@ -3,10 +3,7 @@
 
 import { DEFAULT_LOCALE, ENABLED_LOCALES, type Locale } from "./config";
 import type { Messages } from "./messages/en";
-import en from "./messages/en";
-import zh from "./messages/zh";
-
-const dictionaries: Partial<Record<Locale, Messages>> = { en, zh };
+import { dictionaries } from "./messages";
 
 function lookup(dict: Messages | undefined, key: string): string | undefined {
   if (!dict) return undefined;

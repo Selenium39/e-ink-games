@@ -1,6 +1,6 @@
 // 英文消息字典（缺省回退语言）。新增语言时结构须与本文件逐键对齐。
-// 当前仅覆盖 site.chrome（导航/页脚）+ 首页/关于占位所需的少量键；
-// 游戏文案（games.* 命名空间）由后续任务补充。
+// 覆盖 site.chrome（导航/页脚/语言切换器）+ 首页/关于 + games.common
+//（游戏页模板公共词，规约 §8.1）+ games.home（首页目录区）。
 
 const en = {
   site: {
@@ -12,6 +12,9 @@ const en = {
         label: "Site navigation",
         games: "Games",
         about: "About",
+      },
+      language: {
+        label: "Select language",
       },
       footer: {
         family: "Part of the E-Ink.me family",
@@ -40,6 +43,51 @@ const en = {
       familyCta: "Web to EPUB, e-reader tools",
       familyPlaceholder:
         "Games are only half the story. The E-Ink.me family builds tools for your whole e-reader life — turn any web article into an EPUB for your Kindle, and more.",
+    },
+  },
+  games: {
+    // 游戏页模板公共词（规约 §8.1；原 page.tsx 内 TEMPLATE_WORDS 收编于此）
+    common: {
+      category: {
+        puzzle: "Puzzle",
+        word: "Word",
+        board: "Board",
+        logic: "Logic",
+        daily: "Daily",
+      },
+      // 按分类拆键（t() 无插值参数）；标题视觉沿用旧拼接的小写形态
+      moreGames: {
+        puzzle: "More puzzle games",
+        word: "More word games",
+        board: "More board games",
+        logic: "More logic games",
+        daily: "More daily games",
+      },
+      howToPlay: "How to play",
+      devices: "Device compatibility",
+      colDevice: "Device",
+      colStatus: "Status",
+      colNote: "Notes",
+      statusYes: "Works",
+      statusLimited: "Limited",
+      statusNo: "Not supported",
+      whyEInk: "Why it works on e-ink",
+      faq: "Frequently asked questions",
+      relatedEmpty:
+        "More games in this category are being built right now — the catalog grows game by game. In the meantime, browse everything that already runs in your browser.",
+      browseAll: "Browse all games",
+      // GameShell 壳层四词（加载状态语义拆分见 GameShell.tsx 文件头注释）
+      shellLoading: "Loading…",
+      shellError: "Failed to load the game — please refresh to retry.",
+      shellFallback: "This game needs a newer browser.",
+      shellNoscript: "This game runs entirely in your browser — please enable JavaScript to play.",
+    },
+    // 首页目录区公共词（原 [locale]/page.tsx 内 HOME_WORDS 收编于此）
+    home: {
+      playCta: "Play free",
+      categories: "Browse by category",
+      gameCount: "game",
+      comingSoon: "Coming soon",
     },
   },
 };

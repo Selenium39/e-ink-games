@@ -374,7 +374,7 @@ export function mount(root: HTMLElement, opts?: { seed?: number }): void {
 
   // ── 最小脏区 patch（§6：只改 textContent/classList/outline 相关 class）──
   let lastMovesShown = -1;
-  let lastPairsShown = -1;
+  let lastPairsShown = "";
 
   function patch(s: GameState): void {
     for (let idx = 0; idx < cells.length; idx++) {
