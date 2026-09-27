@@ -3,7 +3,8 @@
 
 import type { Metadata } from "next";
 import Link from "next/link";
-import { SITE_URL, t } from "@/lib/i18n";
+import { t } from "@/lib/i18n";
+import { alternatesFor } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -14,9 +15,8 @@ export async function generateMetadata({
   return {
     title: t(locale, "site.about.title"),
     description: t(locale, "site.about.intro"),
-    alternates: {
-      canonical: `${SITE_URL}/${locale}/about/`,
-    },
+    // 与首页/游戏页同源（路径感知版 canonical + hreflang 全集）
+    alternates: alternatesFor(`/${locale}/about/`),
   };
 }
 
