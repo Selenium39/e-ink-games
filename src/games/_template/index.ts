@@ -25,6 +25,33 @@ function boot(): void {
   registry[SLUG] = { mount };
 
   // ── 自挂载（§3.3.2）：defer 保证 DOM 已就绪；异常时序退回 DOMContentLoaded ──
+  mountAll();
+
+  // ── 水合竞争防御（与 sudoku 等各游戏入口同款，复制时勿删）──
+  // GameShell 是 'use client' 组件且 defer bundle 可能先于 React 水合执行：
+  // 刚挂上的 UI 会在水合重建 game-root 子树时被抹掉（打样实测复现）。
+  // 兜底：观察 body 子树，发现游戏 UI 缺席（且壳层容器还在）即防抖重挂。
+  // mount 幂等（§3.3.3），重挂 = 全新开局后的存档恢复，无副作用累积。
+  // 老浏览器无 MutationObserver 时跳过防御——行为与无此防御一致（渐进增强）。
+  // 标记类名按游戏改：本模板 UI 根为 .gtpl-board（render.ts 定义）。
+  if (typeof MutationObserver !== "undefined" && typeof document.body !== "undefined") {
+    let timer: number | null = null;
+    const observer = new MutationObserver(() => {
+      if (timer !== null) return;
+      timer = window.setTimeout(() => {
+        timer = null;
+        const roots = document.querySelectorAll('#game-root[data-game="' + SLUG + '"]');
+        for (let i = 0; i < roots.length; i++) {
+          const el = roots[i] as HTMLElement;
+          if (!el.querySelector(".gtpl-board")) mount(el);
+        }
+      }, 120);
+    });
+    observer.observe(document.body, { childList: true, subtree: true });
+  }
+}
+
+function mountAll(): void {
   const roots = document.querySelectorAll('#game-root[data-game="' + SLUG + '"]');
   for (let i = 0; i < roots.length; i++) {
     mount(roots[i] as HTMLElement);
