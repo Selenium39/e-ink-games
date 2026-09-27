@@ -18,6 +18,8 @@ import nl from "./nl";
 import pl from "./pl";
 import tr from "./tr";
 import sv from "./sv";
+import ar from "./ar";
+import zhTW from "./zh-TW";
 
 export const dictionaries: Partial<Record<Locale, Messages>> = {
   en,
@@ -34,4 +36,6 @@ export const dictionaries: Partial<Record<Locale, Messages>> = {
   pl,
   tr,
   sv,
+  ar,
+  "zh-TW": zhTW,
 };
