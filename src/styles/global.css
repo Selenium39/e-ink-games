@@ -1,0 +1,234 @@
+/* ─────────────────────────────────────────────────────────────────
+ * games.e-ink.me · 站点全局样式（印刷美学）
+ *
+ * 引入顺序（见 src/app/layout.tsx，顺序不可调换）：
+ *   1. @marcomattes/epaper-components/styles.min.css  库 tokens+base+components（gzip ≈13KB）
+ *   2. @/styles/tokens.css                            品牌覆盖（必须晚于库 tokens）
+ *   3. @/styles/global.css                            本文件
+ *
+ * 命名空间约定：站点自有类一律 .site-* 前缀；库工具类（.ink-page、
+ * .ink-rule、.ink-spec-label…）直接复用，不在此重写。
+ *
+ * 设计规范（实施方案 §一.4）：
+ *   - 区块分隔用 3px 粗黑线（--site-rule-strong），控件边框 1px 细线
+ *     （--ink-border-width-hair），报纸层级感；
+ *   - 大标题衬线 var(--ink-serif)（"Iowan Old Style"/Charter/Georgia 系统栈，
+ *     零外部字体请求）；小标签等宽全大写 var(--ink-mono)（ui-monospace 栈）；
+ *   - 零圆角、零阴影、零动画、零 hover（链接状态恒定，全库亦无 :hover 规则）；
+ *   - 状态不用中间灰——用反白/填充翻转表达；灰仅豁免大段正文 #333。
+ * ───────────────────────────────────────────────────────────────── */
+
+:root {
+  /* 站点级变量一律 --site- 前缀，不与库 --ink-* 冲突 */
+  --site-rule-strong: 3px; /* 区块粗分隔线 */
+  --site-prose-fg: #333;   /* 大段正文唯一灰阶豁免（§一.4） */
+  --site-max-width: 72rem; /* 页宽上限，配合 .ink-page--sheet */
+}
+
+/* body 级兜底：库样式 scoped 在 .ink-page 内，页面骨架在此之外 */
+body {
+  margin: 0;
+  background: var(--ink-bg);
+  color: var(--ink-fg);
+  font-family: var(--ink-sans);
+}
+
+/* 零动画兜底到文档根：base.css 已在 .ink-page 内 !important 禁动画，
+ * 此处覆盖 .ink-page 之外的极少数元素（含 scroll-behavior）。 */
+html {
+  scroll-behavior: auto;
+}
+
+.ink-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: var(--site-max-width);
+  margin: 0 auto;
+  padding: 0 var(--ink-space-5) var(--ink-space-6);
+}
+
+.ink-page main {
+  flex: 1;
+}
+
+/* ── 标题：衬线大标题（报纸头版）────────────────────────────── */
+
+.ink-page h1,
+.ink-page h2,
+.ink-page h3 {
+  font-family: var(--ink-serif);
+  font-weight: 700;
+  letter-spacing: var(--ink-tracking-tight);
+  line-height: var(--ink-lh-tight);
+  margin: 0 0 var(--ink-space-4);
+}
+
+.ink-page h1 { font-size: var(--ink-text-h1); }
+.ink-page h2 { font-size: var(--ink-text-h2); }
+
+/* 大段正文用允许的深灰，标题与控件保持纯黑 */
+.ink-page p {
+  color: var(--site-prose-fg);
+  line-height: var(--ink-lh-prose);
+}
+
+/* ── 链接：无色可用，一律黑字 + 下划线（墨水屏可读性）；零 hover ──
+ * 本文件刻意不含任何 :hover / :active 规则：链接状态恒定，
+ * 焦点指示交给 base.css 的 .ink-page :focus-visible 纯黑 outline。 */
+
+.ink-page a {
+  color: var(--ink-fg);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* 导航/品牌等"已知目的地"的短链接退下划线，靠等宽大写形态区分 */
+.site-nav a,
+.site-brand a,
+.site-skip {
+  text-decoration: none;
+}
+
+/* 跳转链接：获焦/触达前不可见（1px 细线轮廓的位置占位），无动画位移 */
+.site-skip {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: var(--ink-space-2) var(--ink-space-3);
+  background: var(--ink-bg);
+  transform: translateY(-200%);
+}
+.site-skip:focus {
+  transform: none;
+}
+
+/* ── Header：顶部 3px 粗线 + 等宽全大写导航 ──────────────────── */
+
+.site-header {
+  border-top: var(--site-rule-strong) solid var(--ink-fg);
+  border-bottom: var(--ink-border-width) solid var(--ink-fg);
+  padding: var(--ink-space-4) 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--ink-space-4);
+  flex-wrap: wrap;
+}
+
+.site-brand {
+  margin: 0;
+  font-family: var(--ink-serif);
+  font-size: var(--ink-text-h4);
+  font-weight: 700;
+  color: var(--ink-fg);
+}
+
+.site-tagline {
+  margin: 0;
+  font-size: var(--ink-text-small);
+  color: var(--site-prose-fg);
+}
+
+.site-nav {
+  display: flex;
+  gap: var(--ink-space-5);
+  /* 等宽全大写小标签（ui-monospace 栈） */
+  font-family: var(--ink-mono);
+  font-size: var(--ink-text-label);
+  font-weight: 700;
+  letter-spacing: var(--ink-tracking-wide);
+  text-transform: uppercase;
+}
+
+/* ── 区块分隔：粗细线对比（报纸层级感）──────────────────────── */
+/* 3px 粗线用 .ink-rule.ink-rule--thick（库），普通细线用 .ink-rule。
+ * 区块之间至少留一段呼吸间距： */
+
+.site-section {
+  margin: var(--ink-space-7) 0;
+}
+
+/* ── 控件兜底：1px 细线、直角（游戏 UI 组件层交给 e-* 组件）──── */
+
+.ink-page button,
+.ink-page input,
+.ink-page select,
+.ink-page textarea {
+  border: var(--ink-border-width-hair) solid var(--ink-fg);
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.ink-page button {
+  font-family: var(--ink-mono);
+  text-transform: uppercase;
+  letter-spacing: var(--ink-tracking-label);
+  background: var(--ink-bg);
+  color: var(--ink-fg);
+}
+
+/* ── 首页 ───────────────────────────────────────────────────── */
+
+.site-home-title {
+  margin-top: var(--ink-space-7);
+  font-size: var(--ink-text-h1);
+}
+
+.site-intro {
+  max-width: 60ch;
+}
+
+.site-catalog-placeholder {
+  border: var(--ink-border-width-hair) solid var(--ink-fg);
+  padding: var(--ink-space-5);
+  color: var(--site-prose-fg);
+}
+
+/* ── Footer：3px 粗线 + 导流条（反白填充翻转，不用灰阶）──────── */
+
+.site-footer {
+  margin-top: var(--ink-space-8);
+  border-top: var(--site-rule-strong) solid var(--ink-fg);
+}
+
+.site-family {
+  margin: 0;
+  border-bottom: var(--ink-border-width-hair) solid var(--ink-fg);
+  background: var(--ink-bg-inverted);
+  color: var(--ink-fg-inverted);
+  font-family: var(--ink-mono);
+  font-size: var(--ink-text-label);
+  font-weight: 700;
+  letter-spacing: var(--ink-tracking-wide);
+  text-transform: uppercase;
+}
+
+.site-family a {
+  display: block;
+  padding: var(--ink-space-3) var(--ink-space-4);
+  color: var(--ink-fg-inverted);
+  text-decoration: none;
+}
+
+.site-rights {
+  margin: 0;
+  padding: var(--ink-space-3) 0 var(--ink-space-4);
+  font-size: var(--ink-text-caption);
+  color: var(--site-prose-fg);
+}
+
+/* ── About ──────────────────────────────────────────────────── */
+
+.site-about-family {
+  border: var(--ink-border-width) solid var(--ink-fg);
+  padding: var(--ink-space-5);
+}
+
+.site-about-family h2 {
+  font-size: var(--ink-text-h3);
+}
+
+.site-back {
+  margin-top: var(--ink-space-6);
+}

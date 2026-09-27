@@ -1,0 +1,16 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+out/
+
+# env files（不提交任何真实密钥）
+.env
+.env.*
+!.env.example
+
+# misc
+.DS_Store
+*.tsbuildinfo
+npm-debug.log*

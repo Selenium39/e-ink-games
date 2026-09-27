@@ -1,0 +1,12 @@
+{
+  "slug": "sudoku",
+  "title": "Sudoku",
+  "category": "puzzle",
+  "difficulties": ["easy", "medium", "hard", "expert"],
+  "engineFeatures": ["grid", "keypad", "timer", "undo", "notes"],
+  "seeded": true,
+  "seo": {
+    "keywordsHint": ["sudoku for kindle", "e ink sudoku"],
+    "videoGameGenre": "Puzzle"
+  }
+}

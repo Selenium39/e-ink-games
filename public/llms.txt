@@ -1,0 +1,20 @@
+# E-Ink Games
+
+> Free browser games designed for e-ink screens — pure black and white, zero animations, zero flicker. Play Sudoku and more right in the browser of your Kindle, BOOX, Kobo or any e-ink device. No download, no install.
+
+Part of the E-Ink.me family (web-to-EPUB and e-reader tools at https://e-ink.me).
+
+## Games
+
+- [Sudoku](https://games.e-ink.me/en/games/sudoku/): Classic 9×9 Sudoku that runs in your Kindle or e-ink browser — free, no download, four difficulty levels, notes and undo.
+
+## Catalog & Info
+
+- [Home — all games](https://games.e-ink.me/en/): Full game catalog, auto-updated as new games ship.
+- [About](https://games.e-ink.me/en/about/): What E-Ink Games is and why it respects your screen.
+- [Sitemap](https://games.e-ink.me/sitemap.xml): Every page, all languages.
+
+## Languages
+
+- [English](https://games.e-ink.me/en/) (default)
+- [中文](https://games.e-ink.me/zh/)

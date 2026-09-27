@@ -1,0 +1,25 @@
+/* ─────────────────────────────────────────────────────────────────
+ * games.e-ink.me · 品牌 token 微调
+ * 必须在 @marcomattes/epaper-components/tokens.css 之后引入，仅重声明
+ * 需要覆盖的自定义属性，不改库的结构。
+ *
+ * 设计决策（实施方案 §一.4）：
+ *  - 配色钉死纯黑/纯白。库默认值本就是 #fff/#000，此处显式重声明，
+ *    把品牌契约固定在本仓库：库升级即便改变默认，站点不受漂移影响。
+ *  - 状态色（accent/info/success/warning/danger）一律坍缩为纯黑：
+ *    墨水屏上中间灰会因 dithering 渲染不一致（组件库文档明确警告），
+ *    状态表达靠反转/填充翻转/斜线纹理，绝不靠灰阶或透明度。
+ * ───────────────────────────────────────────────────────────────── */
+
+:root {
+  --ink-bg: #ffffff;
+  --ink-fg: #000000;
+  --ink-fg-inverted: #ffffff;
+  --ink-bg-inverted: #000000;
+
+  --ink-accent: var(--ink-fg);
+  --ink-info: var(--ink-fg);
+  --ink-success: var(--ink-fg);
+  --ink-warning: var(--ink-fg);
+  --ink-danger: var(--ink-fg);
+}

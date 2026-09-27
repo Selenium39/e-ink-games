@@ -1,0 +1,9 @@
+{
+  "slug": "_template",
+  "title": "Template (Copy Me)",
+  "category": "puzzle",
+  "difficulties": ["standard"],
+  "engineFeatures": ["undo"],
+  "seeded": false,
+  "seo": { "videoGameGenre": "Puzzle" }
+}

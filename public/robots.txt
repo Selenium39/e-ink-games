@@ -1,0 +1,6 @@
+# games.e-ink.me — 全站对爬虫开放（免费游戏站，收录即增长）。
+# sitemap 由 scripts/gen-sitemap.mjs 在每次构建后产出 out/sitemap.xml。
+User-agent: *
+Allow: /
+
+Sitemap: https://games.e-ink.me/sitemap.xml
