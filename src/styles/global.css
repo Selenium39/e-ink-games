@@ -142,10 +142,14 @@ html {
 }
 
 /* ── 语言切换器：<details> 零 JS 开合（无动画/零 JS 哲学）─────────
-   展开列表为文档流内块（非 absolute）：老墨水屏浏览器无定位/层叠边界
-   问题，展开时在 flex-wrap 的 header 里下推内容而非覆盖。 */
+   展开列表为 absolute 浮层（top:100% 挂在 summary 正下方，右缘对齐）：
+   不推挤文档流，header 高度展开前后不变。两列 grid 把 16 语言压到
+   8 行。不支持 <details> 的极老浏览器上 :not([open]) 会把列表永久
+   隐藏（链接仍在 DOM，爬虫可见）——可接受降级：这些设备本就跑不了
+   游戏，语言可达性交给 SEO 通道。 */
 
 .site-lang {
+  position: relative; /* 浮层定位锚点 */
   font-family: var(--ink-mono);
   font-size: var(--ink-text-label);
   font-weight: 700;
@@ -167,14 +171,18 @@ html {
 }
 
 .site-lang ul {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  z-index: 1;
   list-style: none;
-  margin: var(--ink-space-3) 0 0;
+  margin: var(--ink-space-2) 0 0;
   padding: var(--ink-space-3) var(--ink-space-4);
   border: var(--ink-border-width) solid var(--ink-fg);
-  background: var(--ink-bg);
+  background: var(--ink-bg); /* 浮层必须实底，压住下方正文 */
   display: grid;
-  gap: var(--ink-space-2);
-  min-width: max-content;
+  grid-template-columns: repeat(2, minmax(8.5em, auto));
+  gap: var(--ink-space-2) var(--ink-space-5);
 }
 
 .site-lang a {
