@@ -1,21 +1,24 @@
 // 统计脚本门控注入（server component，构建期求值）。
 //
-// 三个环境变量全部可选、互相独立：
-//   NEXT_PUBLIC_GA4_ID    Google Analytics 4 衡量 ID（G-XXXXXXXX）
-//   NEXT_PUBLIC_UMAMI_ID  Umami 网站 ID
-//   NEXT_PUBLIC_UMAMI_SRC Umami 脚本地址（自托管，https://…/script.js）
+// GA4 与 Umami 互相独立：
+//   NEXT_PUBLIC_GA4_ID    Google Analytics 4 衡量 ID（G-XXXXXXXX）——未设置 = 完全不注入
+//   NEXT_PUBLIC_UMAMI_*   Umami 覆盖值（可选）——未设置时使用下方内置默认值
 //
-// 未设置 = 该统计源完全不渲染任何标签（零输出、零外域请求）——静态导出下
-// env 缺失时本组件返回 null，HTML 里不留任何痕迹（§4.4 零请求红线）。
+// Umami 接入参数直接内置（2026-09-27 站长裁决）：website id 本就会随页面
+// HTML 公开渲染给所有访客，不构成机密；src 为自托管实例地址。
+// GA4 保持纯环境变量门控：未设置时零输出、零外域请求（§4.4）。
 // 格式校验防呆：ID/URL 形状不对时构建期 warn 并跳过，绝不把畸形值拼进页面。
-// 变量名与占位注释见 .env.example；仓库中不得出现任何真实 key（安全红线）。
 
 const GA4_RE = /^G-[A-Z0-9]{6,12}$/i;
 
+// 内置 Umami（自托管 umami.selenium39.me）；env 设置时覆盖内置值。
+const DEFAULT_UMAMI_SRC = "https://umami.selenium39.me/script.js";
+const DEFAULT_UMAMI_ID = "1d1fb9fa-b17e-4b56-8f34-bcf9b89143e4";
+
 export default function Analytics() {
   const ga4 = process.env.NEXT_PUBLIC_GA4_ID;
-  const umamiId = process.env.NEXT_PUBLIC_UMAMI_ID;
-  const umamiSrc = process.env.NEXT_PUBLIC_UMAMI_SRC;
+  const umamiId = process.env.NEXT_PUBLIC_UMAMI_ID ?? DEFAULT_UMAMI_ID;
+  const umamiSrc = process.env.NEXT_PUBLIC_UMAMI_SRC ?? DEFAULT_UMAMI_SRC;
 
   const ga4Ok = ga4 ? GA4_RE.test(ga4) : false;
   if (ga4 && !ga4Ok) {
@@ -24,11 +27,10 @@ export default function Analytics() {
     );
   }
 
-  const umamiOk =
-    Boolean(umamiId) && Boolean(umamiSrc) && /^https:\/\//.test(umamiSrc as string);
-  if (umamiId && umamiSrc && !umamiOk) {
+  const umamiOk = Boolean(umamiId) && /^https:\/\//.test(umamiSrc);
+  if (!umamiOk) {
     console.warn(
-      "[analytics] NEXT_PUBLIC_UMAMI_ID / NEXT_PUBLIC_UMAMI_SRC 需成对设置且 SRC 须为 https:// 地址，已跳过注入",
+      "[analytics] Umami 配置非法（ID 缺失或 SRC 非 https://），已跳过注入",
     );
   }
 
