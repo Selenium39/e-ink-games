@@ -16,8 +16,8 @@ import { GAMES } from "../lib/games.registry";
 
 const GAMES_DIR = dirname(fileURLToPath(import.meta.url));
 
-/** 阶段③ Wave B 收尾后置 true(当前 zh 先行,Wave B 补其余 14 语言) */
-const REQUIRE_FULL_COVERAGE = false;
+/** 阶段③ Wave B 已收尾:全部 15 非 en 语言节就位,全覆盖断言生效 */
+const REQUIRE_FULL_COVERAGE = true;
 
 const NON_EN = (locales as readonly string[]).filter((l) => l !== "en");
 
