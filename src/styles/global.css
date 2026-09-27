@@ -142,11 +142,14 @@ html {
 }
 
 /* ── 语言切换器：<details> 零 JS 开合（无动画/零 JS 哲学）─────────
-   展开列表为 absolute 浮层（top:100% 挂在 summary 正下方，右缘对齐）：
-   不推挤文档流，header 高度展开前后不变。两列 grid 把 16 语言压到
-   8 行。不支持 <details> 的极老浏览器上 :not([open]) 会把列表永久
-   隐藏（链接仍在 DOM，爬虫可见）——可接受降级：这些设备本就跑不了
-   游戏，语言可达性交给 SEO 通道。 */
+   展开列表为 absolute 浮层（top:100% 挂在 summary 正下方）：不推挤
+   文档流，header 高度展开前后不变。对齐方向按断点：窄屏菜单常换行
+   到行首左侧 → left:0 向右展开；宽屏（≥48em，header 单行、菜单在右
+   侧）→ right:0 向左展开。中间模糊区间由 LanguageMenu 内联脚本的
+   toggle 兜底实测翻转（越界即翻）。两列 grid 把 16 语言压到 8 行。
+   不支持 <details> 的极老浏览器上 :not([open]) 会把列表永久隐藏
+  （链接仍在 DOM，爬虫可见）——可接受降级：这些设备本就跑不了游戏，
+   语言可达性交给 SEO 通道。 */
 
 .site-lang {
   position: relative; /* 浮层定位锚点 */
@@ -173,7 +176,7 @@ html {
 .site-lang ul {
   position: absolute;
   top: 100%;
-  right: 0;
+  left: 0;
   z-index: 1;
   list-style: none;
   margin: var(--ink-space-2) 0 0;
@@ -183,6 +186,13 @@ html {
   display: grid;
   grid-template-columns: repeat(2, minmax(8.5em, auto));
   gap: var(--ink-space-2) var(--ink-space-5);
+}
+
+@media (min-width: 48em) {
+  .site-lang ul {
+    left: auto;
+    right: 0;
+  }
 }
 
 .site-lang a {

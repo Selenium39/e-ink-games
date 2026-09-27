@@ -34,14 +34,17 @@ export default function LanguageMenu({ locale }: { locale: Locale }) {
           </li>
         ))}
       </ul>
-      {/* 同路径换语言（纯 ES5；路径无语言前缀时不改写，保持默认）。
-          执行时机：内联同步脚本会在 React 水合前跑、随后水合重建子树把
-          href 恢复成 SSR 默认值——故延迟到水合后执行，且 rAF+load 双触发
-          幂等（改写是纯 setAttribute，重复执行无害，同 GameShell 探测模式） */}
+      {/* 增强（纯 ES5，两项职责）：
+          1. 同路径换语言：href 默认 /{locale}/，改写为当前路径的语言变体。
+             执行时机：内联同步脚本会在 React 水合前跑、随后水合重建子树把
+             href 恢复成 SSR 默认值——故延迟到水合后执行，且双触发幂等。
+          2. 浮层越界翻转：details toggle 时实测浮层 rect，超出视口即翻转
+             对齐方向（CSS 断点 left/right 只覆盖典型布局，flex-wrap 换行
+             时机随内容宽度浮动，中间区间靠此兜底；行内样式优先于媒体查询） */}
       <script
         dangerouslySetInnerHTML={{
           __html:
-            '(function(){function rw(){var d=document.getElementById("site-lang");if(!d)return;var p=location.pathname,m=p.match(/^\\/[a-z]{2}(?:-[A-Za-z]{2})?\\//);if(!m)return;var r=p.slice(m[0].length),a=d.getElementsByTagName("a");for(var i=0;i<a.length;i++){var l=a[i].getAttribute("hreflang");if(l&&a[i].getAttribute("href")!=="/"+l+"/"+r)a[i].setAttribute("href","/"+l+"/"+r)}}setTimeout(rw,100);if(document.readyState!=="loading"){window.addEventListener("load",rw)}else{document.addEventListener("DOMContentLoaded",rw)}})()',
+            '(function(){function rw(){var d=document.getElementById("site-lang");if(!d)return;var p=location.pathname,m=p.match(/^\\/[a-z]{2}(?:-[A-Za-z]{2})?\\//);if(!m)return;var r=p.slice(m[0].length),a=d.getElementsByTagName("a");for(var i=0;i<a.length;i++){var l=a[i].getAttribute("hreflang");if(l&&a[i].getAttribute("href")!=="/"+l+"/"+r)a[i].setAttribute("href","/"+l+"/"+r)}}function flip(){var u=this.querySelector("ul");if(!u)return;u.style.left="";u.style.right="";var b=u.getBoundingClientRect(),vw=document.documentElement.clientWidth;if(b.right>vw+4){u.style.left="auto";u.style.right="0"}else if(b.left<0){u.style.left="0";u.style.right="auto"}}function bind(){var d=document.getElementById("site-lang");if(!d||d.dataset.flipBound==="1")return;d.dataset.flipBound="1";d.addEventListener("toggle",flip)}setTimeout(function(){rw();bind()},100);if(document.readyState!=="loading"){window.addEventListener("load",function(){rw();bind()})}else{document.addEventListener("DOMContentLoaded",function(){rw();bind()})}})()',
         }}
       />
     </details>
