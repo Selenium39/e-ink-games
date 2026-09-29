@@ -26,6 +26,9 @@ export function generateStaticParams() {
 
 // 布局级默认元数据；各页面（首页/about）用 page 级 metadata 覆盖
 // title/description，并提供各自的 canonical + hreflang。
+// openGraph 在此提供站点级默认（含 /og/site.png 分享图）：未定义 page 级
+// openGraph 的页面（首页/about）继承此配置；游戏页在 page 级整体覆盖
+//（含各自的游戏分享图）。twitter 卡片由 Next 依 openGraph.images 自动输出。
 export async function generateMetadata({
   params,
 }: {
@@ -39,6 +42,23 @@ export async function generateMetadata({
       template: "%s — E-Ink Games",
     },
     description: t(locale, "site.home.description"),
+    openGraph: {
+      title: t(locale, "site.home.title"),
+      description: t(locale, "site.home.description"),
+      url: `/${locale}/`,
+      siteName: "E-Ink Games",
+      type: "website",
+      // 站点默认分享图由 scripts/gen-og.mjs 生成（1200×630 黑白印刷风，
+      // 不依赖游戏清单）；metadataBase 在上方，相对路径自动解析为绝对 URL。
+      images: [
+        {
+          url: "/og/site.png",
+          width: 1200,
+          height: 630,
+          alt: "E-Ink Games — free browser games for e-ink readers",
+        },
+      ],
+    },
     // 零外部请求（§4.4）：favicon 用内联 SVG 文件（public/favicon.svg），
     // 无 PNG/ICO 链，避免多余位图请求。
     icons: {
