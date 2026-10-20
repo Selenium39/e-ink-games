@@ -26,10 +26,12 @@ export function generateStaticParams() {
 
 // 姊妹站 news.e-ink.me 目前只产出 en / zh 两个语言（其余语言索引 404），
 // 故非 en/zh 的访问者一律回落到英文版；zh-TW 归入 zh。
+// 注意：新闻站是不带尾斜杠的静态导出，`/en/`（尾斜杠）会被 nginx 当成
+// 目录请求直接 403，必须写成 `/en`——这里刻意不加 `/`。
 // utm_* 让新闻站能区分"来自游戏站"的导流，便于日后复盘互推效果。
 function newsHref(locale: Locale): string {
   const lang = locale === "zh" || locale === "zh-TW" ? "zh" : "en";
-  return `https://news.e-ink.me/${lang}/?utm_source=games.e-ink.me&utm_medium=footer`;
+  return `https://news.e-ink.me/${lang}?utm_source=games.e-ink.me&utm_medium=footer`;
 }
 
 // 布局级默认元数据；各页面（首页/about）用 page 级 metadata 覆盖
