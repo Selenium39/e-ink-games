@@ -20,6 +20,7 @@ const pt: Messages = {
       footer: {
         family: "Parte da família E-Ink.me",
         familyCta: "Web para EPUB, ferramentas para e-readers",
+        news: "E-Ink News",
         rights: "Sem anúncios. Sem scripts de rastreamento. Apenas jogos que respeitam a sua tela.",
       },
     },

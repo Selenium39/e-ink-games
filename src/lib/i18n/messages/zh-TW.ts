@@ -21,6 +21,7 @@ const zhTW: Messages = {
       footer: {
         family: "E-Ink.me 家族網站",
         familyCta: "網頁轉 EPUB · 電子書工具",
+        news: "E-Ink 新聞",
         rights: "無廣告、無重量級追蹤腳本，只做尊重你螢幕的遊戲。",
       },
     },

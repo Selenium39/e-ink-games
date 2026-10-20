@@ -23,6 +23,7 @@ const ar: Messages = {
       footer: {
         family: "جزء من عائلة E-Ink.me",
         familyCta: "أدوات Web to EPUB لقارئات الحبر الإلكتروني",
+        news: "E-Ink News",
         rights: "بلا إعلانات. بلا سكربتات تتبُّع ثقيلة. ألعاب فقط تحترم شاشتك.",
       },
     },

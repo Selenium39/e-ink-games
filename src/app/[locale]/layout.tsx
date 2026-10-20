@@ -24,6 +24,14 @@ export function generateStaticParams() {
   return ENABLED_LOCALES.map((locale) => ({ locale }));
 }
 
+// 姊妹站 news.e-ink.me 目前只产出 en / zh 两个语言（其余语言索引 404），
+// 故非 en/zh 的访问者一律回落到英文版；zh-TW 归入 zh。
+// utm_* 让新闻站能区分"来自游戏站"的导流，便于日后复盘互推效果。
+function newsHref(locale: Locale): string {
+  const lang = locale === "zh" || locale === "zh-TW" ? "zh" : "en";
+  return `https://news.e-ink.me/${lang}/?utm_source=games.e-ink.me&utm_medium=footer`;
+}
+
 // 布局级默认元数据；各页面（首页/about）用 page 级 metadata 覆盖
 // title/description，并提供各自的 canonical + hreflang。
 // openGraph 在此提供站点级默认（含 /og/site.png 分享图）：未定义 page 级
@@ -125,6 +133,10 @@ export default async function LocaleLayout({
             </p>
             <p className="site-rights">
               {t(loc, "site.chrome.footer.rights")}
+              {" · "}
+              <a href={newsHref(loc)} rel="noopener">
+                {t(loc, "site.chrome.footer.news")}
+              </a>
             </p>
           </footer>
 

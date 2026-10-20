@@ -23,6 +23,7 @@ const sv: Messages = {
       footer: {
         family: "En del av E-Ink.me-familjen",
         familyCta: "Webb till EPUB, e-läsarverktyg",
+        news: "E-Ink News",
         rights:
           "Ingen reklam. Inga spårningstunga skript. Bara spel som respekterar din skärm.",
       },

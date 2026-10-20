@@ -19,6 +19,7 @@ const en = {
       footer: {
         family: "Part of the E-Ink.me family",
         familyCta: "Web to EPUB, e-reader tools",
+        news: "E-Ink News",
         rights: "No ads. No tracking-heavy scripts. Just games that respect your screen.",
       },
     },
