@@ -12,6 +12,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Analytics from "@/components/Analytics";
 import LanguageMenu from "@/components/LanguageMenu";
+import { wikiHref } from "@/lib/family-href";
 import {
   ENABLED_LOCALES,
   RTL_LOCALES,
@@ -138,6 +139,10 @@ export default async function LocaleLayout({
               {" · "}
               <a href={newsHref(loc)} rel="noopener">
                 {t(loc, "site.chrome.footer.news")}
+              </a>
+              {" · "}
+              <a href={wikiHref(loc)} rel="noopener">
+                {t(loc, "site.chrome.footer.wiki")}
               </a>
             </p>
           </footer>

@@ -23,6 +23,7 @@ const tr: Messages = {
         family: "E-Ink.me ailesinin bir parçası",
         familyCta: "Web'den EPUB'a, e-okuyucu araçları",
         news: "E-Ink News",
+        wiki: "E-Ink Wiki",
         rights: "Reklam yok. Ağır takip betikleri yok. Sadece ekranına saygı duyan oyunlar.",
       },
     },

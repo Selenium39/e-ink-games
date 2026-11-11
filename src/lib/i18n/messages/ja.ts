@@ -21,6 +21,7 @@ const ja: Messages = {
         family: "E-Ink.me ファミリーの一角",
         familyCta: "ウェブからEPUB・リーダーツール",
         news: "E-Ink News",
+        wiki: "E-Ink Wiki",
         rights:
           "広告なし、重いトラッキングスクリプトなし。あなたの画面に寄り添うゲームだけを。",
       },

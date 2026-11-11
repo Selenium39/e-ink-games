@@ -24,6 +24,7 @@ const ar: Messages = {
         family: "جزء من عائلة E-Ink.me",
         familyCta: "أدوات Web to EPUB لقارئات الحبر الإلكتروني",
         news: "E-Ink News",
+        wiki: "E-Ink Wiki",
         rights: "بلا إعلانات. بلا سكربتات تتبُّع ثقيلة. ألعاب فقط تحترم شاشتك.",
       },
     },

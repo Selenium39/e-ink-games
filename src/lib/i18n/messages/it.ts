@@ -21,6 +21,7 @@ const it: Messages = {
         family: "Parte della famiglia E-Ink.me",
         familyCta: "Web in EPUB, strumenti per e-reader",
         news: "E-Ink News",
+        wiki: "E-Ink Wiki",
         rights:
           "Nessuna pubblicità. Nessuno script che ti traccia. Solo giochi che rispettano il tuo schermo.",
       },

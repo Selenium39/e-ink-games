@@ -22,6 +22,7 @@ const ru: Messages = {
         family: "Входит в семейство E-Ink.me",
         familyCta: "Веб в EPUB, инструменты для ридеров",
         news: "E-Ink News",
+        wiki: "E-Ink Wiki",
         rights: "Без рекламы. Без навязчивых трекеров. Только игры, которые бережны к твоему экрану.",
       },
     },

@@ -21,6 +21,7 @@ const zh: Messages = {
         family: "E-Ink.me 家族站点",
         familyCta: "网页转 EPUB · 电纸书工具",
         news: "E-Ink 新闻",
+        wiki: "E-Ink 维基",
         rights: "无广告、无重型追踪脚本，只做尊重你屏幕的游戏。",
       },
     },
