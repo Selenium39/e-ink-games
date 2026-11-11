@@ -20,6 +20,7 @@ const en = {
         family: "Part of the E-Ink.me family",
         familyCta: "Web to EPUB, e-reader tools",
         news: "E-Ink News",
+        wiki: "E-Ink Wiki",
         rights: "No ads. No tracking-heavy scripts. Just games that respect your screen.",
       },
     },

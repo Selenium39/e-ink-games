@@ -22,6 +22,7 @@ const de: Messages = {
         family: "Teil der E-Ink.me-Familie",
         familyCta: "Web zu EPUB, E-Reader-Tools",
         news: "E-Ink News",
+        wiki: "E-Ink Wiki",
         rights: "Keine Werbung. Keine schweren Tracking-Skripte. Nur Spiele, die deinen Bildschirm respektieren.",
       },
     },

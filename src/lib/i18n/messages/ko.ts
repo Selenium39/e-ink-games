@@ -21,6 +21,7 @@ const ko: Messages = {
         family: "E-Ink.me 패밀리의 일원입니다",
         familyCta: "웹을 EPUB로, 전자책 리더 도구",
         news: "E-Ink News",
+        wiki: "E-Ink Wiki",
         rights: "광고 없음. 추적 스크립트 없음. 화면을 아끼는 게임만 있습니다.",
       },
     },
