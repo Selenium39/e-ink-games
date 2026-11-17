@@ -23,7 +23,7 @@ import GameShell from "@/components/GameShell";
 import Breadcrumbs from "@/components/seo/Breadcrumbs";
 import Faq from "@/components/seo/Faq";
 import JsonLd, { type JsonLdObject } from "@/components/seo/JsonLd";
-import { ENABLED_LOCALES, t, type Locale } from "@/lib/i18n";
+import { ENABLED_LOCALES, SITE_NAME, t, type Locale } from "@/lib/i18n";
 import { getGame, GAMES } from "@/lib/games.registry";
 import { absoluteUrl, alternatesFor } from "@/lib/seo";
 import { assertGameContent } from "@/content/games/assert";
@@ -103,7 +103,7 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
       title: content.meta.title,
       description: content.meta.description,
       url: alternates.canonical,
-      siteName: "E-Ink Games",
+      siteName: SITE_NAME,
       type: "website",
       // 分享图由 scripts/gen-og.mjs 按 registry 生成（1200×630 黑白印刷风）；
       // metadataBase 在 [locale]/layout.tsx，相对路径自动解析为绝对 URL。
@@ -159,7 +159,7 @@ export default async function GamePage({ params }: { params: Params }) {
       priceCurrency: "USD",
       availability: "https://schema.org/InStock",
     },
-    publisher: { "@type": "Organization", name: "E-Ink.me", url: "https://e-ink.me" },
+    publisher: { "@type": "Organization", name: "Inkme", url: "https://e-ink.me" },
   };
 
   const faqPage: JsonLdObject = {

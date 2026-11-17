@@ -7,7 +7,7 @@ import type { Messages } from "./en";
 const zhTW: Messages = {
   site: {
     chrome: {
-      brand: "E-Ink 遊戲",
+      brand: "Inkme Games",
       tagline: "為墨水屏閱讀器打造的免費瀏覽器遊戲",
       skipToContent: "跳至主要內容",
       nav: {
@@ -19,10 +19,7 @@ const zhTW: Messages = {
         label: "選擇語言",
       },
       footer: {
-        family: "E-Ink.me 家族網站",
-        familyCta: "網頁轉 EPUB · 電子書工具",
-        news: "E-Ink 新聞",
-        wiki: "E-Ink 維基",
+        family: "Inkme 家族網站",
         rights: "無廣告、無重量級追蹤腳本，只做尊重你螢幕的遊戲。",
       },
     },
@@ -37,15 +34,15 @@ const zhTW: Messages = {
       catalogPlaceholder: "遊戲目錄正在籌備中，數獨將率先上線，敬請期待。",
     },
     about: {
-      title: "關於 — E-Ink 遊戲",
-      h1: "關於 E-Ink 遊戲",
+      title: "關於",
+      h1: "關於 Inkme Games",
       intro:
-        "E-Ink 遊戲收錄在電子墨水屏上如魚得水的瀏覽器遊戲：高對比、無動態效果、不玩花樣——只做尊重你的螢幕和電池的遊戲。",
+        "Inkme Games 收錄在電子墨水屏上如魚得水的瀏覽器遊戲：高對比、無動態效果、不玩花樣——只做尊重你的螢幕和電池的遊戲。",
       // 佔位：導流主站段落，內容由後續 about 內容任務填充。
-      familyTitle: "E-Ink.me 家族",
+      familyTitle: "Inkme 家族",
       familyCta: "網頁轉 EPUB · 電子書工具",
       familyPlaceholder:
-        "遊戲只是開始。E-Ink.me 家族為你的整個電子書生活打造工具——把任意網頁文章轉成 EPUB 裝進 Kindle，以及更多。",
+        "遊戲只是開始。Inkme 家族為你的整個電子書生活打造工具——把任意網頁文章轉成 EPUB 裝進 Kindle，以及更多。",
     },
   },
   games: {

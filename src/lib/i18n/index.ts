@@ -5,6 +5,7 @@ export {
   ENABLED_LOCALES,
   DEFAULT_LOCALE,
   SITE_URL,
+  SITE_NAME,
   hreflangAlternates,
   LOCALE_NAMES,
   RTL_LOCALES,

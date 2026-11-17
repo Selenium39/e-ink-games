@@ -5,7 +5,7 @@
 const en = {
   site: {
     chrome: {
-      brand: "E-Ink Games",
+      brand: "Inkme Games",
       tagline: "Free browser games for e-ink readers",
       skipToContent: "Skip to content",
       nav: {
@@ -17,10 +17,7 @@ const en = {
         label: "Select language",
       },
       footer: {
-        family: "Part of the E-Ink.me family",
-        familyCta: "Web to EPUB, e-reader tools",
-        news: "E-Ink News",
-        wiki: "E-Ink Wiki",
+        family: "Part of the Inkme family",
         rights: "No ads. No tracking-heavy scripts. Just games that respect your screen.",
       },
     },
@@ -36,15 +33,15 @@ const en = {
         "The game catalog is being assembled. Sudoku arrives first — check back soon.",
     },
     about: {
-      title: "About — E-Ink Games",
-      h1: "About E-Ink Games",
+      title: "About",
+      h1: "About Inkme Games",
       intro:
-        "E-Ink Games collects browser games that feel at home on electronic ink: high contrast, no motion, no gimmicks — just play that respects your screen and your battery.",
+        "Inkme Games collects browser games that feel at home on electronic ink: high contrast, no motion, no gimmicks — just play that respects your screen and your battery.",
       // 占位：导流主站段落，内容由后续 about 内容任务填充。
-      familyTitle: "The E-Ink.me Family",
+      familyTitle: "The Inkme Family",
       familyCta: "Web to EPUB, e-reader tools",
       familyPlaceholder:
-        "Games are only half the story. The E-Ink.me family builds tools for your whole e-reader life — turn any web article into an EPUB for your Kindle, and more.",
+        "Games are only half the story. The Inkme family builds tools for your whole e-reader life — turn any web article into an EPUB for your Kindle, and more.",
     },
   },
   games: {

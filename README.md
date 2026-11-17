@@ -1,10 +1,10 @@
-# E-Ink Games
+# Inkme Games
 
 Free browser games designed for e-ink screens — pure black & white, zero animation, zero flicker. Play right in the browser of your Kindle, BOOX or Kobo: no download, no install, no jailbreak.
 
 **Live site: <https://games.e-ink.me>** · [简体中文](README.zh-CN.md)
 
-Part of the [E-Ink.me](https://e-ink.me) family of e-reader tools.
+Part of the [Inkme](https://e-ink.me) family of e-reader tools.
 
 ## Games
 

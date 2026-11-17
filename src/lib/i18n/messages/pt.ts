@@ -6,7 +6,7 @@ import type { Messages } from "./en";
 const pt: Messages = {
   site: {
     chrome: {
-      brand: "E-Ink Games",
+      brand: "Inkme Games",
       tagline: "Jogos grátis para leitores de tinta eletrônica",
       skipToContent: "Ir para o conteúdo",
       nav: {
@@ -18,10 +18,7 @@ const pt: Messages = {
         label: "Selecionar idioma",
       },
       footer: {
-        family: "Parte da família E-Ink.me",
-        familyCta: "Web para EPUB, ferramentas para e-readers",
-        news: "E-Ink News",
-        wiki: "E-Ink Wiki",
+        family: "Parte da família Inkme",
         rights: "Sem anúncios. Sem scripts de rastreamento. Apenas jogos que respeitam a sua tela.",
       },
     },
@@ -37,15 +34,15 @@ const pt: Messages = {
         "O catálogo de jogos está sendo montado. O Sudoku chega primeiro — volte em breve.",
     },
     about: {
-      title: "Sobre — E-Ink Games",
-      h1: "Sobre o E-Ink Games",
+      title: "Sobre",
+      h1: "Sobre o Inkme Games",
       intro:
-        "O E-Ink Games reúne jogos de navegador que parecem feitos para a tinta eletrônica: alto contraste, sem movimento e sem artifícios — apenas jogos que respeitam a sua tela e a sua bateria.",
+        "O Inkme Games reúne jogos de navegador que parecem feitos para a tinta eletrônica: alto contraste, sem movimento e sem artifícios — apenas jogos que respeitam a sua tela e a sua bateria.",
       // 占位：导流主站段落，内容由后续 about 内容任务填充。
-      familyTitle: "A família E-Ink.me",
+      familyTitle: "A família Inkme",
       familyCta: "Web para EPUB, ferramentas para e-readers",
       familyPlaceholder:
-        "Os jogos são só metade da história. A família E-Ink.me cria ferramentas para toda a sua vida com o e-reader — converta qualquer artigo da web em um EPUB para o seu Kindle, e muito mais.",
+        "Os jogos são só metade da história. A família Inkme cria ferramentas para toda a sua vida com o e-reader — converta qualquer artigo da web em um EPUB para o seu Kindle, e muito mais.",
     },
   },
   games: {

@@ -6,7 +6,7 @@ import type { Messages } from "./en";
 const ja: Messages = {
   site: {
     chrome: {
-      brand: "E-Ink Games",
+      brand: "Inkme Games",
       tagline: "電子書籍リーダーのための無料ブラウザゲーム",
       skipToContent: "本文へスキップ",
       nav: {
@@ -18,10 +18,7 @@ const ja: Messages = {
         label: "言語を選択",
       },
       footer: {
-        family: "E-Ink.me ファミリーの一角",
-        familyCta: "ウェブからEPUB・リーダーツール",
-        news: "E-Ink News",
-        wiki: "E-Ink Wiki",
+        family: "Inkme ファミリーの一角",
         rights:
           "広告なし、重いトラッキングスクリプトなし。あなたの画面に寄り添うゲームだけを。",
       },
@@ -38,15 +35,15 @@ const ja: Messages = {
         "ゲームカタログは準備中です。まず数独が登場予定です。もうしばらくお待ちください。",
     },
     about: {
-      title: "サイトについて — E-Ink Games",
-      h1: "E-Ink Games について",
+      title: "サイトについて",
+      h1: "Inkme Games について",
       intro:
-        "E-Ink Games は、電子インク画面でこそ生きるブラウザゲームを集めています。高コントラスト、動きなし、余計な仕掛けなし——画面とバッテリーに寄り添うプレイだけを提供します。",
+        "Inkme Games は、電子インク画面でこそ生きるブラウザゲームを集めています。高コントラスト、動きなし、余計な仕掛けなし——画面とバッテリーに寄り添うプレイだけを提供します。",
       // プレースホルダー：本家サイトへの導線段落。中身は後続の about コンテンツタスクで投入。
-      familyTitle: "E-Ink.me ファミリー",
+      familyTitle: "Inkme ファミリー",
       familyCta: "ウェブからEPUB・リーダーツール",
       familyPlaceholder:
-        "ゲームは物語の半分にすぎません。E-Ink.me ファミリーは、電子書籍ライフ全体を支えるツールを開発しています——どんなウェブ記事でも EPUB に変換して Kindle で読めるようにするなど、まだまだあります。",
+        "ゲームは物語の半分にすぎません。Inkme ファミリーは、電子書籍ライフ全体を支えるツールを開発しています——どんなウェブ記事でも EPUB に変換して Kindle で読めるようにするなど、まだまだあります。",
     },
   },
   games: {

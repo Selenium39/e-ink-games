@@ -6,7 +6,7 @@ import type { Messages } from "./en";
 const nl: Messages = {
   site: {
     chrome: {
-      brand: "E-Ink Games",
+      brand: "Inkme Games",
       tagline: "Gratis browserspellen voor e-ink-readers",
       skipToContent: "Naar de inhoud springen",
       nav: {
@@ -18,10 +18,7 @@ const nl: Messages = {
         label: "Taal selecteren",
       },
       footer: {
-        family: "Onderdeel van de E-Ink.me-familie",
-        familyCta: "Web naar EPUB, e-reader-tools",
-        news: "E-Ink News",
-        wiki: "E-Ink Wiki",
+        family: "Onderdeel van de Inkme-familie",
         rights:
           "Geen advertenties. Geen scripts vol tracking. Gewoon spellen die respect hebben voor je scherm.",
       },
@@ -38,15 +35,15 @@ const nl: Messages = {
         "De spelcatalogus wordt samengesteld. Sudoku komt als eerste – kom nog eens terug.",
     },
     about: {
-      title: "Over – E-Ink Games",
-      h1: "Over E-Ink Games",
+      title: "Over",
+      h1: "Over Inkme Games",
       intro:
-        "E-Ink Games verzamelt browserspellen die thuishoren op elektronisch inkt: hoog contrast, geen beweging, geen trucs – gewoon spelplezier met respect voor je scherm en je batterij.",
+        "Inkme Games verzamelt browserspellen die thuishoren op elektronisch inkt: hoog contrast, geen beweging, geen trucs – gewoon spelplezier met respect voor je scherm en je batterij.",
       // 占位：导流主站段落，内容由后续 about 内容任务填充。
-      familyTitle: "De E-Ink.me-familie",
+      familyTitle: "De Inkme-familie",
       familyCta: "Web naar EPUB, e-reader-tools",
       familyPlaceholder:
-        "Spellen zijn maar de helft van het verhaal. De E-Ink.me-familie bouwt tools voor je hele e-readerleven – zet elk webartikel om in een EPUB voor je Kindle, en nog veel meer.",
+        "Spellen zijn maar de helft van het verhaal. De Inkme-familie bouwt tools voor je hele e-readerleven – zet elk webartikel om in een EPUB voor je Kindle, en nog veel meer.",
     },
   },
   games: {

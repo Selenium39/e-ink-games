@@ -256,7 +256,12 @@ html {
 }
 
 .site-family {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--ink-space-2) var(--ink-space-5);
   margin: 0;
+  padding: var(--ink-space-3) var(--ink-space-4);
   border-bottom: var(--ink-border-width-hair) solid var(--ink-fg);
   background: var(--ink-bg-inverted);
   color: var(--ink-fg-inverted);
@@ -268,10 +273,9 @@ html {
 }
 
 .site-family a {
-  display: block;
-  padding: var(--ink-space-3) var(--ink-space-4);
   color: var(--ink-fg-inverted);
-  text-decoration: none;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .site-rights {

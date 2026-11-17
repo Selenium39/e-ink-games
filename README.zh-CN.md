@@ -1,10 +1,10 @@
-# E-Ink Games 墨水屏游戏
+# Inkme Games 墨水屏游戏
 
 为电子墨水屏打造的免费网页游戏 —— 纯黑白、零动画、零闪烁。在 Kindle、BOOX、Kobo 的浏览器里直接玩：无需下载、无需安装、无需越狱。
 
 **线上站点：<https://games.e-ink.me>** · [English](README.md)
 
-[E-Ink.me](https://e-ink.me) 家族成员之一。
+[Inkme](https://e-ink.me) 家族成员之一。
 
 ## 游戏列表
 

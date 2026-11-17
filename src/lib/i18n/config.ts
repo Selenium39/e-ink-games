@@ -58,6 +58,9 @@ export const DEFAULT_LOCALE: Locale = "en";
 
 export const SITE_URL = "https://games.e-ink.me";
 
+/** 站点可见品牌名。域名仍是 games.e-ink.me，不随品牌改写。 */
+export const SITE_NAME = "Inkme Games";
+
 // hreflang alternates（HTML <head> 侧；sitemap 侧由后续 SEO 任务生成，双通道须一致）。
 // x-default 指向默认语言 /en/。
 export function hreflangAlternates(): Record<string, string> {

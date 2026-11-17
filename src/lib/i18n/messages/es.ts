@@ -6,7 +6,7 @@ import type { Messages } from "./en";
 const es: Messages = {
   site: {
     chrome: {
-      brand: "E-Ink Games",
+      brand: "Inkme Games",
       tagline: "Juegos gratis para lectores de tinta electrónica",
       skipToContent: "Saltar al contenido",
       nav: {
@@ -18,10 +18,7 @@ const es: Messages = {
         label: "Seleccionar idioma",
       },
       footer: {
-        family: "Parte de la familia E-Ink.me",
-        familyCta: "Web a EPUB, herramientas para e-readers",
-        news: "E-Ink News",
-        wiki: "E-Ink Wiki",
+        family: "Parte de la familia Inkme",
         rights: "Sin anuncios. Sin scripts de rastreo. Solo juegos que respetan tu pantalla.",
       },
     },
@@ -37,15 +34,15 @@ const es: Messages = {
         "El catálogo de juegos se está preparando. El Sudoku llega primero — vuelve pronto.",
     },
     about: {
-      title: "Acerca de — E-Ink Games",
-      h1: "Acerca de E-Ink Games",
+      title: "Acerca de",
+      h1: "Acerca de Inkme Games",
       intro:
-        "E-Ink Games reúne juegos de navegador que se sienten en su elemento sobre tinta electrónica: alto contraste, sin movimiento y sin artificios — solo juegos que respetan tu pantalla y tu batería.",
+        "Inkme Games reúne juegos de navegador que se sienten en su elemento sobre tinta electrónica: alto contraste, sin movimiento y sin artificios — solo juegos que respetan tu pantalla y tu batería.",
       // 占位：导流主站段落，内容由后续 about 内容任务填充。
-      familyTitle: "La familia E-Ink.me",
+      familyTitle: "La familia Inkme",
       familyCta: "Web a EPUB, herramientas para e-readers",
       familyPlaceholder:
-        "Los juegos son solo la mitad de la historia. La familia E-Ink.me crea herramientas para toda tu vida con el e-reader — convierte cualquier artículo de la web en un EPUB para tu Kindle, y mucho más.",
+        "Los juegos son solo la mitad de la historia. La familia Inkme crea herramientas para toda tu vida con el e-reader — convierte cualquier artículo de la web en un EPUB para tu Kindle, y mucho más.",
     },
   },
   games: {
