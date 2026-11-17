@@ -48,7 +48,7 @@ zh-TW 为"简转繁 + 台湾用语"双步产物(软件→軟體、屏幕→螢�
 
 ## 品牌与设备词(所有语言一律保留原文,不翻译)
 
-E-Ink Games、Kindle、Kindle Paperwhite、Kindle Scribe、Kindle Colorsoft、BOOX、Kobo、reMarkable、PocketBook、EPUB、e-ink / E-Ink(作为技术名词时)、Sudoku / Minesweeper / 2048 / Nonogram / Wordle 等游戏名、X / O(井字棋棋子)。
+Inkme Games、Kindle、Kindle Paperwhite、Kindle Scribe、Kindle Colorsoft、BOOX、Kobo、reMarkable、PocketBook、EPUB、e-ink / E-Ink(作为技术名词时)、Sudoku / Minesweeper / 2048 / Nonogram / Wordle 等游戏名、X / O(井字棋棋子)。
 
 ## 站点 chrome 参照(与姊妹站 e-ink.me 一致的口径)
 

@@ -6,7 +6,7 @@ import type { Messages } from "./en";
 const ko: Messages = {
   site: {
     chrome: {
-      brand: "E-Ink Games",
+      brand: "Inkme Games",
       tagline: "전자잉크 리더를 위한 무료 브라우저 게임",
       skipToContent: "본문으로 건너뛰기",
       nav: {
@@ -18,10 +18,7 @@ const ko: Messages = {
         label: "언어 선택",
       },
       footer: {
-        family: "E-Ink.me 패밀리의 일원입니다",
-        familyCta: "웹을 EPUB로, 전자책 리더 도구",
-        news: "E-Ink News",
-        wiki: "E-Ink Wiki",
+        family: "Inkme 패밀리의 일원입니다",
         rights: "광고 없음. 추적 스크립트 없음. 화면을 아끼는 게임만 있습니다.",
       },
     },
@@ -37,15 +34,15 @@ const ko: Messages = {
         "게임 카탈로그를 준비하고 있어요. Sudoku가 가장 먼저 찾아갑니다 — 조금만 기다려 주세요.",
     },
     about: {
-      title: "소개 — E-Ink Games",
-      h1: "E-Ink Games 소개",
+      title: "소개",
+      h1: "Inkme Games 소개",
       intro:
-        "E-Ink Games는 전자잉크에 잘 어울리는 브라우저 게임을 모았습니다: 높은 명암비, 움직임 없음, 억지 기교 없음 — 화면과 배터리를 아끼는 플레이만 있습니다.",
+        "Inkme Games는 전자잉크에 잘 어울리는 브라우저 게임을 모았습니다: 높은 명암비, 움직임 없음, 억지 기교 없음 — 화면과 배터리를 아끼는 플레이만 있습니다.",
       // 占位：导流主站段落，内容由后续 about 内容任务填充。
-      familyTitle: "E-Ink.me 패밀리",
+      familyTitle: "Inkme 패밀리",
       familyCta: "웹을 EPUB로, 전자책 리더 도구",
       familyPlaceholder:
-        "게임은 이야기의 절반일 뿐입니다. E-Ink.me 패밀리는 전자책 생활 전체를 위한 도구를 만듭니다 — 어떤 웹 글이든 Kindle에서 읽을 EPUB로 바꾸고, 그 밖의 것도.",
+        "게임은 이야기의 절반일 뿐입니다. Inkme 패밀리는 전자책 생활 전체를 위한 도구를 만듭니다 — 어떤 웹 글이든 Kindle에서 읽을 EPUB로 바꾸고, 그 밖의 것도.",
     },
   },
   games: {

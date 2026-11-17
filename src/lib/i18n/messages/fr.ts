@@ -6,7 +6,7 @@ import type { Messages } from "./en";
 const fr: Messages = {
   site: {
     chrome: {
-      brand: "E-Ink Games",
+      brand: "Inkme Games",
       tagline: "Des jeux navigateur gratuits pour liseuses e-ink",
       skipToContent: "Aller au contenu",
       nav: {
@@ -18,10 +18,7 @@ const fr: Messages = {
         label: "Choisir la langue",
       },
       footer: {
-        family: "Membre de la famille E-Ink.me",
-        familyCta: "Web vers EPUB, outils pour liseuses",
-        news: "E-Ink News",
-        wiki: "E-Ink Wiki",
+        family: "Membre de la famille Inkme",
         rights:
           "Pas de pub. Pas de scripts de suivi intrusifs. Juste des jeux qui respectent ton écran.",
       },
@@ -38,15 +35,15 @@ const fr: Messages = {
         "Le catalogue de jeux se prépare. Sudoku arrive en premier — à très vite.",
     },
     about: {
-      title: "À propos — E-Ink Games",
-      h1: "À propos d'E-Ink Games",
+      title: "À propos",
+      h1: "À propos d'Inkme Games",
       intro:
-        "E-Ink Games réunit des jeux navigateur qui se sentent chez eux sur l'encre électronique : contraste élevé, aucun mouvement, aucun artifice — simplement des jeux qui respectent ton écran et ta batterie.",
+        "Inkme Games réunit des jeux navigateur qui se sentent chez eux sur l'encre électronique : contraste élevé, aucun mouvement, aucun artifice — simplement des jeux qui respectent ton écran et ta batterie.",
       // 占位：导流主站段落，内容由后续 about 内容任务填充。
-      familyTitle: "La famille E-Ink.me",
+      familyTitle: "La famille Inkme",
       familyCta: "Web vers EPUB, outils pour liseuses",
       familyPlaceholder:
-        "Les jeux ne sont qu'une partie de l'histoire. La famille E-Ink.me construit des outils pour toute ta vie de lecteur — transforme n'importe quel article web en EPUB pour ta Kindle, et bien plus encore.",
+        "Les jeux ne sont qu'une partie de l'histoire. La famille Inkme construit des outils pour toute ta vie de lecteur — transforme n'importe quel article web en EPUB pour ta Kindle, et bien plus encore.",
     },
   },
   games: {

@@ -4,12 +4,12 @@
 //
 // 设计（黑白印刷风，与站点 epaper 美学同源）：
 //   - 纯白底，全部元素纯黑；零圆角、零灰阶、零彩色
-//   - 左上：等宽全大写小标签（E-INK GAMES · 分类）
+//   - 左上：等宽全大写小标签（INKME GAMES · 分类）
 //   - 中央：衬线大标题 = 游戏名（按字符数自适应字号，不换行）
 //   - 标题下：粗黑分隔线 + 等宽全大写副标签（FREE · NO DOWNLOAD · IN YOUR BROWSER）
 //   - 右下角：等宽 games.e-ink.me
 // 站点默认图同款节拍，但内容不依赖游戏清单（加减游戏无需改图）：
-//   - eyebrow=域名 / 中央=品牌名 E-Ink Games / 副标签=FOR KINDLE · BOOX · KOBO
+//   - eyebrow=域名 / 中央=品牌名 Inkme Games / 副标签=FOR KINDLE · BOOX · KOBO
 // 栅格化用 sharp（librsvg；serif/monospace 走系统字体兜底链）。
 // registry 之外残留的 {slug}.png 一并清除（游戏下线后 out/ 不出孤儿图；site.png 恒保留）。
 //
@@ -61,7 +61,7 @@ function titleFontSize(text) {
 
 function svgFor(game) {
   const title = escapeXml(game.title);
-  const eyebrow = escapeXml(`E-INK GAMES · ${String(game.category).toUpperCase()}`);
+  const eyebrow = escapeXml(`INKME GAMES · ${String(game.category).toUpperCase()}`);
   const sub = "FREE · NO DOWNLOAD · IN YOUR BROWSER";
   const fontSize = titleFontSize(game.title);
   // 视觉垂直节拍：eyebrow 基线 132 → 标题基线 ≈ 400 → 分隔线 470 → 副标签基线 540 → 域名基线 578
@@ -78,7 +78,7 @@ function svgFor(game) {
 
 /** 站点级默认图：与游戏图同款视觉节拍，但零游戏元素（数量增减不影响） */
 function svgForSite() {
-  const title = "E-Ink Games";
+  const title = "Inkme Games";
   const fontSize = titleFontSize(title);
   const sub = "FOR KINDLE · BOOX · KOBO";
   const corner = "FREE · NO DOWNLOAD · IN YOUR BROWSER";

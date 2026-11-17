@@ -12,10 +12,10 @@
 // no-JS（老 Kindle）环境由 meta refresh 与可见链接兜底到 /en/。
 
 import type { Metadata } from "next";
-import { SITE_URL } from "@/lib/i18n";
+import { SITE_NAME, SITE_URL } from "@/lib/i18n";
 
 export const metadata: Metadata = {
-  title: "E-Ink Games",
+  title: SITE_NAME,
   description: "Free browser games for Kindle & e-ink readers.",
   alternates: {
     canonical: `${SITE_URL}/en/`,
@@ -34,7 +34,7 @@ export default function RootRedirectPage() {
         <script dangerouslySetInnerHTML={{ __html: NEGOTIATE_SNIPPET }} />
         <noscript>
           <p>
-            <a href="/en/">E-Ink Games — continue to the English site.</a>
+            <a href="/en/">{SITE_NAME} — continue to the English site.</a>
           </p>
         </noscript>
       </body>

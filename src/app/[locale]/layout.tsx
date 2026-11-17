@@ -12,10 +12,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Analytics from "@/components/Analytics";
 import LanguageMenu from "@/components/LanguageMenu";
-import { wikiHref } from "@/lib/family-href";
+import { FAMILY_LINKS } from "@/lib/family-href";
 import {
   ENABLED_LOCALES,
   RTL_LOCALES,
+  SITE_NAME,
   SITE_URL,
   t,
   type Locale,
@@ -23,16 +24,6 @@ import {
 
 export function generateStaticParams() {
   return ENABLED_LOCALES.map((locale) => ({ locale }));
-}
-
-// 姊妹站 news.e-ink.me 目前只产出 en / zh 两个语言（其余语言索引 404），
-// 故非 en/zh 的访问者一律回落到英文版；zh-TW 归入 zh。
-// 注意：新闻站是不带尾斜杠的静态导出，`/en/`（尾斜杠）会被 nginx 当成
-// 目录请求直接 403，必须写成 `/en`——这里刻意不加 `/`。
-// utm_* 让新闻站能区分"来自游戏站"的导流，便于日后复盘互推效果。
-function newsHref(locale: Locale): string {
-  const lang = locale === "zh" || locale === "zh-TW" ? "zh" : "en";
-  return `https://news.e-ink.me/${lang}?utm_source=games.e-ink.me&utm_medium=footer`;
 }
 
 // 布局级默认元数据；各页面（首页/about）用 page 级 metadata 覆盖
@@ -50,14 +41,14 @@ export async function generateMetadata({
     metadataBase: new URL(SITE_URL),
     title: {
       default: t(locale, "site.home.title"),
-      template: "%s — E-Ink Games",
+      template: `%s — ${SITE_NAME}`,
     },
     description: t(locale, "site.home.description"),
     openGraph: {
       title: t(locale, "site.home.title"),
       description: t(locale, "site.home.description"),
       url: `/${locale}/`,
-      siteName: "E-Ink Games",
+      siteName: SITE_NAME,
       type: "website",
       // 站点默认分享图由 scripts/gen-og.mjs 生成（1200×630 黑白印刷风，
       // 不依赖游戏清单）；metadataBase 在上方，相对路径自动解析为绝对 URL。
@@ -66,7 +57,7 @@ export async function generateMetadata({
           url: "/og/site.png",
           width: 1200,
           height: 630,
-          alt: "E-Ink Games — free browser games for e-ink readers",
+          alt: `${SITE_NAME} — free browser games for e-ink readers`,
         },
       ],
     },
@@ -127,24 +118,17 @@ export default async function LocaleLayout({
           <main id="main-content">{children}</main>
 
           <footer className="site-footer">
-            {/* 导流条（实施方案 §6.4）：免费站唯一 KPI，导流主站 e-ink.me */}
-            <p className="site-family">
-              <a href="https://e-ink.me" rel="noopener">
-                {t(loc, "site.chrome.footer.family")} —{" "}
-                {t(loc, "site.chrome.footer.familyCta")}
-              </a>
-            </p>
-            <p className="site-rights">
-              {t(loc, "site.chrome.footer.rights")}
-              {" · "}
-              <a href={newsHref(loc)} rel="noopener">
-                {t(loc, "site.chrome.footer.news")}
-              </a>
-              {" · "}
-              <a href={wikiHref(loc)} rel="noopener">
-                {t(loc, "site.chrome.footer.wiki")}
-              </a>
-            </p>
+            <nav
+              className="site-family"
+              aria-label={t(loc, "site.chrome.footer.family")}
+            >
+              {FAMILY_LINKS.map((link) => (
+                <a key={link.href} href={link.href} rel="noopener">
+                  {link.label}
+                </a>
+              ))}
+            </nav>
+            <p className="site-rights">{t(loc, "site.chrome.footer.rights")}</p>
           </footer>
 
           {/* [analytics 注入位] GA4 + Umami，由 NEXT_PUBLIC_GA4_ID /

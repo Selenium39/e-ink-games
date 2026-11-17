@@ -7,7 +7,7 @@ import type { Messages } from "./en";
 const pl: Messages = {
   site: {
     chrome: {
-      brand: "E-Ink Games",
+      brand: "Inkme Games",
       tagline: "Darmowe gry przeglądarkowe dla czytników e-ink",
       skipToContent: "Przejdź do treści",
       nav: {
@@ -19,10 +19,7 @@ const pl: Messages = {
         label: "Wybierz język",
       },
       footer: {
-        family: "Część rodziny E-Ink.me",
-        familyCta: "Web na EPUB, narzędzia dla czytników",
-        news: "E-Ink News",
-        wiki: "E-Ink Wiki",
+        family: "Część rodziny Inkme",
         rights: "Bez reklam. Bez skryptów pełnych śledzenia. Tylko gry, które szanują Twój ekran.",
       },
     },
@@ -38,15 +35,15 @@ const pl: Messages = {
         "Katalog gier jest właśnie tworzony. Najpierw pojawi się Sudoku — zajrzyj wkrótce.",
     },
     about: {
-      title: "O nas — E-Ink Games",
-      h1: "O E-Ink Games",
+      title: "O nas",
+      h1: "O Inkme Games",
       intro:
-        "E-Ink Games zbiera gry przeglądarkowe, które doskonale czują się na elektronicznym tuszu: wysoki kontrast, bez ruchu, bez bajerów — tylko rozgrywka, która szanuje Twój ekran i Twoją baterię.",
+        "Inkme Games zbiera gry przeglądarkowe, które doskonale czują się na elektronicznym tuszu: wysoki kontrast, bez ruchu, bez bajerów — tylko rozgrywka, która szanuje Twój ekran i Twoją baterię.",
       // 占位：导流主站段落，内容由后续 about 内容任务填充。
-      familyTitle: "Rodzina E-Ink.me",
+      familyTitle: "Rodzina Inkme",
       familyCta: "Web na EPUB, narzędzia dla czytników",
       familyPlaceholder:
-        "Gry to tylko połowa historii. Rodzina E-Ink.me tworzy narzędzia na całe życie z czytnikiem — zamień dowolny artykuł z sieci w EPUB dla Kindle i wiele więcej.",
+        "Gry to tylko połowa historii. Rodzina Inkme tworzy narzędzia na całe życie z czytnikiem — zamień dowolny artykuł z sieci w EPUB dla Kindle i wiele więcej.",
     },
   },
   games: {

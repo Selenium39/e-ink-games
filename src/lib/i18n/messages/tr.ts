@@ -8,7 +8,7 @@ import type { Messages } from "./en";
 const tr: Messages = {
   site: {
     chrome: {
-      brand: "E-Ink Games",
+      brand: "Inkme Games",
       tagline: "E-okuyucular için ücretsiz tarayıcı oyunları",
       skipToContent: "İçeriğe atla",
       nav: {
@@ -20,10 +20,7 @@ const tr: Messages = {
         label: "Dil seçin",
       },
       footer: {
-        family: "E-Ink.me ailesinin bir parçası",
-        familyCta: "Web'den EPUB'a, e-okuyucu araçları",
-        news: "E-Ink News",
-        wiki: "E-Ink Wiki",
+        family: "Inkme ailesinin bir parçası",
         rights: "Reklam yok. Ağır takip betikleri yok. Sadece ekranına saygı duyan oyunlar.",
       },
     },
@@ -39,15 +36,15 @@ const tr: Messages = {
         "Oyun kataloğu şu an hazırlanıyor. İlk sırada Sudoku var — yakında tekrar uğra.",
     },
     about: {
-      title: "Hakkında — E-Ink Games",
-      h1: "E-Ink Games Hakkında",
+      title: "Hakkında",
+      h1: "Inkme Games Hakkında",
       intro:
-        "E-Ink Games, e-mürekkepte kendini evinde hisseden tarayıcı oyunlarını bir araya getirir: yüksek kontrast, hareket yok, numara yok — sadece ekranına ve pillerine saygı duyan oyunlar.",
+        "Inkme Games, e-mürekkepte kendini evinde hisseden tarayıcı oyunlarını bir araya getirir: yüksek kontrast, hareket yok, numara yok — sadece ekranına ve pillerine saygı duyan oyunlar.",
       // 占位：导流主站段落，内容由后续 about 内容任务填充。
-      familyTitle: "E-Ink.me Ailesi",
+      familyTitle: "Inkme Ailesi",
       familyCta: "Web'den EPUB'a, e-okuyucu araçları",
       familyPlaceholder:
-        "Oyunlar, hikâyenin yalnızca yarısı. E-Ink.me ailesi, tüm e-okuyucu hayatın için araçlar geliştirir — herhangi bir web makalesini Kindle'ın için EPUB'a dönüştürür ve daha fazlasını yapar.",
+        "Oyunlar, hikâyenin yalnızca yarısı. Inkme ailesi, tüm e-okuyucu hayatın için araçlar geliştirir — herhangi bir web makalesini Kindle'ın için EPUB'a dönüştürür ve daha fazlasını yapar.",
     },
   },
   games: {

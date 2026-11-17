@@ -9,6 +9,7 @@ import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
 import { ENABLED_LOCALES, locales, LOCALE_NAMES, RTL_LOCALES } from "./config";
+import { dictionaries } from "./messages";
 import en from "./messages/en";
 
 const MESSAGES_DIR = join(dirname(fileURLToPath(import.meta.url)), "messages");
@@ -50,6 +51,20 @@ describe("messages 字典键 parity", () => {
       ).toEqual({ missing: [], extra: [] });
     });
   }
+});
+
+describe("站点品牌", () => {
+  it("每种语言的站点名都是 Inkme Games，且不再使用旧品牌", () => {
+    for (const locale of ENABLED_LOCALES) {
+      const dict = dictionaries[locale];
+      expect(dict, locale).toBeTruthy();
+      expect(dict!.site.chrome.brand).toBe("Inkme Games");
+      const blob = JSON.stringify(dict);
+      expect(blob, locale).not.toMatch(
+        /E-Ink Games|E-Ink\.me|E-Ink 游戏|E-Ink 遊戲|E-Ink News|E-Ink Wiki/,
+      );
+    }
+  });
 });
 
 describe("语言配置一致性", () => {

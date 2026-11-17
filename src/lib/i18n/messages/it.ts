@@ -6,7 +6,7 @@ import type { Messages } from "./en";
 const it: Messages = {
   site: {
     chrome: {
-      brand: "E-Ink Games",
+      brand: "Inkme Games",
       tagline: "Giochi gratis nel browser per e-reader e-ink",
       skipToContent: "Salta al contenuto",
       nav: {
@@ -18,10 +18,7 @@ const it: Messages = {
         label: "Seleziona lingua",
       },
       footer: {
-        family: "Parte della famiglia E-Ink.me",
-        familyCta: "Web in EPUB, strumenti per e-reader",
-        news: "E-Ink News",
-        wiki: "E-Ink Wiki",
+        family: "Parte della famiglia Inkme",
         rights:
           "Nessuna pubblicità. Nessuno script che ti traccia. Solo giochi che rispettano il tuo schermo.",
       },
@@ -38,15 +35,15 @@ const it: Messages = {
         "Il catalogo dei giochi sta prendendo forma. Il Sudoku arriva per primo — torna presto.",
     },
     about: {
-      title: "Chi siamo — E-Ink Games",
-      h1: "Chi siamo — E-Ink Games",
+      title: "Chi siamo",
+      h1: "Chi siamo — Inkme Games",
       intro:
-        "E-Ink Games raccoglie giochi da browser che si trovano a casa propria sull'inchiostro elettronico: alto contrasto, nessun movimento, nessun trucco — solo giochi che rispettano il tuo schermo e la tua batteria.",
+        "Inkme Games raccoglie giochi da browser che si trovano a casa propria sull'inchiostro elettronico: alto contrasto, nessun movimento, nessun trucco — solo giochi che rispettano il tuo schermo e la tua batteria.",
       // 占位：导流主站段落，内容由后续 about 内容任务填充。
-      familyTitle: "La famiglia E-Ink.me",
+      familyTitle: "La famiglia Inkme",
       familyCta: "Web in EPUB, strumenti per e-reader",
       familyPlaceholder:
-        "I giochi sono solo metà della storia. La famiglia E-Ink.me costruisce strumenti per tutta la tua vita da lettore digitale — trasforma qualsiasi articolo web in un EPUB per il tuo Kindle, e molto altro.",
+        "I giochi sono solo metà della storia. La famiglia Inkme costruisce strumenti per tutta la tua vita da lettore digitale — trasforma qualsiasi articolo web in un EPUB per il tuo Kindle, e molto altro.",
     },
   },
   games: {

@@ -9,7 +9,7 @@ import type { Messages } from "./en";
 const sv: Messages = {
   site: {
     chrome: {
-      brand: "E-Ink Games",
+      brand: "Inkme Games",
       tagline: "Gratis browserspel för e-läsare med e-ink",
       skipToContent: "Hoppa till innehållet",
       nav: {
@@ -21,10 +21,7 @@ const sv: Messages = {
         label: "Välj språk",
       },
       footer: {
-        family: "En del av E-Ink.me-familjen",
-        familyCta: "Webb till EPUB, e-läsarverktyg",
-        news: "E-Ink News",
-        wiki: "E-Ink Wiki",
+        family: "En del av Inkme-familjen",
         rights:
           "Ingen reklam. Inga spårningstunga skript. Bara spel som respekterar din skärm.",
       },
@@ -41,15 +38,15 @@ const sv: Messages = {
         "Spelkatalogen byggs just nu upp. Sudoku kommer först – titta in igen snart.",
     },
     about: {
-      title: "Om oss – E-Ink Games",
-      h1: "Om E-Ink Games",
+      title: "Om oss",
+      h1: "Om Inkme Games",
       intro:
-        "E-Ink Games samlar browserspel som trivs på elektroniskt bläck: hög kontrast, ingen rörelse, inga gimmicks – bara spel som respekterar din skärm och ditt batteri.",
+        "Inkme Games samlar browserspel som trivs på elektroniskt bläck: hög kontrast, ingen rörelse, inga gimmicks – bara spel som respekterar din skärm och ditt batteri.",
       // 占位：导流主站段落，内容由后续 about 内容任务填充。
-      familyTitle: "E-Ink.me-familjen",
+      familyTitle: "Inkme-familjen",
       familyCta: "Webb till EPUB, e-läsarverktyg",
       familyPlaceholder:
-        "Spel är bara halva historien. E-Ink.me-familjen bygger verktyg för hela ditt e-läsarliv – förvandle vilken webbartikel som helst till en EPUB för din Kindle, och mycket mer.",
+        "Spel är bara halva historien. Inkme-familjen bygger verktyg för hela ditt e-läsarliv – förvandle vilken webbartikel som helst till en EPUB för din Kindle, och mycket mer.",
     },
   },
   games: {

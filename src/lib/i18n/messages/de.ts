@@ -7,7 +7,7 @@ import type { Messages } from "./en";
 const de: Messages = {
   site: {
     chrome: {
-      brand: "E-Ink Games",
+      brand: "Inkme Games",
       tagline: "Kostenlose Browsergames für E-Ink-Reader",
       skipToContent: "Zum Inhalt springen",
       nav: {
@@ -19,10 +19,7 @@ const de: Messages = {
         label: "Sprache wählen",
       },
       footer: {
-        family: "Teil der E-Ink.me-Familie",
-        familyCta: "Web zu EPUB, E-Reader-Tools",
-        news: "E-Ink News",
-        wiki: "E-Ink Wiki",
+        family: "Teil der Inkme-Familie",
         rights: "Keine Werbung. Keine schweren Tracking-Skripte. Nur Spiele, die deinen Bildschirm respektieren.",
       },
     },
@@ -38,15 +35,15 @@ const de: Messages = {
         "Der Spielekatalog wird gerade aufgebaut. Sudoku kommt als Erstes – schau bald wieder vorbei.",
     },
     about: {
-      title: "Über uns – E-Ink Games",
-      h1: "Über E-Ink Games",
+      title: "Über uns",
+      h1: "Über Inkme Games",
       intro:
-        "E-Ink Games versammelt Browsergames, die sich auf E-Ink-Bildschirmen zuhause fühlen: hoher Kontrast, keine Bewegung, keine Gimmicks – nur Spiele, die deinen Bildschirm und deinen Akku respektieren.",
+        "Inkme Games versammelt Browsergames, die sich auf E-Ink-Bildschirmen zuhause fühlen: hoher Kontrast, keine Bewegung, keine Gimmicks – nur Spiele, die deinen Bildschirm und deinen Akku respektieren.",
       // 占位：导流主站段落，内容由后续 about 内容任务填充。
-      familyTitle: "Die E-Ink.me-Familie",
+      familyTitle: "Die Inkme-Familie",
       familyCta: "Web zu EPUB, E-Reader-Tools",
       familyPlaceholder:
-        "Spiele sind nur die halbe Geschichte. Die E-Ink.me-Familie baut Werkzeuge für dein ganzes E-Reader-Leben – verwandle jeden Webartikel in ein EPUB für deinen Kindle und vieles mehr.",
+        "Spiele sind nur die halbe Geschichte. Die Inkme-Familie baut Werkzeuge für dein ganzes E-Reader-Leben – verwandle jeden Webartikel in ein EPUB für deinen Kindle und vieles mehr.",
     },
   },
   games: {
